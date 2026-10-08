@@ -1,0 +1,703 @@
+﻿division_template = {
+	name = "Motostrelkovaya Brigada"
+	division_names_group = SOV_INF_01
+	
+	regiments = {
+		light_mechanized = { x = 0 y = 0 } 
+		light_mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		modern_armor = { x = 1 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 1 }
+		modern_sp_artillery_brigade = { x = 2 y = 2 }
+		spaa_brigade = { x = 2 y = 3 }
+		light_armor = { x = 3 y = 0 }
+	}
+	
+	support = {
+	}
+		
+}
+
+units = {
+	division = {			
+		name = "242y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "551y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "335y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "471y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "29y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "82y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "99y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "271y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "131y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "133y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "134y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "155y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "157y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "272y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "273y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "277y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "292y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "285y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "299y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "301y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "134y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "155y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "157y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "272y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "273y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "277y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "292y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "285y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "299y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "301y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "299y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "301y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "134y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "155y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "157y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "272y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "273y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "277y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "292y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "285y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "299y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "301y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "301y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "134y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "155y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "157y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "272y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "273y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "277y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "292y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "285y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "299y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "301y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "272y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "273y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "277y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "292y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "285y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "299y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "301y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "301y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "134y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "155y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "157y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "272y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "273y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "277y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "292y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "285y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "299y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "301y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "272y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "273y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "277y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "292y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "285y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "299y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "301y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "301y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "134y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "155y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "157y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "272y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "273y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "277y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "292y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "285y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "299y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "301y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+}
+
+instant_effect = {
+	
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_3
+		amount = 20000
+		producer = SOV 
+	}
+	
+	add_equipment_to_stockpile = {
+		type = anti_tank_equipment_2		
+		amount = 5000
+		producer = SOV
+	}
+	
+	add_equipment_to_stockpile = {
+		type = support_equipment			
+		amount = 5000
+		producer = SOV
+	}
+	
+	add_equipment_to_stockpile = {
+		type = anti_air_equipment_2			
+		amount = 5000
+		producer = SOV
+	}
+	
+	add_equipment_to_stockpile = {
+		type = modern_tank_equipment_1
+		amount = 3000
+		producer = SOV
+	}
+	
+	add_equipment_to_stockpile = {
+		type = light_mechanized_equipment_2
+		amount = 3000
+		producer = SOV
+	}
+	
+	add_equipment_to_stockpile = {
+		type = mechanized_equipment_2
+		amount = 3000
+		producer = SOV
+	}
+	
+	add_equipment_to_stockpile = {
+		type = motorized_equipment_1			
+		amount = 6000
+		producer = SOV
+	}
+	
+	add_equipment_to_stockpile = {
+		type = modern_tank_artillery_equipment_1
+		amount = 3000
+		producer = SOV
+	}
+}

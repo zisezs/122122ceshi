@@ -1,0 +1,120 @@
+﻿division_template = {
+	name = "Soldados"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+	}
+	support = {
+	}
+		
+}
+
+division_template = {
+	name = "Ejército del Sur"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		mot_militia = { x = 0 y = 1 }
+	}
+	support = {
+	}
+		
+}
+
+division_template = {
+	name = "Unidad de Reconocimiento"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+	}
+	support = {
+	}
+		
+}
+
+units = {
+	
+	division = {
+		name = "Primer Grupo"
+		location = 13365 
+		division_template = "Soldados"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "Segundo Grupo"
+		location = 13365
+		division_template = "Soldados"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "Tercero Grupo"
+		location = 13673
+		division_template = "Soldados"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "Cuarto Grupo"
+		location = 13673
+		division_template = "Soldados"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "Quinto Grupo"
+		location = 11763
+		division_template = "Soldados"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "Sexto Grupo"
+		location = 11763
+		division_template = "Ejército del Sur"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "Cuarto Grupo"
+		location = 11763
+		division_template = "Soldados"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "Quinto Grupo"
+		location = 11763
+		division_template = "Soldados"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "Primer Grupo de Reconocimiento"
+		location = 11763
+		division_template = "Unidad de Reconocimiento"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "Cuarto Grupo"
+		location = 13372
+		division_template = "Soldados"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "Quinto Grupo"
+		location = 4518
+		division_template = "Soldados"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "Sexto Grupo"
+		location = 13666
+		division_template = "Ejército del Sur"
+		start_experience_factor = 0.01
+	}
+}

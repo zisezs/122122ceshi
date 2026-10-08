@@ -1,0 +1,112 @@
+﻿division_template = {
+	name = "Militia"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+		
+}
+
+units = {
+	division = {
+		name = "Looters"
+		location = 8106
+		division_template = "Militia"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "Scrappers"
+		location = 8106
+		division_template = "Militia"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "Gang Bangers"
+		location = 8106
+		division_template = "Militia"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "Thugs"
+		location = 8106
+		division_template = "Militia"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "Homeless"
+		location = 8106
+		division_template = "Militia"
+		start_experience_factor = 0.01
+	}
+
+	division = {
+		name = "Looters"
+		location = 8106
+		division_template = "Militia"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "Scrappers"
+		location = 8106
+		division_template = "Militia"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "Gang Bangers"
+		location = 8106
+		division_template = "Militia"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "Thugs"
+		location = 8106
+		division_template = "Militia"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "Homeless"
+		location = 8106
+		division_template = "Militia"
+		start_experience_factor = 0.01
+	}
+
+	division = {
+		name = "Humanitarians"
+		location = 8106
+		division_template = "Militia"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "Humanitarians"
+		location = 8106
+		division_template = "Militia"
+		start_experience_factor = 0.01
+	}
+
+	division = {
+		name = "Disgruntled UN Peacekeepers"
+		location = 8106
+		division_template = "Militia"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "Stranded Vice News Journalists"
+		location = 8106
+		division_template = "Militia"
+		start_experience_factor = 0.01
+	}
+}

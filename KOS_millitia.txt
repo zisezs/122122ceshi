@@ -1,0 +1,34 @@
+﻿division_template = {
+	name = "UCK"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+	
+	template_counter = 14
+}
+
+
+
+units = {
+
+	
+	division = {
+		name = "1. UCK"
+		location = 6940
+		division_template = "UCK"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. UCK"
+		location = 9849
+		division_template = "UCK"
+		start_experience_factor = 0.1
+	}
+	
+}

@@ -1,0 +1,81 @@
+﻿### Air OOB ###
+air_wings = {
+
+	439 = {
+		#MiG-21FL
+		fighter_equipment_1 = {
+			owner = "RAJ" 
+			amount = 26
+		}
+	}
+	437 = {
+		#MiG-21M/MF/PFMA
+		fighter_equipment_1 = {
+			owner = "RAJ" 
+			amount = 96
+		}
+	}
+	1379 = {
+		#MiG-21bis
+		fighter_equipment_1 = {
+			owner = "RAJ" 
+			amount = 169
+		}
+	}
+	429 = {
+		#MiG-23MF
+		fighter_equipment_2 = {
+			owner = "RAJ" 
+			amount = 20
+		}
+	}
+	1379 = {
+		#MiG-23BN
+		fighter_equipment_2 = {
+			owner = "RAJ" 
+			amount = 53
+		}
+	}
+	1379 = {
+		#MiG-27M/ML
+		CAS_equipment_2 = {
+			owner = "RAJ" 
+			amount = 132
+		}
+	}
+	429 = {
+		#Jaguar SI
+		CAS_equipment_2 = {
+			owner = "RAJ" 
+			amount = 88
+		}
+	}
+	439 = {
+		#Sea Harrier FRS.51 (Naval Air Arm)
+		CAS_equipment_2 = {
+			owner = "RAJ" 
+			amount = 23
+		}
+		}
+	429 = {
+		#Tu-142M, Il-38, Do-228, BN-2 Defender
+		nav_bomber_equipment_1 = {
+			owner = "RAJ" 
+			amount = 45
+		}
+	}
+	439 = {
+		#C-17
+		transport_plane_equipment_1 = {
+			owner = "RAJ" 
+			amount = 25
+		}
+	}
+	429 = {
+		#C-17
+		transport_plane_equipment_1 = {
+			owner = "RAJ" 
+			amount = 105
+		}
+	}
+}

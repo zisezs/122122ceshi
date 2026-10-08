@@ -1,0 +1,67 @@
+division_template = {
+		name = "Volunteer Militia"
+		
+		regiments = {
+			militia = { x = 0 y = 0 }
+			militia = { x = 0 y = 1 }
+			militia = { x = 0 y = 2 }
+			militia = { x = 1 y = 0 }
+			militia = { x = 1 y = 1 }
+			militia = { x = 1 y = 2 }
+		}
+		
+		support = {
+		}
+	}
+
+division_template = {
+		name = "Experienced Jihadists"
+		
+		regiments = {
+			infantry = { x = 0 y = 0 }
+			infantry = { x = 0 y = 1 }
+			infantry = { x = 0 y = 2 }
+			infantry = { x = 1 y = 0 }
+			infantry = { x = 1 y = 1 }
+			infantry = { x = 1 y = 2 }
+			infantry = { x = 2 y = 0 }
+			infantry = { x = 2 y = 1 }
+			infantry = { x = 2 y = 2 }
+		}
+		
+		support = {
+			engineer = { x = 0 y = 0 }
+			signal_company = { x = 0 y = 1 }
+			logistics_company = { x = 0 y = 2 }
+		}
+	}
+units = {
+	division = {			
+		name = "Experienced Jihadists"
+		location = 12601
+		division_template = "Experienced Jihadists"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.7
+	}
+	division = {			
+		name = "Experienced Jihadists"
+		location = 12601
+		division_template = "Experienced Jihadists"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.7
+	}
+	division = {			
+		name = "Experienced Jihadists"
+		location = 12526
+		division_template = "Experienced Jihadists"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.7
+	}
+	division = {			
+		name = "Experienced Jihadists"
+		location = 12526
+		division_template = "Experienced Jihadists"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.7
+	}
+}

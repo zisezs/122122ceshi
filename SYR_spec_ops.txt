@@ -1,0 +1,32 @@
+﻿
+
+division_template = {
+	name = "Quwwat Almuhimat Alkhasa"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 3 }
+	}
+	support = {
+		mbt_company = { x = 0 y = 0 }
+		apc_company = { x = 0 y = 1 }
+		spa_company = { x = 0 y = 2 }
+	}
+		priority = 2
+}
+
+units = {
+	division = {
+		name = "300 Wahdat Alquwwat Alkhasa"
+		location = 1201
+		division_template = "Quwwat Almuhimat Alkhasa"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "301 Wahdat Alquwwat Alkhasa"
+		location = 7107
+		division_template = "Quwwat Almuhimat Alkhasa"
+		start_experience_factor = 0.3
+	}
+}

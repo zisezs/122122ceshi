@@ -1,0 +1,21 @@
+﻿
+division_template = {
+	name = "People's Protection Unit"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+	}
+	
+	support = {
+	}
+	
+	priority = 2
+}
+units = {
+	division = {
+		name = "Capitol Hill Militia"
+		location = 13674
+		division_template = "People's Protection Unit"
+		start_experience_factor = 0.1
+	}
+}

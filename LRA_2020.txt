@@ -1,0 +1,59 @@
+﻿division_template = {
+	name = "Soldados"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+	}
+	support = {
+	}
+		
+}
+
+division_template = {
+	name = "Unidad de Reconocimiento"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+	}
+	support = {
+	}
+		
+}
+
+units = {
+	
+	division = {
+		name = "Primer Grupo"
+		location = 13844 
+		division_template = "Soldados"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "Segundo Grupo"
+		location = 13844
+		division_template = "Soldados"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "Tercero Grupo"
+		location = 13844
+		division_template = "Soldados"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "Cuarto Grupo"
+		location = 13844
+		division_template = "Soldados"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Cuarto Grupo"
+		location = 13844
+		division_template = "Soldados"
+		start_experience_factor = 0.1
+	}
+}

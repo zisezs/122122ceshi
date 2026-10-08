@@ -1,0 +1,20 @@
+﻿division_template = {
+	name = "Police Unit"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+	}
+	
+	support = {
+	}
+	
+}
+
+units = {
+	division = {
+		name = "Sacramento Police Department"
+		location = 13350
+		division_template = "Police Unit"
+		start_experience_factor = 0.2
+	}
+}

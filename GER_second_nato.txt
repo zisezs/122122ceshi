@@ -1,0 +1,368 @@
+﻿division_template = {
+	name = "Panzergrenadierdivision"
+	
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+		mechanized = { x = 2 y = 0 }
+		mechanized = { x = 2 y = 1 }
+		mechanized = { x = 2 y = 2 }
+		modern_sp_artillery_brigade = { x = 3 y = 0 }
+		modern_sp_artillery_brigade = { x = 3 y = 1 }
+		modern_sp_artillery_brigade = { x = 3 y = 2 }
+		modern_sp_artillery_brigade = { x = 3 y = 3 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+		mot_recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Fallschirmjägerdivision"
+	
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		paratrooper = { x = 1 y = 0 }
+		paratrooper = { x = 1 y = 1 }
+		paratrooper = { x = 1 y = 2 }
+		paratrooper = { x = 2 y = 0 }
+		paratrooper = { x = 2 y = 1 }
+		paratrooper = { x = 2 y = 2 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		helicopter_recon = { x = 0 y = 1 }
+		air_mechanized = { x = 0 y = 2 }
+		logistics_company = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Sturmpanzerdivision"
+	
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		motorized_rocket_brigade = { x = 0 y = 2 }
+		modern_armor = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+		motorized_rocket_brigade = { x = 1 y = 2 }
+		mechanized = { x = 2 y = 0 }
+		mechanized = { x = 2 y = 1 }
+		mechanized = { x = 2 y = 2 }
+		mechanized = { x = 2 y = 3 }
+		mechanized = { x = 3 y = 0 }
+		mechanized = { x = 3 y = 1 }
+		mechanized = { x = 3 y = 2 }
+		mechanized = { x = 3 y = 3 }
+		spaa_brigade = { x = 4 y = 0 }
+		spaa_brigade = { x = 4 y = 0 }
+	}
+	
+	support = {
+		signal_company = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Lehrbrigade"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		light_mechanized = { x = 0 y = 3 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		light_mechanized = { x = 1 y = 3 }
+		modern_armor = { x = 2 y = 0 }
+		modern_armor = { x = 2 y = 1 }
+		modern_armor = { x = 2 y = 2 }
+	}
+	
+	support = {
+		signal_company = { x = 0 y = 0 }
+		mot_recon = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	
+	division = {
+		name = "Panzerlehrbrigade"
+		location = 3499
+		division_template = "Lehrbrigade"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "32. Panzerlehrbrigade"
+		location = 3499
+		division_template = "Lehrbrigade"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "14. Panzerlehrbrigade"
+		location = 3499
+		division_template = "Lehrbrigade"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "1. Fallschirmjägerdivision"
+		location = 3499
+		division_template = "Fallschirmjägerdivision"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "3. Fallschirmjägerdivision"
+		location = 3499
+		division_template = "Fallschirmjägerdivision"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "4. Fallschirmjägerdivision"
+		location = 3499
+		division_template = "Fallschirmjägerdivision"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "16. Fallschirmjägerdivision"
+		location = 3499
+		division_template = "Fallschirmjägerdivision"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "116. Panzerdivision"
+		location = 3499
+		division_template = "Sturmpanzerdivision"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "9. Panzerdivision"
+		location = 3499
+		division_template = "Sturmpanzerdivision"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "26. Panzerdivision"
+		location = 3499
+		division_template = "Sturmpanzerdivision"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "16. Panzerdivision"
+		location = 3499
+		division_template = "Sturmpanzerdivision"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "66. Panzerdivision"
+		location = 3499
+		division_template = "Sturmpanzerdivision"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "49. Panzerdivision"
+		location = 3499
+		division_template = "Sturmpanzerdivision"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "55. Panzerdivision"
+		location = 3499
+		division_template = "Sturmpanzerdivision"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "122. Infanteriedivision"
+		location = 3499
+		division_template = "Panzergrenadierdivision"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "366. Infanteriedivision"
+		location = 3499
+		division_template = "Panzergrenadierdivision"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "Sperrverband Kessel"
+		location = 3499
+		division_template = "Panzergrenadierdivision"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "45. Infanteriedivision"
+		location = 3499
+		division_template = "Panzergrenadierdivision"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "200. Panzergrenadierdivision"
+		location = 3499
+		division_template = "Panzergrenadierdivision"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "20. Panzergrenadierdivision"
+		location = 3499
+		division_template = "Panzergrenadierdivision"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "25. Panzergrenadierdivision"
+		location = 3499
+		division_template = "Panzergrenadierdivision"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "352. Infanteriedivision"
+		location = 3499
+		division_template = "Panzergrenadierdivision"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "24. Infanteriedivision"
+		location = 3499
+		division_template = "Panzergrenadierdivision"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "111. Infanteriedivision"
+		location = 3499
+		division_template = "Panzergrenadierdivision"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "16. Infanteriedivision"
+		location = 3499
+		division_template = "Panzergrenadierdivision"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "344. Infanteriedivision"
+		location = 3499
+		division_template = "Panzergrenadierdivision"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "4. Infanteriedivision"
+		location = 3499
+		division_template = "Panzergrenadierdivision"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "XXII. Panzergrenadierlegion"
+		location = 3499
+		division_template = "Panzergrenadierdivision"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "XVII Panzergrenadierlegion"
+		location = 3499
+		division_template = "Panzergrenadierdivision"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "16. Panzerdivision"
+		location = 3499
+		division_template = "Sturmpanzerdivision"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "5. Panzerdivision"
+		location = 3499
+		division_template = "Sturmpanzerdivision"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "20. Panzerdivision"
+		location = 3499
+		division_template = "Sturmpanzerdivision"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "Panzerverband Strachwitz"
+		location = 3499
+		division_template = "Sturmpanzerdivision"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "Panzerdivision Tatra"
+		location = 3499
+		division_template = "Panzergrenadierdivision"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "Fallschirmpanzerdivision"
+		location = 3499
+		division_template = "Panzergrenadierdivision"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "715. Infanteriedivision"
+		location = 3499
+		division_template = "Panzergrenadierdivision"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "78. Sturm"
+		location = 3499
+		division_template = "Panzergrenadierdivision"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "52. Sicherungsdivision z.b.V."
+		location = 3499
+		division_template = "Panzergrenadierdivision"
+		start_experience_factor = 0.4
+	}
+}

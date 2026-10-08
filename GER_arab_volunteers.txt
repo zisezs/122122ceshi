@@ -1,0 +1,31 @@
+﻿division_template = {
+	name = "Alliwa Almikanikiu"
+	override_model = GER_arab_legion_mechanized_entity
+	
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		mechanized = { x = 0 y = 3 }
+		modern_armor = { x = 1 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 1 }
+	}
+	template_counter = 22
+}
+
+units = {
+	division = {
+		name = "Arabische Legion - Libyen"
+		location = 6521
+		division_template = "Alliwa Almikanikiu"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "Arabische Legion - Algerien"
+		location = 6521
+		division_template = "Alliwa Almikanikiu"
+		start_experience_factor = 0.5
+	}
+}

@@ -1,0 +1,201 @@
+﻿division_template = {
+	name = "Infantry Brigade"
+	regiments = {
+		infantry = {
+			x = 0
+			y = 0
+		}
+		infantry = {
+			x = 0
+			y = 1
+		}
+		infantry = {
+			x = 0
+			y = 2
+		}
+		artillery_brigade = {
+			x = 0
+			y = 3
+		}
+		infantry = {
+			x = 1
+			y = 0
+		}
+		infantry = {
+			x = 1
+			y = 1
+		}
+		infantry = {
+			x = 1
+			y = 2
+		}
+		artillery_brigade = {
+			x = 1
+			y = 3
+		}
+		infantry = {
+			x = 1
+			y = 3
+		}
+		light_mechanized = {
+			x = 2
+			y = 0
+		}
+		mechanized = {
+			x = 2
+			y = 1
+		}
+	}
+}
+
+division_template = {
+	name = "Special Forces"
+	regiments = {
+		special_forces = {
+			x = 0
+			y = 0
+		}
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Mechanized Brigade"
+	regiments = {
+		mechanized = {
+			x = 0
+			y = 0
+		}
+		light_mechanized = {
+			x = 0
+			y = 1
+		}
+		motorized = {
+			x = 1
+			y = 0
+		}
+		artillery_brigade = {
+			x = 1
+			y = 1
+		}
+		mechanized = {
+			x = 2
+			y = 0
+		}
+	}
+	support = {
+		mbt_company = {
+			x = 0
+			y = 0
+		}
+		light_tank_recon = {
+			x = 0
+			y = 1
+		}
+	}
+}
+
+units = {
+	division = {
+		name = "34e Groupe-brigade du Canada"
+		location = 12149
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "35e Groupe-brigade du Canada"
+		location = 4345
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "5e Groupe-brigade mécanisé"
+		location = 7291
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.75
+	}
+	division = {
+		name = "1 Canadian Mechanized Brigade Group"
+		location = 3010
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.75
+	}
+	division = {
+		name = "38 Canadian Brigade Group"
+		location = 4872
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "39 Canadian Brigade Group"
+		location = 1408
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "41 Canadian Brigade Group"
+		location = 3706
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "2 Canadian Mechanized Brigade Group"
+		location = 9634
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "31 Canadian Brigade Group"
+		location = 722
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "32 Canadian Brigade Group"
+		location = 3775
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "33 Canadian Brigade Group"
+		location = 3778
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "36 Canadian Brigade Group"
+		location = 7361
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "37 Canadian Brigade Group"
+		location = 1424
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "Joint Task Force 2"
+		location = 3778
+		division_template = "Special Forces"
+		start_experience_factor = 0.9
+	}
+	division = {
+		name = "Canadian Special Operations Regiment"
+		location = 9634
+		division_template = "Special Forces"
+		start_experience_factor = 0.9
+	}
+	division = {
+		name = "Canadian Joint Incident Response Unit"
+		location = 3605
+		division_template = "Special Forces"
+		start_experience_factor = 0.9
+	}
+	division = {
+		name = "Canadian Joint Incident Response Unit"
+		location = 11567
+		division_template = "Special Forces"
+		start_experience_factor = 0.9
+	}
+}

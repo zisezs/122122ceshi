@@ -1,0 +1,132 @@
+﻿division_template = {
+	name = "Reserve Division"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 1 y = 3 }
+	}
+
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "308th Reserve Division"
+		location = 4075
+		division_template = "Reserve Division"
+		start_experience_factor = 0.2
+		
+	}
+
+	division = {
+		name = "312th Reserve Division"
+		location = 4075
+		division_template = "Reserve Division"
+		start_experience_factor = 0.2
+		
+	}
+
+	division = {
+		name = "390th Reserve Division"
+		location = 4075
+		division_template = "Reserve Division"
+		start_experience_factor = 0.2
+		
+	}
+
+	division = {
+		name = "202nd Reserve Division"
+		location = 4075
+		division_template = "Reserve Division"
+		start_experience_factor = 0.2
+		
+	}
+
+	division = {
+		name = "304th Reserve Division"
+		location = 4075
+		division_template = "Reserve Division"
+		start_experience_factor = 0.2
+		
+	}
+
+	division = {
+		name = "306th Reserve Division"
+		location = 4075
+		division_template = "Reserve Division"
+		start_experience_factor = 0.2
+		
+	}
+
+	division = {
+		name = "325th Reserve Division"
+		location = 4075
+		division_template = "Reserve Division"
+		start_experience_factor = 0.2
+		
+	}
+
+	division = {
+		name = "203rd Reserve Division"
+		location = 4075
+		division_template = "Reserve Division"
+		start_experience_factor = 0.2
+		
+	}
+
+	division = {
+		name = "10th Reserve Division"
+		location = 4075
+		division_template = "Reserve Division"
+		start_experience_factor = 0.2
+		
+	}
+
+	division = {
+		name = "31st Reserve Division"
+		location = 4075
+		division_template = "Reserve Division"
+		start_experience_factor = 0.2
+		
+	}
+
+	division = {
+		name = "320th Reserve Division"
+		location = 4075
+		division_template = "Reserve Division"
+		start_experience_factor = 0.2
+		
+	}
+
+	division = {
+		name = "198th Reserve Division"
+		location = 4075
+		division_template = "Reserve Division"
+		start_experience_factor = 0.5
+		
+	}
+
+	division = {
+		name = "273rd Reserve Division"
+		location = 4075
+		division_template = "Reserve Division"
+		start_experience_factor = 0.2
+		
+	}
+
+	division = {
+		name = "7th Reserve Division"
+		location = 4075
+		division_template = "Reserve Division"
+		start_experience_factor = 0.2
+		
+	}
+}

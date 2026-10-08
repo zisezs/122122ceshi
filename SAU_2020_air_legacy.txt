@@ -1,0 +1,41 @@
+﻿### Air OOB ###
+
+air_wings = {
+	893 = {
+		fighter_equipment_2 = {
+			owner = "SAU" 
+			amount = 33
+		}
+		CAS_equipment_1 = {
+			owner = "SAU" 
+			amount = 35
+		}
+	}
+	894 = {
+		fighter_equipment_2 = {
+			owner = "SAU" 
+			amount = 55
+		}
+
+	}
+	895 = {
+		fighter_equipment_1 = {
+			owner = "SAU" 
+			amount = 42
+		}
+		fighter_equipment_2 = {
+			owner = "SAU" 
+			amount = 67
+		}
+	}
+	679 = {
+		CAS_equipment_2 = {
+			owner = "SAU" 
+			amount = 35
+		}
+		fighter_equipment_1 = {
+			owner = "SAU" 
+			amount = 55
+		}
+	}
+}

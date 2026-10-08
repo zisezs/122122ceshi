@@ -1,0 +1,950 @@
+﻿units = {
+#重点进攻中国
+	division = {			
+		name = "昇陽帝国師団"
+		location = 1052
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 1052
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 1052
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 12043
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 12043
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 12043
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 12043
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 10068
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 10068
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 10068
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 10068
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 10068
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 10068
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 4137
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 4137
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 4137
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 4137
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 11944
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 11944
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 11944
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 11944
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 10119
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 10119
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 10119
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+
+	division = {			
+		name = "昇陽帝国師団"
+		location = 4091
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 4091
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 4091
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 4091
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 4091
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 4091
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 11928
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 11928
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 11928
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 11928
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 11944
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 1089
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 1089
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 1089
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 1089
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 1089
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 10076
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 10076
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 10076
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 10076
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 10076
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 10076
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 12052
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 12052
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 12052
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 12052
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 12052
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 7014
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 7014
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 7014
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 7014
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 7014
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 7014	
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 7014
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 12076
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 12076
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 12076
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 12076
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 12076
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 4042
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 4042
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 4042
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 4042
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 7191
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 7191
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 7191
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 7191
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 7191
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 7191
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 11991
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 11991
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 11991
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 11991
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+
+	division = {			
+		name = "昇陽帝国師団"
+		location = 14186
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 14186
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 14186
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 14186
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 14186
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 11062
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 11062
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 11062
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 11062
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 11062
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 11062
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 11062
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 7108
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 7108
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 7108
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 7108
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 7108
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 7108
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 7108
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 14941
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 14941
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 14941
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 14941
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 14941
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 1047
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 1047
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 1047
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 1047
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 1047
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 1047
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 1047
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 14938
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 14938
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 14938
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 14938
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 14938
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 14940
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 14940
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 14940
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 14940
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 14940
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 4189
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 4189
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 4189
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 4189
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 4189
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 4189
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 4189
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 14939
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 14939
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 14939
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 14939
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 14939
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 14185
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 14185
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 14185
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 14185
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "昇陽帝国師団"
+		location = 14185
+		division_template = "次时代日本自卫队装甲合成旅"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+}

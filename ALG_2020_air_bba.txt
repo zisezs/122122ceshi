@@ -1,0 +1,57 @@
+### Air OOB ###
+
+air_wings = {
+	513 = {
+		#Su-30MK
+		uav_airframe_0 = {
+			owner = "ALG" 
+			amount = 10
+			version_name = "Su-30MK"
+		}
+
+	}
+	514 = {
+		#Su-30MK
+		uav_airframe_0 = {
+			owner = "ALG" 
+			amount = 10
+			version_name = "Su-30MK"
+		}
+
+	}
+	514 = {
+		#Su-30MK
+		uav_airframe_0 = {
+			owner = "ALG" 
+			amount = 10
+			version_name = "Su-30MK"
+		}
+
+	}
+	459 = {
+		#MiG-29
+		uav_airframe_0 = {
+			owner = "ALG" 
+			amount = 32
+			version_name = "MiG-29"
+		}
+
+	}
+	513 = {
+		#MiG-25
+		uav_airframe_0 = {
+			owner = "ALG" 
+			amount = 13
+			version_name = "MiG-25"
+		}
+
+	}
+	513 = {
+		#Su-24
+		uav_airframe_0 = {
+			owner = "ALG" 
+			amount = 23
+			version_name = "Su-24"
+		}
+	}
+}

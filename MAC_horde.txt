@@ -1,0 +1,601 @@
+﻿	division_template = {
+		name = "Infantry Brigade"
+		division_names_group = USA_ICBT_01
+		
+		regiments = {
+			motorized = { x = 0 y = 0 }
+			motorized = { x = 0 y = 1 }
+			motorized = { x = 0 y = 2 }
+			motorized = { x = 0 y = 3 }
+			modern_sp_artillery_brigade = { x = 1 y = 0 }
+			light_mechanized = { x = 1 y = 1 }
+			light_armor = { x = 1 y = 2 }
+		}
+		
+		support = {
+		}	
+	}
+
+	division_template = {
+		name = "Infantry Division"
+		division_names_group = USA_INF_01
+		
+		regiments = {
+			mechanized = { x = 0 y = 0 }
+			mechanized = { x = 0 y = 1 }
+			mechanized = { x = 0 y = 2 }
+			mechanized = { x = 0 y = 3 }
+			mechanized = { x = 1 y = 0 }
+			mechanized = { x = 1 y = 1 }
+			mechanized = { x = 1 y = 2 }
+			mechanized = { x = 1 y = 3 }
+			modern_sp_artillery_brigade = { x = 2 y = 0 }
+			motorized = { x = 2 y = 1 }
+			light_armor = { x = 2 y = 2 }
+			modern_sp_artillery_brigade = { x = 3 y = 0 }
+			motorized = { x = 3 y = 1 }
+			light_armor = { x = 3 y = 2 }
+		}
+		
+		support = {
+		}
+		
+		priority = 2
+	}
+
+	division_template = {
+		name = "Stryker Brigade"
+		division_names_group = USA_MEC_01
+
+		regiments = {						
+			mechanized = { x = 0 y = 0 } 
+			mechanized = { x = 0 y = 1 } 
+			mechanized = { x = 0 y = 2 }
+			mechanized = { x = 0 y = 3 } 
+			modern_sp_artillery_brigade = { x = 1 y = 0 }
+			light_mechanized = { x = 1 y = 1 }
+			light_armor = { x = 1 y = 2 }
+		}
+	}
+
+	division_template = {
+		name = "Armor Brigade"
+		
+		regiments = {
+			modern_armor = { x = 0 y = 0 }
+			modern_armor = { x = 0 y = 1 }
+			light_mechanized = { x = 0 y = 2 }
+			light_mechanized = { x = 0 y = 3 }
+			modern_sp_artillery_brigade = { x = 1 y = 0 }
+			motorized = { x = 1 y = 1 }
+			light_armor = { x = 1 y = 2 }
+		}
+		
+		support = {
+		
+		}
+	}
+
+	division_template = {
+		name = "Armor Division"
+		division_names_group = USA_ARM_01
+		
+		regiments = {
+			modern_armor = { x = 0 y = 0 }
+			modern_armor = { x = 0 y = 1 }
+			modern_armor = { x = 0 y = 2 }
+			light_mechanized = { x = 0 y = 3 }
+			modern_armor = { x = 1 y = 0 }
+			modern_armor = { x = 1 y = 1 }
+			modern_armor = { x = 1 y = 2 }
+			light_mechanized = { x = 1 y = 3 }
+			modern_sp_artillery_brigade = { x = 2 y = 0 }
+			modern_sp_artillery_brigade = { x = 2 y = 1 }
+			modern_sp_artillery_brigade = { x = 3 y = 0 }
+			modern_sp_artillery_brigade = { x = 3 y = 1 }
+			spaa_brigade = { x = 4 y = 0 }
+			spaa_brigade = { x = 4 y = 1 }
+			motorized = { x = 4 y = 2 }
+		}
+		
+		support = {
+		}
+		
+		priority = 2
+	}
+
+	division_template = {
+		name = "Airborne Brigade"
+		division_names_group = USA_INF_01
+		
+		regiments = {
+			paratrooper = { x = 0 y = 0 }
+			paratrooper = { x = 0 y = 1 }
+			paratrooper = { x = 0 y = 2 }
+			recce = { x = 1 y = 0 }
+			recce = { x = 1 y = 1 }
+			artillery_brigade = { x = 1 y = 2 }
+
+		}
+		
+		support = {
+		
+		}
+		
+		priority = 2
+	}
+
+	division_template = {
+		name = "Combat Aviation Brigade"
+		division_names_group = USA_PAR_01
+
+		regiments = {
+			paratrooper = { x = 0 y = 0 }
+			paratrooper = { x = 0 y = 1 } 
+			paratrooper = { x = 0 y = 2 }
+			paratrooper = { x = 0 y = 3 }
+		}
+	}
+
+	division_template = {
+		name = "Special Operations Force"
+		division_names_group = USA_PAR_01
+		
+		regiments = {
+			special_forces = { x = 0 y = 0 }
+			special_forces = { x = 0 y = 1 }
+			special_forces = { x = 0 y = 2 }
+			special_forces = { x = 0 y = 3 }
+			recce = { x = 1 y = 0 }
+		}
+		
+		support = {
+		
+		}
+		
+		priority = 2
+	}
+
+	division_template = {
+		name = "Marine Brigade"
+		division_names_group = USA_MAR_01
+		
+		regiments = {
+			amphibious_mechanized = { x = 0 y = 0 }
+			amphibious_mechanized = { x = 0 y = 1 }
+			amphibious_mechanized = { x = 0 y = 2 }
+			amphibious_mechanized = { x = 0 y = 3 }
+			amphibious_armor = { x = 1 y = 0 }
+			motorized = { x = 1 y = 1 }
+			artillery_brigade = { x = 1 y = 2 }
+		}
+		
+		support = {
+		
+		}
+		
+		priority = 2
+	}
+
+	units = {
+		division = {
+			name = "1st Infantry Brigade"
+			location = 907
+			division_template = "Infantry Brigade"
+			start_experience_factor = 1
+		}
+
+		division = {
+			name = "2nd Infantry Brigade"
+			location = 907
+			division_template = "Infantry Brigade"
+			start_experience_factor = 1
+		}
+
+		division = {
+			name = "3rd Infantry Brigade"
+			location = 907
+			division_template = "Infantry Brigade"
+			start_experience_factor = 1
+		}
+
+		division = {
+			name = "4th Marine Brigade"
+			location = 907
+			division_template = "Marine Brigade"
+			start_experience_factor = 1
+		}
+
+		division = {
+			name = "1st Armored Brigade"
+			location = 907
+			division_template = "Armor Brigade"
+			start_experience_factor = 1
+		}
+
+		division = {
+			name = "2nd Armor Brigade"
+			location = 907
+			division_template = "Armor Brigade"
+			start_experience_factor = 1
+		}
+
+		division = {
+			name = "48th Infantry Brigade"
+			location = 907
+			division_template = "Infantry Brigade"
+			start_experience_factor = 0.3
+		}
+
+		division = {
+			name = "1st Infantry Brigade 'Bastogne'"
+			location = 3882
+			division_template = "Stryker Brigade"
+			start_experience_factor = 0.3
+		}
+
+		division = {
+			name = "2nd Infantry Brigade 'Strike'"
+			location = 3882
+			division_template = "Stryker Brigade"
+			start_experience_factor = 0.3
+		}
+		
+		division = {
+			name = "81st Infantry Brigade 'Rakkasan'"
+			location = 3882
+			division_template = "Stryker Brigade"
+			start_experience_factor = 0.3
+		}
+
+		division = {
+			name = "16th Combat Aviation Brigade"
+			location = 3882
+			division_template = "Combat Aviation Brigade"
+			start_experience_factor = 0.3
+		}
+
+		division = {
+			name = "1st Infantry Brigade (IBCT)"
+			location = 3882
+			division_template = "Infantry Brigade"
+			start_experience_factor = 0.3
+		}
+
+		division = {
+			name = "2nd Infantry Brigade (IBCT)"
+			location = 3882
+			division_template = "Infantry Brigade"
+			start_experience_factor = 0.3
+		}
+
+		division = {
+			name = "86th Infantry Brigade (ICBT)"
+			location = 3882	#Virginia
+			division_template = "Stryker Brigade"
+			start_experience_factor = 0.3
+		}
+
+		division = {
+			name = "3rd Infantry Brigade (IBCT)"
+			location = 3882
+			division_template = "Stryker Brigade"
+			start_experience_factor = 0.3
+		}
+
+		division = {
+			name = "2nd Infantry Brigade (2nd IBCT)"
+			location = 3882
+			division_template = "Stryker Brigade"
+			start_experience_factor = 0.3
+		}
+		
+		division = {
+			name = "56th Stryker Brigade"
+			location = 3882
+			division_template = "Stryker Brigade"
+			start_experience_factor = 0.3
+		}
+
+		division = {
+			name = "28th Expeditionary Combat Aviation Brigade"
+			location = 3882
+			division_template = "Combat Aviation Brigade"
+			start_experience_factor = 0.3
+		}
+
+		division = {
+			name = "30th Armored Brigade"
+			location = 3882
+			division_template = "Armor Brigade"
+			start_experience_factor = 0.3
+		}
+
+		division = {
+			name = "53rd Infantry Brigade"
+			location = 3882
+			division_template = "Infantry Brigade"
+			start_experience_factor = 0.3
+		}
+
+		division = {
+			name = "116th Infantry Brigade"
+			location = 3882
+			division_template = "Infantry Brigade"
+			start_experience_factor = 0.3
+		}
+
+		division = {
+			name = "29th Combat Aviation Brigade"
+			location = 3882
+			division_template = "Combat Aviation Brigade"
+			start_experience_factor = 0.3
+		}
+		
+		division = {
+			name = "1st Armor Brigade"
+			location = 3882
+			division_template = "Armor Brigade"
+			start_experience_factor = 0.1
+		}
+		
+		division = {
+			name = "2nd Infantry Brigade (IANG)"
+			location = 3882
+			division_template = "Infantry Brigade"
+			start_experience_factor = 0.1
+		}
+		
+		division = {
+			name = "32nd Infantry Brigade"
+			location = 3882
+			division_template = "Infantry Brigade"
+			start_experience_factor = 0.1
+		}
+		
+		division = {
+			name = "116th Cavalry Brigade Combat Team"
+			location = 3882
+			division_template = "Combat Aviation Brigade"
+			start_experience_factor = 0.1
+		}
+		
+		division = {
+			name = "34th Combat Aviation Brigade"
+			location = 3882
+			division_template = "Combat Aviation Brigade"
+			start_experience_factor = 0.1
+		}
+		
+		division = {
+			name = "33rd Infantry Brigade"
+			location = 867
+			division_template = "Infantry Brigade"
+			start_experience_factor = 0.1
+		}
+		
+		division = {
+			name = "39th Infantry Brigade"
+			location = 867
+			division_template = "Infantry Brigade"
+			start_experience_factor = 0.1
+		}
+		
+		division = {
+			name = "45th Infantry Brigade"
+			location = 867
+			division_template = "Infantry Brigade"
+			start_experience_factor = 0.1
+		}
+
+		division = {
+			name = "35th Combat Aviation Brigade"
+			location = 867
+			division_template = "Combat Aviation Brigade"
+			start_experience_factor = 0.3
+		}
+		
+		division = {
+			name = "3rd Infantry Brigade (10th IBCT)"
+			location = 867
+			division_template = "Infantry Brigade"
+			start_experience_factor = 0.3
+		}
+		
+		division = {
+			name = "56th Infantry Brigade"
+			location = 867
+			division_template = "Infantry Brigade"
+			start_experience_factor = 0.3
+		}
+		
+		division = {
+			name = "72nd Infantry Brigade"
+			location = 867
+			division_template = "Infantry Brigade"
+			start_experience_factor = 0.3
+		}
+		
+		division = {
+			name = "155th Armor Brigade"
+			location = 867
+			division_template = "Armor Brigade"
+			start_experience_factor = 0.3
+		}
+		
+		division = {
+			name = "256th Infantry Brigade"
+			location = 867
+			division_template = "Infantry Brigade"
+			start_experience_factor = 0.3
+		}
+		
+		division = {
+			name = "36th Combat Aviation Brigade"
+			location = 867
+			division_template = "Combat Aviation Brigade"
+			start_experience_factor = 0.3
+		}
+		
+		division = {
+			name = "29th Infantry Brigade"
+			location = 867
+			division_template = "Infantry Brigade"
+			start_experience_factor = 0.3
+		}
+		
+		division = {
+			name = "41st Infantry Brigade"
+			location = 833
+			division_template = "Infantry Brigade"
+			start_experience_factor = 0.3
+		}
+		
+		division = {
+			name = "79th Infantry Brigade"
+			location = 833
+			division_template = "Infantry Brigade"
+			start_experience_factor = 0.3
+		}
+		
+		division = {
+			name = "27th Infantry Brigade"
+			location = 833
+			division_template = "Infantry Brigade"
+			start_experience_factor = 0.3
+		}
+		
+		division = {
+			name = "44th Infantry Brigade"
+			location = 974
+			division_template = "Infantry Brigade"
+			start_experience_factor = 0.3
+		}
+		
+		division = {
+			name = "42nd Combat Aviation Brigade"
+			location = 974
+			division_template = "Combat Aviation Brigade"
+			start_experience_factor = 0.3
+		}
+		
+		division = {
+			name = "1st Infantry Brigade (82nd ICBT)"
+			location = 974
+			division_template = "Infantry Brigade"
+			start_experience_factor = 0.3
+		}
+		
+		division = {
+			name = "2nd Infantry Brigade (82nd ICBT)"
+			location = 974
+			division_template = "Infantry Brigade"
+			start_experience_factor = 0.3
+		}
+		
+		division = {
+			name = "3rd Infantry Brigade (ICBT)"
+			location = 6886
+			division_template = "Infantry Brigade"
+			start_experience_factor = 0.3
+		}
+		
+		division = {
+			name = "82nd Airborne Sustainment Brigade"
+			location = 6886
+			division_template = "Airborne Brigade"
+			start_experience_factor = 0.3
+		}
+		
+		division = {
+			name = "82nd Combat Aviation Brigade"
+			location = 6886
+			division_template = "Combat Aviation Brigade"
+			start_experience_factor = 0.3
+		}
+		
+		
+		division = {
+			name = "1st Special Forces Group"
+			location = 6886
+			division_template = "Special Operations Force"
+			start_experience_factor = 0.2
+		}
+		
+		division = {
+			name = "3rd Special Forces Group"
+			location = 3833
+			division_template = "Special Operations Force"
+			start_experience_factor = 0.2
+		}
+		
+		division = {
+			name = "5th Special Forces Group"
+			location = 3833
+			division_template = "Special Operations Force"
+			start_experience_factor = 0.2
+		}
+		
+		division = {
+			name = "7th Special Forces Group"
+			location = 3833
+			division_template = "Special Operations Force"
+			start_experience_factor = 0.2
+		}
+		
+		division = {
+			name = "10th Special Forces Group"
+			location = 3833
+			division_template = "Special Operations Force"
+			start_experience_factor = 0.2
+		}
+
+		division = {
+			name = "1st Brigade Combat Team 'Devil Brigade'"
+			location = 3833
+			division_template = "Combat Aviation Brigade"
+			start_experience_factor = 0.3
+		}
+		
+		division = {
+			name = "2nd Brigade Combat Team 'Falcon Brigade'"
+			location = 3833
+			division_template = "Combat Aviation Brigade"
+			start_experience_factor = 0.3
+		}
+		
+		division = {
+			name = "3rd Brigade Combat Team 'Panther Brigade'"
+			location = 11856
+			division_template = "Combat Aviation Brigade"
+			start_experience_factor = 0.3
+		}
+		
+		division = {
+			name = "4th Brigade Combat Team 'Pegasus Brigade'"
+			location = 11856
+			division_template = "Combat Aviation Brigade"
+			start_experience_factor = 0.3
+		}
+		
+		division = {
+			name = "37th Infantry Brigade Combat Team"
+			location = 11856
+			division_template = "Infantry Brigade"
+			start_experience_factor = 0.3
+		}
+		
+		division = {
+			name = "76th Infantry Brigade Combat Team"
+			location = 11856
+			division_template = "Infantry Brigade"
+			start_experience_factor = 0.3
+		}
+		
+		division = {
+			name = "38th Combat Aviation Brigade"
+			location = 11856
+			division_template = "Combat Aviation Brigade"
+			start_experience_factor = 0.3
+		}
+	}

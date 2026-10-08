@@ -1,0 +1,46 @@
+﻿division_template = {
+	name = "Tankova Bryhada"
+	
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		modern_sp_artillery_brigade = { x = 1 y = 0 }
+		rocket_artillery = { x = 1 y = 1 }
+		light_mechanized = { x = 2 y = 0 }
+		light_mechanized = { x = 2 y = 1 }
+		light_mechanized = { x = 2 y = 2 }
+		light_armor = { x = 3 y = 0 }
+	}
+	
+	support = {
+		spa_company = { x = 0 y = 0 }
+		spaa_company = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "1-a Okrema Tankova Siverska Bryhada"
+		location = 11479
+		division_template = "Tankova Bryhada"
+		start_experience_factor = 0.1
+		force_equipment_variants = { modern_tank_chassis_3 = { owner = "UKR" version_name = "Petliura" } }
+	}
+	
+	division = {
+		name = "17-a Tankova Bryhada"
+		location = 11479
+		division_template = "Tankova Bryhada"
+		start_experience_factor = 0.5
+		force_equipment_variants = { modern_tank_chassis_3 = { owner = "UKR" version_name = "Petliura" } }
+	}
+	
+	division = {
+		name = "14-a Okrema Mekhanizovana Bryhada"
+		location = 11479
+		division_template = "Tankova Bryhada"
+		start_experience_factor = 0.5
+		force_equipment_variants = { modern_tank_chassis_3 = { owner = "UKR" version_name = "Petliura" } }
+	}
+}

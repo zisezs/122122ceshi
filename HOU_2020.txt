@@ -1,0 +1,268 @@
+﻿division_template = {
+	name = "Liwa Alharas Althawrii"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 1 y = 0 }
+	}
+	
+	support = {
+		armored_car_recon = { x = 0 y = 0 }
+		spa_company = { x = 0 y = 1 }
+		spaa_company = { x = 0 y = 2 }
+	}
+		priority = 2
+}
+
+division_template = {
+	name = "Liwa Mudarae Thuriin"
+	
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+	}
+	
+	support = {
+		armored_car_recon = { x = 0 y = 0 }
+		mbt_company = { x = 0 y = 1 }
+		spa_company = { x = 0 y = 2 }
+		spaa_company = { x = 0 y = 3 }
+	}
+		priority = 1
+}
+
+division_template = {
+	name = "Liwa Almsha"
+	
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+	}
+	
+	support = {
+	}
+		
+	priority = 1
+}
+
+division_template = {
+	name = "Liwa Almutatawiein Alhuthiiyn"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+	}
+	
+	support = {
+	}
+	
+	template_counter = 11
+}
+
+division_template = {
+	name = "Liwa Almilishia"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 1 y = 0 }
+	}
+	
+	support = {
+	}
+	
+}
+
+division_template = {
+	name = "Katibat Aldabaabat Alkhafifa"
+	
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		apc_company = { x = 0 y = 1 }
+	}
+	
+}
+
+units = {
+	division = {
+		name = "1. Katibat Aldabaabat Alkhafifa"
+		location = 13272
+		division_template = "Katibat Aldabaabat Alkhafifa"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1. Liwa Alharas Althawrii"
+		location = 10840
+		division_template = "Liwa Alharas Althawrii"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "2. Liwa Alharas Althawrii"
+		location = 10752
+		division_template = "Liwa Alharas Althawrii"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "3. Liwa Alharas Althawrii"
+		location = 13271
+		division_template = "Liwa Alharas Althawrii"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "4. Liwa Alharas Althawrii"
+		location = 13266
+		division_template = "Liwa Alharas Althawrii"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "5. Liwa Alharas Althawrii"
+		location = 10752
+		division_template = "Liwa Alharas Althawrii"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "1. Liwa Mudarae Thuriin"
+		location = 1920
+		division_template = "Liwa Mudarae Thuriin"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "2. Liwa Mudarae Thuriin"
+		location = 13267
+		division_template = "Liwa Mudarae Thuriin"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "3. Liwa Mudarae Thuriin"
+		location = 10840
+		division_template = "Liwa Mudarae Thuriin"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "4. Liwa Mudarae Thuriin"
+		location = 10840
+		division_template = "Liwa Mudarae Thuriin"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "1. Liwa Almsha"
+		location = 1973
+		division_template = "Liwa Almsha"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "2. Liwa Almsha"
+		location = 13267
+		division_template = "Liwa Almsha"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "3. Liwa Almsha"
+		location = 13271
+		division_template = "Liwa Almsha"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "4. Liwa Almsha"
+		location = 1973
+		division_template = "Liwa Almsha"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "1. Liwa Almutatawiein Alhuthiiyn"
+		location = 13267
+		division_template = "Liwa Almutatawiein Alhuthiiyn"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "2. Liwa Almutatawiein Alhuthiiyn"
+		location = 1920
+		division_template = "Liwa Almutatawiein Alhuthiiyn"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "3. Liwa Almutatawiein Alhuthiiyn"
+		location = 1920
+		division_template = "Liwa Almutatawiein Alhuthiiyn"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "4. Liwa Almutatawiein Alhuthiiyn"
+		location = 1973
+		division_template = "Liwa Almutatawiein Alhuthiiyn"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "5. Liwa Almutatawiein Alhuthiiyn"
+		location = 13995
+		division_template = "Liwa Almutatawiein Alhuthiiyn"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "6. Liwa Almutatawiein Alhuthiiyn"
+		location = 10752
+		division_template = "Liwa Almutatawiein Alhuthiiyn"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "7. Liwa Almutatawiein Alhuthiiyn"
+		location = 10840
+		division_template = "Liwa Almutatawiein Alhuthiiyn"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "1. Taiz Liwa Almilishia"
+		location = 10752
+		division_template = "Liwa Almilishia"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "1. Dali Liwa Almilishia"
+		location = 13271
+		division_template = "Liwa Almilishia"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "1. Sana'a Liwa Almilishia"
+		location = 13271
+		division_template = "Liwa Almilishia"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "1. Al Hudaydah Liwa Almilishia"
+		location = 13266
+		division_template = "Liwa Almilishia"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "1. Sa'dah Liwa Almilishia"
+		location = 13266
+		division_template = "Liwa Almilishia"
+		start_experience_factor = 0.1
+	}
+}

@@ -1,0 +1,99 @@
+﻿division_template = {
+	name = "Liwa' Milishia"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+}
+
+division_template = {
+	name = "Motorized Militia"
+	
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+		mot_militia = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+	
+}
+
+units = {
+	division = {
+		name = "1. Liwa' Milishia"
+		location = 4565
+		division_template = "Motorized Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "2. Liwa' Milishia"
+		location = 1615
+		division_template = "Liwa' Milishia"
+		start_experience_factor = 0.01
+	}
+	division = {
+		name = "3. Liwa' Milishia"
+		location = 4464
+		division_template = "Liwa' Milishia"
+		start_experience_factor = 0.01
+	}
+	division = {
+		name = "4. Liwa' Milishia"
+		location = 7668
+		division_template = "Motorized Militia"
+		start_experience_factor = 0.01
+	}
+	division = {
+		name = "5. Liwa' Milishia"
+		location = 12328
+		division_template = "Liwa' Milishia"
+		start_experience_factor = 0.02
+	}
+	division = {
+		name = "6. Liwa' Milishia"
+		location = 4510
+		division_template = "Motorized Militia"
+		start_experience_factor = 0.02
+	}
+	division = {
+		name = "7. Liwa' Milishia"
+		location = 1587
+		division_template = "Motorized Militia"
+		start_experience_factor = 0.02
+	}
+	division = {
+		name = "8. Liwa' Milishia"
+		location = 12735
+		division_template = "Motorized Militia"
+		start_experience_factor = 0.02
+	}
+	division = {
+		name = "9. Liwa' Milishia"
+		location = 13609
+		division_template = "Liwa' Milishia"
+		start_experience_factor = 0.02
+	}
+	division = {
+		name = "10. Liwa' Milishia"
+		location = 4622
+		division_template = "Liwa' Milishia"
+		start_experience_factor = 0.02
+	}
+	division = {
+		name = "11. Liwa' Milishia"
+		location = 13609
+		division_template = "Liwa' Milishia"
+		start_experience_factor = 0.02
+	}
+	division = {
+		name = "12. Liwa' Milishia"
+		location = 4622
+		division_template = "Liwa' Milishia"
+		start_experience_factor = 0.02
+	}
+}

@@ -1,0 +1,215 @@
+﻿division_template = {
+	name = "GAW Regular Infantry"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "GAW Heavy Armor"
+	
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		mechanized = { x = 1 y = 0 }
+		light_mechanized = { x = 1 y = 1 }
+		light_mechanized = { x = 1 y = 2 }
+		light_mechanized = { x = 1 y = 3 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 1 }
+		modern_sp_artillery_brigade = { x = 2 y = 2 }
+		motorized = { x = 3 y = 0 }
+		spaa_brigade = { x = 3 y = 1 }
+	}
+	
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+	}
+	
+	priority = 2
+}
+
+division_template = {
+	name = "GAW Special Forces"
+	
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+		special_forces = { x = 0 y = 3 }
+		special_forces = { x = 0 y = 4 }
+	}
+	
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		signal_company = { x = 0 y = 3 }
+	}
+	
+	priority = 2
+}
+
+units = {
+	division = {			
+		name = "第1澳洲步兵旅"
+		location = 7669
+		division_template = "GAW Regular Infantry"
+#		start_experience_factor = 0.05
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "第2澳洲步兵旅"
+		location = 7669
+		division_template = "GAW Regular Infantry"
+#		start_experience_factor = 0.05
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "第3澳洲步兵旅"
+		location = 7669
+		division_template = "GAW Regular Infantry"
+#		start_experience_factor = 0.05
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "第4澳洲步兵旅"
+		location = 7669
+		division_template = "GAW Regular Infantry"
+#		start_experience_factor = 0.05
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "第5澳洲步兵旅"
+		location = 7669
+		division_template = "GAW Regular Infantry"
+#		start_experience_factor = 0.05
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "第6澳洲步兵旅"
+		location = 7669
+		division_template = "GAW Regular Infantry"
+#		start_experience_factor = 0.05
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "第7澳洲步兵旅"
+		location = 7669
+		division_template = "GAW Regular Infantry"
+#		start_experience_factor = 0.05
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "第8澳洲步兵旅"
+		location = 7669
+		division_template = "GAW Regular Infantry"
+#		start_experience_factor = 0.05
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "第9澳洲步兵旅"
+		location = 7669
+		division_template = "GAW Regular Infantry"
+#		start_experience_factor = 0.05
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "第10澳洲步兵旅"
+		location = 7669
+		division_template = "GAW Regular Infantry"
+#		start_experience_factor = 0.05
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "澳大利亚第1装甲师"
+		location = 7669
+		division_template = "GAW Heavy Armor"
+#		start_experience_factor = 0.05
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "澳大利亚第2装甲师"
+		location = 7669
+		division_template = "GAW Heavy Armor"
+#		start_experience_factor = 0.05
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "澳大利亚第3装甲师"
+		location = 7669
+		division_template = "GAW Heavy Armor"
+#		start_experience_factor = 0.05
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "澳大利亚第4装甲师"
+		location = 7669
+		division_template = "GAW Heavy Armor"
+#		start_experience_factor = 0.05
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "澳大利亚第5装甲师"
+		location = 7669
+		division_template = "GAW Heavy Armor"
+#		start_experience_factor = 0.05
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "第1澳大利亚特种步兵旅"
+		location = 7669
+		division_template = "GAW Special Forces"
+#		start_experience_factor = 0.25
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "第2澳大利亚特种步兵旅"
+		location = 7669
+		division_template = "GAW Special Forces"
+#		start_experience_factor = 0.25
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "第3澳大利亚特种步兵旅"
+		location = 7669
+		division_template = "GAW Special Forces"
+#		start_experience_factor = 0.25
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "第4澳大利亚特种步兵旅"
+		location = 7669
+		division_template = "GAW Special Forces"
+#		start_experience_factor = 0.25
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "第5澳大利亚特种步兵旅"
+		location = 7669
+		division_template = "GAW Special Forces"
+#		start_experience_factor = 0.25
+		start_equipment_factor = 1
+	}
+}
+	instant_effect = {
+		add_manpower = -150000
+	}

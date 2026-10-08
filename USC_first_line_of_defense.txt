@@ -1,0 +1,90 @@
+﻿division_template = {
+	name = "Volunteer Militia Brigade"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+	
+	support = {
+	}
+}
+
+units = {
+	division = {
+		name = "1st Minnesota Militia Brigade"
+		location = 14118
+		division_template = "Volunteer Militia Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "2nd Minnesota Militia Brigade"
+		location = 14118
+		division_template = "Volunteer Militia Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "3rd Minnesota Militia Brigade"
+		location = 14118
+		division_template = "Volunteer Militia Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "4th Minnesota Militia Brigade"
+		location = 14118
+		division_template = "Volunteer Militia Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "5th Minnesota Militia Brigade"
+		location = 14118
+		division_template = "Volunteer Militia Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "1st Iowa Militia Brigade"
+		location = 1770
+		division_template = "Volunteer Militia Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "2nd Iowa Militia Brigade"
+		location = 1770
+		division_template = "Volunteer Militia Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "3rd Iowa Militia Brigade"
+		location = 1770
+		division_template = "Volunteer Militia Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "1st Missouri Militia Brigade"
+		location = 10717
+		division_template = "Volunteer Militia Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "2nd Missouri Militia Brigade"
+		location = 10717
+		division_template = "Volunteer Militia Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "3rd Missouri Infantry Brigade"
+		location = 10370
+		division_template = "Volunteer Militia Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "12th Volunteer Infantry Brigade"
+		location = 4741
+		division_template = "Volunteer Militia Brigade"
+		start_experience_factor = 0.1
+	}
+}

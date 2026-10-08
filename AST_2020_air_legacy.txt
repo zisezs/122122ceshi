@@ -1,0 +1,35 @@
+﻿### Air OOB ###
+air_wings = {
+	285 = {
+		#F-16
+		fighter_equipment_3 = {
+			owner = "AST"
+			amount = 25
+		}
+
+	}
+	517 = {
+		#F-16
+		fighter_equipment_2 = {
+			owner = "AST"
+			amount = 12
+		}
+
+	}
+	522 = {
+		#F-16
+		fighter_equipment_2 = {
+			owner = "AST"
+			amount = 30
+		}
+
+	}
+	520 = {
+		#F22
+		cas_equipment_1 = {
+			owner = "AST"
+			amount = 24
+		}
+
+	}
+}

@@ -1,0 +1,121 @@
+﻿division_template = {
+	name = "Stormpanserbataljon"
+
+	regiments = {
+		light_mechanized = { x = 0 y = 0 }
+		light_mechanized = { x = 0 y = 1 }
+		light_mechanized = { x = 0 y = 2 }
+	}
+	support = {
+		mbt_company = { x = 0 y = 0 }
+		spa_company = { x = 0 y = 1 }
+		spaa_company = { x = 0 y = 2 }
+		engineer = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Infanteribataljon"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+	}
+	
+	support = {
+		apc_company = { x = 0 y = 0 }
+		spa_company = { x = 0 y = 1 }
+		spaa_company = { x = 0 y = 2 }
+		engineer = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Lett Motorisert Bataljon"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Spesialkommandogruppe"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Lett Infanteribataljon"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Infanteribrigade"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		light_mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		modern_sp_artillery_brigade = { x = 1 y = 2 }
+	}
+	support = {
+		spaa_company = { x = 0 y = 0 }
+		mbt_company = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "2. Bataljon"
+		location = 6130 #Skjold
+		division_template = "Infanteribataljon"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Panserbataljonen"
+		location = 6130 #Setermoen
+		division_template = "Stormpanserbataljon"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "Telemark Bataljon"
+		location = 3136 #Rena
+		division_template = "Stormpanserbataljon"
+		start_experience_factor = 0.7
+	}
+	division = {
+		name = "Forsvarets Spesialkommando"
+		location = 3136 #Rena
+		division_template = "Spesialkommandogruppe"
+		start_experience_factor = 0.9
+	}
+
+	division = {
+		name = "Garrisonen i Sør-Varanger"
+		location = 9116
+		division_template = "Lett Infanteribataljon"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "H.M. Kongens Garde"
+		location = 6115
+		division_template = "Lett Motorisert Bataljon"
+		start_experience_factor = 0.3
+	}
+}

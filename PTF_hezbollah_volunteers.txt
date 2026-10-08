@@ -1,0 +1,27 @@
+﻿division_template = {
+	name = "Liwa' Almutatawiein al'Amrikiiyn"
+	is_locked = yes
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+	}
+	
+	support = {
+		spa_company = { x = 0 y = 0 }
+		spaa_company = { x = 0 y = 1 }
+		mbt_company = { x = 0 y = 2 }
+		mot_recon = { x = 0 y = 3 }
+		signal_company = { x = 0 y = 4 }
+	}
+		
+}
+
+units = {
+	division = {
+		name = "Liwa Ali al-Akbar"
+		location = 908
+		division_template = "Liwa' Almutatawiein al'Amrikiiyn"
+		start_experience_factor = 1.0
+	}
+}

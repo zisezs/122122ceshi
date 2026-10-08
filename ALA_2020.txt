@@ -1,0 +1,53 @@
+﻿division_template = {
+	name = "National Guard"
+	regiments = {
+		motorized = {
+			x = 0
+			y = 0
+		}
+		artillery_brigade = {
+			x = 1
+			y = 0
+		}
+		infantry = {
+			x = 2
+			y = 0
+		}
+	}
+	support = {
+	}
+	priority = 2
+}
+
+units = {
+	division = {
+		name = "1st Alabama National Guard Brigade"
+		location = 12735
+		division_template = "National Guard"
+		start_experience_factor = 0.01
+	}
+	division = {
+		name = "2nd Alabama National Guard Brigade"
+		location = 10520
+		division_template = "National Guard"
+		start_experience_factor = 0.01
+	}
+	division = {
+		name = "3rd Alabama National Guard Brigade"
+		location = 13610
+		division_template = "National Guard"
+		start_experience_factor = 0.01
+	}
+	division = {
+		name = "4th Alabama National Guard Brigade"
+		location = 7640
+		division_template = "National Guard"
+		start_experience_factor = 0.01
+	}
+	division = {
+		name = "5th Alabama National Guard Brigade"
+		location = 7480
+		division_template = "National Guard"
+		start_experience_factor = 0.01
+	}
+}

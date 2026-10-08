@@ -1,0 +1,29 @@
+﻿division_template = {
+	name = "Dobrovoljačka Brigada"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }	
+	}
+	
+}
+
+units = {
+	division = {	
+		name = "1. Dobrovoljačka Brigada"
+		location = 6942
+		division_template = "Dobrovoljačka Brigada"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "2. Dobrovoljačka Brigada"
+		location = 9586
+		division_template = "Dobrovoljačka Brigada"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+}

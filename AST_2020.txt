@@ -1,0 +1,158 @@
+﻿division_template = {
+	name = "Amphibious Task Group"
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 0 y = 3 }
+	}
+	support = {
+		signal_company = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Mechanized Brigade"
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		artillery_brigade = { x = 1 y = 2 }
+		motorized = { x = 1 y = 3 }
+	}
+	support = {
+		spaa_company = { x = 0 y = 0 }
+		armored_car_recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Infantry Brigade"
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		artillery_brigade = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Aviation Brigade"
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Commando Regiment"
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+	}
+
+	priority = 2
+}
+
+units = {
+
+	division = {
+		name = "澳大利亚第1机械化旅"
+		location = 7669
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "澳大利亚第3机械化旅"
+		location = 7566
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "澳大利亚第7机械化旅"
+		location = 7564
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "澳大利亚皇家第2步兵团"
+		location = 7566
+		division_template = "Amphibious Task Group"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "澳大利亚第16空降旅"
+		location = 7564
+		division_template = "Aviation Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "澳大利亚第4步兵旅"
+		location = 7798
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "澳大利亚第5步兵旅"
+		location = 12406
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "澳大利亚第8步兵旅"
+		location = 12406
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "澳大利亚第9步兵旅"
+		location = 12910
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "澳大利亚第11步兵旅"
+		location = 7566
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "澳大利亚第13步兵旅"
+		location = 1652
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "澳大利亚SAS指挥部"
+		location = 1652
+		division_template = "Commando Regiment"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "澳大利亚第1兵团指挥部"
+		location = 12406
+		division_template = "Commando Regiment"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "澳大利亚第2兵团指挥部"
+		location = 4864
+		division_template = "Commando Regiment"
+		start_experience_factor = 0.1
+	}	
+}

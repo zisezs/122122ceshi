@@ -1,0 +1,18 @@
+﻿### Air OOB ###
+
+air_wings = {
+		### Western MD ###
+	260 = {
+		#Su-27
+		fighter_airframe_1 =  {
+			owner = "SOV" 
+			amount = 1500
+			version_name = "Su-27"
+		}
+		uav_airframe_1 =  {
+			owner = "SOV" 
+			amount = 1000
+			version_name = "Su-25"
+		}
+	}
+}

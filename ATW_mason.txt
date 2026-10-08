@@ -1,0 +1,32 @@
+﻿division_template = {
+	name = "Special Security Brigade"
+	override_model = ATW_mason_entity
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		light_mechanized = { x = 0 y = 2 }
+	}
+	
+	support = {
+		signal_company = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "1. SS-Division 'Mason'"
+		location = 13337
+		division_template = "Special Security Brigade"
+		start_experience_factor = 0.2
+		officer = {
+			name = "James Mason"
+			portraits = {
+				army = {
+					large="GFX_Mason_land"
+					small="GFX_Mason_small"
+				}
+			}
+		}
+	}
+}

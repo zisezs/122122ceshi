@@ -1,0 +1,99 @@
+division_template = {
+	name = "USN Marine Brigade"
+	division_names_group = USA_MAR_01
+	
+	regiments = {
+		amphibious_mechanized = { x = 0 y = 0 }
+		amphibious_mechanized = { x = 0 y = 1 }
+		amphibious_mechanized = { x = 0 y = 2 }
+		amphibious_mechanized = { x = 0 y = 3 }
+		amphibious_armor = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		artillery_brigade = { x = 1 y = 2 }
+	}
+	
+	support = {
+        recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }	
+	}
+	
+	priority = 2
+}
+
+division_template = {
+	name = "USN National Guard Brigade"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		artillery_brigade = { x = 1 y = 0 }
+		artillery_brigade = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	
+	support = {
+        recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}	
+}
+
+units = {
+	division = {			
+		name = "1. USN Marine Brigade"
+		location = 1182
+		division_template = "USN Marine Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "2. USN Marine Brigade"
+		location = 1182
+		division_template = "USN Marine Brigade"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "3. USN Marine Brigade"
+		location = 1182
+		division_template = "USN Marine Brigade"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "4. USN Marine Brigade"
+		location = 1182
+		division_template = "USN Marine Brigade"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+    division = {			
+		name = "1. USN National Guard Brigade"
+		location = 1182
+		division_template = "USN National Guard Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "2. USN National Guard Brigade"
+		location = 1182
+		division_template = "USN National Guard Brigade"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "3. USN National Guard Brigade"
+		location = 1182
+		division_template = "USN National Guard Brigade"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "4. USN National Guard Brigade"
+		location = 1182
+		division_template = "USN National Guard Brigade"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+}

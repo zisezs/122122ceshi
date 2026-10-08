@@ -1,0 +1,71 @@
+﻿division_template = {
+	name = "National Guard"
+	regiments = {
+		motorized = {
+			x = 0
+			y = 0
+		}
+		artillery_brigade = {
+			x = 1
+			y = 0
+		}
+		infantry = {
+			x = 2
+			y = 0
+		}
+	}
+	support = {
+	}
+	priority = 2
+}
+
+units = {
+	division = {
+		name = "1st Florida National Guard Brigade"
+		location = 13320
+		division_template = "National Guard"
+		start_experience_factor = 0.01
+	}
+	division = {
+		name = "2nd Florida National Guard Brigade"
+		location = 1556
+		division_template = "National Guard"
+		start_experience_factor = 0.01
+	}
+	division = {
+		name = "3rd Florida National Guard Brigade"
+		location = 13317
+		division_template = "National Guard"
+		start_experience_factor = 0.01
+	}
+	division = {
+		name = "4th Florida National Guard Brigade"
+		location = 13317
+		division_template = "National Guard"
+		start_experience_factor = 0.01
+	}
+	division = {
+		name = "1st Volunteer Brigade"
+		location = 13326
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.01
+	}
+	division = {
+		name = "2nd Volunteer Brigade"
+		location = 1584
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.01
+	}
+	division = {
+		name = "3rd Volunteer Brigade"
+		location = 13323
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.01
+	}
+	division = {
+		name = "4th Volunteer Brigade"
+		location = 13317
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.01
+	}
+}

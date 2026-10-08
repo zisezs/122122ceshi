@@ -1,0 +1,37 @@
+﻿division_template = {
+	name = "Mounted Rangers"
+	
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+	}
+	
+	support = {
+	}
+		
+}
+
+units = {
+	
+	division = {
+		name = "1st Mounted Rangers"
+		location = 766
+		division_template = "Mounted Rangers"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "2nd Mounted Rangers"
+		location = 766
+		division_template = "Mounted Rangers"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "3rd Mounted Rangers"
+		location = 766
+		division_template = "Mounted Rangers"
+		start_experience_factor = 0.4
+	}
+}

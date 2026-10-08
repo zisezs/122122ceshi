@@ -1,0 +1,154 @@
+﻿division_template = {
+	name = "Al-Qassam Operational Command"
+	is_locked = yes
+	
+	regiments = { 
+		bus = { x = 0 y = 0 } 
+	}
+	support = {
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Liwa al Aqsa"
+	
+	regiments = { 
+		infantry = { x = 0 y = 0 } 
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		special_forces = { x = 1 y = 0 } #'elite' battalion
+	}
+	support = {
+		anti_tank = { x = 0 y = 0 } 
+		artillery = { x = 0 y = 1 } #represents mortars
+		engineer = { x = 0 y = 2 } 
+		signal_company = { x = 0 y = 3 } 
+	}
+	priority = 2
+}
+division_template = {
+	name = "Liwa Milishia"
+	
+	regiments = { 
+		militia = { x = 0 y = 0 } 
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		mot_militia = { x = 0 y = 3 }
+	}
+	support = {
+		anti_tank = { x = 0 y = 0 } 
+	}
+}
+units = {
+	division = {
+		name = "Al-Qassam Operational Command"
+		location = 4088
+		division_template = "Al-Qassam Operational Command"
+	}
+	#Hamas Formations in Gaza
+	division = {
+		name = "Liwa' Alshamal"
+		location = 4088
+		division_template = "Liwa al Aqsa"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Liwa' Ghaza"
+		location = 4088
+		division_template = "Liwa al Aqsa"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Alliwa' Almarkaziu"
+		location = 4088
+		division_template = "Liwa al Aqsa"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Liwa' Khanyunus"
+		location = 4088
+		division_template = "Liwa al Aqsa"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Liwa' Rafah"
+		location = 4088
+		division_template = "Liwa al Aqsa"
+	}
+	
+	#Fictional Gaza divisions
+	division = {
+		name = "Liwa' al Aqsa"
+		location = 4088
+		division_template = "Liwa al Aqsa"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "2. Liwa' Ghaza"
+		location = 4088
+		division_template = "Liwa al Aqsa"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "2. Liwa' Rafah"
+		location = 4088
+		division_template = "Liwa al Aqsa"
+	}
+	
+	#Fictional formations in West Bank
+	division = {
+		name = "1. Liwa Milishia"
+		location = 13250
+		division_template = "Liwa Milishia"
+	}
+	division = {
+		name = "2. Liwa Milishia"
+		location = 13250
+		division_template = "Liwa Milishia"
+	}
+	division = {
+		name = "3. Liwa Milishia"
+		location = 13247
+		division_template = "Liwa Milishia"
+	}
+	division = {
+		name = "3. Liwa Milishia"
+		location = 13247
+		division_template = "Liwa Milishia"
+	}
+}
+
+instant_effect = {	
+	add_equipment_to_stockpile = {
+		type = support_equipment
+		amount = 1000
+		producer = SOV 
+	}
+	
+	add_equipment_to_stockpile = {
+		type = anti_air_equipment_1
+		amount = 400
+		producer = SOV 
+	}
+	
+	add_equipment_to_stockpile = {
+		type = anti_tank_equipment_1
+		amount = 2500
+		producer = SOV 
+	}
+	
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_1			
+		amount = 7000
+		producer = SOV 
+	}
+	
+	add_equipment_to_stockpile = {
+		type = motorized_equipment_1			
+		amount = 2000
+		producer = PAL
+	}
+
+}

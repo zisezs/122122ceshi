@@ -1,0 +1,48 @@
+﻿### Air OOB ###
+
+air_wings = {
+	450 = {
+		#MiG-29
+		fighter_equipment_3 = {
+			owner = "HRL" 
+			amount = 24
+		}
+
+	}
+	450 = {
+		#MiG-29
+
+	}
+	450 = {
+		#MiG-23
+		fighter_equipment_2 = {
+			owner = "HRL" 
+			amount = 25
+		}
+
+	}
+	450 = {
+		#MiG-21
+		fighter_equipment_1 = {
+			owner = "HRL" 
+			amount = 23
+		}
+
+	}
+	450 = {
+		#F-5E
+		fighter_equipment_1 = {
+			owner = "HRL" 
+			amount = 11
+		}
+
+	}
+	450 = {
+		#Su-22
+		CAS_equipment_2 = {
+			owner = "HRL" 
+			amount = 35
+		}
+
+	}
+}

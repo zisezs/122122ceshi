@@ -1,0 +1,26 @@
+﻿division_template = {
+	name = "Ukrainskaya Brigada Perebezhchikov"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		mechanized = { x = 1 y = 0 }		
+	}
+	
+	support = {
+		spa_company = { x = 0 y = 0 }
+		anti_tank = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {			
+		name = "1-yi Okremyi Zagin S.P. N.H.U. 'Azov'"
+		location = 1283
+		division_template = "Ukrainskaya Brigada Perebezhchikov"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+}

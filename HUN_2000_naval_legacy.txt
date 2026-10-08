@@ -1,0 +1,18 @@
+﻿units = {
+
+	### Naval OOB ###
+fleet = {
+	name = "Magyar Tengerészeti Flotta"
+	naval_base = 687
+		task_force = {
+			name = "Honvédelmi Pirotechnikus és Hadihajózászlóalj"
+			location = 687
+			ship = { name = "Budapest" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = HUN } } }
+			ship = { name = "Fogas" definition = submarine equipment = { submarine_1 = { amount = 1 owner = HUN } } }
+			ship = { name = "Szeged" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = HUN } } }
+			ship = { name = "Pécs" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = HUN } } }	
+		}
+		
+	}
+	
+}

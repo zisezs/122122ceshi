@@ -1,0 +1,72 @@
+﻿division_template = {
+	name = "Foot Militia"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+		
+}
+
+division_template = {
+	name = "Motorized Infantry Brigade"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+	
+}
+
+division_template = {
+	name = "National Guard"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		artillery_brigade = { x = 1 y = 0 }
+		infantry = { x = 2 y = 0 }
+	}
+	
+	support = {
+	}
+	
+	priority = 2
+}
+
+units = {
+	
+	division = {
+		name = "1st Mississippi National Guard Brigade"
+		location = 13594
+		division_template = "National Guard"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "2nd Mississippi National Guard Brigade"
+		location = 4464
+		division_template = "National Guard"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "3rd Mississippi National Guard Brigade"
+		location = 11717
+		division_template = "National Guard"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "4th Mississippi National Guard Brigade"
+		location = 1615
+		division_template = "National Guard"
+		start_experience_factor = 0.01
+	}
+	
+}

@@ -1,0 +1,18 @@
+### Air OOB ###
+
+air_wings = {
+	231 = {
+		#Su-25
+		uav_airframe_1 = {
+			owner = "GEO" 
+			amount = 12
+			version_name = "Su-25"
+		}
+		#Su-27
+		fighter_airframe_1 = {
+			owner = "GEO" 
+			amount = 11
+			version_name = "Su-27"
+		}
+	}
+}

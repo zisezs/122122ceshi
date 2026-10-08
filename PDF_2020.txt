@@ -1,0 +1,188 @@
+﻿division_template = {
+	name = "Regional Command"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Special Commando Battalion"
+	
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+	}
+	
+	support = {
+		signal_company = { x = 0 y = 0 }
+		anti_tank = { x = 0 y = 1 }
+	}
+	
+	priority = 1
+}
+
+units = {
+	
+	division = {
+		name = "1. Regional Command"
+		location = 12335
+		division_template = "Regional Command"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "2. Regional Command"
+		location = 12492
+		division_template = "Regional Command"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "3. Regional Command"
+		location = 7469
+		division_template = "Regional Command"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "4. Regional Command"
+		location = 12464
+		division_template = "Regional Command"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "5. Regional Command"
+		location = 1607
+		division_template = "Regional Command"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "6. Regional Command"
+		location = 1566
+		division_template = "Regional Command"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "7. Regional Command"
+		location = 12335
+		division_template = "Regional Command"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "8. Regional Command"
+		location = 12256
+		division_template = "Regional Command"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "9. Regional Command"
+		location = 4147
+		division_template = "Regional Command"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "10. Regional Command"
+		location = 12090
+		division_template = "Regional Command"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "11. Regional Command"
+		location = 10182
+		division_template = "Regional Command"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "12. Regional Command"
+		location = 4202
+		division_template = "Regional Command"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "13. Regional Command"
+		location = 12292
+		division_template = "Regional Command"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "14. Regional Command"
+		location = 12335
+		division_template = "Regional Command"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "15. Regional Command"
+		location = 10344
+		division_template = "Regional Command"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "16. Regional Command"
+		location = 4087
+		division_template = "Regional Command"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "17. Regional Command"
+		location = 12335
+		division_template = "Regional Command"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "18. Regional Command"
+		location = 12335
+		division_template = "Regional Command"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "1. Special Commando Battalion"
+		location = 4654
+		division_template = "Special Commando Battalion"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "2. Special Commando Battalion"
+		location = 10486
+		division_template = "Special Commando Battalion"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "3. Special Commando Battalion"
+		location = 4588
+		division_template = "Special Commando Battalion"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "4. Special Commando Battalion"
+		location = 4654
+		division_template = "Special Commando Battalion"
+		start_experience_factor = 0.4
+	}
+}

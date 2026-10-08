@@ -1,0 +1,162 @@
+﻿division_template = {
+	name = "GAW Militia"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+	
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division = {			
+		name = "1. GAW Militia"
+		location = 1113
+		division_template = "GAW Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "2. GAW Militia"
+		location = 1113
+		division_template = "GAW Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "3. GAW Militia"
+		location = 1113
+		division_template = "GAW Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "4. GAW Militia"
+		location = 1113
+		division_template = "GAW Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "5. GAW Militia"
+		location = 1113
+		division_template = "GAW Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "6. GAW Militia"
+		location = 1113
+		division_template = "GAW Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "7. GAW Militia"
+		location = 1113
+		division_template = "GAW Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "8. GAW Militia"
+		location = 1113
+		division_template = "GAW Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "9. GAW Militia"
+		location = 1113
+		division_template = "GAW Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "10. GAW Militia"
+		location = 1117
+		division_template = "GAW Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "11. GAW Militia"
+		location = 1117
+		division_template = "GAW Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "12. GAW Militia"
+		location = 1117
+		division_template = "GAW Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "13. GAW Militia"
+		location = 1117
+		division_template = "GAW Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "14. GAW Militia"
+		location = 1117
+		division_template = "GAW Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "15. GAW Militia"
+		location = 1117
+		division_template = "GAW Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "16. GAW Militia"
+		location = 1117
+		division_template = "GAW Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "17. GAW Militia"
+		location = 1117
+		division_template = "GAW Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "18. GAW Militia"
+		location = 1117
+		division_template = "GAW Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+}

@@ -1,0 +1,66 @@
+﻿division_template = {
+	name = "Militia"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+	}
+	support = {
+	}
+		
+}
+
+division_template = {
+	name = "Motorized Unit"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+	}
+	support = {
+	}
+		
+}
+
+units = {
+	
+	division = {
+		name = "1st Group"
+		location = 6681
+		division_template = "Militia"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "2nd Group"
+		location = 13345
+		division_template = "Militia"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "3rd Group"
+		location = 13371
+		division_template = "Militia"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "4th Group"
+		location = 6745
+		division_template = "Militia"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "5th Group"
+		location = 11658
+		division_template = "Militia"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "6th Group"
+		location = 13344
+		division_template = "Motorized Unit"
+		start_experience_factor = 0.01
+	}
+}

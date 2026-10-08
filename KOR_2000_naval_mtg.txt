@@ -1,0 +1,161 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {
+		name = "destroyer Squadron 11"
+		naval_base = 4056
+		task_force = {
+			name = "destroyer Squadron 11"
+			location = 4056 #Donghae
+			ship = { name = "ROKS 广开土大王 (DDG-971)" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOR version_name = "广开土大王级驱逐舰" } } }
+			ship = { name = "ROKS 忠武公李舜臣 (DDG-975)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOR version_name = "忠武公李舜臣级驱逐舰" } } }
+			ship = { name = "ROKS 世宗大王 (DDG-991)" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = KOR version_name = "世宗大王级驱逐舰" } } }
+			ship = { name = "ROKS 栗谷李珥 (DDG-992)" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = KOR version_name = "世宗大王级驱逐舰" } } }
+			ship = { name = "ROKS 西崖柳成龙 (DDG-993)" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = KOR version_name = "世宗大王级驱逐舰" } } }
+			ship = { name = "ROKS 蔚山 (FF-951)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = KOR version_name = "蔚山级护卫舰" } } }
+			ship = { name = "ROKS 汉城 (FF-952)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = KOR version_name = "蔚山级护卫舰" } } }
+			ship = { name = "ROKS 忠清南道 (FF-953)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = KOR version_name = "蔚山级护卫舰" } } }
+		}
+	}
+	fleet = {
+		name = "corvette Squadron 12"
+		naval_base = 4056
+		task_force = {
+			name = "corvette Squadron 12"
+			location = 4056 #Donghae
+			ship = { name = "ROKS 李范奭 (SS-081)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = KOR version_name = "张保皋级潜艇" } } }
+			ship = { name = "ROKS 申乭石 (SS-082)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = KOR version_name = "张保皋级潜艇" } } }
+			ship = { name = "ROKS 郑地 (SS-073)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = KOR version_name = "张保皋级潜艇" } } }
+			ship = { name = "ROKS 安重根(SS-075)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = KOR version_name = "张保皋级潜艇" } } }
+			ship = { name = "ROKS 金佐镇 (SS-076)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = KOR version_name = "张保皋级潜艇" } } }
+			ship = { name = "ROKS 尹奉吉 (SS-077)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = KOR version_name = "张保皋级潜艇" } } }
+			ship = { name = "ROKS 柳寛顺 (SS-078)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = KOR version_name = "张保皋级潜艇" } } }
+			ship = { name = "ROKS 洪范図(SS-079)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = KOR version_name = "张保皋级潜艇" } } }
+			ship = { name = "ROKS 孙元一 (SS-072)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = KOR version_name = "张保皋级潜艇" } } }
+		}
+	}
+	fleet = {
+		name = "destroyer Squadron 21"
+		naval_base = 4056
+		task_force = {
+			name = "destroyer Squadron 21"
+			location = 4056 #Pyeongtaek
+			ship = { name = "ROKS 乙支文德 (DDG-972)" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOR version_name = "广开土大王级驱逐舰" } } }
+			ship = { name = "ROKS 杨万春 (DDG-973)" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOR version_name = "广开土大王级驱逐舰" } } }
+			ship = { name = "ROKS 文武大王 (DDG-976)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOR version_name = "忠武公李舜臣级驱逐舰" } } }
+			ship = { name = "ROKS 马山 (FF-955)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = KOR version_name = "蔚山级护卫舰" } } }
+			ship = { name = "ROKS 北区 (FF-956)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = KOR version_name = "蔚山级护卫舰" } } }
+			ship = { name = "ROKS 全南 (FF-957)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = KOR version_name = "蔚山级护卫舰" } } }
+		}
+	}
+	fleet = {
+		name = "corvette Squadron 22"
+		naval_base = 4056
+		task_force = {
+			name = "corvette Squadron 22"
+			location = 4056 #Pyeongtaek
+			ship = { name = "ROKS 大邱(FFG-818)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = KOR version_name = "仁川级/大邱级护卫舰" } } }
+			ship = { name = "ROKS 庆南 (FFG-819)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = KOR version_name = "仁川级/大邱级护卫舰" } } }
+			ship = { name = "ROKS 首尔 (FFG-821)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = KOR version_name = "仁川级/大邱级护卫舰" } } }
+			ship = { name = "ROKS 东海(FFG-822)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = KOR version_name = "仁川级/大邱级护卫舰" } } }
+			ship = { name = "ROKS 大田 (FFG-823)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = KOR version_name = "仁川级/大邱级护卫舰" } } }
+			ship = { name = "ROKS 浦项 (FFG-825)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = KOR version_name = "仁川级/大邱级护卫舰" } } }
+			ship = { name = "ROKS 春川 (FFG-827)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = KOR version_name = "仁川级/大邱级护卫舰" } } }
+			ship = { name = "ROKS 天安 (FFG-826)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = KOR version_name = "仁川级/大邱级护卫舰" } } }
+		}
+	}
+	fleet = {
+		name = "destroyer Squadron 31"
+		naval_base = 4056
+		task_force = {
+			name = "destroyer Squadron 31"
+			location = 4056 #Mokpo
+			ship = { name = "ROKS 大祚荣 (DDG-977)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOR version_name = "忠武公李舜臣级驱逐舰" } } }
+			ship = { name = "ROKS 王建 (DDG-978)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOR version_name = "忠武公李舜臣级驱逐舰" } } }
+			ship = { name = "ROKS 崔莹 (DDG-981)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOR version_name = "忠武公李舜臣级驱逐舰" } } }
+			ship = { name = "ROKS 姜邯成 (DDG-979)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOR version_name = "忠武公李舜臣级驱逐舰" } } }
+			ship = { name = "ROKS 济州(FF-958)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = KOR version_name = "蔚山级护卫舰" } } }
+			ship = { name = "ROKS 釜山 (FF-959)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = KOR version_name = "蔚山级护卫舰" } } }
+			ship = { name = "ROKS 清 (FF-961)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = KOR version_name = "蔚山级护卫舰" } } }
+		}
+	}
+	fleet = {
+		name = "corvette Squadron 32"
+		naval_base = 4056
+		task_force = {
+			name = "corvette Squadron 32"
+			location = 4056 #Mokpo
+			ship = { name = "ROKS 仁川(FFG-811)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = KOR version_name = "仁川级/大邱级护卫舰" } } }
+			ship = { name = "ROKS 京畿 (FFG-812)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = KOR version_name = "仁川级/大邱级护卫舰" } } }
+			ship = { name = "ROKS 全北 (FFG-813)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = KOR version_name = "仁川级/大邱级护卫舰" } } }
+			ship = { name = "ROKS 江原(FFG-815)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = KOR version_name = "仁川级/大邱级护卫舰" } } }
+			ship = { name = "ROKS 忠北 (FFG-816)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = KOR version_name = "仁川级/大邱级护卫舰" } } }
+			ship = { name = "ROKS 光州 (FFG-817)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = KOR version_name = "仁川级/大邱级护卫舰" } } }
+		}
+	}
+	fleet = {
+		name = "submarine Force Command"
+		naval_base = 4056
+		task_force = {
+			name = "submarine Force Command"
+			location = 4056 #Donghae
+			ship = { name = "ROKS 张保皋 (SS-061)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = KOR version_name = "张保皋级潜艇" } } }
+			ship = { name = "ROKS 李春 (SS-062)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = KOR version_name = "张保皋级潜艇" } } }
+			ship = { name = "ROKS 崔茂宣 (SS-063)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = KOR version_name = "张保皋级潜艇" } } }
+			ship = { name = "ROKS 朴巍 (SS-065)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = KOR version_name = "张保皋级潜艇" } } }
+			ship = { name = "ROKS 李丛茂 (SS-066)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = KOR version_name = "张保皋级潜艇" } } }
+			ship = { name = "ROKS 郑运 (SS-067)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = KOR version_name = "张保皋级潜艇" } } }
+			ship = { name = "ROKS 李瞬欣 (SS-068)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = KOR version_name = "张保皋级潜艇" } } }
+			ship = { name = "ROKS 罗大勇 (SS-069)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = KOR version_name = "张保皋级潜艇" } } }
+			ship = { name = "ROKS 李亿祺 (SS-070)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = KOR version_name = "张保皋级潜艇" } } }
+		}
+	}
+}
+
+instant_effect = {
+	
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = "KOR"
+			version_name = "张保皋级潜艇"
+		}
+	                        name = "ROKS 岛山安昌浩 (SS-083)"
+	requested_factories = 5
+		progress = 0.1
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = "KOR"
+			version_name = "张保皋级潜艇"
+		}
+	                        name = "ROKS 安武 (SS-085)"
+	requested_factories = 5
+		progress = 0.1
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_2
+			creator = "KOR"
+			version_name = "仁川级/大邱级护卫舰"
+		}
+	                        name = "ROKS 忠南 (FFG-828)"
+	requested_factories = 5
+		progress = 0.6
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_2
+			creator = "KOR"
+			version_name = "世宗大王级驱逐舰"
+		}
+                name = "ROKS 正祖大王 (DDG-995)"
+		requested_factories = 5
+		progress = 0.3
+		amount = 1
+	}	
+}

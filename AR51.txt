@@ -1,0 +1,8 @@
+﻿units = {
+	division = {
+		name = "oOo"
+		location = 12399
+		division_template = "Armored Militia"
+		start_experience_factor = 0.2
+	}
+}

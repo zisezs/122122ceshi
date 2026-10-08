@@ -1,0 +1,85 @@
+﻿division_template = {
+	name = "Mushat Alshrye"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+	
+	support = {
+	}
+	
+	template_counter = 14
+}
+
+division_template = {
+	name = "Shajid Mubayl"
+	
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+		mot_militia = { x = 0 y = 1 }
+		mot_militia = { x = 0 y = 2 }
+	}
+	
+	support = {
+	}
+	
+	priority = 1
+	
+	template_counter = 11
+}
+
+division_template = {
+	name = "Wahdat Aldhiyb"
+	
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+	}
+	
+	support = {
+	}
+	
+	priority = 2
+
+}
+
+units = {
+	
+	division = {
+		name = "1. Mushat Alshrye"
+		location = 14528
+		division_template = "Mushat Alshrye"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Mushat Alshrye"
+		location = 13781
+		division_template = "Mushat Alshrye"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1. Shajid Mubayl"
+		location = 12248
+		division_template = "Shajid Mubayl"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Shajid Mubayl"
+		location = 14528
+		division_template = "Shajid Mubayl"
+		start_experience_factor = 0.1
+	}
+	
+	
+	division = {
+		name = "1. Wahdat Aldhiyb"
+		location = 13781
+		division_template = "Wahdat Aldhiyb"
+		start_experience_factor = 0.2
+	}
+
+}

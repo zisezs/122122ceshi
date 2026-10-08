@@ -1,0 +1,131 @@
+﻿division_template = {
+	name = "Spetsotryad Kazakov"
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		artillery_brigade = { x = 2 y = 0 }
+		light_mechanized = { x = 3 y = 0 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Bronetankovaya Brigada"
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_sp_artillery_brigade = { x = 1 y = 0 }
+		mechanized = { x = 2 y = 0 }
+		mechanized = { x = 2 y = 1 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Dobrovol'cheskaya Brigada"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 0 y = 4 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		anti_tank = { x = 0 y = 1 }
+		recon = { x = 0 y = 0 }
+	}
+	
+	priority = 0
+}
+
+units = {
+
+	division = {
+		name = "1ya Kubanskaya Pekhotnaya Diviziya"
+		location = 3734
+		division_template = "Spetsotryad Kazakov"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "2ya Kubanskaya Pekhotnaya Diviziya"
+		location = 3734
+		division_template = "Spetsotryad Kazakov"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "3ya Kubanskaya Pekhotnaya Diviziya"
+		location = 3734
+		division_template = "Spetsotryad Kazakov"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "4ya Kubanskaya Pekhotnaya Diviziya"
+		location = 3734
+		division_template = "Spetsotryad Kazakov"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "1ya Dobrovol'cheskaya Brigada"
+		location = 3734
+		division_template = "Dobrovol'cheskaya Brigada"
+		start_experience_factor = 0.1
+	}
+	
+	division = {	
+		name = "2ya Dobrovol'cheskaya Brigada"
+		location = 3734
+		division_template = "Dobrovol'cheskaya Brigada"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "3ya Dobrovol'cheskaya Brigada"
+		location = 3734 
+		division_template = "Dobrovol'cheskaya Brigada"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "4ya Dobrovol'cheskaya Brigada"
+		location = 3734 
+		division_template = "Dobrovol'cheskaya Brigada"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "5ya Dobrovol'cheskaya Brigada"
+		location = 3734 
+		division_template = "Dobrovol'cheskaya Brigada"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "6ya Dobrovol'cheskaya Brigada"
+		location = 3734 
+		division_template = "Dobrovol'cheskaya Brigada"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "24ya Bronetankovaya Brigada"
+		location = 3734 
+		division_template = "Bronetankovaya Brigada"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1ya Bronetankovaya Brigada"
+		location = 3734 
+		division_template = "Bronetankovaya Brigada"
+		start_experience_factor = 0.1
+	}
+}
+

@@ -1,0 +1,87 @@
+﻿division_template = {
+	name = "Volunteer Militia"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+}
+
+division_template = {
+	name = "Motorized Militia"
+	
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+		mot_militia = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+	
+}
+
+units = {
+	division = {
+		name = "1st Volunteer Brigade"
+		location = 13517
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.01
+	}
+	division = {
+		name = "2nd Volunteer Brigade"
+		location = 13511
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.01
+	}
+	division = {
+		name = "3rd Volunteer Brigade"
+		location = 7524
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.01
+	}
+	division = {
+		name = "4th Volunteer Brigade"
+		location = 4650
+		division_template = "Motorized Militia"
+		start_experience_factor = 0.01
+	}
+	division = {
+		name = "5th Volunteer Brigade"
+		location = 13590
+		division_template = "Motorized Militia"
+		start_experience_factor = 0.02
+	}
+	division = {
+		name = "6th Volunteer Brigade"
+		location = 13589
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.02
+	}
+	division = {
+		name = "7th Volunteer Brigade"
+		location = 13588
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.02
+	}
+	division = {
+		name = "8th Volunteer Brigade"
+		location = 10410
+		division_template = "Motorized Militia"
+		start_experience_factor = 0.01
+	}
+	division = {
+		name = "9th Volunteer Brigade"
+		location = 1559
+		division_template = "Motorized Militia"
+		start_experience_factor = 0.02
+	}
+	division = {
+		name = "10th Volunteer Brigade"
+		location = 7599
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.02
+	}
+}

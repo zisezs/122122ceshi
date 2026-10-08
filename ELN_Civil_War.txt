@@ -1,0 +1,112 @@
+﻿division_template = {
+	name = "Brigada de Infanteria"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+
+}
+
+division_template = {
+	name = "Brigada de la Milicia"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+	}
+	
+	support = {
+	}
+
+}
+
+division_template = {
+	name = "Milicia Motorizada"
+	
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+		mot_militia = { x = 0 y = 1 }
+		mot_militia = { x = 0 y = 2 }
+	}
+	
+	support = {
+		apc_company = { x = 0 y = 0 }
+	}
+	
+	priority = 1
+	
+	template_counter = 11
+}
+
+units = {
+	division = {
+		name = "1. Brigada de Infanteria"
+		location = 12729
+		division_template = "Brigada de Infanteria"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Brigada de Infanteria"
+		location = 12825
+		division_template = "Brigada de Infanteria"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3. Brigada de Infanteria"
+		location = 12729
+		division_template = "Brigada de Infanteria"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1. Brigada de la Milicia"
+		location = 12770
+		division_template = "Brigada de la Milicia"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Brigada de la Milicia"
+		location = 12770
+		division_template = "Brigada de la Milicia"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "3. Brigada de la Milicia"
+		location = 12770
+		division_template = "Brigada de la Milicia"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "4. Brigada de la Milicia"
+		location = 12770
+		division_template = "Brigada de la Milicia"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1. Milicia Motorizada"
+		location = 12825
+		division_template = "Milicia Motorizada"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Milicia Motorizada"
+		location = 12825
+		division_template = "Milicia Motorizada"
+		start_experience_factor = 0.1
+	}
+}

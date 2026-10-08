@@ -1,0 +1,26 @@
+﻿units = {
+	### Naval OOB ###
+	fleet = {
+		name = "Rannikkolaivasto"
+		
+		naval_base = 3083
+		
+		task_force = {
+			name = "6. Pintatorjuntalaivue"
+			location = 3083
+			ship = { name = "PGG Rauma" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN }}}
+			ship = { name = "PGG Raahe" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN }}}
+			ship = { name = "PGG Porvoo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN }}}
+			ship = { name = "PGG Naantali" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN }}}
+		}
+		
+		task_force = {
+			name = "7. Pintatorjuntalaivue"
+			location = 11105
+			ship = { name = "PGG Hamina" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN }}}
+			ship = { name = "PGG Tornio" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN }}}
+			ship = { name = "PGG Hanko" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN }}}
+			ship = { name = "PGG Pori" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FIN }}}
+		}
+	}
+}

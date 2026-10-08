@@ -1,0 +1,100 @@
+﻿division_template = {
+	name = "Volunteer Brigade"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+		
+}
+
+division_template = {
+	name = "Motorized Militia"
+	
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+		mot_militia = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+	
+}
+
+division_template = {
+	name = "National Guard"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		artillery_brigade = { x = 1 y = 0 }
+		infantry = { x = 2 y = 0 }
+	}
+	
+	support = {
+	}
+	
+	priority = 2
+}
+
+units = {
+	
+	division = {
+		name = "1st Arkansas Defense Brigade"
+		location = 10477
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "2nd Arkansas Defense Brigade"
+		location = 4444
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "3rd Arkansas Defense Brigade"
+		location = 1646
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "4th Arkansas Defense Brigade"
+		location = 4625
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "5th Arkansas Defense Brigade"
+		location = 7586
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "6th Arkansas Defense Brigade"
+		location = 10477
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "1st Arkansas National Guard Brigade"
+		location = 4444
+		division_template = "National Guard"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "2nd Arkansas National Guard Brigade"
+		location = 4625
+		division_template = "National Guard"
+		start_experience_factor = 0.01
+	}
+	
+}

@@ -1,0 +1,68 @@
+﻿division_template = {
+	name = "Suirikukidodan"
+	
+	regiments = {
+		amphibious_mechanized = { x = 0 y = 0 }
+		amphibious_mechanized = { x = 0 y = 1 }
+		amphibious_mechanized = { x = 0 y = 2 }
+		modern_sp_artillery_brigade = { x = 0 y = 3 }
+		
+		amphibious_mechanized = { x = 1 y = 0 }
+		amphibious_mechanized = { x = 1 y = 1 }
+		amphibious_mechanized = { x = 1 y = 2 }
+		modern_sp_artillery_brigade = { x = 1 y = 3 }
+		
+		amphibious_mechanized = { x = 2 y = 0 }
+		amphibious_mechanized = { x = 2 y = 1 }
+	}
+	
+	support = {
+	}
+	
+}
+
+
+units = {
+	division = {
+		name = "1st Suirikukidodan"
+		location = 1158
+		division_template = "Suirikukidodan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "2nd Suirikukidodan"
+		location = 1158
+		division_template = "Suirikukidodan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "3rd Suirikukidodan"
+		location = 1158
+		division_template = "Suirikukidodan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "4th Suirikukidodan"
+		location = 4164
+		division_template = "Suirikukidodan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "5th Suirikukidodan"
+		location = 4164
+		division_template = "Suirikukidodan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "6th Suirikukidodan"
+		location = 7110
+		division_template = "Suirikukidodan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "7th Suirikukidodan"
+		location = 7110
+		division_template = "Suirikukidodan"
+		start_experience_factor = 0.1
+	}
+}

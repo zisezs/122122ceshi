@@ -1,0 +1,183 @@
+﻿	units = {
+
+		division = {
+			name = "1. Volunteer Brigade"
+			location = 12642
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		division = {
+			name = "2. Volunteer Brigade"
+			location = 12642
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		division = {
+			name = "3. Volunteer Brigade"
+			location = 12642
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		division = {
+			name = "4. Volunteer Brigade"
+			location = 12642
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		division = {
+			name = "6. Volunteer Brigade"
+			location = 12642
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		division = {
+			name = "7. Volunteer Brigade"
+			location = 12642
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		division = {
+			name = "8. Volunteer Brigade"
+			location = 12642
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		division = {
+			name = "9. Volunteer Brigade"
+			location = 12642
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		division = {
+			name = "10. Volunteer Brigade"
+			location = 12642
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		division = {
+			name = "11. Volunteer Brigade"
+			location = 12642
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		division = {
+			name = "12. Volunteer Brigade"
+			location = 12642
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		division = {
+			name = "13. Volunteer Brigade"
+			location = 12642
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		division = {
+			name = "14. Volunteer Brigade"
+			location = 12642
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		division = {
+			name = "15. Volunteer Brigade"
+			location = 12642
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		division = {
+			name = "16. Volunteer Brigade"
+			location = 12642
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		division = {
+			name = "17. Volunteer Brigade"
+			location = 12642
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		division = {
+			name = "18. Volunteer Brigade"
+			location = 12642
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		division = {
+			name = "19. Volunteer Brigade"
+			location = 12642
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		division = {
+			name = "20. Volunteer Brigade"
+			location = 12642
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		division = {
+			name = "21. Volunteer Brigade"
+			location = 12642
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		division = {
+			name = "22. Volunteer Brigade"
+			location = 12642
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		division = {
+			name = "23. Volunteer Brigade"
+			location = 12642
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		division = {
+			name = "24. Volunteer Brigade"
+			location = 12642
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		division = {
+			name = "25. Volunteer Brigade"
+			location = 12642
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		division = {
+			name = "26. Volunteer Brigade"
+			location = 12642
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		division = {
+			name = "27. Volunteer Brigade"
+			location = 12642
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		division = {
+			name = "28. Volunteer Brigade"
+			location = 12642
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		division = {
+			name = "29. Volunteer Brigade"
+			location = 12642
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		division = {
+			name = "30. Volunteer Brigade"
+			location = 12642
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		division = {
+			name = "31. Volunteer Brigade"
+			location = 12642
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+	}

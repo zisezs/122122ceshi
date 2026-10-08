@@ -1,0 +1,97 @@
+﻿division_template = {
+	name = "Motor Rifle Division"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		light_mechanized = { x = 1 y = 0 }
+		light_mechanized = { x = 1 y = 1 }
+		light_armor = { x = 1 y = 2 }
+		modern_armor = { x = 2 y = 0 }
+		modern_armor = { x = 2 y = 1 }
+		modern_armor = { x = 2 y = 2 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+		artillery_brigade = { x = 3 y = 2 }
+		spaa_brigade = { x = 4 y = 0 }
+		modern_sp_artillery_brigade = { x = 4 y = 1 }
+	}
+}
+division_template = {
+	name = "Motor Rifle Brigade"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		light_mechanized = { x = 0 y = 2 }
+		modern_armor = { x = 1 y = 0 }
+		artillery_brigade = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
+
+	}
+
+	support = {
+		mot_recon = { x = 0 y = 0 }
+		spa_company = { x = 0 y = 1 }
+		spaa_company = { x = 0 y = 2 }
+		engineer = { x = 0 y = 3 }
+	}
+
+}
+division_template = {
+	name = "Special Forces"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+
+	}
+
+	priority = 2
+}
+
+units = {
+	division = {
+		name = "Special Forces"
+		location = 12333
+		division_template = "Special Forces"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "3rd Motor Rifle Division"
+		location = 4549
+		division_template = "Motor Rifle Division"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "22nd Motor Rifle Division"
+		location = 5003
+		division_template = "Motor Rifle Division"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Motor Rifle Brigade"
+		location = 7477
+		division_template = "Motor Rifle Brigade"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Motor Rifle Brigade"
+		location = 4958
+		division_template = "Motor Rifle Brigade"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Motor Rifle Brigade"
+		location = 7924
+		division_template = "Motor Rifle Brigade"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Motor Rifle Brigade"
+		location = 10485
+		division_template = "Motor Rifle Brigade"
+		start_experience_factor = 0.2
+	}
+}

@@ -1,0 +1,133 @@
+﻿division_template = {
+	name = "Prykordonnyi Zagin"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		artillery_brigade = { x = 0 y = 4 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		artillery_brigade = { x = 1 y = 4 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		anti_tank = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Natsionalna Hvardiya"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 1 y = 3 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "Volunteer Brigade 01 - 'Bandera'"
+		location = 11479
+		division_template = "Natsionalna Hvardiya"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "Volunteer Brigade 02 - 'National Liberation'"
+		location = 11479
+		division_template = "Natsionalna Hvardiya"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "Volunteer Brigade 03 - 'Glory'"
+		location = 9558
+		division_template = "Natsionalna Hvardiya"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "Volunteer Brigade 04 - 'Slava Heroyam'"
+		location = 9454
+		division_template = "Natsionalna Hvardiya"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "Volunteer Brigade 05 - 'Sunflower'"
+		location = 3483
+		division_template = "Natsionalna Hvardiya"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "Volunteer Brigade 06 - 'Golden Fields'"
+		location = 11427
+		division_template = "Natsionalna Hvardiya"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "Volunteer Brigade 07 - 'Storm'"
+		location = 3562
+		division_template = "Natsionalna Hvardiya"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "Volunteer Brigade 08 - 'Ivano'"
+		location = 491
+		division_template = "Natsionalna Hvardiya"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "Volunteer Brigade 09 - 'Svoboda'"
+		location = 9468
+		division_template = "Natsionalna Hvardiya"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "Volunteer Brigade 10 - 'Totalʹnist'"
+		location = 11536
+		division_template = "Natsionalna Hvardiya"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "1st Reorganized Free Army Brigade"
+		location = 11691
+		division_template = "Prykordonnyi Zagin"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "2nd Reorganized Free Army Brigade"
+		location = 3548
+		division_template = "Prykordonnyi Zagin"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "3rd Reorganized Free Army Brigade"
+		location = 9563
+		division_template = "Prykordonnyi Zagin"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "4th Reorganized Free Army Brigade"
+		location = 438
+		division_template = "Prykordonnyi Zagin"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "5th Reorganized Free Army Brigade"
+		location = 536
+		division_template = "Prykordonnyi Zagin"
+		start_experience_factor = 0.5
+	}
+}

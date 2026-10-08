@@ -1,0 +1,127 @@
+﻿division_template = {
+	name = "Mindandao Guerilla"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
+	}
+	
+	support = {
+	}
+}
+
+division_template = {
+	name = "Citizen National Guard"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+		logistics_company = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+units = {
+
+	division = {
+		name = "1st Mindandao Militia 'Maisug na Mandirigma'"
+		location = 10300
+		division_template = "Mindandao Guerilla"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "2nd Mindandao Militia 'Haribon ng Davao'"
+		location = 12273
+		division_template = "Mindandao Guerilla"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "3rd Mindandao Militia 'Kampilan'"
+		location = 12273
+		division_template = "Mindandao Guerilla"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "4th Mindandao Militia 'Panabas'"
+		location = 12217
+		division_template = "Mindandao Guerilla"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "5th Mindandao Militia 'Kalis'"
+		location = 10214
+		division_template = "Mindandao Guerilla"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "1st Citizen National Guard"
+		location = 10300
+		division_template = "Citizen National Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "2nd Citizen National Guard"
+		location = 12273
+		division_template = "Citizen National Guard"
+		start_experience_factor = 0.1
+	}
+
+		division = {
+		name = "3nd Citizen National Guard"
+		location = 12273
+		division_template = "Citizen National Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "4th Citizen National Guard"
+		location = 12158
+		division_template = "Citizen National Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Army Deserters"
+		location = 1234
+		division_template = "Citizen National Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Army Deserters"
+		location = 4266
+		division_template = "Citizen National Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Army Deserters"
+		location = 12217
+		division_template = "Citizen National Guard"
+		start_experience_factor = 0.1
+	}
+	
+}

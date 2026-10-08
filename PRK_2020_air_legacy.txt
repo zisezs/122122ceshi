@@ -1,0 +1,22 @@
+﻿### Air OOB ###
+
+air_wings = {
+	1043 = {
+		fighter_equipment_1 = {
+			owner = "PRK" 
+			amount = 420
+		}
+		CAS_equipment_2 = {
+			owner = "PRK" 
+			amount = 35
+		}
+	}
+	873 = {
+		#F-6
+		fighter_equipment_1 = {
+			owner = "PRK" 
+			amount = 87
+		}
+
+	}
+}

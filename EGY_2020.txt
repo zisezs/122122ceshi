@@ -1,0 +1,292 @@
+﻿division_template = {
+	name = "Firqa Moudar'a"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+		modern_armor = { x = 2 y = 0 }
+		modern_armor = { x = 2 y = 1 }
+		modern_armor = { x = 2 y = 2 }
+		spaa_brigade = { x = 3 y = 0 }
+		modern_sp_artillery_brigade = { x = 3 y = 1 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Firqa Mushat Mechaniqui"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+		modern_armor = { x = 2 y = 0 }
+		modern_armor = { x = 2 y = 1 }
+		spaa_brigade = { x = 2 y = 2 }
+		modern_sp_artillery_brigade = { x = 2 y = 3 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Firqat Almushaa"
+
+	regiments = {
+		light_mechanized = { x = 0 y = 0 }
+		light_mechanized = { x = 0 y = 1 }
+		light_mechanized = { x = 0 y = 2 }
+		light_mechanized = { x = 1 y = 0 }
+		light_mechanized = { x = 1 y = 1 }
+		light_mechanized = { x = 1 y = 2 }
+		spaa_brigade = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 1 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+		mbt_company = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Liwa Alhawa Almahmul"
+	
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		paratrooper = { x = 0 y = 3 }
+	}
+	
+	support = {
+	
+	}
+	
+	priority = 2
+}
+
+division_template = {
+	name = "Quwwat El Saa‘qa"
+	
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+	}
+	
+	support = {
+	}
+	
+	priority = 2
+}
+
+units = {
+	division = {	
+		name = "1. Firqa Moudar'a Alharas Aljumhuriu"
+		location = 10073
+		division_template = "Firqa Moudar'a"
+		start_experience_factor = 0.2
+		
+	}
+	division = {	
+		name = "33. Liwa Mudarae Lilharas Aljumhurii"
+		location = 11964
+		division_template = "Firqa Moudar'a"
+		start_experience_factor = 0.2
+		
+	}
+	division = {	
+		name = "35. Liwa' Alharas Aljumhurii Alali"
+		location = 10073
+		division_template = "Firqa Mushat Mechaniqui"
+		start_experience_factor = 0.5
+		
+	}
+	division = {	
+		name = "4. Firqat Mudaraea"
+		location = 4076
+		division_template = "Firqa Moudar'a"
+		start_experience_factor = 0.2
+		
+	}
+	division = {	
+		name = "6. Firqat Mudaraea"
+		location = 4145
+		division_template = "Firqa Moudar'a"
+		start_experience_factor = 0.2
+		
+	}
+	division = {	
+		name = "9. Firqat Mudaraea"
+		location = 7164
+		division_template = "Firqa Moudar'a"
+		start_experience_factor = 0.2
+		
+	}
+	division = {	
+		name = "21. Firqat Mudaraea"
+		location = 4076
+		division_template = "Firqa Moudar'a"
+		start_experience_factor = 0.5
+		
+	}
+	division = {	
+		name = "2. Firqat Almushaa"
+		location = 11974
+		division_template = "Firqat Almushaa"
+		start_experience_factor = 0.2
+		
+	}
+	division = {	
+		name = "3. Firqa Mushat Mechaniqui"
+		location = 7144
+		division_template = "Firqa Mushat Mechaniqui"
+		start_experience_factor = 0.2
+		
+	}
+	division = {	
+		name = "7. Firqa Mushat Mechaniqui"
+		location = 11974
+		division_template = "Firqa Mushat Mechaniqui"
+		start_experience_factor = 0.4
+		
+	}
+	division = {	
+		name = "16. Firqa Mushat Mechaniqui"
+		location = 12049
+		division_template = "Firqa Mushat Mechaniqui"
+		start_experience_factor = 0.2
+		
+	}
+	division = {	
+		name = "18. Firqa Mushat Mechaniqui"
+		location = 1155
+		division_template = "Firqa Mushat Mechaniqui"
+		start_experience_factor = 0.2
+		
+	}
+	division = {	
+		name = "23. Firqa Mushat Mechaniqui"
+		location = 12049
+		division_template = "Firqa Mushat Mechaniqui"
+		start_experience_factor = 0.5
+		
+	}
+	division = {	
+		name = "33. Firqa Mushat Mechaniqui"
+		location = 12049
+		division_template = "Firqa Mushat Mechaniqui"
+		start_experience_factor = 0.2
+		
+	}
+	division = {	
+		name = "36. Firqa Mechaniqui"
+		location = 9947
+		division_template = "Firqa Mushat Mechaniqui"
+		start_experience_factor = 0.2
+		
+	}
+	division = {	
+		name = "170. Liwa Alhawa Almahmul"
+		location = 12049
+		division_template = "Liwa Alhawa Almahmul"
+		start_experience_factor = 0.5
+		
+	}
+	division = {	
+		name = "182. Liwa Alhawa Almahmul"
+		location = 10005
+		division_template = "Liwa Alhawa Almahmul"
+		start_experience_factor = 0.2
+		
+	}
+	division = {	
+		name = "222. Liwa Alhawa Almahmul"
+		location = 11964
+		division_template = "Liwa Alhawa Almahmul"
+		start_experience_factor = 0.2
+		
+	}
+	division = {	
+		name = "224. Liwa Alhawa Almahmul"
+		location = 10073
+		division_template = "Liwa Alhawa Almahmul"
+		start_experience_factor = 0.2
+		
+	}
+	division = {	
+		name = "117. Quwwat El Saa‘qa"
+		location = 10005
+		division_template = "Quwwat El Saa‘qa"
+		start_experience_factor = 0.5
+		
+	}
+	division = {	
+		name = "123. Quwwat El Saa‘qa"
+		location = 12002
+		division_template = "Quwwat El Saa‘qa"
+		start_experience_factor = 0.2
+		
+	}
+	division = {	
+		name = "129. Quwwat El Saa‘qa"
+		location = 9957
+		division_template = "Quwwat El Saa‘qa"
+		start_experience_factor = 0.2
+		
+	}
+	division = {	
+		name = "135. Quwwat El Saa‘qa"
+		location = 12889
+		division_template = "Quwwat El Saa‘qa"
+		start_experience_factor = 0.2
+		
+	}
+	division = {	
+		name = "141. Quwwat El Saa‘qa"
+		location = 12002
+		division_template = "Quwwat El Saa‘qa"
+		start_experience_factor = 0.5
+		
+	}
+	division = {	
+		name = "147. Quwwat El Saa‘qa"
+		location = 4073
+		division_template = "Quwwat El Saa‘qa"
+		start_experience_factor = 0.2
+		
+	}
+	division = {	
+		name = "153. Quwwat El Saa‘qa"
+		location = 12004
+		division_template = "Quwwat El Saa‘qa"
+		start_experience_factor = 0.2
+		
+	}
+	division = {	
+		name = "159. Quwwat El Saa‘qa"
+		location = 4073
+		division_template = "Quwwat El Saa‘qa"
+		start_experience_factor = 0.5
+		
+	}
+}

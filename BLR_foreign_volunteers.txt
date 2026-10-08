@@ -1,0 +1,70 @@
+﻿division_template = {
+	name = "Zamieznaja Dobraachvotnickaja Bryhada"
+
+	regiments = {						
+		special_forces = { x = 0 y = 0 } 
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+	}
+	
+	support = {
+		signal_company = { x = 0 y = 0 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Mekhanizovana Bryhada"
+	
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		modern_armor = { x = 1 y = 0 }
+		modern_sp_artillery_brigade = { x = 1 y = 1 }
+		modern_sp_artillery_brigade = { x = 1 y = 2 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }		
+		spaa_company = { x = 0 y = 1 }		
+		signal_company = { x = 0 y = 2 }	
+		maintenance_company = { x = 0 y = 3 }	
+		anti_tank = { x = 0 y = 4 }	
+	}
+}
+
+units = {
+	division = {			
+		name = "1. Zamieznaja dobraachvotnickaja bryhada"
+		location = 3392
+		division_template = "Zamieznaja Dobraachvotnickaja Bryhada"
+		start_experience_factor = 0.4
+		force_equipment_variants = { infantry_equipment_4 = { owner = "CZE" } }
+		force_equipment_variants = { anti_tank_equipment_1 = { owner = "ENG" } }
+	}
+	division = {			
+		name = "2. Zamieznaja dobraachvotnickaja bryhada"
+		location = 3392
+		division_template = "Zamieznaja Dobraachvotnickaja Bryhada"
+		start_experience_factor = 0.4
+		force_equipment_variants = { infantry_equipment_4 = { owner = "CZE" } }
+		force_equipment_variants = { anti_tank_equipment_1 = { owner = "ENG" } }
+	}
+	division = {			
+		name = "53-tya Mekhanizovana Bryhada Imeni Knyazya Volodymyra Monomakha"
+		location = 11503
+		division_template = "Mekhanizovana Bryhada"
+		start_experience_factor = 0.4
+		force_equipment_variants = { infantry_equipment_2 = { owner = "UKR" } }
+		force_equipment_variants = { anti_tank_equipment_1 = { owner = "UKR" } }
+	}
+	division = {			
+		name = "28-ma Mekhanizovana Bryhada Imeni Lytsariv Zymovoho Pokhodu"
+		location = 11503
+		division_template = "Mekhanizovana Bryhada"
+		start_experience_factor = 0.4
+		force_equipment_variants = { infantry_equipment_2 = { owner = "UKR" } }
+		force_equipment_variants = { anti_tank_equipment_1 = { owner = "UKR" } }
+	}
+}

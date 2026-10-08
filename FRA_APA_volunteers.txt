@@ -1,0 +1,32 @@
+division_template = {
+	name = "Volontaires Internationaux"
+	is_locked = yes
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+	}
+	
+	support = {
+		mot_recon = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division = {			
+		name = "87ème ''Robespierre'' Volontaires Internationaux"
+		location = 11876
+		division_template = "Volontaires Internationaux"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1.0
+		officer = {
+			name = "'Le Jacobin'"
+			portraits = {
+				army = {
+					large=GFX_Portrait_FRA_generic_general_4
+					small="GFX_Portrait_idea_FRA_generic_general_4"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,304 @@
+﻿division_template = {
+	name = "Bobyeong Yeodan" 
+
+	regiments = {						
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		artillery_brigade = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Jeondong Yeodan"
+
+	regiments = {						
+		motorized = { x = 0 y = 0 } 
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 } 
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 } 
+		modern_sp_artillery_brigade = { x = 2 y = 1 }
+	}
+	support = {
+		spaa_company = { x = 0 y = 0 } 
+	}
+}
+
+division_template = {
+	name = "Gab-os Yeodan" 
+
+	regiments = {						
+		modern_armor = { x = 0 y = 0 } 
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		modern_armor = { x = 1 y = 0 } 
+		modern_armor = { x = 1 y = 1 }
+		modern_armor = { x = 1 y = 2 }
+		light_mechanized = { x = 2 y = 0 } 
+		mechanized = { x = 2 y = 1 }
+		motorized = { x = 3 y = 0 }
+		motorized = { x = 3 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Teugsu Budae"
+
+	regiments = {						
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+	}
+	support = {
+		
+	}
+}
+
+division_template = {
+	name = "Jiwonja Minbyeongdae"
+
+	regiments = {						
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 0 y = 4 }
+		
+	}
+	support = {
+	
+	}
+	
+	template_counter = 15
+}
+
+
+units = {
+	division = {
+		name = "1st Bobyeong Yeodan"
+		location = 9795
+		division_template = "Bobyeong Yeodan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Bobyeong Yeodan"
+		location = 11770
+		division_template = "Bobyeong Yeodan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Bobyeong Yeodan"
+		location = 978
+		division_template = "Bobyeong Yeodan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Bobyeong Yeodan"
+		location = 11896
+		division_template = "Bobyeong Yeodan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "5th Bobyeong Yeodan"
+		location = 7171
+		division_template = "Bobyeong Yeodan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "7th Bobyeong Yeodan"
+		location = 13710
+		division_template = "Bobyeong Yeodan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "8th Bobyeong Yeodan"
+		location = 978
+		division_template = "Bobyeong Yeodan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "9th Bobyeong Yeodan"
+		location = 11896
+		division_template = "Bobyeong Yeodan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "10th Bobyeong Yeodan"
+		location = 7171
+		division_template = "Bobyeong Yeodan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "11th Bobyeong Yeodan"
+		location = 13710
+		division_template = "Bobyeong Yeodan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Jeondong Yeodan"
+		location = 13696
+		division_template = "Jeondong Yeodan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Jeondong Yeodan"
+		location = 10065
+		division_template = "Jeondong Yeodan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Gab-os Yeodan"
+		location = 13686
+		division_template = "Gab-os Yeodan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Gab-os Yeodan"
+		location = 12040
+		division_template = "Gab-os Yeodan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd Gab-os Yeodan"
+		location = 13688
+		division_template = "Gab-os Yeodan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Gab-os Yeodan"
+		location = 11770
+		division_template = "Gab-os Yeodan"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Teugsu Budae"
+		location = 13687
+		division_template = "Teugsu Budae"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "2nd Teugsu Budae"
+		location = 13720
+		division_template = "Teugsu Budae"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "3rd Teugsu Budae"
+		location = 13720
+		division_template = "Teugsu Budae"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "4th Teugsu Budae"
+		location = 13720
+		division_template = "Teugsu Budae"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "1st Jiwonja Minbyeongdae"
+		location = 13705
+		division_template = "Jiwonja Minbyeongdae"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Jiwonja Minbyeongdae"
+		location = 912
+		division_template = "Jiwonja Minbyeongdae"
+		start_experience_factor = 0.2
+	}
+}
+
+instant_effect = {
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_1
+		amount = 1000
+		producer = SV1
+	}
+	
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_2
+		amount = 100
+		producer = PRC
+	}
+	
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_1
+		amount = 6000
+		producer = PRC
+	}
+	
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_2
+		amount = 6000
+		producer = SV1
+	}
+	
+	add_equipment_to_stockpile = {
+		type = anti_tank_equipment_1			
+		amount = 600
+		producer = SV1
+	}
+	
+	add_equipment_to_stockpile = {
+		type = modern_tank_destroyer_equipment_1			
+		amount = 700
+		producer = SV1
+	}
+	
+	add_equipment_to_stockpile = {
+		type = anti_tank_equipment_1			
+		amount = 300
+		producer = SV1
+	}
+	
+	add_equipment_to_stockpile = {
+		type = modern_tank_equipment_1
+		amount = 250
+		producer = SV1
+	}
+	
+	add_equipment_to_stockpile = {
+		type = modern_tank_equipment_2
+		amount = 250
+		producer = SV1
+	}
+	
+	add_equipment_to_stockpile = {
+		type = light_mechanized_equipment_1
+		amount = 200
+		producer = SV1
+	}
+	
+	add_equipment_to_stockpile = {
+		type = motorized_equipment_1
+		amount = 450
+		producer = SV1
+	}
+	
+	add_equipment_to_stockpile = {
+		type = motorized_equipment_1
+		amount = 310
+		producer = PRC
+	}
+	
+	add_equipment_to_stockpile = {
+		type = motorized_equipment_1
+		amount = 300
+		producer = PRK
+	}
+	
+	add_equipment_to_stockpile = {
+		type = modern_tank_artillery_equipment_1
+		amount = 400
+		producer = SV1
+	}
+}

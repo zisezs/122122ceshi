@@ -1,0 +1,44 @@
+﻿division_template = {
+	name = "Zoes"
+	regiments = {
+		militia = {
+			x = 0
+			y = 0
+		}
+	}
+	support = {
+	}
+}
+
+units = {
+	division = {
+		name = "Hitters"
+		location = 13332
+		division_template = "Zoes"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Hitters"
+		location = 10489
+		division_template = "Zoes"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Hitters"
+		location = 13333
+		division_template = "Zoes"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Hitters"
+		location = 13334
+		division_template = "Zoes"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Hitters"
+		location = 10489
+		division_template = "Zoes"
+		start_experience_factor = 0.1
+	}
+}

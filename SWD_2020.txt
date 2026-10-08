@@ -1,0 +1,123 @@
+﻿division_template = {
+	name = "Milisbrigad"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+	}
+	
+	support = {
+	}
+	
+	priority = 0
+}
+
+units = {
+	division = {			
+		name = "1. Milisbrigad"
+		location = 383
+		division_template = "Milisbrigad"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "2. Milisbrigad"
+		location = 3386
+		division_template = "Milisbrigad"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "3. Milisbrigad"
+		location = 6406
+		division_template = "Milisbrigad"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "4. Milisbrigad"
+		location = 3286
+		division_template = "Milisbrigad"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "5. Milisbrigad"
+		location = 3375
+		division_template = "Milisbrigad"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "6. Milisbrigad"
+		location = 3063
+		division_template = "Milisbrigad"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "32. Lätt Mekaniserad Brigad"
+		location = 9054
+		division_template = "Lätt Mekaniserad Brigad"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "111. Lätt Mekaniserad Brigad"
+		location = 3141
+		division_template = "Lätt Mekaniserad Brigad"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "44. Lätt Skyttebataljon"
+		location = 9218	
+		division_template = "Lätt Skyttebataljon"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "60. Lätt Skyttebataljon"
+		location = 6195
+		division_template = "Lätt Skyttebataljon"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "256. Lätt Pansarregement"
+		location = 6406
+		division_template = "Pansarregement"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "23. Milisbrigad"
+		location = 11114
+		division_template = "Milisbrigad"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "24 Milisbrigad"
+		location = 11114
+		division_template = "Milisbrigad"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "25 Milisbrigad"
+		location = 11114
+		division_template = "Milisbrigad"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "26 Milisbrigad"
+		location = 11114
+		division_template = "Milisbrigad"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+}

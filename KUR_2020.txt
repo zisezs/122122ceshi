@@ -1,0 +1,107 @@
+﻿division_template = {
+	name = "Lîwaya Tankê"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		mechanized = { x = 1 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		light_tank_recon = { x = 0 y = 1 }
+		spa_company = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Lîwaya Pîyde Mekîneyî"
+
+	regiments = {
+		light_mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+	}
+	support = {
+		spa_company = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		light_tank_recon = { x = 0 y = 2 }
+		mbt_company = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Lîwaya Pîyde"
+
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+		mot_militia = { x = 0 y = 1 }
+		mot_militia = { x = 0 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Lîwaya Militan"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+
+	priority = 0
+}
+
+division_template = {
+	name = "Lîwaya Hêzên Taybet"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+	}
+
+	priority = 2
+}
+
+units = {
+	division = {
+		name = "1. Lîwaya Parastina Herêmî"
+		location = 3916
+		division_template = "Lîwaya Tankê"
+		start_experience_factor = 0.15
+	}
+	division = {
+		name = "2. Lîwaya Parastina Herêmî"
+		location = 14010
+		division_template = "Lîwaya Pîyde Mekîneyî"
+		start_experience_factor = 0.15
+	}
+	division = {
+		name = "Hêza Parastina Êzîdxanê"
+		location = 10811
+		division_template = "Lîwaya Militan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Yekîneyên Berxwedana Şengalê"
+		location = 10804
+		division_template = "Lîwaya Militan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "1. Lîwaya PUD"
+		location = 14009
+		division_template = "Lîwaya Pîyde"
+		start_experience_factor = 0.15
+	}
+	division = {
+		name = "Hêza Reş"
+		location = 14008 
+		division_template = "Lîwaya Hêzên Taybet"
+		start_experience_factor = 0.2
+	}
+}

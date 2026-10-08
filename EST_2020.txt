@@ -1,0 +1,34 @@
+﻿division_template = {
+	name = "Jalaväebrigaad"
+	
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		light_mechanized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		artillery_brigade = { x = 0 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "1. Jalaväebrigaad"
+		location = 4640
+		division_template = "Jalaväebrigaad"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "2. Jalaväebrigaad"
+		location = 592
+		division_template = "Jalaväebrigaad"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "3. Jalaväebrigaad"
+		location = 3152
+		division_template = "Jalaväebrigaad"
+		start_experience_factor = 0.3
+	}
+}

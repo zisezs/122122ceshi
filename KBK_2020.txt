@@ -1,0 +1,84 @@
+﻿division_template = {
+	name = "Bryhada Operatyvnoho Pryznachennya"
+	
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Motopikhotna Bryhada"
+
+	regiments = {					
+		light_armor = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Polk Spetsialnoho Pryznachennya"
+
+	regiments = {						
+		special_forces = { x = 0 y = 0 } 
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 0 }
+	}
+	priority = 2
+}
+
+units = {
+
+	division = {
+		name = "74-yi Okremyi Rozviduvalnyi Batalyon"
+		location = 6517
+		division_template = "Motopikhotna Bryhada"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "131-yi Okremyi Rozviduvalnyi Batalyon"
+		location = 6517
+		division_template = "Motopikhotna Bryhada"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "143-yi Okremyi Rozviduvalnyi Batalyon"
+		location = 6517
+		division_template = "Motopikhotna Bryhada"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "1-yi Okremyi Zagin S.P. N.H.U. 'Azov'"
+		location = 6517
+		division_template = "Bryhada Operatyvnoho Pryznachennya"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "Polk Spetsialnoho Pryznachennya"
+		location = 6517
+		division_template = "Bryhada Operatyvnoho Pryznachennya"
+		start_experience_factor = 0.1
+	}
+}

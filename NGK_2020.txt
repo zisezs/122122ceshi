@@ -1,0 +1,63 @@
+﻿division_template = {
+	name = "Motohradzgayin Gndi"
+	
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		light_mechanized = { x = 0 y = 2 }
+		modern_sp_artillery_brigade = { x = 0 y = 3 }
+		modern_armor = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+	}
+	
+	support = {
+	}
+}
+division_template = {
+	name = "Hradzgayin Gndi"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		artillery_brigade = { x = 0 y = 3 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Hatuk Uzhery Gndi"
+	
+	regiments = { 
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+	
+	priority = 2
+}
+
+units = {
+	division = {	
+		name = "Artsakhi Motohradzgayin Gndi"
+		location = 1467	
+		division_template = "Motohradzgayin Gndi"
+		start_experience_factor = 0.2
+	}
+	division = {	
+		name = "2-nd Artsakhi Motohradzgayin Gndi"
+		location = 1610	
+		division_template = "Motohradzgayin Gndi"
+		start_experience_factor = 0.2
+	}
+	division = {	
+		name = "3-rd Artsakhi Hradzgayin Gndi"
+		location = 9715	
+		division_template = "Hradzgayin Gndi"
+		start_experience_factor = 0.2
+	}
+}

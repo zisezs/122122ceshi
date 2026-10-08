@@ -1,0 +1,275 @@
+﻿division_template = {
+	name = "Yavgan Tsergiin Brigad"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		artillery_brigade = { x= 0 y = 2 }
+	}
+	support = {
+		field_hospital = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Yavgan Tsergiin Angi"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+	priority = 0
+}
+division_template = {
+	name = "Artillyeriin Brigad"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		artillery_brigade = { x = 0 y = 1 }
+		artillery_brigade = { x= 0 y = 2 }
+	}
+	support = {
+		field_hospital = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Motorjuulsan Brigad"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 1 }
+		apc_company = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Motobuudlagiin Brigad"
+	
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	support = {
+		field_hospital = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Khuyagt Brigad"
+	
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+	support = {
+		field_hospital = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	
+	division = {
+		name = "16th Mechanized Brigade"
+		location = 4801
+		division_template = "Motobuudlagiin Brigad"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = { 
+			infantry_equipment_1 = { owner = "SOV" } 
+			mechanized_equipment_1 = { owner = "SOV" }
+			modern_tank_chassis_1 = { owner = "SOV" version_name = "T-72A" }
+		}
+	}
+	
+	division = {
+		name = "150th Motor Rifle Battalion"
+		location = 4801
+		division_template = "Motobuudlagiin Brigad"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = { 
+			infantry_equipment_1 = { owner = "SOV" } 
+			mechanized_equipment_1 = { owner = "SOV" }
+			modern_tank_chassis_1 = { owner = "SOV" version_name = "T-72A" }
+		}
+	}
+	division = {
+		name = "330th Infantry Unit"
+		location = 10554
+		division_template = "Yavgan Tsergiin Brigad"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = { 
+			infantry_equipment_1 = { owner = "SOV" } 
+			mechanized_equipment_1 = { owner = "SOV" }
+			modern_tank_chassis_1 = { owner = "SOV" version_name = "T-72A" }
+		}
+	}
+	division = {
+		name = "331st Special Battalion"
+		location = 10539
+		division_template = "Yavgan Tsergiin Brigad"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = { 
+			infantry_equipment_1 = { owner = "SOV" } 
+			mechanized_equipment_1 = { owner = "SOV" }
+			modern_tank_chassis_1 = { owner = "SOV" version_name = "T-72A" }
+		}
+	}
+	division = {
+		name = "345th Infantry Brigade"
+		location = 4732
+		division_template = "Yavgan Tsergiin Brigad"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = { 
+			infantry_equipment_1 = { owner = "SOV" } 
+			mechanized_equipment_1 = { owner = "SOV" }
+			modern_tank_chassis_1 = { owner = "SOV" version_name = "T-72A" }
+		}
+	}
+	division = {
+		name = "14th Infantry Unit"
+		location = 4801
+		division_template = "Yavgan Tsergiin Angi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = { 
+			infantry_equipment_1 = { owner = "SOV" } 
+			mechanized_equipment_1 = { owner = "SOV" }
+			modern_tank_chassis_1 = { owner = "SOV" version_name = "T-72A" }
+		}
+	}
+	division = {
+		name = "119th Infantry Unit"
+		location = 4732
+		division_template = "Yavgan Tsergiin Angi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = { 
+			infantry_equipment_1 = { owner = "SOV" } 
+			mechanized_equipment_1 = { owner = "SOV" }
+			modern_tank_chassis_1 = { owner = "SOV" version_name = "T-72A" }
+		}
+	}
+	division = {
+		name = "120th Artillery Unit"
+		location = 4801
+		division_template = "Artillyeriin Brigad"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+			force_equipment_variants = { 
+			infantry_equipment_1 = { owner = "SOV" } 
+			mechanized_equipment_1 = { owner = "SOV" }
+			modern_tank_chassis_1 = { owner = "SOV" version_name = "T-72A" }
+		}
+	}
+	division = {
+		name = "123th Infantry Unit"
+		location = 12520
+		division_template = "Yavgan Tsergiin Angi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = { 
+			infantry_equipment_1 = { owner = "SOV" } 
+			mechanized_equipment_1 = { owner = "SOV" }
+			modern_tank_chassis_1 = { owner = "SOV" version_name = "T-72A" }
+		}
+	}
+	division = {
+		name = "167th Artillery Unit"
+		location = 12669
+		division_template = "Artillyeriin Brigad"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = { 
+			infantry_equipment_1 = { owner = "SOV" } 
+			mechanized_equipment_1 = { owner = "SOV" }
+			modern_tank_chassis_1 = { owner = "SOV" version_name = "T-72A" }
+		}
+	}
+	division = {
+		name = "186th Infantry Unit"
+		location = 1859
+		division_template = "Yavgan Tsergiin Angi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = { 
+			infantry_equipment_1 = { owner = "SOV" } 
+			mechanized_equipment_1 = { owner = "SOV" }
+			modern_tank_chassis_1 = { owner = "SOV" version_name = "T-72A" }
+		}
+	}
+	division = {
+		name = "234th Infantry Unit"
+		location = 7676
+		division_template = "Yavgan Tsergiin Angi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = { 
+			infantry_equipment_1 = { owner = "SOV" } 
+			mechanized_equipment_1 = { owner = "SOV" }
+			modern_tank_chassis_1 = { owner = "SOV" version_name = "T-72A" }
+		}
+	}
+	division = {
+		name = "256th Infantry Unit"
+		location = 7881
+		division_template = "Yavgan Tsergiin Angi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = { 
+			infantry_equipment_1 = { owner = "SOV" } 
+			mechanized_equipment_1 = { owner = "SOV" }
+			modern_tank_chassis_1 = { owner = "SOV" version_name = "T-72A" }
+		}
+	}
+	division = {
+		name = "326th Infantry Unit"
+		location = 4801
+		division_template = "Yavgan Tsergiin Angi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = { 
+			infantry_equipment_1 = { owner = "SOV" } 
+			mechanized_equipment_1 = { owner = "SOV" }
+			modern_tank_chassis_1 = { owner = "SOV" version_name = "T-72A" }
+		}
+	}
+	division = {
+		name = "327th Infantry Unit"
+		location = 12557
+		division_template = "Yavgan Tsergiin Angi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = { 
+			infantry_equipment_1 = { owner = "SOV" } 
+			mechanized_equipment_1 = { owner = "SOV" }
+			modern_tank_chassis_1 = { owner = "SOV" version_name = "T-72A" }
+		}
+	}
+	division = {
+		name = "336th Infantry Unit"
+		location = 12612
+		division_template = "Yavgan Tsergiin Angi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = { 
+			infantry_equipment_1 = { owner = "SOV" } 
+			mechanized_equipment_1 = { owner = "SOV" }
+			modern_tank_chassis_1 = { owner = "SOV" version_name = "T-72A" }
+		}
+	}
+}

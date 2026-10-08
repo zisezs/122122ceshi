@@ -1,0 +1,40 @@
+division_template = {
+	name = "Zulu Militia"
+		
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+	}
+		
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {			
+		name = "1st Zulu Militia"
+		location = 8178
+		division_template = "Zulu Militia"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+
+	division = {			
+		name = "2nd Zulu Militia"
+		location = 8178
+		division_template = "Zulu Militia"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+
+	division = {			
+		name = "3rd Zulu Militia"
+		location = 8178
+		division_template = "Zulu Militia"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+}

@@ -1,0 +1,90 @@
+﻿division_template = {
+	name = "Brigada Mecanizada"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		light_mechanized = { x = 1 y = 0 }
+		light_mechanized = { x = 1 y = 1 }
+		modern_sp_artillery_brigade = { x = 1 y = 2 }
+	}
+	support = {
+		light_tank_recon = { x = 0 y = 0 }
+		spaa_company = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Brigada de Intervenção"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		artillery_brigade = { x = 1 y = 2 }
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Zona Militar"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Brigada de Reacção Rápida"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "Brigada Mecanizada"
+		location = 11805
+		division_template = "Brigada Mecanizada"
+		start_experience_factor = 0.75
+	}
+
+	division = {
+		name = "Brigada de Intervenção"
+		location = 9787
+		division_template = "Brigada de Intervenção"
+		start_experience_factor = 0.75
+	}
+
+	division = {
+		name = "Brigada de Reacção Rápida"
+		location = 924
+		division_template = "Brigada de Reacção Rápida"
+		start_experience_factor = 0.9
+	}
+
+	division = {
+		name = "Zona Militar dos Açores"
+		location = 1751
+		division_template = "Zona Militar"
+		start_experience_factor = 0.75
+	}
+
+	division = {
+		name = "Zona Militar da Madeira"
+		location = 3118
+		division_template = "Zona Militar"
+		start_experience_factor = 0.75
+	}
+}

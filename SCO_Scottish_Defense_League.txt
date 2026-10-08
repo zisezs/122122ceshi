@@ -1,0 +1,71 @@
+﻿division_template = {
+	name = "Scottish Defense League"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+	
+	support = {
+	}
+		
+}
+
+units = {
+	division = {
+		name = "1st Scottish Defense Force"
+		location = 3273
+		division_template = "Scottish Defense League"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "2nd Scottish Defense Force"
+		location = 3273
+		division_template = "Scottish Defense League"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "3rd Scottish Defense Force"
+		location = 3273
+		division_template = "Scottish Defense League"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "4th Scottish Defense Force"
+		location = 3273
+		division_template = "Scottish Defense League"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "5th Scottish Defense Force"
+		location = 9392
+		division_template = "Scottish Defense League"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Edinburgh Police Force"
+		location = 9392
+		division_template = "Scottish Defense League"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Edinburgh Police Force"
+		location = 9392
+		division_template = "Scottish Defense League"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "Rosyth Police Force"
+		location = 6300
+		division_template = "Scottish Defense League"
+		start_experience_factor = 0.0
+	}
+}

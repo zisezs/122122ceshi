@@ -1,0 +1,222 @@
+﻿division_template = {
+	name = "Headquarters Field Army"
+	is_locked = yes 
+	regiments = {
+		bus = { x = 0 y = 0 }
+	}
+	
+	support = {
+	}
+}
+
+division_template = {
+	name = "Air Assault Brigade"
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		paratrooper = { x = 0 y = 3 }
+		artillery_brigade = { x = 1 y = 0 }
+	}
+	
+	support = {
+	}
+}
+
+division_template = {
+	name = "Armoured Infantry Brigade"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		light_mechanized = { x = 0 y = 2 }
+		light_mechanized = { x = 0 y = 3 }
+		motorized = { x = 0 y = 4 }
+		modern_sp_artillery_brigade = { x = 1 y = 0 }
+	}
+	
+	support = {
+		signal_company = { x = 0 y = 0 }
+		logistics_company = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Infantry Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		artillery_brigade = { x = 1 y = 0 }
+	}
+	
+	support = {
+		signal_company = { x = 0 y = 0 }
+		logistics_company = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+		mot_recon = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Special Forces"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 0 }
+	}
+	
+	support = {
+	}
+	
+	priority = 2
+}
+
+division_template = {
+	name = "Marine Brigade"
+
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		recce = { x = 0 y = 3 }
+		artillery_brigade = { x = 1 y = 0 }
+	}
+	support = {
+		apc_company = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {	
+		name = "Headquarters Field Army"
+		location = 6103
+		division_template = "Headquarters Field Army"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {	
+		name = "16th Air Assault Brigade"
+		location = 271
+		division_template = "Air Assault Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "1st Armoured Infantry Brigade"
+		location = 11471
+		division_template = "Armoured Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "ENG" version_name = "FV101 Scorpion" } }
+		force_equipment_variants = { modern_tank_chassis_1 = { owner = "ENG" version_name = "FV4034 Challenger 2" } }
+	}
+	division = {	
+		name = "12th Armoured Infantry Brigade"
+		location = 6103
+		division_template = "Armoured Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "ENG" version_name = "FV101 Scorpion" } }
+		force_equipment_variants = { modern_tank_chassis_1 = { owner = "ENG" version_name = "FV4034 Challenger 2" } }
+	}
+	division = {	
+		name = "20th Armoured Infantry Brigade"
+		location = 3355
+		division_template = "Armoured Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "ENG" version_name = "FV101 Scorpion" } }
+		force_equipment_variants = { modern_tank_chassis_1 = { owner = "ENG" version_name = "FV4034 Challenger 2" } }
+	}
+	division = {	
+		name = "4th Infantry Brigade"
+		location = 9332
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "7th Infantry Brigade"
+		location = 6237
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "11th Infantry Brigade"
+		location = 507
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "38th Irish Brigade"
+		location = 3379
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "42nd Infantry Brigade"
+		location = 6335
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "51st Infantry Brigade"
+		location = 9392
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "160th Infantry Brigade"
+		location = 253
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "21st SAS Regiment"
+		location = 3241
+		division_template = "Special Forces"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "22nd SAS Regiment"
+		location = 3241
+		division_template = "Special Forces"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "23rd SAS Regiment"
+		location = 11333
+		division_template = "Special Forces"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "Special Recon Regiment"
+		location = 9297
+		division_template = "Special Forces"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "3 Commando Brigade"
+		location = 540
+		division_template = "Marine Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+}

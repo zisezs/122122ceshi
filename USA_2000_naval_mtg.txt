@@ -1,0 +1,460 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {
+		name = "Destroyer Squadron 1" #San Diego, CA
+		naval_base = 1562
+		task_force = {
+			name = "Destroyer Squadron 1" #San Diego, CA
+			location = 1562
+			ship = { name = "USS 威奇托 (LCS-13)" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "自由级/独立级濒海战斗舰" } } }
+			ship = { name = "USS 比林斯 (LCS-15)"  definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "自由级/独立级濒海战斗舰" } } }
+			ship = { name = "USS 苏城 (LCS-11)"  definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "自由级/独立级濒海战斗舰" } } }
+			ship = { name = "USS 小石城 (LCS-9)"  definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "自由级/独立级濒海战斗舰" } } }
+			ship = { name = "USS 底特律 (LCS-7)"  definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "自由级/独立级濒海战斗舰" } } }
+			ship = { name = "USS 密尔沃基(LCS-5)"  definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "自由级/独立级濒海战斗舰" } } }
+		}
+	}
+	fleet = {
+		name = "Destroyer Squadron 7" #San Diego, CA
+		naval_base = 1562
+		task_force = {
+			name = "Destroyer Squadron 7" #San Diego, CA
+			location = 1562
+			ship = { name = "USS 朱姆沃尔特 (DDG-1000)" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "朱姆沃尔特级大型驱逐舰" } } }
+			ship = { name = "USS 自由 (LCS-1)"  definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "自由级/独立级濒海战斗舰" } } }
+			ship = { name = "USS 约翰·保罗·琼斯 (DDG-53)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅰ型" } } }
+			ship = { name = "USS 本福尔德 (DDG-65)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅰ型" } } }
+			ship = { name = "USS 米利厄斯 (DDG-69)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅰ型" } } }
+			ship = { name = "USS 汤马士·哈德拿（DDG-116）" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅰ型" } } }
+		}	
+	}
+	fleet = {
+		name = "Destroyer Squadron 15" #Yokosuka, Japan - Moved to Guam
+		naval_base = 12140
+		task_force = {
+			name = "Destroyer Squadron 15" #Yokosuka, Japan - Moved to Guam
+			location = 12140
+			ship = { name = "USS 尼米兹 (CVN-68)" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = USA version_name = "尼米兹级航空母舰" } } }
+			ship = { name = "USS 迈克尔·蒙苏尔 (DDG-1001)" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "朱姆沃尔特级大型驱逐舰" } } }
+			ship = { name = "USS 莫比亚 (LCS-26)"  definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "自由级/独立级濒海战斗舰" } } }
+			ship = { name = "USS 奥克兰 (LCS-24)"  definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "自由级/独立级濒海战斗舰" } } }
+			ship = { name = "USS 柯蒂斯·威尔伯 (DDG-54)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅰ型" } } }
+			ship = { name = "USS 约翰·麦凯恩 (DDG-56)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅰ型" } } }
+			ship = { name = "USS 肖普 (DDG-86)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+			ship = { name = "USS 斯特雷特 (DDG-104)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+		}
+	}
+	fleet = {
+		name = "Destroyer Squadron 21" #San Diego, CA
+		naval_base = 1562
+		task_force = {
+			name = "Destroyer Squadron 21" #San Diego, CA
+			location = 1562
+			ship = { name = "USS 堪萨斯 (LCS-22)"  definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "自由级/独立级濒海战斗舰" } } }
+			ship = { name = "USS 辛辛那提 (LCS-20)"  definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "自由级/独立级濒海战斗舰" } } }
+			ship = { name = "USS 迪凯特 (DDG-73)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+			ship = { name = "USS 霍华德(DDG-83)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+			ship = { name = "USS 梅森 (DDG-87)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+		}
+	}
+	fleet = {
+		name = "Destroyer Squadron 23" #San Diego, CA
+		naval_base = 1562
+		task_force = {
+			name = "Destroyer Squadron 23" #San Diego, CA
+			location = 1562
+			ship = { name = "USS 查尔斯顿 (LCS-18)"  definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "自由级/独立级濒海战斗舰" } } }
+			ship = { name = "USS 菲茨杰拉德 (DDG-62)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅰ型" } } }
+			ship = { name = "USS 平克尼 (DDG-91)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+			ship = { name = "USS 查菲 (DDG-90)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+			ship = { name = "USS 普雷贝尔(DDG-88)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+		}
+	}
+	fleet = {
+		name = "Carrier Group 3" #San Diego, CA
+		naval_base = 1562
+		task_force = {
+			name = "Carrier Group 3" #San Diego, CA
+			location = 1562
+			ship = { name = "USS 卡尔文森 (CVN-70)" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = USA version_name = "尼米兹级航空母舰" } } }
+			ship = { name = "USS 德怀特·艾森豪威尔 (CVN-69)" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = USA version_name = "尼米兹级航空母舰" } } }
+			ship = { name = "USS 安提坦 (CG-54)" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "提康德罗加级巡洋舰" } } }
+			ship = { name = "USS 普林斯顿(CG-59)" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "提康德罗加级巡洋舰" } } }
+		}	
+	}
+	fleet = {
+		name = "Carrier Group 5" #Yokosuka, Japan - Moved to Guam
+		naval_base = 12140
+		task_force = {
+			name = "Carrier Group 5" #Yokosuka, Japan - Moved to Guam
+			location = 12140
+			ship = { name = "USS 罗纳德·里根 (CVN-76)" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = USA version_name = "尼米兹级航空母舰" } } }
+			ship = { name = "USS 乔治·H·W·布什 (CVN-77)" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = USA version_name = "尼米兹级航空母舰" } } }
+			ship = { name = "USS 罗伯特·斯莫尔斯 (CG-62)" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "提康德罗加级巡洋舰" } } }
+			ship = { name = "USS 希洛 (CG-67)" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "提康德罗加级巡洋舰" } } }
+			ship = { name = "USS 巴里 (DDG-52)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅰ型" } } }
+			ship = { name = "USS 马斯廷 (DDG-89)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+			ship = { name = "USS 麦坎贝尔 (DDG-85)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+		}
+	}
+	fleet = {
+		name = "Carrier Group 7" #San Diego, CA
+		naval_base = 1562
+		task_force = {
+			name = "Carrier Group 7" #San Diego, CA
+			location = 1562
+			ship = { name = "USS 斯坦尼斯 (CVN-74)" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = USA version_name = "尼米兹级航空母舰" } } }
+			ship = { name = "USS 乔治·华盛顿 (CVN-73)" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = USA version_name = "尼米兹级航空母舰" } } }
+			ship = { name = "USS 张伯伦湖 (CG-57)" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "提康德罗加级巡洋舰" } } }
+			ship = { name = "USS 皇家港 (CG-73)" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "提康德罗加级巡洋舰" } } }
+		}
+	}
+	fleet = {
+		name = "Cruiser Group 1" #San Diego, CA
+		naval_base = 1562
+		task_force = {
+			name = "Cruiser Group 1" #San Diego, CA
+			location = 1562
+			ship = { name = "USS 邦克山(CG-52)" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "提康德罗加级巡洋舰" } } }
+			ship = { name = "USS 伊利湖 (CG-70)" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "提康德罗加级巡洋舰" } } }
+			ship = { name = "USS 长津湖(CG-65)" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "提康德罗加级巡洋舰" } } }
+		}
+	}
+	fleet = {
+		name = "Destroyer Squadron 9" #Everett, WA
+		naval_base = 7315
+		task_force = {
+			name = "Destroyer Squadron 9" #Everett, WA
+			location = 7315
+			ship = { name = "USS 塔尔萨 (LCS-16)"  definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "自由级/独立级濒海战斗舰" } } }
+			ship = { name = "USS 曼切斯特 (LCS-14)"  definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "自由级/独立级濒海战斗舰" } } }
+			ship = { name = "USS 奥马哈 (LCS-12)"  definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "自由级/独立级濒海战斗舰" } } }
+			ship = { name = "USS 拉森 (DDG-82)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+			ship = { name = "USS 希金斯 (DDG-76)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+		}
+	}
+	fleet = {
+		name = "Destroyer Squadron 31" #Pearl Harbor, Hawaii
+		naval_base = 4180
+		task_force = {
+			name = "Destroyer Squadron 31" #Pearl Harbor, Hawaii
+			location = 4180
+			ship = { name = "USS 拉塞尔 (DDG-59)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅰ型" } } }
+			ship = { name = "USS 保罗·汉密尔顿 (DDG-60)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅰ型" } } }
+			ship = { name = "USS 霍珀 (DDG-70)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+			ship = { name = "USS 奥凯恩 (DDG-77)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+			ship = { name = "USS 嘉贝丽·吉佛斯 (LCS-10)"  definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "自由级/独立级濒海战斗舰" } } }
+			ship = { name = "USS 蒙哥马利 (LCS-8)"  definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "自由级/独立级濒海战斗舰" } } }
+		}
+	}
+	fleet = {
+		name = "Submarine Squadron 1" #Pearl Harbor, Hawaii
+		naval_base = 4180
+		task_force = {
+			name = "Submarine Squadron 1" #Pearl Harbor, Hawaii
+			location = 4180
+			ship = { name = "USS 夏洛特 (SSN-766)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "洛杉矶级攻击核潜艇" } } }
+			ship = { name = "USS 格林维尔 (SSN-772)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "洛杉矶级攻击核潜艇" } } }
+			ship = { name = "USS 布雷默顿 (SSN-698)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "洛杉矶级攻击核潜艇" } } }
+		}
+	}
+	fleet = {
+		name = "Submarine Squadron 3" #Pearl Harbor, Hawaii
+		naval_base = 4180
+		task_force = {
+			name = "Submarine Squadron 3" #Pearl Harbor, Hawaii
+			location = 4180
+			ship = { name = "USS 南达科他 (SSN-790)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "弗吉尼亚级攻击核潜艇" } } }
+			ship = { name = "USS 	印第安纳 (SSN-789)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "弗吉尼亚级攻击核潜艇" } } }
+			ship = { name = "USS 科罗拉多 (SSN-788)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "弗吉尼亚级攻击核潜艇" } } }
+			ship = { name = "USS 华盛顿 (SSN-787)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "弗吉尼亚级攻击核潜艇" } } }
+			ship = { name = "USS 伊利诺伊 (SSN-786)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "弗吉尼亚级攻击核潜艇" } } }
+			ship = { name = "USS 哥伦比亚 (SSN-771)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "洛杉矶级攻击核潜艇" } } }
+			ship = { name = "USS 阿什维尔 (SSN-758)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "洛杉矶级攻击核潜艇" } } }
+		}
+	}
+	fleet = {
+		name = "Submarine Squadron 7" #Pearl Harbor, Hawaii
+		naval_base = 4180
+		task_force = {
+			name = "Submarine Squadron 7" #Pearl Harbor, Hawaii
+			location = 4180
+			ship = { name = "USS 帕萨迪纳(SSN-752)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "洛杉矶级攻击核潜艇" } } }
+			ship = { name = "USS 约翰·华纳 (SSN-785)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "弗吉尼亚级攻击核潜艇" } } }
+			ship = { name = "USS 圣菲 (SSN-763)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "洛杉矶级攻击核潜艇" } } }
+			ship = { name = "USS 图森 (SSN-770)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "洛杉矶级攻击核潜艇" } } }
+			ship = { name = "USS 夏延 (SSN-773)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "洛杉矶级攻击核潜艇" } } }
+			ship = { name = "USS 托皮卡 (SSN-754)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "洛杉矶级攻击核潜艇" } } }
+		}
+	}
+	fleet = {
+		name = "Submarine Squadron 13" #Pearl Harbor, Hawaii
+		naval_base = 4180
+		task_force = {
+			name = "Submarine Squadron 13" #Pearl Harbor, Hawaii
+			location = 4180
+			ship = { name = "USS 哥伦布 (SSN-762)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "洛杉矶级攻击核潜艇" } } }
+			ship = { name = "USS 斯普林菲尔德 (SSN-761)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "洛杉矶级攻击核潜艇" } } }
+			ship = { name = "USS 安纳波利斯 (SSN-760)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "洛杉矶级攻击核潜艇" } } }
+			ship = { name = "USS 海伦娜 (SSN-725)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "洛杉矶级攻击核潜艇" } } }
+			ship = { name = "USS 杰佛逊城 (SSN-759)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "洛杉矶级攻击核潜艇" } } }
+		}
+	}
+	fleet = {
+		name = "Submarine Squadron 17" #Bangor
+		naval_base = 7315
+		task_force = {
+			name = "Submarine Squadron 17" #Bangor
+			location = 7315
+			ship = { name = "USS 俄亥俄 (SSBN-726)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "俄亥俄级核潜艇" } } }
+			ship = { name = "USS 密歇根 (SSBN-727)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "俄亥俄级核潜艇" } } }
+			ship = { name = "USS 佐治亚 (SSBN-729)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "俄亥俄级核潜艇" } } }
+			ship = { name = "USS 亨利·M·杰克逊 (SSBN-730)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "俄亥俄级核潜艇" } } }
+			ship = { name = "USS 亚拉巴马 (SSBN-731)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "俄亥俄级核潜艇" } } }
+			ship = { name = "USS 阿拉斯加 (SSBN-732)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "俄亥俄级核潜艇" } } }
+			ship = { name = "USS 内华达 (SSBN-733)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "俄亥俄级核潜艇" } } }
+			ship = { name = "USS 宾夕法尼亚(SSBN-735)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "俄亥俄级核潜艇" } } }
+			ship = { name = "USS 肯塔基 (SSBN-737)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "俄亥俄级核潜艇" } } }
+		}
+	}
+	fleet = {
+		name = "Destroyer Squadron 2" #Norfolk, VA
+		naval_base = 788
+		task_force = {
+			name = "Destroyer Squadron 2" #Norfolk, VA
+			location = 788
+			ship = { name = "USS 杰克逊 (LCS-6)"  definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "自由级/独立级濒海战斗舰" } } }
+			ship = { name = "USS 阿利·伯克 (DDG-51)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅰ型" } } }
+			ship = { name = "USS 波特 (DDG-78)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+			ship = { name = "USS 米切尔 (DDG-57)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅰ型" } } }
+			ship = { name = "USS 法拉格特(DDG-99)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+			ship = { name = "USS 基德 (DDG-100)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+		}	
+	}
+	fleet = {
+		name = "Destroyer Squadron 18" #Norfolk, VA
+		naval_base = 788
+		task_force = {
+			name = "Destroyer Squadron 18" #Norfolk, VA
+			location = 788
+			ship = { name = "USS 科罗拉多 (LCS-4)"  definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "自由级/独立级濒海战斗舰" } } }
+			ship = { name = "USS 斯托特 (DDG-55)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅰ型" } } }
+			ship = { name = "USS 冈萨雷斯 (DDG-66)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅰ型" } } }
+			ship = { name = "USS 麦克福尔 (DDG-74)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+			ship = { name = "USS 哈尔西 (DDG-97)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+			ship = { name = "USS 福里斯特·舍曼 (DDG-98)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+		}
+	}
+	fleet = {
+		name = "Destroyer Squadron 22" #Norfolk, VA
+		naval_base = 788
+		task_force = {
+			name = "Destroyer Squadron 22" #Norfolk, VA
+			location = 788
+			ship = { name = "USS 独立 (LCS-2)"  definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "自由级/独立级濒海战斗舰" } } }
+			ship = { name = "USS 科尔 (DDG-67)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅰ型" } } }
+			ship = { name = "USS 唐纳德·库克 (DDG-75)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+			ship = { name = "USS 奥斯卡·奥斯汀 (DDG-79)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+			ship = { name = "USS 巴尔克利 (DDG-84)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+			ship = { name = "USS 詹姆斯·威廉斯 (DDG-95)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+			ship = { name = "USS 班布里奇 (DDG-96)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+		}
+	}
+	fleet = {
+		name = "Destroyer Squadron 24" #Mayport, FL
+		naval_base = 1572
+		task_force = {
+			name = "Destroyer Squadron 24" #Mayport, FL
+			location = 1572
+			ship = { name = "USS 沙利文 (DDG-68)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅰ型" } } }
+			ship = { name = "USS 卡尼 (DDG-64)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅰ型" } } }
+			ship = { name = "USS 罗斯福(DDG-80)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+			ship = { name = "USS 格里德利 (DDG-101)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+		}
+	}
+	fleet = {
+		name = "Destroyer Squadron 26" #Norfolk, VA
+		naval_base = 788
+		task_force = {
+			name = "Destroyer Squadron 26" #Norfolk, VA
+			location = 788
+			ship = { name = "USS 杜威 (DDG-105)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+			ship = { name = "USS 拉布恩 (DDG-58)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅰ型" } } }
+			ship = { name = "USS 马汉 (DDG-72)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+			ship = { name = "USS 桑普森 (DDG-102)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+		}
+	}
+	fleet = {
+		name = "Destroyer Squadron 28" #Norfolk, VA
+		naval_base = 788
+		task_force = {
+			name = "Destroyer Squadron 28" #Norfolk, VA
+			location = 788
+			ship = { name = "USS 拉梅奇 (DDG-61)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅰ型" } } }
+			ship = { name = "USS 罗斯 (DDG-71)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅰ型" } } }
+			ship = { name = "USS 温斯顿·丘吉尔 (DDG-81)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+			ship = { name = "USS 保罗·尼采(DDG-94)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+			ship = { name = "USS 钟云 (DDG-93)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+			ship = { name = "USS 特鲁斯顿 (DDG-103)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+		}
+	}
+	fleet = {
+		name = "Carrier Group 2" #Norfolk, VA
+		naval_base = 788
+		task_force = {
+			name = "Carrier Group 2" #Norfolk, VA
+			location = 788
+			ship = { name = "USS 杜鲁门 (CVN-75)" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = USA version_name = "尼米兹级航空母舰" } } }
+			ship = { name = "USS 圣哈辛托 (CG-56)" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "提康德罗加级巡洋舰" } } }
+		}
+	}
+	fleet = {
+		name = "Carrier Group 8" #Norfolk, VA
+		naval_base = 788
+		task_force = {
+			name = "Carrier Group 8" #Norfolk, VA
+			location = 788
+			ship = { name = "USS 西奥多·罗斯福(CVN-71)" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = USA version_name = "尼米兹级航空母舰" } } }
+			ship = { name = "USS 亚伯拉罕·林肯 (CVN-72)" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = USA version_name = "尼米兹级航空母舰" } } }
+			ship = { name = "USS 莱特湾 (CG-55)" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "提康德罗加级巡洋舰" } } }
+		}
+	}
+	fleet = {
+		name = "Cruiser Group 2" #Norfolk, VA
+		naval_base = 788
+		task_force = {
+			name = "Cruiser Group 2" #Norfolk, VA
+			location = 788
+			ship = { name = "USS 诺曼底 (CG-60)" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "提康德罗加级巡洋舰" } } }
+			ship = { name = "USS 蒙特雷 (CG-61)" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "提康德罗加级巡洋舰" } } }
+		}
+	}
+	fleet = {
+		name = "Cruiser Group 3" #Norfolk, VA
+		naval_base = 788
+		task_force = {
+			name = "Cruiser Group 3" #Norfolk, VA
+			location = 788
+			ship = { name = "USS 安齐奥 (CG-68)" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "提康德罗加级巡洋舰" } } }
+			ship = { name = "USS 圣乔治角 (CG-71)" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "提康德罗加级巡洋舰" } } }
+		}
+	}
+	fleet = {
+		name = "Cruiser Group 12" #Mayport, FL.
+		naval_base = 1572
+		task_force = {
+			name = "Cruiser Group 12" #Mayport, FL.
+			location = 1572
+			ship = { name = "USS 菲律宾海 (CG-58)" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "提康德罗加级巡洋舰" } } }
+			ship = { name = "USS 葛底斯堡 (CG-64)" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "提康德罗加级巡洋舰" } } }
+		}
+	}
+	fleet = {
+		name = "Destroyer Squadron 14" #Norfolk, VA
+		naval_base = 788
+		task_force = {
+			name = "Destroyer Squadron 14" #Norfolk, VA
+			location = 788
+			ship = { name = "USS 史托戴尔 (DDG-106)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+			ship = { name = "USS 格雷夫利 (DDG-107)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+			ship = { name = "USS 韦恩·E·迈耶(DDG-108)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+			ship = { name = "USS 贾森·邓汉(DDG-109)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+			ship = { name = "USS 威廉·P·劳伦斯 (DDG-110)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+			ship = { name = "USS 迈克尔·墨菲(DDG-112)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+			ship = { name = "USS 斯普鲁恩斯(DDG-111)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+			ship = { name = "USS 约翰·芬 (DDG-113)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+			ship = { name = "USS 拉尔夫·约翰逊 (DDG-114)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+			ship = { name = "USS 拉斐尔·比拉达 (DDG-115)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "阿利·伯克级驱逐舰Ⅱ型/ⅡA型" } } }
+		}
+	}
+	fleet = {
+		name = "Submarine Squadron 2" #New London
+		naval_base = 9832
+		task_force = {
+			name = "Submarine Squadron 2" #New London
+			location = 9832
+			ship = { name = "USS 弗吉尼亚 (SSN-774)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "弗吉尼亚级攻击核潜艇" } } }
+			ship = { name = "USS 得克萨斯 (SSN-775)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "弗吉尼亚级攻击核潜艇" } } }
+			ship = { name = "USS 夏威夷 (SSN-776)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "弗吉尼亚级攻击核潜艇" } } }
+			ship = { name = "USS 北卡罗来纳 (SSN-777)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "弗吉尼亚级攻击核潜艇" } } }
+			ship = { name = "USS 新罕布什尔 (SSN-778)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "弗吉尼亚级攻击核潜艇" } } }
+		}
+	}
+	fleet = {
+		name = "Submarine Squadron 4" #New London
+		naval_base = 9832
+		task_force = {
+			name = "Submarine Squadron 4" #New London
+			location = 9832
+			ship = { name = "USS 海狼 (SSN-21)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "海狼级核潜艇" } } }
+			ship = { name = "USS 吉米·卡特 (SSN-23)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "海狼级核潜艇" } } }
+			ship = { name = "USS 新墨西哥 (SSN-779)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "弗吉尼亚级攻击核潜艇" } } }
+			ship = { name = "USS 迈阿密(SSN-755)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "洛杉矶级攻击核潜艇" } } }
+			ship = { name = "USS 哈特福德 (SSN-768)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "洛杉矶级攻击核潜艇" } } }
+		}
+	}
+	fleet = {
+		name = "Submarine Squadron 6" #Norfolk
+		naval_base = 788
+		task_force = {
+			name = "Submarine Squadron 6" #Norfolk
+			location = 788
+			ship = { name = "USS 密苏里 (SSN-780)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "弗吉尼亚级攻击核潜艇" } } }
+			ship = { name = "USS 奥尔巴尼 (SSN-753)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "洛杉矶级攻击核潜艇" } } }
+			ship = { name = "USS 斯克兰顿(SSN-756)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "洛杉矶级攻击核潜艇" } } }
+			ship = { name = "USS 蒙彼利埃 (SSN-765)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "洛杉矶级攻击核潜艇" } } }
+			ship = { name = "USS 佛罗里达 (SSGN-728)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "俄亥俄级核潜艇" } } }
+		}
+	}
+	fleet = {
+		name = "Submarine Squadron 8" #Norfolk
+		naval_base = 788
+		task_force = {
+			name = "Submarine Squadron 8" #Norfolk
+			location = 788
+			ship = { name = "USS 加利福尼亚(SSN-781)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "弗吉尼亚级攻击核潜艇" } } }
+			ship = { name = "USS 纽波特纽斯 (SSN-750)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "洛杉矶级攻击核潜艇" } } }
+			ship = { name = "USS 博伊西 (SSN-764)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "洛杉矶级攻击核潜艇" } } }
+			ship = { name = "USS 汉普顿(SSN-767)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "洛杉矶级攻击核潜艇" } } }
+			ship = { name = "USS 密西西比 (SSN-782)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "弗吉尼亚级攻击核潜艇" } } }
+		}
+	}
+	fleet = {
+		name = "Submarine Squadron 12" #Norfolk
+		naval_base = 788
+		task_force = {
+			name = "Submarine Squadron 12" #Norfolk
+			location = 788
+			ship = { name = "USS 明尼苏达 (SSN-783)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "弗吉尼亚级攻击核潜艇" } } }
+			ship = { name = "USS 北达科他 (SSN-784)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "弗吉尼亚级攻击核潜艇" } } }
+			ship = { name = "USS 圣胡安 (SSN-751)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "洛杉矶级攻击核潜艇" } } }
+			ship = { name = "USS 	亚历山大 (SSN-757)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "洛杉矶级攻击核潜艇" } } }
+			ship = { name = "USS 托莱多 (SSN-769)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "洛杉矶级攻击核潜艇" } } }
+		}
+	}
+	fleet = {
+		name = "Submarine Squadron 16" #Kings Bay
+		naval_base = 11975
+		task_force = {
+			name = "Submarine Squadron 16" #Kings Bay
+			location = 11975
+			ship = { name = "USS 内布拉斯加 (SSBN-739)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "俄亥俄级核潜艇" } } }
+			ship = { name = "USS罗德岛 (SSBN-740)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "俄亥俄级核潜艇" } } }
+			ship = { name = "USS 缅因 (SSN-741)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "俄亥俄级核潜艇" } } }
+			ship = { name = "USS 路易斯安那 (SSN-743)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "俄亥俄级核潜艇" } } }
+		}
+	}
+	fleet = {
+		name = "Submarine Squadron 20" #Kings Bay
+		naval_base = 11975
+		task_force = {
+			name = "Submarine Squadron 20" #Kings Bay
+			location = 11975
+			ship = { name = "USS 田纳西 (SSBN-734)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "俄亥俄级核潜艇" } } }
+			ship = { name = "USS 西弗吉尼亚 (SSBN-736)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "俄亥俄级核潜艇" } } }
+			ship = { name = "USS 马里兰 (SSBN-738)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "俄亥俄级核潜艇" } } }
+			ship = { name = "USS 怀俄明 (SSBN-742)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = USA version_name = "俄亥俄级核潜艇" } } }
+		}
+	}
+}

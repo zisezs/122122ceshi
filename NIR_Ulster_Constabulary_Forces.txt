@@ -1,0 +1,71 @@
+﻿division_template = {
+	name = "Ulster Constabulary Force"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+	
+	support = {
+	}
+		
+}
+
+units = {
+	division = {
+		name = "1st Royal Constabulary"
+		location = 13721
+		division_template = "Ulster Constabulary Force"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "2nd Royal Constabulary"
+		location = 13723
+		division_template = "Ulster Constabulary Force"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "3rd Royal Constabulary"
+		location = 13724
+		division_template = "Ulster Constabulary Force"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "4th Royal Constabulary"
+		location = 13722
+		division_template = "Ulster Constabulary Force"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "5th Royal Constabulary"
+		location = 13725
+		division_template = "Ulster Constabulary Force"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Northern Irish Police Force"
+		location = 13724
+		division_template = "Ulster Constabulary Force"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Northern Ireland Security Guard Service"
+		location = 13723
+		division_template = "Ulster Constabulary Force"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Northern Irish King's Guard"
+		location = 13721
+		division_template = "Ulster Constabulary Force"
+		start_experience_factor = 0.5
+	}
+}

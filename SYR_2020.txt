@@ -1,0 +1,313 @@
+﻿#Based on information from the civil war, not up to date for 2020. 40%ish accurate templates vary in accuracy
+#Some divisions may have disbanded by the time the game starts
+division_template = {
+	name = "Sharikat Easkariat Khasa"
+	
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		modern_sp_artillery_brigade = { x = 1 y = 0 }
+	}
+	support = {
+		mbt_company = { x = 0 y = 0 }
+		apc_company = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+	}
+		priority = 2
+}
+
+division_template = {
+	name = "Katibat Milishia Alnukhba"
+	
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+	}
+	support = {
+		mbt_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Katibat Almilishia"
+
+	regiments = {
+	  mot_militia = { x = 0 y = 0 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Liwa Almilishia"
+
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+		mot_militia = { x = 0 y = 1 }
+		mot_militia = { x = 0 y = 2 }
+	}
+	support = {
+		mbt_company = { x = 0 y = 0 }
+		spa_company = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Shuebat Almilishiat"
+
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+		mot_militia = { x = 0 y = 1 }
+		mot_militia = { x = 0 y = 2 }
+		mot_militia = { x = 0 y = 3 }
+		mot_militia = { x = 1 y = 0 }
+		mot_militia = { x = 1 y = 1 }
+		mot_militia = { x = 1 y = 2 }
+		mot_militia = { x = 1 y = 3 }
+		modern_armor = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 3 y = 0 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Shuebat Aljysh Alsuwrii"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 3 y = 0 }
+		spaa_brigade = { x = 3 y = 1 }
+	}
+	support = {
+		apc_company = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Liwa Alharas Aljumhurii"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+	}
+	support = {
+		spa_company = { x = 0 y = 0 }
+		spaa_company = { x = 0 y = 1 }
+		mbt_company = { x = 0 y = 2 }
+	}
+	template_counter = 9
+}
+
+division_template = {
+	name = "Quwwat Almuhimat Alkhasa"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+	}
+	support = {
+		mbt_company = { x = 0 y = 0 }
+		apc_company = { x = 0 y = 1 }
+		spa_company = { x = 0 y = 2 }
+	}
+		priority = 2
+}
+
+units = {
+	
+	division = {
+		name = "555 Fawj Alquwwat Alkhasa"
+		location = 1056
+		division_template = "Quwwat Almuhimat Alkhasa"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "Quat Alnamr"
+		location = 4111
+		division_template = "Quwwat Almuhimat Alkhasa"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "103 Liwa Alkawmanduz"
+		location = 4111
+		division_template = "Liwa Alharas Aljumhurii"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "105 Alliwa Almikanikiu"
+		location = 4111
+		division_template = "Liwa Alharas Aljumhurii"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "800 Fawj"
+		location = 4486
+		division_template = "Liwa Alharas Aljumhurii"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "40 Liwa Mudarae"
+		location = 12316
+		division_template = "Liwa Alharas Aljumhurii"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "41 Liwa Mudarae"
+		location = 13659
+		division_template = "Liwa Alharas Aljumhurii"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "42 Liwa Mudarae"
+		location = 4550
+		division_template = "Liwa Alharas Aljumhurii"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "36 Alfawj Alquat Alkhasat"
+		location = 1088
+		division_template = "Quwwat Almuhimat Alkhasa"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "554 Alfawj Alquat Alkhasat"
+		location = 10087
+		division_template = "Liwa Alharas Aljumhurii"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "556 Alfawj Alquat Alkhasat"
+		location = 1072
+		division_template = "Quwwat Almuhimat Alkhasa"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "12 Liwa Mudarae"
+		location = 12473
+		division_template = "Shuebat Aljysh Alsuwrii"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "112 Alliwa Almikanikiu"
+		location = 13659
+		division_template = "Shuebat Aljysh Alsuwrii"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "132 Alliwa Almikanikiu"
+		location = 13659
+		division_template = "Shuebat Aljysh Alsuwrii"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "15 Alliwa Almikanikiu"
+		location = 13651
+		division_template = "Shuebat Aljysh Alsuwrii"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "45 Alfawj "
+		location = 1074
+		division_template = "Shuebat Aljysh Alsuwrii"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "85 Alfurqa"
+		location = 1074
+		division_template = "Shuebat Aljysh Alsuwrii"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "41 Liwa Mudarae"
+		location = 7140
+		division_template = "Shuebat Aljysh Alsuwrii"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "42 Liwa Mudarae"
+		location = 12442
+		division_template = "Liwa Alharas Aljumhurii"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "556 Alfawj Alquat Alkhasat"
+		location = 12442
+		division_template = "Sharikat Easkariat Khasa"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1 Milishia SSNP"
+		location = 7513
+		division_template = "Katibat Almilishia"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2 Milishia SSNP"
+		location = 7513
+		division_template = "Katibat Almilishia"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3 Liwa SSNP"
+		location = 7513
+		division_template = "Sharikat Easkariat Khasa"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "313 Alfawj "
+		location = 10087
+		division_template = "Katibat Milishia Alnukhba"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "Abu al-Fadhl al-Abbas Force"
+		location = 10087
+		division_template = "Shuebat Almilishiat"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "Alquds Fi Piwa Filastin"
+		location = 1072
+		division_template = "Liwa Almilishia"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "Jaysh Altahrir Alfilastinii"
+		location = 12473
+		division_template = "Liwa Almilishia"
+		start_experience_factor = 0.1
+	}
+}

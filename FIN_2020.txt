@@ -1,0 +1,149 @@
+﻿division_template = {
+	name = "(Mek.) Prikaati 2005"
+
+	regiments = {
+		light_mechanized = { x = 0 y = 0 }
+		light_mechanized = { x = 0 y = 1 }
+		light_mechanized = { x = 0 y = 2 }
+		artillery_brigade = { x = 0 y = 3 }
+		spaa_brigade = { x = 0 y = 4 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "(Mot.) Prikaati 2005"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		artillery_brigade = { x = 0 y = 3 }
+		spaa_brigade = { x = 0 y = 4 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Mekanisoitu Taisteluosasto"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		modern_sp_artillery_brigade = { x = 0 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		spaa_company = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Motorisoitu Taisteluosasto"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		artillery_brigade = { x = 0 y = 2 }
+	}
+	support = {
+		spaa_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Erikoisjääkärirykmentti"
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+	}
+
+
+	priority = 2
+}
+
+division_template = {
+	name = "Kaartin Jääkärirykmentti"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+	}
+
+	priority = 2
+}
+
+division_template = {
+	name = "Rannikkoprikaati"
+
+	regiments = {
+		marine = { x = 0 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Jääkäriprikaati"
+		location = 3125	
+		division_template = "Motorisoitu Taisteluosasto"
+		start_experience_factor = 0.65
+	}
+
+	division = {
+		name = "Kaartin Jääkärirykmentti"
+		location = 11105
+		division_template = "Kaartin Jääkärirykmentti"
+		start_experience_factor = 0.7
+	}
+
+	division = {
+		name = "Kainuun Jääkäriprikaati"
+		location = 3125		#Kajaani
+		division_template = "(Mot.) Prikaati 2005"
+		start_experience_factor = 0.65
+	}
+
+	division = {
+		name = "Karjalan Prikaati"
+		location = 9183
+		division_template = "(Mek.) Prikaati 2005"
+		start_experience_factor = 0.65
+	}
+
+	division = {
+		name = "Panssariprikaati"
+		location = 9167
+		division_template = "Mekanisoitu Taisteluosasto"
+		start_experience_factor = 0.65
+	}
+
+	division = {
+		name = "Porin Prikaati"
+		location = 32
+		division_template = "(Mot.) Prikaati 2005"
+		start_experience_factor = 0.65
+	}
+
+	division = {
+		name = "Utin Jääkärirykmentti"
+		location = 9183
+		division_template = "Erikoisjääkärirykmentti"
+		start_experience_factor = 0.9
+	}
+
+	division = {
+		name = "Uudenmaan Prikaati"
+		location = 11211
+		division_template = "Rannikkoprikaati"
+		start_experience_factor = 0.7
+	}
+
+}

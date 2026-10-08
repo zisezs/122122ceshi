@@ -1,0 +1,46 @@
+﻿division_template = {
+	name = "Volunteer Brigade"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+	
+	support = {
+	}
+		
+}
+
+division_template = {
+	name = "Motorized Militia"
+	
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+	}
+	
+	support = {
+	}
+	
+}
+
+units = {
+	division = {
+		name = "1st Group"
+		location = 13835
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2nd Group"
+		location = 13836
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3rd Group"
+		location = 13837
+		division_template = "Motorized Militia"
+		start_experience_factor = 0.1
+	}
+}

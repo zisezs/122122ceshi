@@ -1,0 +1,179 @@
+﻿division_template = {
+	name = "Tank Regiment"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		light_mechanized = { x = 0 y = 1 }
+		modern_armor = { x = 1 y = 0 }
+		light_mechanized = { x = 1 y = 1 }
+	}
+	
+	support = {
+		light_tank_recon = { x = 0 y = 0 }
+		spa_company = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Militia Division"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+	
+	support = {
+	}
+}
+
+division_template = {
+	name = "Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+		recon = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Special Forces Battalion"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+		special_forces = { x = 1 y = 0 }
+		special_forces = { x = 1 y = 1 }
+		special_forces = { x = 1 y = 2 }
+	}
+	priority = 2
+}
+
+units = {
+	division = {
+		name = "1st Tank Division"
+		location = 12589
+		division_template = "Tank Regiment"
+		start_experience_factor = 0.6
+	}
+	division = {
+		name = "1st Infantry Division"
+		location = 12589
+		division_template = "Infantry Division"
+		start_experience_factor = 0.45
+	}
+	division = {
+		name = "2nd Infantry Division"
+		location = 14463
+		division_template = "Infantry Division"
+		start_experience_factor = 0.45
+	}
+	division = {
+		name = "3rd Infantry Division"
+		location = 14422
+		division_template = "Infantry Division"
+		start_experience_factor = 0.45
+	}
+	division = {
+		name = "1st Special Forces Division"
+		location = 12547
+		division_template = "Special Forces Battalion"
+		start_experience_factor = 0.45
+	}
+	division = {
+		name = "1st Militia Division"
+		location = 12547
+		division_template = "Militia Division"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "2nd Militia Division"
+		location = 14418
+		division_template = "Militia Division"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "3rd Militia Division"
+		location = 14423
+		division_template = "Militia Division"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "4th Militia Division"
+		location = 14427
+		division_template = "Militia Division"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "5th Militia Division"
+		location = 14463
+		division_template = "Militia Division"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "6th Militia Division"
+		location = 14432
+		division_template = "Militia Division"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "7th Militia Division"
+		location = 12419
+		division_template = "Militia Division"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "8th Militia Division"
+		location = 14426
+		division_template = "Militia Division"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "9th Militia Division"
+		location = 14422
+		division_template = "Militia Division"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "10th Militia Division"
+		location = 14421
+		division_template = "Militia Division"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "11th Militia Division"
+		location = 10415
+		division_template = "Militia Division"
+		start_experience_factor = 0.1
+	}
+}
+instant_effect = {
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_2
+		amount = 5000
+		producer = SAF
+	}
+add_equipment_to_stockpile = {
+		type = support_equipment
+		amount = 200
+		producer = SAF
+	}
+}

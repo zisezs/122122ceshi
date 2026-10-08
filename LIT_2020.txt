@@ -1,0 +1,83 @@
+﻿division_template = {
+	name = "National defence brigade"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Jėgerių Batalionas"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+	}
+
+	priority = 2
+}
+
+division_template = {
+	name = "Mechanizuotoji Pėstininkų Brigada"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		modern_sp_artillery_brigade = { x = 0 y = 2 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Motorizuotoji Pėstininkų Brigada"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		artillery_brigade = { x = 0 y = 2 }
+		mechanized = { x = 1 y = 0 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+units = {
+
+	division = {
+		name = "Vytauto Didžiojo Jėgerių Batalionas"
+		location = 3320
+		division_template = "Jėgerių Batalionas"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "Mechanizuotoji Pėstininkų Brigada 'Geležinis Vilkas'"
+		location = 9483
+		division_template = "Mechanizuotoji Pėstininkų Brigada"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Motorizuotoji Pėstininkų Brigada 'Žemaitija'"
+		location = 3288
+		division_template = "Motorizuotoji Pėstininkų Brigada"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2. Motorizuotoji Pėstininkų Brigada"
+		location = 3288
+		division_template = "Motorizuotoji Pėstininkų Brigada"
+		start_experience_factor = 0.2
+	}
+}

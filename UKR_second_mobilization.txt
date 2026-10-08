@@ -1,0 +1,131 @@
+﻿division_template = {
+	name = "Natsionalna Hvardiya Bryhada"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 1 y = 3 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Mekhanizovana Bryhada"
+	
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		modern_armor = { x = 1 y = 0 }
+		modern_sp_artillery_brigade = { x = 1 y = 1 }
+		modern_sp_artillery_brigade = { x = 1 y = 2 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }		
+		spaa_company = { x = 0 y = 1 }		
+		signal_company = { x = 0 y = 2 }	
+		maintenance_company = { x = 0 y = 3 }	
+		anti_tank = { x = 0 y = 4 }	
+	}
+}
+
+division_template = {
+	name = "Tankova Bryhada"
+	
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		modern_sp_artillery_brigade = { x = 1 y = 0 }
+		modern_sp_artillery_brigade = { x = 1 y = 1 }
+		light_mechanized = { x = 2 y = 0 }
+		light_mechanized = { x = 2 y = 1 }
+		light_mechanized = { x = 2 y = 2 }
+		light_armor = { x = 3 y = 0 }
+	}
+	
+	support = {
+		spa_company = { x = 0 y = 0 }
+		spaa_company = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "1-a Natsionalna Hvardiya"
+		location = 3430
+		division_template = "Natsionalna Hvardiya Bryhada"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "2-a Natsionalna Hvardiya"
+		location = 3430
+		division_template = "Natsionalna Hvardiya Bryhada"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "3-a Natsionalna Hvardiya"
+		location = 3430
+		division_template = "Natsionalna Hvardiya Bryhada"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "4-a Natsionalna Hvardiya"
+		location = 3430
+		division_template = "Natsionalna Hvardiya Bryhada"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "5-a Natsionalna Hvardiya"
+		location = 3430
+		division_template = "Natsionalna Hvardiya Bryhada"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "6-a Natsionalna Hvardiya"
+		location = 3430
+		division_template = "Natsionalna Hvardiya Bryhada"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "8-a Natsionalna Hvardiya Bryhada"
+		location = 3430
+		division_template = "Natsionalna Hvardiya Bryhada"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "7-a Mekhanizovana Bryhada"
+		location = 3430
+		division_template = "Mekhanizovana Bryhada"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "8-a Mekhanizovana Bryhada"
+		location = 3430
+		division_template = "Mekhanizovana Bryhada"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "9-a Mekhanizovana Bryhada"
+		location = 3430
+		division_template = "Mekhanizovana Bryhada"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "10-a Tankova Bryhada"
+		location = 3430
+		division_template = "Tankova Bryhada"
+		start_experience_factor = 0.1
+	}
+}

@@ -1,0 +1,68 @@
+﻿division_template = {
+	name = "Taiwan Self-Defense Forces"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+
+	support = {
+		signal_company = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "1. Taiwan Self-Defense Forces"
+		location = 7186
+		division_template = "Taiwan Self-Defense Forces"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2. Taiwan Self-Defense Forces"
+		location = 7186
+		division_template = "Taiwan Self-Defense Forces"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "3. Taiwan Self-Defense Forces"
+		location = 7186
+		division_template = "Taiwan Self-Defense Forces"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "4. Taiwan Self-Defense Forces"
+		location = 7186
+		division_template = "Taiwan Self-Defense Forces"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "5. Taiwan Self-Defense Forces"
+		location = 7186
+		division_template = "Taiwan Self-Defense Forces"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "6. Taiwan Self-Defense Forces"
+		location = 7186
+		division_template = "Taiwan Self-Defense Forces"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "7. Taiwan Self-Defense Forces"
+		location = 7186
+		division_template = "Taiwan Self-Defense Forces"
+		start_experience_factor = 0.2
+	}
+}

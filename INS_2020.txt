@@ -1,0 +1,408 @@
+﻿division_template = {
+	name = "Brigade Infanteri Udara"		#Airborne Infantry Brigade
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		artillery_brigade = { x = 0 y = 3 }
+	}
+
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+
+	priority = 2
+}
+
+division_template = {
+	name = "Kodam-I"		#Regional Military Command
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		artillery_brigade = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+
+	support = {
+		spaa_company = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Kodam-II"		#Large Regional Military Command
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		artillery_brigade = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+
+	support = {
+		spaa_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Brigade Infanteri"		#Infantry Brigade
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		artillery_brigade = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+
+	support = {
+		light_tank_recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Brigade Yonif Raider"		#Raider Brigade
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+	}
+
+	support = {
+		recon = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+	}
+
+	priority = 2
+}
+
+division_template = {
+	name = "Brigade Yonif Mekanis"		#Mechanised Infantry Brigade
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		light_mechanized = { x = 0 y = 3 }
+		light_armor = { x = 0 y = 4 }
+	}
+
+	support = {
+		spa_company = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		mbt_company = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Kelompok Kopassus"		#Kopassus Group
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+	}
+
+	priority = 2
+}
+
+division_template = {
+	name = "Marinir"		#
+	regiments = {
+		amphibious_mechanized = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 1 y = 3 }
+		artillery_brigade = { x = 2 y = 0 }
+	}
+
+	support = {
+		engineer = { x = 0 y = 0 }
+		spa_company = { x = 0 y = 1 }
+	}
+
+	priority = 2
+}
+
+units = {
+	#Kostrad (Army Strategic Command)
+	##1st Division
+	division = {
+		name = "Brigade Infanteri Udara 17"
+		location = 4434		#Kujang
+		division_template = "Brigade Infanteri Udara"
+		start_experience_factor = 0.4
+		
+	}
+	division = {
+		name = "Brigade Infanteri 13"
+		location = 12249	#Galuh
+		division_template = "Brigade Infanteri"
+		start_experience_factor = 0.3
+		
+	}
+
+	##2nd Division
+	division = {
+		name = "Brigade Infanteri Udara 18"
+		location = 10479	#Malang
+		division_template = "Brigade Infanteri Udara"
+		start_experience_factor = 0.4
+		
+	}
+	division = {
+		name = "Brigade Infanteri 9"
+		location = 4608	#Malang
+		division_template = "Brigade Infanteri"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "Brigade Infanteri 6"
+		location = 12293	#Malang
+		division_template = "Brigade Infanteri"
+		start_experience_factor = 0.3
+		
+	}
+
+	#Kopassus (Special Forces Command)
+	division = {
+		name = "Grup 1 Para Komando"
+		location = 7381	#
+		division_template = "Kelompok Kopassus"
+		start_experience_factor = 0.5
+		
+	}
+	division = {
+		name = "Grup 2 Para Komando"
+		location = 4406	#Parung
+		division_template = "Kelompok Kopassus"
+		start_experience_factor = 0.5
+		
+	}
+	division = {
+		name = "Grup 3 Sandhi Yudha"
+		location = 7381	#Cijantung
+		division_template = "Kelompok Kopassus"
+		start_experience_factor = 0.5
+		
+	}
+
+	#Territorial Command
+	##Kodam Iskandar Muda
+	#not in 2000
+
+	division = {
+		name = "Brigade Infanteri 25"
+		location = 7658	#Ache
+		division_template = "Brigade Infanteri"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "Kodam Iskandar Muda"
+		location = 7658	#Ache
+		division_template = "Kodam-I"
+		start_experience_factor = 0.3
+		
+	}
+
+	##Kodam I / Bukit Barisan
+
+	division = {
+		name = "Brigade Infanteri 7"
+		location = 1648	#Medan
+		division_template = "Brigade Infanteri"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "Kodam Bukit Barisan"
+		location = 1648	#Medan
+		division_template = "Kodam-II"
+		start_experience_factor = 0.3
+		
+	}
+
+	##Kodam II/Sriwijaya
+
+	division = {
+		name = "Kodam Sriwijaya"
+		location = 12268	#Palembang
+		division_template = "Kodam-I"
+		start_experience_factor = 0.3
+		
+	}
+
+	##Kodam Jaya #ok
+	division = {
+		name = "Brigif Mekanis 1"
+		location = 12249	#Jakarta
+		division_template = "Brigade Yonif Mekanis"
+		start_experience_factor = 0.3
+		
+	}
+
+	##Kodam III/Siliwangi
+
+	division = {
+		name = "Brigade Infanteri 15"
+		location = 4406		#West Java
+		division_template = "Brigade Infanteri"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "Kodam Siliwangi"
+		location = 1398		#West Java
+		division_template = "Kodam-II"
+		start_experience_factor = 0.3
+		
+	}
+
+	##Kodam IV/Diponegoro
+
+	division = {
+		name = "Brigade Infanteri 4"
+		location = 7223		#Central Java
+		division_template = "Brigade Infanteri"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "Kodam Diponegoro"
+		location = 10135		#Central Java
+		division_template = "Kodam-I"
+		start_experience_factor = 0.3
+		
+	}
+
+	##Kodam V/Brawijaya
+	division = {
+		name = "Kodam Brawijaya"
+		location = 1209		#Eastern Java
+		division_template = "Kodam-I"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "Brigade Mekanis 16"
+		location = 4608		#Eastern Java
+		division_template = "Brigade Yonif Mekanis"
+		start_experience_factor = 0.3
+		
+	}
+
+	##Kodam VI/Mulawarman
+	division = {
+		name = "Brigade Yonif Raider 24"
+		location = 10237	#Eastern Borneo
+		division_template = "Brigade Yonif Raider"
+		start_experience_factor = 0.4
+		
+	}
+	division = {
+		name = "Kodam Mulawarman"
+		location = 10237	#Eastern Borneo
+		division_template = "Kodam-II"
+		start_experience_factor = 0.3
+		
+	}
+
+	##Kodam IX/Udayana
+	division = {
+		name = "Brigade Yonif Raider 21"
+		location = 4273	#Bali
+		division_template = "Brigade Yonif Raider"
+		start_experience_factor = 0.4
+		
+	}
+	division = {
+		name = "Kodam Udayana"
+		location = 7293	#Bali
+		division_template = "Kodam-I"
+		start_experience_factor = 0.3
+		
+	}
+
+	##Kodam XII/Tanjungpura
+
+	division = {
+		name = "Brigade Infanteri 19"
+		location = 10237		#East Kalimantan
+		division_template = "Brigade Infanteri"
+		start_experience_factor = 0.3
+		
+	}
+
+	##Kodam XIII/Merdeka
+	division = {
+		name = "Kodam Merdeka"
+		location = 10153	#Manado
+		division_template = "Kodam-I"
+		start_experience_factor = 0.3
+		
+	}
+
+	##Kodam XIV/Hasanuddin
+	division = {
+		name = "Kodam Hasanuddin"
+		location = 10263	#Manado
+		division_template = "Kodam-I"
+		start_experience_factor = 0.3
+		
+	}
+
+	##Kodam XVI/Pattimura
+	division = {
+		name = "Brigade Yonif Raider 160"
+		location = 1574	#Maluku
+		division_template = "Brigade Yonif Raider"
+		start_experience_factor = 0.4
+		
+	}
+
+	##Kodam XVII/Cendrawasih
+	division = {
+		name = "Brigade Yonif Raider 75"
+		location = 12371	#Papua
+		division_template = "Brigade Yonif Raider"
+		start_experience_factor = 0.4
+		
+	}
+
+	##Kodam XVIII/Kasuari
+	division = {
+		name = "Brigade Yonif Raider 180"
+		location = 4593	#Papua
+		division_template = "Brigade Yonif Raider"
+		start_experience_factor = 0.4
+		
+	}
+
+	#Marine Corps
+	division = {
+		name = "Brigade Infanteri 1/Marinir"
+		location = 4608	#Sidoarjo
+		division_template = "Marinir"
+		start_experience_factor = 0.4
+		
+	}
+	division = {
+		name = "Brigade Infanteri 2/Marinir"
+		location = 7381	#Cilandak
+		division_template = "Marinir"
+		start_experience_factor = 0.4
+		
+	}
+}

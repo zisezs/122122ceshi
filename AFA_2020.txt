@@ -1,0 +1,136 @@
+﻿division_template = {
+	name = "Armored Brigade"
+	regiments = {
+	  modern_armor = { x = 0 y = 0 }
+	  modern_armor = { x = 0 y = 1 }
+	  modern_armor = { x = 0 y = 2 }
+	  mechanized = { x = 1 y = 0 }
+	  spaa_brigade = { x = 1 y = 1 }
+	  modern_sp_artillery_brigade = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Mechanized Brigade"
+	
+	regiments = {
+		light_mechanized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		modern_armor = { x = 1 y = 0 }
+		spaa_brigade = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 1 }
+	}
+	
+	support = {
+	}
+		
+}
+
+division_template = {
+	name = "Infantry Brigade"
+	
+	regiments = {
+	  motorized = { x = 0 y = 0 }
+	  motorized = { x = 0 y = 1 }
+	  motorized = { x = 0 y = 2 }
+	  motorized = { x = 1 y = 0 }
+	  artillery_brigade = { x = 1 y = 1 }
+	  modern_sp_artillery_brigade = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		mbt_company = { x = 0 y = 1 }
+		spaa_company = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "IRGC Commando Brigade"
+	
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+		special_forces = { x = 0 y = 3 }
+		recce = { x = 1 y = 0 }
+		modern_sp_artillery_brigade = { x = 1 y = 1 }
+	}
+	
+	support = {
+		spaa_company = { x = 0 y = 0 }
+	}
+}
+	
+units = {
+	division = {
+		name = "25th Takavar Brigade"
+		location = 5029
+		division_template = "IRGC Commando Brigade"
+		start_experience_factor = 0.5
+		
+	}
+	division = {
+		name = "35th Takavar Brigade"
+		location = 5029
+		division_template = "IRGC Commando Brigade"
+		start_experience_factor = 0.5
+		
+	}
+	division = {
+		name = "45th Takavar Brigade"
+		location = 5029
+		division_template = "IRGC Commando Brigade"
+		start_experience_factor = 0.5
+		
+	}
+	division = {
+		name = "40th Infantry Brigade"
+		location = 5029
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "41st Infantry Brigade"
+		location = 5029
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "42st Infantry Brigade"
+		location = 5029
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "71st Mechanized Brigade"
+		location = 5029
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "181st Armored Brigade"
+		location = 5029
+		division_template = "Armored Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "281st Mechanized Brigade"
+		location = 5029
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "381st Mechanized Brigade"
+		location = 5029
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.3
+	}
+}

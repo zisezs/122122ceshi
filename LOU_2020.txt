@@ -1,0 +1,92 @@
+﻿division_template = {
+	name = "Foot Militia"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+		
+}
+
+division_template = {
+	name = "Motorized Infantry Brigade"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+	
+}
+
+division_template = {
+	name = "National Guard"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		artillery_brigade = { x = 1 y = 0 }
+		infantry = { x = 2 y = 0 }
+	}
+	
+	support = {
+	}
+	
+	priority = 2
+}
+
+units = {
+	
+	division = {
+		name = "1st Louisiana National Guard Brigade"
+		location = 12313
+		division_template = "National Guard"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "2nd Louisiana National Guard Brigade"
+		location = 12313
+		division_template = "National Guard"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "3rd Louisiana National Guard Brigade"
+		location = 12313
+		division_template = "National Guard"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "4th Louisiana National Guard Brigade"
+		location = 12313
+		division_template = "National Guard"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "1st Foot Militia"
+		location = 12313
+		division_template = "Foot Militia"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "2nd Foot Militia"
+		location = 12313
+		division_template = "Foot Militia"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "3rd Foot Militia"
+		location = 12313
+		division_template = "Foot Militia"
+		start_experience_factor = 0.2
+	}
+}

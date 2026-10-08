@@ -1,0 +1,114 @@
+﻿
+division_template = {
+	name = "Yekîneyên Parastina Gel"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+	
+	support = {
+	}
+	
+	priority = 2
+}
+
+division_template = {
+	name = "Dabeşa Milî"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+	
+}
+
+division_template = {
+	name = "Balefira Navneteweyî"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+	
+}
+
+units = {
+	
+	division = {
+		name = "1. Yekîneyên Parastina Gel"
+		location = 13645
+		division_template = "Yekîneyên Parastina Gel"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Yekîneyên Parastina Gel"
+		location = 1634
+		division_template = "Yekîneyên Parastina Gel"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3. Yekîneyên Parastina Gel"
+		location = 1578
+		division_template = "Yekîneyên Parastina Gel"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "4. Yekîneyên Parastina Gel"
+		location = 1606
+		division_template = "Yekîneyên Parastina Gel"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "Bob Crow Brigade"
+		location = 901
+		division_template = "Balefira Navneteweyî"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "Henri Krasucki Brigade"
+		location = 1606
+		division_template = "Balefira Navneteweyî"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "International Revolutionary People's Guerrilla Forces"
+		location = 1634
+		division_template = "Balefira Navneteweyî"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1. Dabeşa Milî"
+		location = 1634
+		division_template = "Balefira Navneteweyî"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "2. Dabeşa Milî"
+		location = 1634
+		division_template = "Balefira Navneteweyî"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3. Dabeşa Milî"
+		location = 1634
+		division_template = "Balefira Navneteweyî"
+		start_experience_factor = 0.1
+	}
+}

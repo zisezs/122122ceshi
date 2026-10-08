@@ -1,0 +1,41 @@
+
+division_template = {
+	name = "Marine Infantry Brigade"
+
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		amphibious_mechanized = { x = 1 y = 0 }
+		recce = { x = 2 y = 0 }
+
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }
+		mbt_company = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		spa_company = { x = 0 y = 3 }
+		spaa_company = { x = 0 y = 4 }
+	}
+}
+
+units = {
+	#####Murica
+	division = {
+		name = "Troupes de marine"
+		location = 3838
+		division_template = "Marine Infantry Brigade"
+		start_experience_factor = 0.75
+	}
+	division = {
+		name = "Troupes de marine"
+		location = 9851
+		division_template = "Marine Infantry Brigade"
+		start_experience_factor = 0.75
+	}
+	division = {
+		name = "Troupes de marine"
+		location = 11804
+		division_template = "Marine Infantry Brigade"
+		start_experience_factor = 0.75
+	}
+}

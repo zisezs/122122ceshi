@@ -1,0 +1,134 @@
+﻿division_template = {
+	name = "Luchtmobiele Brigade"
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		paratrooper = { x = 0 y = 3 }
+	}
+}
+division_template = {
+	name = "Lichte Gemechaniseerde Brigade"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+	}
+}
+division_template = {
+	name = "Gemechaniseerde Brigade"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		light_mechanized = { x = 1 y = 0 }
+		light_mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 3 y = 0 }
+	}
+	
+}
+division_template = {
+	name = "Korps Commandotroepen"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+	}
+	
+	priority = 2
+}
+
+division_template = {
+	name = "Korps Mariniers"
+
+	regiments = {
+		amphibious_mechanized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		special_forces = { x = 1 y = 0 }
+	}
+	
+}
+division_template = {
+	name = "Eskader Overvallen"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+	}
+	
+	priority = 2
+}
+
+units = {
+
+	division = {
+		name = "11th Luchtmobiele Brigade"
+		location = 6241
+		division_template = "Luchtmobiele Brigade"
+		start_experience_factor = 0.8
+	}
+		
+	division = {
+		name = "13th Luchtmobiele Brigade"
+		location = 6500
+		division_template = "Luchtmobiele Brigade"
+		start_experience_factor = 0.75
+	}
+		
+	division = {
+		name = "43rd Gemechaniseerde Brigade"
+		location = 9403
+		division_template = "Gemechaniseerde Brigade"
+		start_experience_factor = 0.75
+	}
+		
+	division = {
+		name = "20th Lichte Gemechaniseerde Brigade"
+		location = 9403
+		division_template = "Lichte Gemechaniseerde Brigade"
+		start_experience_factor = 0.75
+	}
+	
+	division = {
+		name = "Korps Commandotroepen"
+		location = 3262
+		division_template = "Korps Commandotroepen"
+		start_experience_factor = 0.9
+	}
+
+	division = {
+		name = "Korps Mariniers"
+		location = 9498
+		division_template = "Korps Mariniers"
+		start_experience_factor = 0.8
+	}
+		
+	division = {
+		name = "32nd Eskader Overvallen"
+		location = 153
+		division_template = "Eskader Overvallen"
+		start_experience_factor = 0.9
+	}
+}
+
+### Air OOB ###
+#air_wings = {
+#	35 = {
+#		#F-16AM Modern Avionics
+#		fighter_equipment_3 = {
+#			owner = "HOL" 
+#			amount = 40
+#		}
+#
+#	}
+#	841 = {
+#		#F-16AM Modern Avionics
+#		fighter_equipment_3 = {
+#			owner = "HOL" 
+#			amount = 20
+#		}
+#	}
+#}

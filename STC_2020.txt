@@ -1,0 +1,83 @@
+﻿division_template = {
+	name = "Volunteer Brigade"
+	regiments = {
+		militia = {
+			x = 0
+			y = 0
+		}
+		militia = {
+			x = 0
+			y = 1
+		}
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "National Guard"
+	regiments = {
+		motorized = {
+			x = 0
+			y = 0
+		}
+		motorized = {
+			x = 0
+			y = 1
+		}
+		artillery_brigade = {
+			x = 1
+			y = 0
+		}
+		infantry = {
+			x = 2
+			y = 0
+		}
+	}
+	support = {
+		engineer = {
+			x = 0
+			y = 0
+		}
+	}
+	priority = 2
+}
+
+units = {
+	division = {
+		name = "1st South Carolina National Guard Brigade"
+		location = 13637
+		division_template = "National Guard"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd South Carolina National Guard Brigade"
+		location = 7527
+		division_template = "National Guard"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd South Carolina National Guard Brigade"
+		location = 13639
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "1st Volunteer Brigade"
+		location = 10029
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "2nd Volunteer Brigade"
+		location = 10047
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "3rd Volunteer Brigade"
+		location = 1547
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.1
+	}
+}

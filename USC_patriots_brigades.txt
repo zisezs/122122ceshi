@@ -1,0 +1,31 @@
+﻿division_template = {
+	name = "Patriot Militia"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 0 y = 4 }
+	}
+	support = {
+	}
+}
+
+units = {
+	division = {
+		name = "1st \"Washington\" Militia"
+		location = 13952
+		division_template = "Patriot Militia"
+	}
+	division = {
+		name = "2nd \"Constitution\" Militia"
+		location = 13954
+		division_template = "Patriot Militia"
+	}
+	division = {
+		name = "3rd \"Reagan\" Militia"
+		location = 13951
+		division_template = "Patriot Militia"
+	}
+}

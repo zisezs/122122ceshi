@@ -1,0 +1,85 @@
+### Air OOB ###
+
+air_wings = {
+	291 = {
+		#MiG-29A
+		fighter_airframe_1 = {
+			owner = "IRQ" 
+			amount = 10
+			version_name = "MiG-29A"
+		}
+
+	}
+	291 = {
+		#MiG-25
+		uav_airframe_0 = {
+			owner = "IRQ" 
+			amount = 15
+			version_name = "MiG-25"
+		}
+
+	}
+	676 = {
+		#MiG-21
+		uav_airframe_0 = {
+			owner = "IRQ" 
+			amount = 80
+			version_name = "MiG-21"
+		}
+
+	}
+	675 = {
+		#Mirage F1 EQ
+		uav_airframe_0 = {
+			owner = "IRQ" 
+			amount = 40
+			version_name = "Mirage F1 EQ"
+		}
+
+	}
+	675 = {
+		#Mig-23
+		uav_airframe_0 = {
+			owner = "IRQ" 
+			amount = 40
+			version_name = "MiG-23"
+		}
+
+	}
+	291 = {
+		#Su-25
+		uav_airframe_1 = {
+			owner = "IRQ" 
+			amount = 15
+			version_name = "Su-25"
+		}
+
+	}
+	291 = {
+		#Su-22/Su-20
+		uav_airframe_1 = {
+			owner = "IRQ" 
+			amount = 15
+			version_name = "Su-22/Su-20"
+		}
+	
+	}
+	
+	675 = {
+		#Su-24
+		uav_airframe_1 = {
+			owner = "IRQ" 
+			amount = 1
+			version_name = "Su-24"
+		}
+
+	}
+	675 = {
+		#Transports
+		transport_plane_equipment_1 = {
+			owner = "IRQ" 
+			amount = 9
+		}
+
+	}
+}

@@ -1,0 +1,22 @@
+﻿### Air OOB ###
+
+air_wings = {
+	51 = {
+		#Eurofighter Typhoon
+		fighter_airframe_1 =  {
+			owner = "GER" 
+			amount = 2000
+			version_name = "Eurofighter Typhoon"
+		}
+	}
+	42 = {
+		#Tornado IDS
+		uav_airframe_1 =  {
+			owner = "GER" 
+			amount = 1000
+			version_name = "Tornado IDS"
+		}
+	}
+	64 = {
+	}
+}

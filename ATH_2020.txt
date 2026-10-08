@@ -1,0 +1,44 @@
+﻿units = {
+	division = {
+		name = "1st Volunteer Militia"
+		location = 13446
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.01
+	}
+	division = {
+		name = "2nd Volunteer Militia"
+		location = 13446
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.01
+	}
+	division = {
+		name = "3rd Volunteer Militia"
+		location = 13446
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.01
+	}
+	division = {
+		name = "4th Volunteer Militia"
+		location = 13446
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.01
+	}
+	division = {
+		name = "5th Volunteer Militia"
+		location = 13446
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.01
+	}
+	division = {
+		name = "6th Volunteer Militia"
+		location = 13446
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.01
+	}
+	division = {
+		name = "7th Volunteer Militia"
+		location = 13446
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.01
+	}
+}

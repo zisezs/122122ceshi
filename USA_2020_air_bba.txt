@@ -1,0 +1,114 @@
+instant_effect = {
+	add_equipment_to_stockpile = {
+		type = fighter_airframe_1
+		amount = 233
+		producer = USA
+		variant_name = "F-15C/D"
+	}
+	add_equipment_to_stockpile = {
+		type = fighter_airframe_1
+		amount = 219
+		producer = USA
+		variant_name = "F-15E"
+	}
+	add_equipment_to_stockpile = {
+		type = fighter_airframe_1
+		amount = 911
+		producer = USA
+		variant_name = "F-16C/D"
+	}
+	add_equipment_to_stockpile = {
+		type = fighter_airframe_1
+		amount = 195
+		producer = USA
+		variant_name = "F-22A"
+	}
+	add_equipment_to_stockpile = {
+		type = fighter_airframe_1
+		amount = 199
+		producer = USA
+		variant_name = "F-35A"
+	}
+	add_equipment_to_stockpile = {
+		type = cv_airframe_1
+		amount = 650
+		producer = USA
+		variant_name = "F/A-18E/F"
+	}
+	add_equipment_to_stockpile = {
+		type = cv_airframe_1
+		amount = 200
+		producer = USA
+		variant_name = "F/A-18C"
+	}
+	add_equipment_to_stockpile = {
+		type = cv_airframe_2
+		amount = 32
+		producer = USA
+		variant_name = "F-35C"
+	}
+	add_equipment_to_stockpile = {
+		type = fighter_airframe_0
+		amount = 118
+		producer = USA
+		variant_name = "A/V-8"
+	}
+	add_equipment_to_stockpile = {
+		type = fighter_airframe_0
+		amount = 287
+		producer = USA
+		variant_name = "A-10C Warthog"
+	}
+	add_equipment_to_stockpile = {
+		type = bomber_airframe_1
+		amount = 66
+		producer = USA
+		variant_name = "B-1B Lancer"
+	}
+	add_equipment_to_stockpile = {
+		type = bomber_airframe_1
+		amount = 20
+		producer = USA
+		variant_name = "B-2 Spirit"
+	}
+	add_equipment_to_stockpile = {
+		type = bomber_airframe_0
+		amount = 76
+		producer = USA
+		variant_name = "B-52H Stratofortress"
+	}
+	add_equipment_to_stockpile = {
+		type = bomber_airframe_0
+		amount = 80
+		producer = USA
+		variant_name = "P-8A Poseidon"
+	}
+	add_equipment_to_stockpile = {
+		type = uav_airframe_1
+		amount = 104
+		producer = USA
+		variant_name = "MQ-9 Reaper"
+	}
+	add_equipment_to_stockpile = {
+		type = uav_airframe_0
+		amount = 177
+		producer = USA
+		variant_name = "MQ-1 Predator"
+	}
+	add_equipment_to_stockpile = {
+		type = transport_plane_equipment_0
+		amount = 369
+		producer = USA
+	}
+	add_equipment_to_stockpile = {
+		type = transport_plane_equipment_1
+		amount = 222
+		producer = USA
+	}
+	add_equipment_to_stockpile = {
+		type = transport_plane_equipment_2
+		amount = 77
+		producer = USA
+	}
+
+}

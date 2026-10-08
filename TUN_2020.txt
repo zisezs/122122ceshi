@@ -1,0 +1,72 @@
+﻿division_template = {
+	name = "Mechanized Brigade"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		artillery_brigade = { x = 1 y = 0 }
+
+	}
+	support = {
+		light_tank_recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Saharan territorial group"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+
+	}
+	priority = 2
+}
+division_template = {
+	name = "Special Forces"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+
+	}
+	priority = 2
+}
+
+units = {
+	division = {
+		name = "3rd Mechanised Brigade"
+		location = 7077
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "1st Mechanised Brigade"
+		location = 7005
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "2nd Mechanised Brigade"
+		location = 4163
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "Saharan territorial group"
+		location = 4992
+		division_template = "Saharan territorial group"
+		start_experience_factor = 0.75
+		
+	}
+	division = {
+		name = "Special Forces"
+		location = 11969
+		division_template = "Special Forces"
+		start_experience_factor = 0.75
+		
+	}
+}

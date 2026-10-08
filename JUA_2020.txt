@@ -1,0 +1,77 @@
+﻿division_template = {
+	name = "La Línea Motorizada"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+	}
+	
+	support = {
+		apc_company = { x = 0 y = 0 }
+	}
+	
+	priority = 2
+}
+
+division_template = {
+	name = "La Línea"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+	}
+	
+	support = {
+		
+	}
+	
+	priority = 2
+}
+
+units = {
+	
+	division = {
+		name = "1. Brigada La Línea"
+		location = 13982
+		division_template = "La Línea"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Brigada La Línea"
+		location = 13982
+		division_template = "La Línea"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3. Brigada La Línea"
+		location = 13982
+		division_template = "La Línea"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "4. Brigada La Línea"
+		location = 13982
+		division_template = "La Línea"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "5. Brigada La Línea Motorizada"
+		location = 13982
+		division_template = "La Línea Motorizada"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "6. Brigada La Línea Motorizada"
+		location = 13982
+		division_template = "La Línea Motorizada"
+		start_experience_factor = 0.1
+	}
+}

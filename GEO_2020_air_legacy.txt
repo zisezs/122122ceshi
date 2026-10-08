@@ -1,0 +1,16 @@
+### Air OOB ###
+
+air_wings = {
+	231 = {
+		#Su-25
+		CAS_equipment_2 = {
+			owner = "GEO" 
+			amount = 12
+		}
+		#Su-2
+		fighter_equipment_2 = {
+			owner = "GEO" 
+			amount = 11
+		}
+	}
+}

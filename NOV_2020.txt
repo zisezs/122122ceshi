@@ -1,0 +1,188 @@
+﻿division_template = {
+	name = "Batalyon Dobrovolchev"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+	}
+	
+	support = {
+	}
+	
+	priority = 0
+}
+
+division_template = {
+	name = "Brigada Dobrovolchev"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+	
+	priority = 0
+}
+
+division_template = {
+	name = "Pekhotnaya Brigada"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Motorizovannaya Brigada"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+	}
+	
+	support = {
+		spa_company = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Batalyon Spetsnaza"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+	}
+	
+	support = {
+		mbt_company = { x = 0 y = 0 }
+	}
+	
+	priority = 2
+}
+
+division_template = {
+	name = "Mekhanizirovannaya Brigada"
+
+	regiments = {
+		light_mechanized = { x = 0 y = 0 }
+		light_mechanized = { x = 0 y = 1 }
+		light_mechanized = { x = 0 y = 2 }
+	}
+	
+	support = {
+		spa_company = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Kazachya Brigada"
+
+	regiments = {
+		light_mechanized = { x = 0 y = 0 }
+		light_mechanized = { x = 0 y = 1 }
+		light_mechanized = { x = 0 y = 2 }
+		modern_sp_artillery_brigade = { x = 0 y = 3 }
+		modern_armor = { x = 1 y = 0 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+	
+	priority = 2
+}
+
+division_template = {
+	name = "Tankovyi Batalyon"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+	}
+	support = {	
+		light_tank_recon = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {			
+		name = "Brigada 'Vostok'"
+		location = 6505
+		division_template = "Pekhotnaya Brigada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "Shakhtyorskaya Diviziya"
+		location = 6505
+		division_template = "Brigada Dobrovolchev"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "Brigada 'Kalmius'"
+		location = 6505
+		division_template = "Batalyon Dobrovolchev"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "Brigada 'Pyatnashka'"
+		location = 6505		#Marinka
+		division_template = "Brigada Dobrovolchev"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Brigada 'Dizel'"
+		location = 6505	
+		division_template = "Tankovyi Batalyon"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "Kazachya Natsionalnaya Gvardiya"
+		location = 9461
+		division_template = "Kazachya Brigada"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "Brigada 'Prizrak'"
+		location = 9461
+		division_template = "Mekhanizirovannaya Brigada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "Brigada 'Pyatnashka'"
+		location = 6505		#Marinka
+		division_template = "Brigada Dobrovolchev"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "Brigada 'Dizel'"
+		location = 6505	
+		division_template = "Tankovyi Batalyon"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+}

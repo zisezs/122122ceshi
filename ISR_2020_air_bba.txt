@@ -1,0 +1,46 @@
+### Air OOB ###
+
+air_wings = {
+	454 = {
+		#F-15
+		fighter_airframe_0 = {
+			owner = "ISR" 
+			amount = 20
+			version_name = "F-15E"
+		}
+		#F-16
+		fighter_airframe_1 = {
+			owner = "ISR" 
+			amount = 40
+			version_name = "F-16"
+		}
+	}
+	812 = {
+		#F-15
+		fighter_airframe_0 = {
+			owner = "ISR" 
+			amount = 30
+			version_name = "F-15E"
+		}
+		#F-16
+		fighter_airframe_1 = {
+			owner = "ISR" 
+			amount = 60
+			version_name = "F-16"
+		}
+	}
+	1111 = {
+		#F-15
+		fighter_airframe_0 = {
+			owner = "ISR" 
+			amount = 10
+			version_name = "F-15E"
+		}
+		#F-16
+		fighter_airframe_1 = {
+			owner = "ISR" 
+			amount = 60
+			version_name = "F-16"
+		}
+	}
+}

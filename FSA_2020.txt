@@ -1,0 +1,27 @@
+﻿division_template = {
+	name = "Shuebat Almilishiat"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+	}
+	
+	support = {
+	}
+		
+}
+
+units = {
+	division = {
+		name = "1. Shuebat Almilishiat"
+		location = 13661
+		division_template = "Shuebat Almilishiat"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Shuebat Almilishiat"
+		location = 13663
+		division_template = "Shuebat Almilishiat"
+		start_experience_factor = 0.1
+	}
+}

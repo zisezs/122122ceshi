@@ -1,0 +1,106 @@
+﻿units = {
+	division = {
+		name = "1st National Guard Defectors"
+		location = 1690
+		division_template = "National Guard"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "2nd National Guard Defectors"
+		location = 10157
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1st 'Pinetree' Militia"
+		location = 10157
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2nd 'Crusaders' Militia"
+		location = 7414
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "3rd 'Lincoln' Militia"
+		location = 1320
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "4th 'Devil's Advocate' Militia"
+		location = 4747
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "5th 'Cry of the Forest' Militia"
+		location = 7865
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "6th 'Freedom or Death' Militia"
+		location = 4826
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "7th 'Kurt Cobain' Militia"
+		location = 4747
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "8th 'Timber' Militia"
+		location = 1690
+		division_template = "National Guard"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "1st 'Righteous Hand of God' Brigade"
+		location = 10687
+		division_template = "National Guard"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2nd 'Ruby Ridge' Brigade"
+		location = 13556
+		division_template = "National Guard"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "3rd National Guard 'Elk'"
+		location = 12673
+		division_template = "National Guard"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "1st Motorized 'Homeless Helpers' Brigade"
+		location = 10198
+		division_template = "Motorized Militia"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2nd Motorized 'af' Brigade"
+		location = 13556
+		division_template = "Motorized Militia"
+		start_experience_factor = 0.2
+	}
+}

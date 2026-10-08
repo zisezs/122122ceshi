@@ -1,0 +1,197 @@
+﻿division_template = {
+	name = "Infantry Division"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		artillery_brigade = { x = 0 y = 3 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		artillery_brigade = { x = 1 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		field_hospital = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Special Forces Brigade"
+	
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		paratrooper = { x = 0 y = 3 }
+		special_forces = { x = 0 y = 4 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		field_hospital = { x = 0 y = 2 }
+	}
+	
+	priority = 2
+}
+
+division_template = {
+	name = "Artillery Brigade"
+	
+	regiments = {
+		artillery_brigade = { x = 0 y = 0 }
+		artillery_brigade = { x = 0 y = 1 }
+		artillery_brigade = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		anti_tank = { x = 0 y = 1 }
+		field_hospital = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Armored Brigade"
+	
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		modern_sp_artillery_brigade = { x = 0 y = 3 }
+
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+		modern_sp_artillery_brigade = { x = 1 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Paratrooper Brigade"
+	
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		paratrooper = { x = 0 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		field_hospital = { x = 0 y = 2 }
+	}
+	
+	priority = 2
+}
+division_template = {
+	name = "Marine Brigade"
+	
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		field_hospital = { x = 0 y = 2 }
+	}
+	
+	priority = 2
+}
+
+units = {
+	#9th Division
+	division = {
+		name = "9 Ma Padatika Dibhiśanera"
+		location = 11929		#Savar
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		
+	}
+
+	#10th Division
+	division = {
+		name = "10 Ma Padatika Dibhiśanera"
+		location = 1142		#Ramu
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		
+	}
+
+	#11th Division
+	division = {
+		name = "11 Ma Padatika Dibhiśanera"
+		location = 7634		#Majhira
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		
+	}
+
+	#17th Division
+	division = {
+		name = "17 Ma Padatika Dibhiśanera"
+		location = 9993		#Jalalabad
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		
+	}
+
+	#19th Division
+	division = {
+		name = "19 Ma Padatika Dibhiśanera"
+		location = 1075		#Shahid Salahuddin
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		
+	}
+
+	#24th Division
+	division = {
+		name = "24 Ma Padatika Dibhiśanera"
+		location = 12010		#Chittagong
+		division_template = "Armored Brigade"
+		start_experience_factor = 0.3
+		
+	}
+
+	#33rd Division
+	division = {
+		name = "33 Ma Padatika Dibhiśanera"
+		location = 11968		#Comilla
+		division_template = "Armored Brigade"
+		start_experience_factor = 0.3
+		
+	}
+
+	#66th Division
+	division = {
+		name = "66 Ma Padatika Dibhiśanera"
+		location = 10443		#Rangpur
+		division_template = "Armored Brigade"
+		start_experience_factor = 0.3
+		
+	}
+
+	division = {
+		name = "Bangladesh Paratrooper Brigade"
+		location = 11929
+		division_template = "Paratrooper Brigade"
+		start_experience_factor = 0.5
+		
+	}
+
+	division = {
+		name = "Bangladesh Marines"
+		location = 11929
+		division_template = "Marine Brigade"
+		start_experience_factor = 0.5
+		
+	}
+}

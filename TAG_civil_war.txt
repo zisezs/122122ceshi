@@ -1,0 +1,105 @@
+﻿division_template = {
+	name = "Cordillera Guerilla"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
+	}
+	
+	support = {
+	}
+}
+
+units = {
+
+	division = {
+		name = "Cordillera Militia"
+		location = 4423
+		division_template = "Cordillera Guerilla"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Cordillera Militia"
+		location = 10167
+		division_template = "Cordillera Guerilla"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Cordillera Militia"
+		location = 4423
+		division_template = "Cordillera Guerilla"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Cordillera Militia"
+		location = 10298
+		division_template = "Cordillera Guerilla"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Cordillera Militia"
+		location = 10298
+		division_template = "Cordillera Guerilla"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Cordillera Militia"
+		location = 4423
+		division_template = "Cordillera Guerilla"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Cordillera Militia"
+		location = 4423
+		division_template = "Cordillera Guerilla"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Cordillera Militia"
+		location = 4423
+		division_template = "Cordillera Guerilla"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Cordillera Militia"
+		location = 10167
+		division_template = "Cordillera Guerilla"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Cordillera Militia"
+		location = 10167
+		division_template = "Cordillera Guerilla"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Cordillera Militia"
+		location = 10167
+		division_template = "Cordillera Guerilla"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Cordillera Militia"
+		location = 4423
+		division_template = "Cordillera Guerilla"
+		start_experience_factor = 0.1
+	}
+}

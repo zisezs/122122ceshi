@@ -1,0 +1,164 @@
+﻿division_template = {
+	name = "Brigada Infanterie Blindata"
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+		mechanized = { x = 1 y = 3 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		spa_company = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Brigada Infanterie"
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		mechanized = { x = 0 y = 3 }
+		artillery_brigade = { x = 0 y = 4 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Brigada Vantori de Munte"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		artillery_brigade = { x = 0 y = 3 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		spa_company = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Brigada Mecanizata"
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		spaa_brigade = { x = 0 y = 1 }
+		light_mechanized = { x = 1 y = 0 }
+		light_mechanized = { x = 1 y = 1 }
+		artillery_brigade = { x = 1 y = 2 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		spa_company = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Brigada Operații Speciale"
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Batalionul Infanterie Marina"
+	
+	regiments = {
+		marine = { x = 0 y = 0 }
+	}
+	priority = 2
+}
+
+units = {
+	division = {
+		name = "Brigada 1 Mecanizata 'Argedava'"
+		location = 9617
+		division_template = "Brigada Infanterie Blindata"
+		start_experience_factor = 0.5
+	}
+
+	division = {
+		name = "Brigada 6 Operatii Speciale 'Mihai Viteazul'"
+		location = 9670
+		division_template = "Brigada Operații Speciale"
+		start_experience_factor = 0.7
+	}
+
+	division = {
+		name = "Batalionul 307 Infanterie Marina"
+		location = 687
+		division_template = "Batalionul Infanterie Marina"
+		start_experience_factor = 0.5
+	}
+	
+	#2nd Infantry Division
+	division = {
+		name = "Brigada 2 Infanterie 'Rovine'"
+		location = 6652
+		division_template = "Brigada Infanterie"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "Brigada 2 Vanatori de Munte 'Sarmizegetusa'"
+		location = 690
+		division_template = "Brigada Vantori de Munte"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "Brigada 9 Mecanizata 'Marasesti'"
+		location = 657	 	#Constanta
+		division_template = "Brigada Mecanizata"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "Brigada 282 Mecanizata 'Unirea Principatelor'"
+		location = 9701
+		division_template = "Brigada Mecanizata"
+		start_experience_factor = 0.5
+	}
+
+	division = {
+		name = "Brigada 15 Mecanizata 'Podu Înalt'"
+		location = 9716
+		division_template = "Brigada Infanterie Blindata"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "Brigada 18 Mecanizata 'Banat'"
+		location = 9606
+		division_template = "Brigada Infanterie"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "Brigada 61 Vanatori de Munte"
+		location = 690
+		division_template = "Brigada Vantori de Munte"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "Brigada 81 Mecanizata"
+		location = 6731
+		division_template = "Brigada Infanterie Blindata"
+		start_experience_factor = 0.5
+	}
+}

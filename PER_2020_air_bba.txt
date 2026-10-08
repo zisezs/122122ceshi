@@ -1,0 +1,102 @@
+﻿### Air OOB ###
+
+air_wings = {
+	419 = {
+		#MiG-29
+		fighter_airframe_1 =  {
+			owner = "PER" 
+			amount = 40
+			version_name = "Mig-29"
+		}
+
+	}
+	419 = {
+		#F-5E
+		uav_airframe_0 =  {
+			owner = "PER" 
+			amount = 12
+			version_name = "F-4E"
+		}
+	}
+	417 = {
+		#F-5E
+		uav_airframe_0 =  {
+			owner = "PER" 
+			amount = 13
+			version_name = "F-4E"
+		}
+	}
+	413 = {
+		#F-5E
+		uav_airframe_0 =  {
+			owner = "PER" 
+			amount = 24
+			version_name = "F-4E"
+		}
+	}
+	413 = {
+		#F-7 - J-7
+		uav_airframe_0 =  {
+			owner = "PER" 
+			amount = 17
+			version_name = "Chengdu J-7"
+		}
+	}
+	411 = {
+		#F-14A - Interceptor
+		fighter_airframe_0 =  {
+			owner = "PER" 
+			amount = 24
+			version_name = "F-14"
+		}
+
+	}
+	411 = {
+		#F-5E
+		uav_airframe_0 =  {
+			owner = "PER" 
+			amount = 12
+			version_name = "F-4E"
+		}
+	}
+	412 = {
+		#F-4E
+		uav_airframe_0 =  {
+			owner = "PER" 
+			amount = 38
+			version_name = "F-4E"
+		}
+	}
+	412 = {
+		#Su-24 - Tactical Bomber
+		uav_airframe_1 =  {
+			owner = "PER" 
+			amount = 24
+			version_name = "Su-24"
+		}
+	}
+	410 = {
+		#F-4D
+		uav_airframe_0 =  {
+			owner = "PER" 
+			amount = 24
+			version_name = "F-4E"
+		}
+	}
+	416 = {
+		#F-5E
+		uav_airframe_0 =  {
+			owner = "PER" 
+			amount = 24
+			version_name = "F-4E"
+		}
+	}
+	410 = {
+		#Mirage F1
+		fighter_airframe_1 =  {
+			owner = "PER" 
+			amount = 40
+			version_name = "Mig-29"
+		}
+	}
+}

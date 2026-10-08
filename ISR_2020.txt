@@ -1,0 +1,293 @@
+﻿division_template = {
+	name = "Armor Brigade"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		modern_sp_artillery_brigade = { x = 0 y = 3 }
+	}
+	
+	support = {
+		apc_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Infantry Brigade"
+
+	regiments = {
+		light_mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		modern_sp_artillery_brigade = { x = 0 y = 3 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Paratrooper Brigade"
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Commando Brigade"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+		special_forces = { x = 0 y = 3 }
+	}
+	
+	support = {
+	}
+	
+	priority = 2
+}
+
+division_template = {
+	name = "Reserve Infantry Brigade"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		artillery_brigade = { x = 0 y = 3 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+	
+	priority = 0
+}
+
+division_template = {
+	name = "Reserve Armored Brigade"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		mechanized = { x = 0 y = 3 }
+		artillery_brigade = { x = 0 y = 4 }
+	}
+	
+	support = {
+		apc_company = { x = 0 y = 0 }
+	}
+	
+	priority = 0
+}
+
+units = {
+	division = {	
+		name = "7 Hativa Sheva 'Saar me-Golan'"
+		location = 13221
+		division_template = "Armor Brigade"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "188 Hativa Sheva 'Barak'"
+		location = 13221
+		division_template = "Armor Brigade"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "1 Infantry Brigade 'Golani'"
+		location = 13221
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "6 (Reserve) Infantry Brigade 'Etzioni'"
+		location = 13221
+		division_template = "Reserve Infantry Brigade"
+		start_experience_factor = 0.65
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "263 (Reserve) Hativa Sheva 'Merkavot ha-Esh'"
+		location = 13221
+		division_template = "Reserve Armored Brigade"
+		start_experience_factor = 0.65
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "3 (Reserve) Infantry Brigade 'Alexandroni'"
+		location = 1065
+		division_template = "Reserve Infantry Brigade"
+		start_experience_factor = 0.65
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "8 (Reserve) Hativa Sheva 'Old Man'"
+		location = 1065
+		division_template = "Reserve Armored Brigade"
+		start_experience_factor = 0.65
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "11 (Reserve) Infantry Brigade 'Yiftah'"
+		location = 13221
+		division_template = "Reserve Infantry Brigade"
+		start_experience_factor = 0.65
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "679 (Reserve) Hativa Sheva 'Yiftah'"
+		location = 13221
+		division_template = "Reserve Armored Brigade"
+		start_experience_factor = 0.65
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "4 (Reserve) Hativa Sheva 'Kiryati'"
+		location = 1065
+		division_template = "Reserve Armored Brigade"
+		start_experience_factor = 0.65
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "2 (Reserve) Infantry Brigade 'Carmeli'"
+		location = 1065
+		division_template = "Reserve Infantry Brigade"
+		start_experience_factor = 0.65
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "228 (Reserve) Infantry Brigade 'Alon'"
+		location = 11970
+		division_template = "Reserve Infantry Brigade"
+		start_experience_factor = 0.65
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "205 (Reserve) Hativa Sheva 'Iron Fist'"
+		location = 11970
+		division_template = "Reserve Armored Brigade"
+		start_experience_factor = 0.65
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "35 Hativat HaTzanhanim 'Flying Serpent'"
+		location = 4206
+		division_template = "Commando Brigade"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "55 (Reserve) Hativat HaTzanhanim 'Hod Ha-Hanit'"
+		location = 4206
+		division_template = "Commando Brigade"
+		start_experience_factor = 0.65
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "551 (Reserve) Hativat HaTzanhanim 'Hetzei Ha-Esh'"
+		location = 1086
+		division_template = "Commando Brigade"
+		start_experience_factor = 0.65
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "89 Hativat Commando 'Oz'"
+		location = 4206
+		division_template = "Commando Brigade"
+		start_experience_factor = 0.9
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "847 (Reserve) Hativa Sheva 'Chariots of Steel'"
+		location = 1086	
+		division_template = "Reserve Armored Brigade"
+		start_experience_factor = 0.65
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "5 (Reserve) Infantry Brigade 'Sharon'"
+		location = 1086
+		division_template = "Reserve Infantry Brigade"
+		start_experience_factor = 0.65
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "16 (Reserve) Infantry Brigade 'Jerusalem'"
+		location = 1086
+		division_template = "Reserve Infantry Brigade"
+		start_experience_factor = 0.65
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "900 Infantry Brigade 'Kfir'"
+		location = 1086
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "37 (Reserve) Hativa Sheva 'Ram'"
+		location = 1015
+		division_template = "Reserve Armored Brigade"
+		start_experience_factor = 0.65
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "401 Hativa Sheva 'Ikvot HaBarzel'"
+		location = 1015
+		division_template = "Armor Brigade"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "84 Infantry Brigade 'Giv'ati'"
+		location = 1015
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "933 Infantry Brigade 'Nahal'"
+		location = 1015
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "10 (Reserve) Hativa Sheva 'Harel'"
+		location = 11970
+		division_template = "Reserve Armored Brigade"
+		start_experience_factor = 0.65
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "14 (Reserve) Hativa Sheva 'Macvhatz'"
+		location = 11970
+		division_template = "Reserve Armored Brigade"
+		start_experience_factor = 0.65
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "12 (Reserve) Infantry Brigade 'Negev'"
+		location = 11970
+		division_template = "Reserve Infantry Brigade"
+		start_experience_factor = 0.65
+		start_equipment_factor = 1
+	}
+}

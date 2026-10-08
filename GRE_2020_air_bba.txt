@@ -1,0 +1,58 @@
+﻿### Air OOB ###
+air_wings = {
+	47 = {
+		#F-16C/D Block 52/50
+		fighter_airframe_1 =  {
+			owner = "GRE" 
+			amount = 44
+			version_name = "F-16"
+		}
+	}
+	47 = {
+		#Mirage 2000-5
+		uav_airframe_1 =  {
+			owner = "GRE" 
+			amount = 25
+			version_name = "Mirage 2000"
+		}
+	}
+	186 = {
+		#F-16C/D Block 52
+		fighter_airframe_1 =  {
+			owner = "GRE" 
+			amount = 22
+			version_name = "F-16"
+		}
+	}
+	182 = {
+		#F-16C/D Block 52
+		fighter_airframe_1 =  {
+			owner = "GRE" 
+			amount = 44
+			version_name = "F-16"
+		}
+	}
+	47 = {
+		fighter_airframe_1 =  {
+			owner = "GRE" 
+			amount = 22
+			version_name = "Rafale 4"
+		}
+	}
+	47 = {
+		#Mirage 2000EGM
+		uav_airframe_1 =  {
+			owner = "GRE" 
+			amount = 18
+			version_name = "Mirage 2000"
+		}
+	}
+	186 = {
+		#F-4E PI2000
+		uav_airframe_1 =  {
+			owner = "GRE" 
+			amount = 34
+			version_name = "F-4E"
+		}
+	}
+}

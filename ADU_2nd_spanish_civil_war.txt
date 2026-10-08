@@ -1,0 +1,147 @@
+division_template = {
+	name = "Foot Militia"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+		
+}
+
+division_template = {
+	name = "Mechanized Brigade"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		light_mechanized = { x = 0 y = 1 }
+		modern_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		mechanized = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 3 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Recon Brigade"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+		artillery_brigade = { x = 3 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Parachute Brigade"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		paratrooper = { x = 1 y = 0 }
+		mechanized = { x = 2 y = 0 }
+		mechanized = { x = 3 y = 0 }
+		artillery_brigade = { x = 4 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Mechanized Brigade 2"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_mechanized = { x = 1 y = 0 }
+		mechanized = { x = 2 y = 0 }
+		mechanized = { x = 3 y = 0 }
+		artillery_brigade = { x = 4 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Cavalry Regiment"
+
+	regiments = {
+		light_mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+	}
+	support = {
+		mbt_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Cavalry Regiment 2"
+
+	regiments = {
+		light_mechanized = { x = 0 y = 0 }
+		light_mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+
+	}
+	support = {
+		mbt_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Special Operations Group"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Marine Infantry Brigade"
+
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		amphibious_mechanized = { x = 1 y = 0 }
+		recce = { x = 2 y = 0 }
+
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }
+		mbt_company = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		spa_company = { x = 0 y = 3 }
+		spaa_company = { x = 0 y = 4 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st División Marina"
+		location = 9979
+		division_template = "Marine Infantry Brigade"
+		start_experience_factor = 0.75
+	}
+
+	division = {
+		name = "2nd División Marina"
+		location = 9979
+		division_template = "Marine Infantry Brigade"
+		start_experience_factor = 0.75
+	}
+
+	division = {
+		name = "3rd División Marina"
+		location = 9979
+		division_template = "Marine Infantry Brigade"
+		start_experience_factor = 0.75
+	}
+
+	division = {
+		name = "4th División Marina"
+		location = 9979
+		division_template = "Marine Infantry Brigade"
+		start_experience_factor = 0.75
+	}
+
+}

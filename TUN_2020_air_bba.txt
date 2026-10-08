@@ -1,0 +1,12 @@
+﻿### Air OOB ###
+
+air_wings = {
+	458 = {
+		#F-5E
+		fighter_airframe_1 = {
+			owner = "TUN" 
+			amount = 12
+			version_name = "F-5E"
+		}
+	}
+}

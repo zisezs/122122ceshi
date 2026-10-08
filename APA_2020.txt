@@ -1,0 +1,379 @@
+﻿division_template = {
+	name = "Infantry Brigade"
+	is_locked = yes
+	regiments = {
+		infantry = {
+			x = 0
+			y = 0
+		}
+		infantry = {
+			x = 0
+			y = 1
+		}
+		infantry = {
+			x = 0
+			y = 2
+		}
+		infantry = {
+			x = 1
+			y = 0
+		}
+		infantry = {
+			x = 1
+			y = 1
+		}
+		infantry = {
+			x = 1
+			y = 2
+		}
+		recce = {
+			x = 0
+			y = 3
+		}
+	}
+	support = {
+		engineer = {
+			x = 0
+			y = 0
+		}
+	}
+}
+
+division_template = {
+	name = "Motorized Brigade"
+	is_locked = yes
+	regiments = {
+		motorized = {
+			x = 0
+			y = 0
+		}
+		motorized = {
+			x = 0
+			y = 1
+		}
+		motorized = {
+			x = 1
+			y = 0
+		}
+		motorized = {
+			x = 1
+			y = 1
+		}
+	}
+	support = {
+		engineer = {
+			x = 0
+			y = 0
+		}
+		signal_company = {
+			x = 0
+			y = 1
+		}
+	}
+}
+
+division_template = {
+	name = "Recon Unit"
+	is_locked = yes
+	regiments = {
+		recce = {
+			x = 0
+			y = 0
+		}
+		recce = {
+			x = 0
+			y = 1
+		}
+		recce = {
+			x = 1
+			y = 0
+		}
+		recce = {
+			x = 1
+			y = 1
+		}
+	}
+	support = {
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Armor Division"
+	division_names_group = USA_INF_01
+	is_locked = yes
+	regiments = {
+		modern_armor = {
+			x = 0
+			y = 0
+		}
+		modern_armor = {
+			x = 0
+			y = 1
+		}
+		mechanized = {
+			x = 1
+			y = 0
+		}
+		mechanized = {
+			x = 1
+			y = 1
+		}
+		mechanized = {
+			x = 1
+			y = 2
+		}
+		modern_sp_artillery_brigade = {
+			x = 2
+			y = 0
+		}
+		motorized = {
+			x = 2
+			y = 1
+		}
+		light_armor = {
+			x = 2
+			y = 2
+		}
+	}
+	support = {
+	}
+	priority = 2
+}
+
+units = {
+	division = {
+		name = "1st National Guard Defectors"
+		location = 11876
+		division_template = "National Guard"
+		start_experience_factor = 0.3
+		force_equipment_variants = {
+			infantry_equipment_2 = {
+				owner = "USA"
+			}
+		}
+	}
+	division = {
+		name = "2nd National Guard Defectors"
+		location = 13341
+		division_template = "National Guard"
+		start_experience_factor = 0.3
+		force_equipment_variants = {
+			infantry_equipment_2 = {
+				owner = "USA"
+			}
+		}
+	}
+	division = {
+		name = "3rd National Guard Defectors"
+		location = 13341
+		division_template = "National Guard"
+		start_experience_factor = 0.2
+		force_equipment_variants = {
+			infantry_equipment_2 = {
+				owner = "USC"
+			}
+		}
+	}
+	division = {
+		name = "4th National Guard Defectors"
+		location = 13341
+		division_template = "National Guard"
+		start_experience_factor = 0.2
+		force_equipment_variants = {
+			infantry_equipment_2 = {
+				owner = "USC"
+			}
+		}
+	}
+	division = {
+		name = "1st Infantry Brigade"
+		location = 13357
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.3
+		force_equipment_variants = {
+			infantry_equipment_2 = {
+				owner = "SV1"
+			}
+		}
+	}
+	division = {
+		name = "2nd Infantry Brigade"
+		location = 13360
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.3
+		force_equipment_variants = {
+			infantry_equipment_2 = {
+				owner = "SV1"
+			}
+		}
+	}
+	division = {
+		name = "3rd Infantry Brigade"
+		location = 6861
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th Infantry Brigade"
+		location = 3784
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "5th Infantry Brigade"
+		location = 11876
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "1st Volunteer Militia"
+		location = 13341
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.01
+		force_equipment_variants = {
+			infantry_equipment_2 = {
+				owner = "SV1"
+			}
+		}
+	}
+	division = {
+		name = "2nd Volunteer Militia"
+		location = 6881
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.01
+	}
+	division = {
+		name = "3rd Volunteer Militia"
+		location = 3677
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.01
+		force_equipment_variants = {
+			infantry_equipment_1 = {
+				owner = "APA"
+			}
+		}
+	}
+	division = {
+		name = "4th Volunteer Militia"
+		location = 610
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.01
+		force_equipment_variants = {
+			infantry_equipment_1 = {
+				owner = "APA"
+			}
+		}
+	}
+	division = {
+		name = "5th Volunteer Militia"
+		location = 11876
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.01
+		force_equipment_variants = {
+			infantry_equipment_1 = {
+				owner = "APA"
+			}
+		}
+	}
+	division = {
+		name = "5th Volunteer Militia"
+		location = 13360
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.01
+	}
+	division = {
+		name = "6th Volunteer Militia"
+		location = 13357
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.01
+		force_equipment_variants = {
+			infantry_equipment_1 = {
+				owner = "APA"
+			}
+		}
+	}
+	division = {
+		name = "3rd Recon Unit"
+		location = 11859
+		division_template = "Recon Unit"
+		start_experience_factor = 0.01
+	}
+	division = {
+		name = "8th Volunteer Militia"
+		location = 610
+		division_template = "Motorized Militia"
+		start_experience_factor = 0.01
+	}
+	division = {
+		name = "9th Volunteer Militia"
+		location = 13347
+		division_template = "Motorized Militia"
+		start_experience_factor = 0.01
+	}
+	division = {
+		name = "4th Recon Unit"
+		location = 9730
+		division_template = "Recon Unit"
+		start_experience_factor = 0.3
+		force_equipment_variants = {
+			infantry_equipment_1 = {
+				owner = "APA"
+			}
+		}
+	}
+	division = {
+		name = "12th Volunteer Militia"
+		location = 13668
+		division_template = "Motorized Militia"
+		start_experience_factor = 0.01
+	}
+	division = {
+		name = "13th Volunteer Militia"
+		location = 6757
+		division_template = "Motorized Militia"
+		start_experience_factor = 0.01
+	}
+	division = {
+		name = "14th Volunteer Militia"
+		location = 6757
+		division_template = "Motorized Brigade"
+		start_experience_factor = 0.01
+	}
+	division = {
+		name = "1st Recon Unit"
+		location = 768
+		division_template = "Recon Unit"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "16th Volunteer Militia"
+		location = 610
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.01
+	}
+	division = {
+		name = "17th Volunteer Militia"
+		location = 610
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.01
+	}
+	division = {
+		name = "18th Volunteer Militia"
+		location = 13291
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.01
+	}
+	division = {
+		name = "19th Volunteer Militia"
+		location = 13291
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.01
+	}
+	division = {
+		name = "20th Volunteer Militia"
+		location = 13291
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.01
+	}
+}

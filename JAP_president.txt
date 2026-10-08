@@ -1,0 +1,27 @@
+﻿division_template = {			
+	name = "GUNDAM EMPEROR SUPER COOL 2"
+	priority = 2
+	regiments = {
+		PRC_Gundam_DF_41 = { x = 0 y = 0 }
+		PRC_Gundam_DF_41 = { x = 0 y = 1 }
+		PRC_Gundam_DF_41 = { x = 1 y = 0 }
+		PRC_Gundam_DF_41 = { x = 1 y = 1 }
+		PRC_Gundam_DF_41 = { x = 2 y = 0 }
+		PRC_Gundam_DF_41 = { x = 2 y = 1 }
+	}
+	support = {
+	}
+}
+
+
+
+units = {
+	division = {			
+		name = "PRESIDENT OF JAPAN"
+		location = 7108	
+		division_template = "GUNDAM EMPEROR SUPER COOL 2"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+
+}

@@ -1,0 +1,34 @@
+﻿division_template = {
+	name = "Spetsnaz Brigada"
+	
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+		special_forces = { x = 0 y = 3 }
+	}
+	
+	support = {
+		mot_recon = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+	}
+		
+}
+
+units = {
+	
+	division = {
+		name = "24ya Spetsnaz Brigada"
+		location = 14006
+		division_template = "Spetsnaz Brigada"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "67ya Spetsnaz Brigada"
+		location = 14006
+		division_template = "Spetsnaz Brigada"
+		start_experience_factor = 0.5
+	}
+}

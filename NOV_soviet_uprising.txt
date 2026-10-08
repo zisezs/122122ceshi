@@ -1,0 +1,42 @@
+﻿division_template = {
+	name = "People's Militia"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+	template_counter = 22 
+	is_locked = yes
+	support = {
+	}
+}
+
+units = {
+	division = {
+		name = "Odessa Soviet Republic Militia"
+		location = 11670
+		division_template = "People's Militia"
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.75
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "Krivoy Rog Commune Militia"
+		location = 11561
+		division_template = "People's Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+		start_manpower_factor = 1.0
+	}
+	division = {
+		name = "Dnepropetrovsk Commune Militia"
+		location = 11437
+		division_template = "People's Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+		start_manpower_factor = 1.0
+	}
+}

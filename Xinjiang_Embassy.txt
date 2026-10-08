@@ -1,0 +1,31 @@
+	division_template = {
+		name = "Shiguan bao'an"
+
+		regiments = {
+			militia = { x = 0 y = 0 }
+			militia = { x = 0 y = 1 }
+			militia = { x = 0 y = 2 }
+			militia = { x = 0 y = 3 }
+			militia = { x = 0 y = 4 }
+		}
+		support = {
+			engineer = { x = 0 y = 0 }
+			anti_tank = { x = 0 y = 1 }
+		}
+	}
+units = {
+	division = {			
+		name = "Shiguan bao'an"
+		location = 4709
+		division_template = "Shiguan bao'an"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "Shiguan bao'an"
+		location = 4709
+		division_template = "Shiguan bao'an"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+}

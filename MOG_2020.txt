@@ -1,0 +1,49 @@
+﻿division_template = {
+	name = "Bikers"
+	
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+	}
+	
+	support = {
+	}
+	
+}
+
+units = {
+	division = {
+		name = "1st Mongol Posse"
+		location = 4975
+		division_template = "Bikers"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "2nd Mongol Posse"
+		location = 4975
+		division_template = "Bikers"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "3rd Mongol Posse"
+		location = 12684
+		division_template = "Bikers"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "4th Mongol Posse"
+		location = 14030
+		division_template = "Bikers"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "5th Mongol Posse"
+		location = 14030
+		division_template = "Bikers"
+		start_experience_factor = 0.01
+	}
+	
+}

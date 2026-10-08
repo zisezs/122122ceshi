@@ -1,0 +1,897 @@
+﻿	focus = {
+		current = "SOV_the_russian_dream"
+		progress = 10
+	}
+	
+division_template = {
+	name = "Rosgvardiya"
+	regiments = {
+		militia = {
+			x = 0
+			y = 0
+		}
+		militia = {
+			x = 0
+			y = 1
+		}
+		militia = {
+			x = 0
+			y = 2
+		}
+		militia = {
+			x = 0
+			y = 3
+		}
+	}
+	support = {
+		military_police = {
+			x = 0
+			y = 0
+		}
+	}
+	priority = 0
+}
+	
+division_template = {
+	name = "Ob'yedinennoye Strategicheskoye Komandovaniye"
+	is_locked = yes
+	
+	regiments = {						
+		bus = { x = 0 y = 0 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Gvardeyskaya Motostrelkovaya Brigada"
+	division_names_group = SOV_INF_01
+
+	regiments = {						
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		light_mechanized = { x = 0 y = 2 }
+		modern_armor = { x = 1 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 1 }
+		spaa_brigade = { x = 2 y = 2 }
+		motorized = { x = 3 y = 0 }
+		motorized = { x = 3 y = 1 }
+		light_armor = { x = 3 y = 2 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Gvardeyskaya Motostrelkovaya Diviziya"
+	division_names_group = SOV_INF_01
+
+	division_cap = 10
+
+	regiments = {						
+		light_mechanized = { x = 0 y = 0 } 
+		light_mechanized = { x = 0 y = 1 } 
+		light_mechanized = { x = 0 y = 2 }
+		light_mechanized = { x = 0 y = 3 }
+		light_mechanized = { x = 0 y = 4 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		modern_armor = { x = 1 y = 2 }
+		modern_armor = { x = 1 y = 3 }
+		modern_armor = { x = 1 y = 4 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 1 }
+		modern_sp_artillery_brigade = { x = 2 y = 2 }
+		modern_sp_artillery_brigade = { x = 2 y = 3 }
+		modern_sp_artillery_brigade = { x = 2 y = 4 }
+		modern_sp_artillery_brigade = { x = 3 y = 0 }
+		spaa_brigade = { x = 3 y = 1 }
+		spaa_brigade = { x = 3 y = 2 }
+		light_armor = { x = 4 y = 0 }
+		light_armor = { x = 4 y = 1 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Motostrelkovaya Brigada"
+	division_names_group = SOV_INF_01
+	
+	regiments = {
+		light_mechanized = { x = 0 y = 0 } 
+		light_mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		modern_armor = { x = 1 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 1 }
+		modern_sp_artillery_brigade = { x = 2 y = 2 }
+		spaa_brigade = { x = 2 y = 3 }
+		light_armor = { x = 3 y = 0 }
+	}
+	
+	support = {
+	}
+		
+}
+
+division_template = {
+	name = "Motostrelkovaya Diviziya"
+	division_names_group = SOV_INF_01
+	
+	division_cap = 10
+	
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		mechanized = { x = 0 y = 3 }
+		light_mechanized = { x = 1 y = 0 }
+		light_mechanized = { x = 1 y = 1 }
+		light_armor = { x = 1 y = 2 }
+		modern_armor = { x = 2 y = 0 }
+		modern_armor = { x = 2 y = 1 }
+		modern_armor = { x = 2 y = 2 }
+		modern_armor = { x = 2 y = 3 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+		artillery_brigade = { x = 3 y = 2 }
+		artillery_brigade = { x = 3 y = 3 }
+		motorized = { x = 3 y = 4 }
+		spaa_brigade = { x = 4 y = 0 }
+		spaa_brigade = { x = 4 y = 1 }
+		modern_sp_artillery_brigade = { x = 4 y = 2 }
+	}
+	
+	support = {
+		apc_company = { x = 0 y = 0 }
+	}
+	
+	priority = 1
+}
+
+division_template = {
+	name = "Tankovaya Brigada"
+	division_names_group = SOV_ARM_01
+	
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		light_mechanized = { x = 1 y = 0 }
+		modern_sp_artillery_brigade = { x = 1 y = 1 }
+		modern_sp_artillery_brigade = { x = 1 y = 2 }
+		spaa_brigade = { x = 1 y = 3 }
+		light_armor = { x = 1 y = 4 }
+	}
+	
+	support = {
+	}
+}
+
+division_template = {
+	name = "Tankovaya Diviziya"
+	division_names_group = SOV_ARM_01
+	
+	division_cap = 10
+	
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		light_mechanized = { x = 0 y = 3 }
+		modern_armor = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+		modern_armor = { x = 1 y = 2 }
+		light_mechanized = { x = 1 y = 3 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 1 }
+		modern_sp_artillery_brigade = { x = 2 y = 2 }
+		modern_sp_artillery_brigade = { x = 2 y = 3 }
+		modern_sp_artillery_brigade = { x = 3 y = 0 }
+		modern_sp_artillery_brigade = { x = 3 y = 1 }
+		spaa_brigade = { x = 4 y = 0 }
+		spaa_brigade = { x = 4 y = 1 }
+		light_armor = { x = 4 y = 2 }
+	}
+	
+	support = {
+	}
+	
+	priority = 2
+}
+
+division_template = {
+	name = "Spetsnaz Brigada"
+	division_names_group = SOV_SOF_01
+	
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+		special_forces = { x = 0 y = 3 }
+	}
+	
+	support = {
+	}
+	
+	priority = 2
+}
+
+division_template = {
+	name = "Aeromobil'nyy Brigada"
+	division_names_group = SOV_PAR_01
+	
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+	}
+	
+	support = {
+		spaa_company = { x = 0 y = 0 }
+		air_mechanized = { x = 0 y = 1 }
+	}
+	
+	priority = 1
+}
+
+division_template = {
+	name = "Morskaya Brigada"
+	division_names_group = SOV_MAR_01
+	override_model = "SOV_amphibious_armor_entity"
+	
+	regiments = {
+		amphibious_mechanized = { x = 0 y = 0 }
+		amphibious_mechanized = { x = 0 y = 1 }
+		amphibious_armor = { x = 0 y = 2 }
+		amphibious_armor = { x = 0 y = 3 }
+		modern_sp_artillery_brigade = { x = 1 y = 0 }
+		modern_sp_artillery_brigade = { x = 1 y = 1 }
+		modern_sp_artillery_brigade = { x = 1 y = 2 }
+		spaa_brigade = { x = 2 y = 0 }
+		light_armor = { x = 2 y = 1 }
+		special_forces = { x = 2 y = 2 }
+	}
+	
+	support = {
+	}
+	
+	priority = 2
+}
+
+units = {
+	
+	division = {			
+		name = "18y Gvardeyskaya Motostrelkovaya Brigada"
+		location = 3722
+		division_template = "Gvardeyskaya Motostrelkovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "150y Gvardeyskaya Motostrelkovaya Diviziya"
+		location = 9417
+		division_template = "Gvardeyskaya Motostrelkovaya Diviziya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "2y Gvardeyskaya Motostrelkovaya Diviziya"
+		location = 9417
+		division_template = "Gvardeyskaya Motostrelkovaya Diviziya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	 division = {			
+		name = "70y Motostrelkovaya Brigada"
+		location = 3977
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}	
+	division = {			
+		name = "60y Motostrelkovaya Brigada"
+		location = 3977
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "14y Spetsnaz Brigada"
+		location = 3977
+		division_template = "Spetsnaz Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "57y Motostrelkovaya Brigada"
+		location = 11643
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "59y Motostrelkovaya Brigada"
+		location = 7763
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "38y Motostrelkovaya Brigada"
+		location = 12654
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "36y Motostrelkovaya Brigada"
+		location = 4719
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "64y Motostrelkovaya Brigada"
+		location = 12189
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "69y Motostrelkovaya Brigada"
+		location = 7672
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "39y Motostrelkovaya Brigada"
+		location = 12446
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "5y Tankovaya Brigada"
+		location = 7816
+		division_template = "Tankovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "39y Motostrelkovaya Brigada"
+		location = 4766
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "7y Tankovaya Brigada"
+		location = 1334
+		division_template = "Tankovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "15y Motostrelkovaya Brigada"
+		location = 11225
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "23y Motostrelkovaya Brigada"
+		location = 11225
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "21y Motostrelkovaya Brigada"
+		location = 3330
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "28y Motostrelkovaya Brigada"
+		location = 1821
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "32y Motostrelkovaya Brigada"
+		location = 7274
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "24y Spetsnaz Brigada"
+		location = 7274
+		division_template = "Spetsnaz Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "35y Motostrelkovaya Brigada"
+		location = 1794
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "74y Motostrelkovaya Brigada"
+		location = 7757
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "3y Spetsnaz Brigada"
+		location = 1297
+		division_template = "Spetsnaz Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+
+	division = {			
+		name = "693y Motostrelkovaya Brigada"
+		location = 1530
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	
+	division = {			
+		name = "17y Motostrelkovaya Brigada"
+		location = 666
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "18y Motostrelkovaya Brigada"
+		location = 3722
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "19y Motostrelkovaya Brigada"
+		location = 9628
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "136y Motostrelkovaya Brigada"
+		location = 6689
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "205y Motostrelkovaya Brigada"
+		location = 6750
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+
+	division = {			
+		name = "150y Motostrelkovaya Brigada"
+		location = 9417
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "20y Motostrelkovaya Brigada"
+		location = 3529
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "10y Spetsnaz Brigada"
+		location = 3734
+		division_template = "Spetsnaz Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "22y Spetsnaz Brigada"
+		location = 9417
+		division_template = "Spetsnaz Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "76y Motostrelkovaya Brigada"
+		location = 12441
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	
+	division = {			
+		name = "73y Motostrelkovaya Brigada"
+		location = 12441
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	
+	division = {			
+		name = "200y Motostrelkovaya Brigada"
+		location = 9140
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "80y Motostrelkovaya Brigada"
+		location = 197
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "27y Motostrelkovaya Brigada"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "2y Spetsnaz Brigada"
+		location = 11202
+		division_template = "Spetsnaz Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "16y Spetsnaz Brigada"
+		location = 11351
+		division_template = "Spetsnaz Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "25y Motostrelkovaya Brigada"
+		location = 95
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "138y Motostrelkovaya Brigada"
+		location = 9206
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "4y Tankovaya Diviziya"
+		location = 6290
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		officer = {
+            name = "Yevgeny Zhuravlyov"
+            portraits = {
+                army = {
+					large=GFX_Portrait_Soviet_Generic_land_Yevgeny
+					small="GFX_Portrait_Soviet_Generic_land_Yevgeny_small"
+				}
+            }
+        }
+	}
+	division = {			
+		name = "2y Tankovaya Diviziya"
+		location = 3391
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "45y Spetsnaz Brigada"
+		location = 3391
+		division_template = "Spetsnaz Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "1y Tankovaya Brigada"
+		location = 6591
+		division_template = "Tankovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "6y Tankovaya Brigada"
+		location = 9718
+		division_template = "Tankovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "9y Motostrelkovaya Brigada"
+		location = 117
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+
+	division = {			
+		name = "98y Aeromobil'nyy Brigada"
+		location = 6269
+		division_template = "Aeromobil'nyy Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "106y Aeromobil'nyy Brigada"
+		location = 6262
+		division_template = "Aeromobil'nyy Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+
+	division = {			
+		name = "76y Aeromobil'nyy Brigada"
+		location = 11202
+		division_template = "Aeromobil'nyy Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "83y Aeromobil'nyy Brigada"
+		location = 3977
+		division_template = "Aeromobil'nyy Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "11y Aeromobil'nyy Brigada"
+		location = 7816
+		division_template = "Aeromobil'nyy Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "56y Aeromobil'nyy Brigada"
+		location = 9475
+		division_template = "Aeromobil'nyy Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "31y Aeromobil'nyy Brigada"
+		location = 9338
+		division_template = "Aeromobil'nyy Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+#Marines / Naval Infantry
+	division = {			
+		name = "810y Morskaya Brigada"
+		location = 3686
+		division_template = "Morskaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "61y Morskaya Brigada"
+		location = 3134
+		division_template = "Morskaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "336y Morskaya Brigada"
+		location = 6332
+		division_template = "Morskaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "155y Morskaya Brigada"
+		location = 957
+		division_template = "Morskaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "40y Morskaya Brigada"
+		location = 7878
+		division_template = "Morskaya Brigada"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}	
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_2
+			creator = "SOV"
+		}
+		requested_factories = 4
+		progress = 0.2
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "SOV" 
+		}
+		requested_factories = 2
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = anti_tank_equipment_1
+			creator = "SOV" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = anti_air_equipment_1
+			creator = "SOV" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_chassis_2
+			creator = "SOV" 
+		}
+		requested_factories = 2
+		progress = 0.4
+		efficiency = 50
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = mechanized_equipment_2
+			creator = "SOV" 
+		}
+		requested_factories = 2
+		progress = 0.3
+		efficiency = 50
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = light_mechanized_equipment_2
+			creator = "SOV" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_equipment_1
+			creator = "SOV" 
+		}
+		requested_factories = 2
+		progress = 0.4
+		efficiency = 50
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = modern_tank_equipment_3
+			creator = "SOV" 
+		}
+		requested_factories = 3
+		progress = 0.4
+		efficiency = 50
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = modern_tank_artillery_equipment_1
+			creator = "SOV" 
+		}
+		requested_factories = 3
+		progress = 0.4
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "SOV" 
+		}
+		requested_factories = 2
+		progress = 0.4
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_2
+			creator = "SOV" 
+		}
+		requested_factories = 3
+		progress = 0.15
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = CAS_equipment_2
+			creator = "SOV" 
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 50
+	}
+}

@@ -1,0 +1,109 @@
+﻿division_template = {
+	name = "K'veit'i Brigada"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		mechanized = { x = 1 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+	}
+
+	support = {
+		mbt_company = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+		spaa_company = { x = 0 y = 3 }
+	}
+
+}
+
+division_template = {
+	name = "Mek'anizebuli Brigada"
+
+	regiments = {
+		light_mechanized = { x = 0 y = 0 }
+		light_mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		modern_sp_artillery_brigade = { x = 0 y = 3 }
+	}
+
+	support = {
+		mbt_company = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		spaa_company = { x = 0 y = 2 }
+	}
+
+}
+
+division_template = {
+	name = "Msubuk'i K'veit'i Batalioni"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+
+}
+
+division_template = {
+	name = "Spets'ialuri Operats'iebis Jgup'i"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+	}
+	priority = 2
+
+}
+
+units = {
+	division = {
+		name = "1 K'veit'i Brigada"
+		location = 1599
+		division_template = "K'veit'i Brigada"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "4 Mek'anizebuli Brigada"
+		location = 4534
+		division_template = "Mek'anizebuli Brigada"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "5 K'veit'i Brigada"
+		location = 6669
+		division_template = "K'veit'i Brigada"
+		start_experience_factor = 0.4
+	}
+
+	division = {
+		name = "2 K'veit'i Brigada"
+		location = 772
+		division_template = "K'veit'i Brigada"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "3 K'veit'i Brigada 'Mamlekebi'"
+		location = 3658
+		division_template = "K'veit'i Brigada"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Ts'alkeuli  Msubuk'i K'veit'i Batalioni"
+		location = 3653
+		division_template = "Msubuk'i K'veit'i Batalioni"
+		start_experience_factor = 0.4
+	}
+
+	division = {
+		name = "1 Spets'ialuri Operats'iebis Jgup'i"
+		location = 1599
+		division_template = "Spets'ialuri Operats'iebis Jgup'i"
+		start_experience_factor = 0.7
+	}
+
+}
+
+

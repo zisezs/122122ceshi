@@ -1,0 +1,31 @@
+﻿division_template = {
+	name = "Truck Warrior"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+	
+	template_counter = 11
+}
+
+units = {
+	
+	division = {
+		name = "1st Confederate 'Truck Warrior' Unit"
+		location = 12489
+		division_template = "Truck Warrior"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2nd Confederate 'Truck Warrior' Unit"
+		location = 12489
+		division_template = "Truck Warrior"
+		start_experience_factor = 0.1
+	}
+	
+}

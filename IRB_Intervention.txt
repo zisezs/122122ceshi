@@ -1,0 +1,173 @@
+﻿division_template = {
+	name = "Mechanized Brigade"
+	
+	regiments = {
+		light_mechanized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		modern_armor = { x = 1 y = 0 }
+		spaa_brigade = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 1 }
+	}
+	
+	support = {
+	}
+		
+}
+
+division_template = {
+	name = "Armored Brigade"
+	regiments = {
+	  modern_armor = { x = 0 y = 0 }
+	  modern_armor = { x = 0 y = 1 }
+	  modern_armor = { x = 0 y = 2 }
+	  mechanized = { x = 1 y = 0 }
+	  spaa_brigade = { x = 1 y = 1 }
+	  modern_sp_artillery_brigade = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Infantry Brigade"
+	
+	regiments = {
+	  motorized = { x = 0 y = 0 }
+	  motorized = { x = 0 y = 1 }
+	  motorized = { x = 0 y = 2 }
+	  motorized = { x = 1 y = 0 }
+	  artillery_brigade = { x = 1 y = 1 }
+	  modern_sp_artillery_brigade = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		mbt_company = { x = 0 y = 1 }
+		spaa_company = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Airborne Brigade"
+	
+	regiments = {
+	paratrooper = { x = 0 y = 0 }
+	paratrooper = { x = 0 y = 1 }
+	paratrooper = { x = 0 y = 2 }
+	paratrooper = { x = 0 y = 3 }
+	artillery_brigade = { x = 1 y = 0 }
+	}
+	
+	support = {
+	}
+	
+	priority = 1
+}
+
+division_template = {
+	name = "Marine Brigade"
+	
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+	}
+	
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "IRGC Infantry Brigade"
+	
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		modern_sp_artillery_brigade = { x = 0 y = 3 } 
+	}
+	
+	support = {
+		signal_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "IRGC Armored Brigade"
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_sp_artillery_brigade = { x = 1 y = 0 }
+		mechanized = { x = 2 y = 0 }
+	}
+	
+	support = {
+		apc_company = { x = 0 y = 0 }
+		mot_recon = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+		spaa_company = { x = 0 y = 3 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "IRGC Commando Brigade"
+	
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+		special_forces = { x = 0 y = 3 }
+		recce = { x = 1 y = 0 }
+		modern_sp_artillery_brigade = { x = 1 y = 1 }
+	}
+	
+	support = {
+		spaa_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "IRGC Marine Brigade"
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 0 y = 3 }
+		marine = { x = 0 y = 4 }
+		recce = { x = 1 y = 0 }
+		artillery_brigade = { x = 1 y = 1 }
+	}
+
+	priority = 2
+}
+
+division_template = {
+	name = "IRGC Airborne Brigade"
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+	}
+	
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+	priority = 2
+}
+
+units = {
+	division = {
+		name = "Liwa Zainebiyoun"
+		location = 5075
+		division_template = "IRGC Infantry Brigade"
+		start_experience_factor = 0.4
+		
+	}
+	division = {
+		name = "Liwa Zainebiyoun"
+		location = 5075
+		division_template = "IRGC Commando Brigade"
+		start_experience_factor = 0.5
+		
+	}
+}

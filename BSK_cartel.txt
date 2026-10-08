@@ -1,0 +1,32 @@
+﻿division_template = {
+	name = "Brigada de Monstruos"
+	
+	regiments = {
+		light_mechanized = { x = 0 y = 0 }
+		light_mechanized = { x = 0 y = 1 }
+		light_mechanized = { x = 0 y = 2 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+	
+	priority = 2
+}
+
+units = {
+	
+	division = {
+		name = "1st Brigada de Monstruos"
+		location = 13414
+		division_template = "Brigada de Monstruos"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2nd Brigada de Monstruos"
+		location = 964
+		division_template = "Brigada de Monstruos"
+		start_experience_factor = 0.1
+	}
+}

@@ -1,0 +1,26 @@
+﻿units = {
+	fleet = {
+		name = "Destroyer Squadron 15" #Yokosuka, Japan - Moved to Guam
+		naval_base = 12140
+		task_force = {
+			name = "Destroyer Squadron 15" #Yokosuka, Japan - Moved to Guam
+			location = 12140
+			ship = { name = "USS Curtis Wilbur (DDG-54)" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = USA version_name = "Arleigh Burke-class" } } }
+			ship = { name = "USS John S. McCain (DDG-56)" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = USA version_name = "Arleigh Burke-class" } } }
+			ship = { name = "USS O'Brien (DD-975)" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = USA version_name = "Arleigh Burke-class" } } }
+			ship = { name = "USS Cushing (DD-985)" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = USA version_name = "Arleigh Burke-class" } } }
+		}
+	}
+	fleet = {
+		name = "Destroyer Squadron 15" #Yokosuka, Japan - Moved to Guam
+		naval_base = 12140
+		task_force = {
+			name = "Destroyer Squadron 15" #Yokosuka, Japan - Moved to Guam
+			location = 12140
+			ship = { name = "USS Vincennes (CG-49)" definition = battleship equipment = { ship_hull_heavy_2 = { amount = 1 owner = USA version_name = "Ticonderoga-class" } } }
+			ship = { name = "USS Vandegrift (FFG-48)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Oliver Hazard Perry-class" } } }
+			ship = { name = "USS Gary (FFG-51)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Oliver Hazard Perry-class" } } }
+			ship = { name = "USS Curtis Wilbur (DDG-54)" definition = heavy_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = USA version_name = "Arleigh Burke-class" } } }
+		}
+	}
+}

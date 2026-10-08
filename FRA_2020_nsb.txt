@@ -1,0 +1,360 @@
+﻿focus = {
+	current = "FRA_The_Opening_Volley"
+	progress = 0
+}
+
+division_template = {
+	name = "Régiment Étranger d’Infanterie"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		light_mechanized = { x = 0 y = 3 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		light_tank_recon = { x = 0 y = 1 }
+	}
+	
+	division_names_group = FRA_LEG_01
+}
+
+division_template = {
+	name = "État-major"
+	is_locked = yes 
+	regiments = {
+		bus = { x = 0 y = 0 }
+	}
+	
+	support = {
+		
+	}
+	
+	priority = 2
+}
+
+division_template = {
+	name = "Brigade Blindée"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		light_mechanized = { x = 1 y = 0 }
+		light_mechanized = { x = 1 y = 1 }
+		light_mechanized = { x = 1 y = 2 }
+	}
+	
+	support = {
+		signal_company = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		spa_company = { x = 0 y = 2 }
+		anti_air = { x = 0 y = 3 }
+		engineer = { x = 0 y = 4 }
+	}
+	
+	division_names_group = FRA_ARM_01
+}
+
+division_template = {
+	name = "Brigade Légère Blindée"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		mechanized = { x = 1 y = 0 }
+		light_mechanized = { x = 1 y = 1 }
+		amphibious_mechanized = { x = 2 y = 0 }
+	}
+	
+	support = {
+		signal_company = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		spa_company = { x = 0 y = 2 }
+		anti_air = { x = 0 y = 3 }
+		engineer = { x = 0 y = 4 }
+	}
+	
+	division_names_group = FRA_REC_01
+}
+
+division_template = {
+	name = "Brigade d'Infanterie de Marine"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		amphibious_mechanized = { x = 1 y = 0 }
+		amphibious_mechanized = { x = 1 y = 1 }
+		light_mechanized = { x = 1 y = 2 }
+		modern_sp_artillery_brigade = { x = 1 y = 0 }
+	}
+	
+	support = {
+		signal_company = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		spa_company = { x = 0 y = 2 }
+		engineer = { x = 0 y = 3 }
+	}
+	
+	division_names_group = FRA_MAR_01
+}
+
+division_template = {
+	name = "Brigade d’Infanterie de Montagne"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_mechanized = { x = 1 y = 0 }
+		light_mechanized = { x = 1 y = 1 }
+		light_mechanized = { x = 1 y = 2 }
+	}
+	
+	support = {
+		signal_company = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		spa_company = { x = 0 y = 2 }
+		anti_air = { x = 0 y = 3 }
+		engineer = { x = 0 y = 4 }
+	}
+	
+	division_names_group = FRA_MNT_01
+}
+
+division_template = {
+	name = "Brigade Parachutiste"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+		special_forces = { x = 0 y = 3 }
+		artillery_brigade = { x = 0 y = 4 }
+	}
+	
+	support = {
+		signal_company = { x = 0 y = 0 }
+		air_mechanized = { x = 0 y = 1 }
+		anti_air = { x = 0 y = 2 }
+		engineer = { x = 0 y = 3 }
+	}
+	
+	division_names_group = FRA_PAR_01
+}
+
+division_template = {
+	name = "Brigade Franco-Allemande"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		light_armor = { x = 1 y = 0 }
+	}
+	
+	support = {
+	}
+}
+
+division_template = {
+	name = "Régiment de Forces Spéciales"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+	}
+	
+	support = {
+	}
+	
+	priority = 2
+	
+	division_names_group = FRA_SOF_01
+}
+
+units = {
+	division = {	
+		division_name = {
+            is_name_ordered = yes
+            name_order = 7
+        }
+		location = 3646
+		division_template = "Brigade Blindée"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = { modern_tank_chassis_2 = { owner = "FRA" version_name = "Leclerc S2" } }
+	}
+	division = {	
+		division_name = {
+            is_name_ordered = yes
+            name_order = 9
+        }
+		location = 629
+		division_template = "Brigade d'Infanterie de Marine"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "FRA" version_name = "AMX-10 RC" } }
+	}
+	division = {	
+		division_name = {
+            is_name_ordered = yes
+            name_order = 27
+        }
+		location = 762
+		division_template = "Brigade d’Infanterie de Montagne"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "FRA" version_name = "AMX-10 RC" } }
+	}
+	division = {	
+		name = "Brigade Franco-Allemande"
+		location = 678
+		division_template = "Brigade Franco-Allemande"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "FRA" version_name = "AMX-10 RC" } }
+	}
+	division = {	
+		division_name = {
+            is_name_ordered = yes
+            name_order = 2
+        }
+		name = "2e Brigade Blindée"
+		location = 9503
+		division_template = "Brigade Blindée"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = { modern_tank_chassis_2 = { owner = "FRA" version_name = "Leclerc S2" } }
+	}
+	division = {	
+		division_name = {
+            is_name_ordered = yes
+            name_order = 6
+        }
+		location = 11877
+		division_template = "Brigade Légère Blindée"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "FRA" version_name = "AMX-10 RC" } }
+	}
+	division = {	
+		division_name = {
+            is_name_ordered = yes
+            name_order = 11
+        }
+		location = 6766
+		division_template = "Brigade Parachutiste"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		division_name = {
+            is_name_ordered = yes
+            name_order = 1
+        }
+		location = 743
+		division_template = "Régiment de Forces Spéciales"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		division_name = {
+            is_name_ordered = yes
+            name_order = 13
+        }
+		location = 6762
+		division_template = "Régiment de Forces Spéciales"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		division_name = {
+            is_name_ordered = yes
+            name_order = 3
+        }
+		name = "3e Régiment Étranger d'Infanterie"
+		location = 12885
+		division_template = "Régiment Étranger d’Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}
+
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_2
+			creator = "FRA"
+		}
+		requested_factories = 3
+		progress = 0.4
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "FRA" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 60
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = anti_tank_equipment_2
+			creator = "FRA" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = anti_air_equipment_2
+			creator = "FRA" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = mechanized_equipment_3
+			creator = "FRA" 
+		}
+		requested_factories = 2
+		progress = 0.3
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = light_mechanized_equipment_3
+			creator = "FRA" 
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = modern_tank_artillery_equipment_1
+			creator = "FRA" 
+		}
+		requested_factories = 2
+		progress = 0.2
+		efficiency = 50
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = modern_tank_chassis_2
+			creator = "FRA" 
+			version_name = "Leclerc S2"
+		}
+		requested_factories = 2
+		progress = 0.2
+		efficiency = 30
+	}
+}

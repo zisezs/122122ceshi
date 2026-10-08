@@ -1,0 +1,26 @@
+﻿units = {
+	division = {
+		name = "1st Militia Brigade"
+		location = 7552
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "2nd Militia Brigade"
+		location = 7552
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "3rd Militia Brigade"
+		location = 7552
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "4th Militia Brigade"
+		location = 7552
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.1
+	}
+}

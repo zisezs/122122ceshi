@@ -1,0 +1,12 @@
+### Air OOB ###
+
+air_wings = {
+	541 = {
+		#MiG-21
+		fighter_airframe_0 = {
+			owner = "NMB" 
+			amount = 7
+			version_name = "MiG-21"
+		}
+	}
+}

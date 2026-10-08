@@ -1,0 +1,35 @@
+﻿division_template = {
+		name = "Armor Division"
+		division_names_group = USA_INF_01
+		is_locked = yes
+		regiments = {
+			modern_armor = { x = 0 y = 0 }
+			modern_armor = { x = 0 y = 1 }
+			mechanized = { x = 1 y = 0 }
+			mechanized = { x = 1 y = 1 }
+			mechanized = { x = 1 y = 2 }
+			modern_sp_artillery_brigade = { x = 2 y = 0 }
+			motorized = { x = 2 y = 1 }
+			light_armor = { x = 2 y = 2 }
+		}
+		
+		support = {
+		}
+		
+		priority = 2
+	}
+
+units = {
+	division = {
+		name = "'North Star' Armored Division"
+		location = 9671
+		division_template = "Armor Division"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "'Crimson Crusaders' Armored Division"
+		location = 13291
+		division_template = "Armor Division"
+		start_experience_factor = 0.3
+	}
+}

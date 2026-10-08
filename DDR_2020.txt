@@ -1,0 +1,120 @@
+﻿division_template = {
+	name = "Motorisierte-Schutzendivision"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		mechanized = { x = 0 y = 3 }
+		modern_sp_artillery_brigade = { x = 0 y = 4 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Panzer-Division"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		light_armor = { x = 1 y = 0 }
+		mechanized = { x = 2 y = 0 }
+		mechanized = { x = 2 y = 1 }
+	}
+	
+	support = {
+		spa_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Kommando Landstreitkräfte"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+	}
+	
+	support = {
+		signal_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "KdA Hundertschaften"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+	}
+	
+	support = {
+		anti_tank = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	
+	division = {
+		name = "Nr.4 KdA Hundertschaften"
+		location = 3258
+		division_template = "KdA Hundertschaften"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "Nr.1 Motorisierte-Schutzendivision"
+		location = 9294
+		division_template = "Motorisierte-Schutzendivision"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "Nr.3 KdA Hundertschaften"
+		location = 11276
+		division_template = "KdA Hundertschaften"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "Nr.22 KdA Hundertschaften"
+		location = 11276
+		division_template = "KdA Hundertschaften"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "Nr.5 Panzer-Division"
+		location = 9347
+		division_template = "Panzer-Division"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "Nr.12 KdA Hundertschaften"
+		location = 9347
+		division_template = "KdA Hundertschaften"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "Nr.12 Panzerdivision"
+		location = 268
+		division_template = "Panzer-Division"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "Nr.39 Kommando Landstreitkräfte"
+		location = 349
+		division_template = "Kommando Landstreitkräfte"
+		start_experience_factor = 0.1
+	}
+}

@@ -1,0 +1,67 @@
+division_template = {
+	name = "Milicia"
+		
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
+	}
+}
+
+
+units = {
+	division = {			
+		name = "1.a Milicia Popular"
+		location = 13085
+		division_template = "Milicia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {			
+		name = "2.a Milicia Popular"
+		location = 13085
+		division_template = "Milicia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {			
+		name = "3.a Milicia Popular"
+		location = 13085
+		division_template = "Milicia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {			
+		name = "4.a Milicia Popular"
+		location = 10886
+		division_template = "Milicia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "5.a Milicia Popular"
+		location = 10886
+		division_template = "Milicia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	
+}
+
+instant_effect = {
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_2
+		amount = 1000
+		producer = GUA
+	}
+}

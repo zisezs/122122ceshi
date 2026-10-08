@@ -1,0 +1,13 @@
+﻿division_template = {
+	name = "Dobraachvotnickaja Bryhada"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+	}
+	
+	support = {
+	}
+}

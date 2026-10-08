@@ -1,0 +1,75 @@
+﻿
+units = {
+	division = {
+		name = "Ses Majestés Impériales Medium Brigade"
+		location = 11519
+		division_template = "Brigade Mécanisée"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Ses Majestés Impériales Light Brigade"
+		location = 11519
+		division_template = "Brigade Mécanisée"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Ses Majestés Impériales Eastern Chasseurs"
+		location = 3516
+		division_template = "Régiment Para-Commando"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Ses Majestés Impériales Southern Chasseurs"
+		location = 3516
+		division_template = "Régiment Para-Commando"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Ses Majestés Impériales Western Chasseurs"
+		location = 3516
+		division_template = "Régiment Para-Commando"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Ses Majestés Impériales Northern Chasseurs"
+		location = 3516
+		division_template = "Régiment Para-Commando"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Ses Majestés Impériales Medium Brigade"
+		location = 11519
+		division_template = "Brigade Mécanisée"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Ses Majestés Impériales Light Brigade"
+		location = 11519
+		division_template = "Brigade Mécanisée"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Ses Majestés Impériales Eastern Chasseurs"
+		location = 3516
+		division_template = "Régiment Para-Commando"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Ses Majestés Impériales Southern Chasseurs"
+		location = 3516
+		division_template = "Régiment Para-Commando"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Ses Majestés Impériales Western Chasseurs"
+		location = 3516
+		division_template = "Régiment Para-Commando"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "Ses Majestés Impériales Northern Chasseurs"
+		location = 3516
+		division_template = "Régiment Para-Commando"
+		start_experience_factor = 0.3
+	}
+}

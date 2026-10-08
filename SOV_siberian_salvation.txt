@@ -1,0 +1,126 @@
+﻿division_template = {
+	name = "Sibirskaya Respublikanskaya Brigada"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		mechanized = { x = 1 y = 0 }
+		artillery_brigade = { x = 2 y = 0 }
+		
+	}
+	
+	support = {
+		
+	}
+	
+}
+
+division_template = {
+	name = "Tankovaya Respublikanskaya Brigada"
+
+	regiments = {						
+		modern_armor = { x = 0 y = 0 } 
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 1 }
+	}
+	
+	support = {
+		spaa_company = { x = 0 y = 0 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Dobrovolcheskiye Respublikanskie Brigady"
+	
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+		mot_militia = { x = 1 y = 0 }
+		mot_militia = { x = 1 y = 1 }
+		mechanized = { x = 2 y = 0 }
+		
+	}
+	
+	support = {
+		mot_recon = { x = 0 y = 0 }
+		spaa_company = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division = {			
+		name = "1ya Sibriskaya Respublikanskaya Gvardiya"
+		location = 4724
+		division_template = "Sibirskaya Respublikanskaya Brigada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}	
+	division = {			
+		name = "1ya Sibirskaya Respublikanskaya Gvardiya"
+		location = 4724
+		division_template = "Sibirskaya Respublikanskaya Brigada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "2ya Sibirskaya Respublikanskaya Brigada"
+		location = 10639
+		division_template = "Sibirskaya Respublikanskaya Brigada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "Sibirskaya Narodnaya Gvardiya"
+		location = 7815
+		division_template = "Sibirskaya Respublikanskaya Brigada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "Opolchenie 'Belaya Gvardiya'"
+		location = 12691
+		division_template = "Sibirskaya Respublikanskaya Brigada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "1ya Tankovaya Respublikanskaya Brigada"
+		location = 7744
+		division_template = "Tankovaya Respublikanskaya Brigada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "1ya Respublikanskaya Brigada"
+		location = 7744
+		division_template = "Dobrovolcheskiye Respublikanskie Brigady"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "RKSA"
+		location = 12621
+		division_template = "Dobrovolcheskiye Respublikanskie Brigady"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "2ya Dobrovolcheskaya Brigada"
+		location = 12621
+		division_template = "Dobrovolcheskiye Respublikanskie Brigady"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "3ya Dobrovolcheskaya Brigada"
+		location = 4818
+		division_template = "Dobrovolcheskiye Respublikanskie Brigady"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+}

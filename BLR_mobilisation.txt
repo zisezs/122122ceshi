@@ -1,0 +1,53 @@
+﻿division_template = {
+	name = "Terytaryjalnaja Abarona"
+	
+	regiments = {						
+		special_forces = { x = 0 y = 0 } 
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+	}
+	
+	support = {
+		signal_company = { x = 0 y = 0 }
+	}
+	priority = 2
+}
+
+units = {
+	division = {	
+		name = "Polk Kastusia Kalinouskaha"
+		location = 11370
+		division_template = "Motastralkovaya Brigada"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "Terytaryjalnaja Abarona"
+		location = 11370
+		division_template = "Motastralkovaya Brigada"
+		start_experience_factor = 0
+		start_equipment_factor = 0.2
+	}
+	division = {	
+		name = "Terytaryjalnaja Abarona"
+		location = 11370
+		division_template = "Motastralkovaya Brigada"
+		start_experience_factor = 0
+		start_equipment_factor = 0.2
+	}
+	division = {	
+		name = "Terytaryjalnaja Abarona"
+		location = 11370
+		division_template = "Motastralkovaya Brigada"
+		start_experience_factor = 0
+		start_equipment_factor = 0.2
+	}
+	division = {	
+		name = "Terytaryjalnaja Abarona"
+		location = 11370
+		division_template = "Motastralkovaya Brigada"
+		start_experience_factor = 0
+		start_equipment_factor = 0.2
+	}
+}
+

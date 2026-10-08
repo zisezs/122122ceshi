@@ -1,0 +1,707 @@
+﻿#Templates are 50/50 accurate
+#Some semblance to their real life counter parts, edited to fit TFR/HOI4
+division_template = {
+	name = "Elle Syong Bobyeong Sadan"
+
+	regiments = {						
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 1 y = 3 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
+		militia = { x = 2 y = 3 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+		artillery_brigade = { x = 3 y = 2 }
+		artillery_brigade = { x = 3 y = 3 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Bobyeong Sadan"
+
+	regiments = {						
+		infantry = { x = 0 y = 0 } 
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 } 
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 2 y = 0 } 
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 2 y = 3 }
+		artillery_brigade = { x = 3 y = 0 } 
+		artillery_brigade = { x = 3 y = 1 }
+		artillery_brigade = { x = 3 y = 2 }
+		artillery_brigade = { x = 3 y = 3 }
+		modern_armor = { x = 4 y = 0 } 
+		light_armor = { x = 4 y = 1 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 } 
+		recon = { x = 0 y = 1 }
+		spaa_company = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Moteo Laipeul Sadan"
+
+	regiments = {						
+		motorized = { x = 0 y = 0 } 
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 } 
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 } 
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		artillery_brigade = { x = 3 y = 0 } 
+		artillery_brigade = { x = 3 y = 1 }
+		artillery_brigade = { x = 3 y = 2 }
+		spaa_brigade = { x = 4 y = 0 }
+		modern_armor = { x = 4 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Gigyehwa Yeodan"
+
+	regiments = {						
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		mechanized = { x = 0 y = 3 }
+		modern_armor = { x = 1 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 1 }
+		modern_sp_artillery_brigade = { x = 2 y = 2 }
+	}
+	
+	support = {
+		spaa_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Gigyehwa Sa-eobbu" 
+
+	regiments = {						
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		light_mechanized = { x = 2 y = 0 }
+		light_mechanized = { x = 2 y = 1 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+		artillery_brigade = { x = 3 y = 2 }
+	}
+	
+	support = {
+	
+	}
+}
+
+division_template = {
+	name = "Gigab Sadan"
+
+	regiments = {						
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		modern_armor = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+		modern_armor = { x = 1 y = 2 }
+		mechanized = { x = 2 y = 0 }
+		mechanized = { x = 2 y = 1 }
+		mechanized = { x = 2 y = 2 }
+		mechanized = { x = 2 y = 3 }
+		spaa_brigade = { x = 3 y = 0 }
+		modern_sp_artillery_brigade = { x = 4 y = 0 }
+		modern_sp_artillery_brigade = { x = 4 y = 1 }
+		modern_sp_artillery_brigade = { x = 4 y = 2 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Teugsu Jagjeon Budae"
+
+	regiments = {						
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+		marine = { x = 0 y = 3 }
+		marine = { x = 0 y = 4 }
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+	}
+	priority = 2
+}
+
+
+units = {
+	
+	division = {
+		name = "1st Elle Syong Bobyeong Sadan"
+		location = 7171
+		division_template = "Elle Syong Bobyeong Sadan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2nd Elle Syong Bobyeong Sadan"
+		location = 7171
+		division_template = "Elle Syong Bobyeong Sadan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3rd Elle Syong Bobyeong Sadan"
+		location = 7171
+		division_template = "Elle Syong Bobyeong Sadan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "4th Elle Syong Bobyeong Sadan"
+		location = 7171
+		division_template = "Elle Syong Bobyeong Sadan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "6th. Elle Syong Bobyeong Sadan"
+		location = 7171
+		division_template = "Elle Syong Bobyeong Sadan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "7th Elle Syong Bobyeong Sadan"
+		location = 7171
+		division_template = "Elle Syong Bobyeong Sadan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "8th Elle Syong Bobyeong Sadan"
+		location = 7171
+		division_template = "Elle Syong Bobyeong Sadan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1st Bobyeong Sadan"
+		location = 7171
+		division_template = "Bobyeong Sadan"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "2nd Bobyeong Sadan"
+		location = 7171
+		division_template = "Bobyeong Sadan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3rd Bobyeong Sadan"
+		location = 7171
+		division_template = "Bobyeong Sadan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "5th Bobyeong Sadan"
+		location = 7171
+		division_template = "Bobyeong Sadan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "6th Bobyeong Sadan"
+		location = 7171
+		division_template = "Bobyeong Sadan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "7th Bobyeong Sadan"
+		location = 7171
+		division_template = "Bobyeong Sadan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "10th Bobyeong Sadan"
+		location = 7171
+		division_template = "Bobyeong Sadan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "11th Bobyeong Sadan"
+		location = 7171
+		division_template = "Bobyeong Sadan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "16th Bobyeong Sadan"
+		location = 7171
+		division_template = "Bobyeong Sadan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "17th Bobyeong Sadan"
+		location = 7171
+		division_template = "Bobyeong Sadan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "18th Bobyeong Sadan"
+		location = 7171
+		division_template = "Bobyeong Sadan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "20th Bobyeong Sadan"
+		location = 7171
+		division_template = "Bobyeong Sadan"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "21st Bobyeong Sadan"
+		location = 7171
+		division_template = "Bobyeong Sadan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1st Gigyehwa Yeodan"
+		location = 7171
+		division_template = "Gigyehwa Yeodan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3rd Gigyehwa Yeodan"
+		location = 7171
+		division_template = "Gigyehwa Yeodan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "4th Gigyehwa Yeodan"
+		location = 7171
+		division_template = "Gigyehwa Yeodan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "5th Gigyehwa Yeodan"
+		location = 7171
+		division_template = "Gigyehwa Yeodan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "6th Gigyehwa Yeodan"
+		location = 7171
+		division_template = "Gigyehwa Yeodan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "7th Gigyehwa Yeodan"
+		location = 7171
+		division_template = "Gigyehwa Yeodan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1st Gigyehwa Sa-eobbu"
+		location = 7171
+		division_template = "Gigyehwa Sa-eobbu"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2nd Gigyehwa Sa-eobbu"
+		location = 7171
+		division_template = "Gigyehwa Sa-eobbu"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3rd Gigyehwa Sa-eobbu"
+		location = 7171
+		division_template = "Gigyehwa Sa-eobbu"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "4th Gigyehwa Sa-eobbu"
+		location = 7171
+		division_template = "Gigyehwa Sa-eobbu"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "6th Gigyehwa Sa-eobbu"
+		location = 7171
+		division_template = "Gigyehwa Sa-eobbu"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "7th Gigyehwa Sa-eobbu"
+		location = 7171
+		division_template = "Gigyehwa Sa-eobbu"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "10th Gigyehwa Sa-eobbu"
+		location = 7171
+		division_template = "Gigyehwa Sa-eobbu"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "11th Gigyehwa Sa-eobbu"
+		location = 7171
+		division_template = "Gigyehwa Sa-eobbu"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1st Gigab Sadan"
+		location = 7171
+		division_template = "Gigab Sadan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "4ht Gigab Sadan"
+		location = 7171
+		division_template = "Gigab Sadan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "5th Gigab Sadan"
+		location = 7171
+		division_template = "Gigab Sadan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "6th Gigab Sadan"
+		location = 7171
+		division_template = "Gigab Sadan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "7th Gigab Sadan"
+		location = 7171
+		division_template = "Gigab Sadan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "23rd Gigab Sadan"
+		location = 7171
+		division_template = "Gigab Sadan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "24th Gigab Sadan"
+		location = 7171
+		division_template = "Gigab Sadan"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "25th Gigab Yeodan"
+		location = 7171
+		division_template = "Gigab Sadan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "26th Gigab Yeodan"
+		location = 7171
+		division_template = "Gigab Sadan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1st Teugsu Jagjeon Budae"
+		location = 7171
+		division_template = "Teugsu Jagjeon Budae"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "3rd Teugsu Jagjeon Budae"
+		location = 7171
+		division_template = "Teugsu Jagjeon Budae"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "4th Teugsu Jagjeon Budae"
+		location = 7171
+		division_template = "Teugsu Jagjeon Budae"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "10th Teugsu Jagjeon Budae"
+		location = 7171
+		division_template = "Teugsu Jagjeon Budae"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1st Moteo Laipeul Sadan"
+		location = 7171
+		division_template = "Moteo Laipeul Sadan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2nd Moteo Laipeul Sadan"
+		location = 7171
+		division_template = "Moteo Laipeul Sadan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3rd Moteo Laipeul Sadan"
+		location = 7171
+		division_template = "Moteo Laipeul Sadan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "4th Moteo Laipeul Sadan"
+		location = 7171
+		division_template = "Moteo Laipeul Sadan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "5th Mushat Alshrye"
+		location = 7171
+		division_template = "Moteo Laipeul Sadan"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "6th Moteo Laipeul Sadan"
+		location = 7171
+		division_template = "Moteo Laipeul Sadan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "7th Moteo Laipeul Sadan"
+		location = 7171
+		division_template = "Moteo Laipeul Sadan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "8th Moteo Laipeul Sadan"
+		location = 7171
+		division_template = "Moteo Laipeul Sadan"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "13th Moteo Laipeul Sadan"
+		location = 7171
+		division_template = "Moteo Laipeul Sadan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "15th Moteo Laipeul Sadan"
+		location = 7171
+		division_template = "Moteo Laipeul Sadan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "20th Moteo Laipeul Sadan"
+		location = 7171
+		division_template = "Moteo Laipeul Sadan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1st Gigyehwa Yeodan"
+		location = 7171
+		division_template = "Gigyehwa Yeodan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2nd Gigyehwa Yeodan"
+		location = 7171
+		division_template = "Gigyehwa Yeodan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3rd Gigyehwa Yeodan"
+		location = 7171
+		division_template = "Gigyehwa Yeodan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "4th Gigyehwa Yeodan"
+		location = 7171
+		division_template = "Gigyehwa Yeodan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "5th Gigyehwa Yeodan"
+		location = 7171
+		division_template = "Gigyehwa Yeodan"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "6th Gigyehwa Yeodan"
+		location = 7171
+		division_template = "Gigyehwa Yeodan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "7th Gigyehwa Yeodan"
+		location = 7171
+		division_template = "Gigyehwa Yeodan"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "8th Gigyehwa Yeodan"
+		location = 7171
+		division_template = "Gigyehwa Yeodan"
+		start_experience_factor = 0.1
+	}
+}
+
+instant_effect = {
+	
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_1
+		amount = 4000
+		producer = SV1
+	}
+	
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_2
+		amount = 200
+		producer = PRC
+	}
+	
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_1
+		amount = 6000
+		producer = PRC
+	}
+	
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_2
+		amount = 6000
+		producer = SV1
+	}
+	
+	add_equipment_to_stockpile = {
+		type = anti_tank_equipment_1			
+		amount = 500
+		producer = SV1
+	}
+	
+	add_equipment_to_stockpile = {
+		type = modern_tank_destroyer_equipment_1			
+		amount = 500
+		producer = SV1
+	}
+	
+	add_equipment_to_stockpile = {
+		type = anti_tank_equipment_1			
+		amount = 200
+		producer = SV1
+	}
+	
+	add_equipment_to_stockpile = {
+		type = modern_tank_equipment_1
+		amount = 150
+		producer = SV1
+	}
+	
+	add_equipment_to_stockpile = {
+		type = modern_tank_equipment_2
+		amount = 250
+		producer = SV1
+	}
+	
+	add_equipment_to_stockpile = {
+		type = light_mechanized_equipment_1
+		amount = 100
+		producer = SV1
+	}
+	
+	add_equipment_to_stockpile = {
+		type = motorized_equipment_1
+		amount = 350
+		producer = SV1
+	}
+	
+	add_equipment_to_stockpile = {
+		type = motorized_equipment_1
+		amount = 310
+		producer = SOV
+	}
+	
+	add_equipment_to_stockpile = {
+		type = motorized_equipment_1
+		amount = 300
+		producer = SV1
+	}
+	
+	add_equipment_to_stockpile = {
+		type = modern_tank_artillery_equipment_1
+		amount = 320
+		producer = SV1
+	}
+}

@@ -1,0 +1,9 @@
+﻿air_wings = {
+	229 = {
+		tac_bomber_equipment_2 =  {		
+			owner = "TUR" 
+			amount = 120
+		}
+		name = "588. Baku Regiment"
+	}
+}

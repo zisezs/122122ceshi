@@ -1,0 +1,170 @@
+﻿division_template = {
+	name = "Panzergrenadierbrigade"
+
+	regiments = {
+		light_mechanized = { x = 0 y = 0 }
+		light_mechanized = { x = 0 y = 1 }
+		modern_sp_artillery_brigade = { x = 0 y = 2 }
+		modern_armor = { x = 1 y = 0 }
+
+	}
+	support = {
+		light_tank_recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Jägerbrigade"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		light_mechanized = { x = 1 y = 0 }
+		modern_sp_artillery_brigade = { x = 1 y = 1 }
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Schnelle Einsätzbrigade"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		light_mechanized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Kommando Gebirgskampf"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+
+	priority = 2
+}
+
+division_template = {
+	name = "Jägerbataillon"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Fallschirmjägerbataillon"
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+	}
+	
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+units = {
+
+	division = {
+		name = "4th Panzergrenadierbrigade"
+		location = 9665
+		division_template = "Panzergrenadierbrigade"
+		start_experience_factor = 0.75
+		
+	}
+
+	division = {
+		name = "7th Jägerbrigade"
+		location = 3673
+		division_template = "Jägerbrigade"
+		start_experience_factor = 0.75
+		
+	}
+
+	division = {
+		name = "Kommando Schnelle Einsätze"
+
+		location = 11651
+		division_template = "Schnelle Einsätzbrigade"
+		start_experience_factor = 0.75
+		
+	}
+
+	division = {
+		name = "Kommando Gebirgskampf"
+		location = 673
+		division_template = "Kommando Gebirgskampf"
+		start_experience_factor = 0.9
+		
+	}
+
+	division = {
+		name = "Militärkommando Wien"
+		location = 11666
+		division_template = "Jägerbataillon"
+		start_experience_factor = 0.75
+		
+	}
+
+	division = {
+		name = "Militärkommando Burgenland"
+		location = 9661
+		division_template = "Jägerbataillon"
+		start_experience_factor = 0.75
+		
+	}
+
+	division = {
+		name = "Militärkommando Niederösterreich"
+		location = 704
+		division_template = "Jägerbataillon"
+		start_experience_factor = 0.75
+		
+	}
+
+	division = {
+		name = "Militärkommando Oberösterreich"
+		location = 9665
+		division_template = "Jägerbataillon"
+		start_experience_factor = 0.75
+		
+	}
+
+	division = {
+		name = "Militärkommando Styrol"
+		location = 9648
+		division_template = "Jägerbataillon"
+		start_experience_factor = 0.75
+		
+	}
+
+	division = {
+		name = "Militärkommando Tirol"
+		location = 673
+		division_template = "Jägerbataillon"
+		start_experience_factor = 0.75
+		
+	}
+
+	division = {
+		name = "25. Fallschirmjägerbataillon"
+		location = 3673
+		division_template = "Fallschirmjägerbataillon"
+		start_experience_factor = 0.8
+		
+	}
+}

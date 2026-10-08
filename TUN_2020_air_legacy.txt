@@ -1,0 +1,11 @@
+﻿### Air OOB ###
+
+air_wings = {
+	458 = {
+		#F-5E
+		fighter_equipment_1 = {
+			owner = "TUN" 
+			amount = 12
+		}
+	}
+}

@@ -1,0 +1,41 @@
+﻿	division_template = {
+		name = "Fundamentalist Brigade"
+		
+		regiments = {
+			militia = { x = 0 y = 0 }
+			militia = { x = 0 y = 1 }
+			militia = { x = 0 y = 2 }
+			militia = { x = 1 y = 0 }
+			militia = { x = 1 y = 1 }
+			militia = { x = 1 y = 2 }
+		}
+		
+		support = {
+			engineer = { x = 0 y = 0 }
+			military_police = { x = 0 y = 1 }
+		}
+			
+	}
+	units = {
+
+		division = {
+			name = "1. 'Sons of the Prophet' Militia"
+			location = 10582
+			division_template = "Fundamentalist Brigade"
+			start_experience_factor = 0.6
+		}
+		
+		division = {
+			name = "2. 'Apostolic United Brethren' Militia"
+			location = 10582
+			division_template = "Fundamentalist Brigade"
+			start_experience_factor = 0.7
+		}
+		
+		division = {
+			name = "3. 'The Order' Militia"
+			location = 10582
+			division_template = "Fundamentalist Brigade"
+			start_experience_factor = 0.6
+		}
+	}

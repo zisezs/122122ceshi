@@ -1,0 +1,44 @@
+### Air OOB ###
+air_wings = {
+	86 = {
+		fighter_airframe_1 =  {
+			owner = "POL" 
+			amount = 24
+			version_name = "F-16"
+		}
+	}
+	87 = {
+		fighter_airframe_1 =  {
+			owner = "POL" 
+			amount = 24
+			version_name = "F-16"
+		}
+	}
+	85 = {
+		fighter_airframe_1 =  {
+			owner = "POL" 
+			amount = 23
+			version_name = "Mig-29"
+		}
+	}
+	10 = {
+		fighter_airframe_1 =  {
+			owner = "POL" 
+			amount = 16
+			version_name = "F-16"
+		}
+	}
+	63 = {
+		uav_airframe_0 =  {
+			owner = "POL" 
+			amount = 24
+			version_name = "Su-22"
+		}
+	}
+	10 = {
+		transport_plane_equipment_1 = {
+			owner = "POL" 
+			amount = 21
+		}
+	}
+}

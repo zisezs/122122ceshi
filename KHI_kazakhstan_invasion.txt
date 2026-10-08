@@ -1,0 +1,100 @@
+﻿division_template = {
+	name = "Motostrelkovaya Batalyon"
+	
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		light_mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+	}
+	
+	support = {
+		mot_recon = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {			
+		name = "223ya Motostrelkovaya Batalyon"
+		location = 7438
+		division_template = "Motostrelkovaya Batalyon"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "224ya Motostrelkovaya Batalyon"
+		location = 9528
+		division_template = "Motostrelkovaya Batalyon"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "225ya Motostrelkovaya Batalyon"
+		location = 11480
+		division_template = "Motostrelkovaya Batalyon"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "226ya Motostrelkovaya Batalyon"
+		location = 7322
+		division_template = "Motostrelkovaya Batalyon"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "227ya Motostrelkovaya Batalyon"
+		location = 11591
+		division_template = "Motostrelkovaya Batalyon"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "228ya Motostrelkovaya Batalyon"
+		location = 7438
+		division_template = "Motostrelkovaya Batalyon"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "229ya Motostrelkovaya Batalyon"
+		location = 9528
+		division_template = "Motostrelkovaya Batalyon"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "230ya Motostrelkovaya Batalyon"
+		location = 11537
+		division_template = "Motostrelkovaya Batalyon"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "231ya Motostrelkovaya Batalyon"
+		location = 432
+		division_template = "Motostrelkovaya Batalyon"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "232ya Motostrelkovaya Batalyon"
+		location = 11442
+		division_template = "Motostrelkovaya Batalyon"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "233ya Motostrelkovaya Batalyon"
+		location = 1318
+		division_template = "Motostrelkovaya Batalyon"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "234ya Motostrelkovaya Batalyon"
+		location = 9447
+		division_template = "Motostrelkovaya Batalyon"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+}

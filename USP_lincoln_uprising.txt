@@ -1,0 +1,70 @@
+﻿division_template = {
+	name = "Soldiers of the Union"
+	
+	regiments = {
+		exoskeleton_unit = { x = 0 y = 0 }
+		exoskeleton_unit = { x = 0 y = 1 }
+		exoskeleton_unit = { x = 0 y = 2 }
+		exoskeleton_unit = { x = 0 y = 3 }
+		
+		exoskeleton_unit = { x = 1 y = 0 }
+		exoskeleton_unit = { x = 1 y = 1 }
+		exoskeleton_unit = { x = 1 y = 2 }
+		exoskeleton_unit = { x = 1 y = 3 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+		spa_company = { x = 0 y = 3 }
+		spaa_company = { x = 0 y = 4 }
+	}
+	
+}
+
+
+units = {
+
+	division = {
+		name = "1. Soldiers of the Union"
+		location = 3823
+		division_template = "Soldiers of the Union"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Soldiers of the Union"
+		location = 3823
+		division_template = "Soldiers of the Union"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3. Soldiers of the Union"
+		location = 3823
+		division_template = "Soldiers of the Union"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "4. Soldiers of the Union"
+		location = 9923
+		division_template = "Soldiers of the Union"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "5. Soldiers of the Union"
+		location = 9923
+		division_template = "Soldiers of the Union"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "6. Soldiers of the Union"
+		location = 9923
+		division_template = "Soldiers of the Union"
+		start_experience_factor = 0.1
+	}
+}

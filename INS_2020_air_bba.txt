@@ -1,0 +1,46 @@
+﻿air_wings = {
+	1387 = {
+		fighter_airframe_1 =  {
+			owner = "INS" 
+			amount = 11
+			version_name = "F-16/IQ"
+		}
+	}
+	
+	1387 = {
+		fighter_airframe_1 =  {
+			owner = "INS" 
+			amount = 5
+			version_name = "Su-27"
+		}
+	}
+	
+	1387 = {
+		uav_airframe_0 =  {
+			owner = "INS" 
+			amount = 5
+			version_name = "EMB 314"
+		}
+	}
+	
+	1385 = {
+		uav_airframe_1 =  {
+			owner = "INS" 
+			amount = 12
+			version_name = "Hawk 200"
+		}
+		fighter_airframe_1 =  {
+			owner = "INS" 
+			amount = 12
+			version_name = "F-16/IQ"
+		}
+	}
+	
+	673 = {
+		uav_airframe_0 =  {
+			owner = "INS" 
+			amount = 8
+			version_name = "EMB 314"
+		}
+	}
+}

@@ -1,0 +1,50 @@
+division_template = {
+	name = "Anti-Naxalite Militia Brigade"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+		
+}
+
+
+units = {
+	division = {	
+		name = "1st Militia Brigade"
+		location = 1059
+		division_template = "Anti-Naxalite Militia Brigade"
+		start_experience_factor = 0.2
+	}
+
+	division = {	
+		name = "2nd Militia Brigade"
+		location = 4104
+		division_template = "Anti-Naxalite Militia Brigade"
+		start_experience_factor = 0.2
+	}
+
+	division = {	
+		name = "3rd Militia Brigade"
+		location = 10060
+		division_template = "Anti-Naxalite Militia Brigade"
+		start_experience_factor = 0.2
+	}
+	division = {	
+		name = "2nd Militia Brigade"
+		location = 10116
+		division_template = "Anti-Naxalite Militia Brigade"
+		start_experience_factor = 0.2
+	}
+
+	division = {	
+		name = "3rd Militia Brigade"
+		location = 11978
+		division_template = "Anti-Naxalite Militia Brigade"
+		start_experience_factor = 0.2
+	}
+}

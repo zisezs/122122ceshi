@@ -1,0 +1,98 @@
+﻿division_template = {
+	name = "GOP Milita Brigade"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+	}
+}
+
+division_template = {
+	name = "GOP Infantry Brigade"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+	}
+
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st GOP Milita Brigade" 
+		location = 9693
+		division_template = "GOP Milita Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "2nd GOP Milita Brigade" 
+		location = 9693
+		division_template = "GOP Milita Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "3rd GOP Milita Brigade" 
+		location = 3733
+		division_template = "GOP Milita Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "4th GOP Milita Brigade" 
+		location = 14385
+		division_template = "GOP Milita Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "5th GOP Milita Brigade" 
+		location = 11650
+		division_template = "GOP Milita Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "6th GOP Milita Brigade" 
+		location = 6717
+		division_template = "GOP Milita Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "7th GOP Milita Brigade" 
+		location = 9708
+		division_template = "GOP Milita Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "8th GOP Milita Brigade" 
+		location = 11665
+		division_template = "GOP Milita Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "9th GOP Milita Brigade" 
+		location = 9675
+		division_template = "GOP Milita Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "10th GOP Milita Brigade" 
+		location = 4445
+		division_template = "GOP Milita Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "11th GOP Milita Brigade" 
+		location = 13862
+		division_template = "GOP Milita Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "12th GOP Milita Brigade" 
+		location = 13260
+		division_template = "GOP Milita Brigade"
+		start_experience_factor = 0.3
+	}
+}

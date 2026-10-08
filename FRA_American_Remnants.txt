@@ -1,0 +1,56 @@
+﻿division_template = {
+	name = "Special Operations Force"
+	override_model = USA_special_forces_2_entity
+	is_locked = yes
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+		special_forces = { x = 0 y = 3 }
+		recce = { x = 1 y = 0 }
+	}
+	
+	support = {
+		logistics_company = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+	}
+	priority = 1
+}
+
+units = {
+	division = {			
+		name = "1st ''Justice'' Special Forces Group"
+		location = 10803
+		division_template = "Special Operations Force"
+		start_experience_factor = 0.8
+		force_equipment_variants = { infantry_equipment_4 = { owner = "USA" } }
+		force_equipment_variants = { anti_tank_equipment_1 = { owner = "USA" } }
+		officer = {
+			name = "'Sandman'"
+			portraits = {
+				army = {
+					large=GFX_Portrait_Generic_Soldier_3
+					small="GFX_Portrait_Generic_Soldier_3_adv"
+				}
+			}
+		}
+	}
+	division = {			
+		name = "2nd ''Liberty'' Special Forces Group"
+		location = 10762
+		division_template = "Special Operations Force"
+		start_experience_factor = 0.8
+		force_equipment_variants = { infantry_equipment_4 = { owner = "USA" } }
+		force_equipment_variants = { anti_tank_equipment_1 = { owner = "USA" } }
+		officer = {
+			name = "'Frost'"
+			portraits = {
+				army = {
+					large=GFX_Portrait_PTF_Generic_land_3
+					small="GFX_Portrait_PTF_Generic_land_3_small"
+				}
+			}
+		}
+	}
+}

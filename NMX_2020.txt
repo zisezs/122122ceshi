@@ -1,0 +1,71 @@
+﻿division_template = {
+	name = "National Guard"
+	regiments = {
+		motorized = {
+			x = 0
+			y = 0
+		}
+		artillery_brigade = {
+			x = 1
+			y = 0
+		}
+		infantry = {
+			x = 2
+			y = 0
+		}
+	}
+	support = {
+	}
+	priority = 2
+}
+
+units = {
+	division = {
+		name = "1st New Mexican National Guard Brigade"
+		location = 4975
+		division_template = "National Guard"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd New Mexican National Guard Brigade"
+		location = 14038
+		division_template = "National Guard"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3rd New Mexican National Guard Brigade"
+		location = 10914
+		division_template = "National Guard"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4th New Mexican National Guard Brigade"
+		location = 12791
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "1st Volunteer Brigade"
+		location = 8070
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "2nd Volunteer Brigade"
+		location = 14038
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "3rd Volunteer Brigade"
+		location = 14038
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "4th Volunteer Brigade"
+		location = 14038
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.1
+	}
+}

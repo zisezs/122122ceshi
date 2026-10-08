@@ -1,0 +1,61 @@
+﻿division_template = {
+	name = "Brigada Kopnene Vojske"
+	override_model = SER_mechanized_entity
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		artillery_brigade = { x = 0 y = 2 }
+		mechanized = { x = 1 y = 0 }
+		artillery_brigade = { x = 1 y = 1 }
+		spaa_brigade = { x = 1 y = 2 }
+		light_mechanized = { x = 2 y = 0 }
+		light_mechanized = { x = 2 y = 1 }
+
+	}
+}
+
+division_template = {
+	name = "Specijalna Brigada"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+
+	}
+	priority = 2
+}
+
+units = {
+	
+	division = {
+		name = "1. Brigada Kopnene Vojske"
+		location = 3617
+		division_template = "Brigada Kopnene Vojske"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "2. Brigada Kopnene Vojske"
+		location = 3984
+		division_template = "Brigada Kopnene Vojske"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "3. Brigada Kopnene Vojske"
+		location = 11887
+		division_template = "Brigada Kopnene Vojske"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "4. Brigada Kopnene Vojske"
+		location = 11586
+		division_template = "Brigada Kopnene Vojske"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "Specijalna Brigada"
+		location = 3614
+		division_template = "Specijalna Brigada"
+		start_experience_factor = 0.5
+	}
+	
+}

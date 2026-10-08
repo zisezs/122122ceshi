@@ -1,0 +1,113 @@
+﻿division_template = {
+	name = "Motastralkovaya Brigada"
+	
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		modern_armor = { x = 1 y = 0 }
+		modern_sp_artillery_brigade = { x = 1 y = 1 }
+	}
+	
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		spa_company = { x = 0 y = 2 }
+	}
+	
+}
+
+division_template = {
+	name = "Dobraachvotnickaja Bryhada"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+	}
+	
+	support = {
+	}
+}
+
+
+units = {
+	division = {	
+		name = "Movement for Democracy Fighters"
+		location = 11503
+		division_template = "Dobraachvotnickaja Bryhada"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "Movement for Democracy Fighters"
+		location = 3496
+		division_template = "Dobraachvotnickaja Bryhada"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "Movement for Democracy Fighters"
+		location = 11391
+		division_template = "Dobraachvotnickaja Bryhada"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "Movement for Democracy Fighters"
+		location = 9520
+		division_template = "Dobraachvotnickaja Bryhada"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "Movement for Democracy Fighters"
+		location = 6546
+		division_template = "Dobraachvotnickaja Bryhada"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "Movement for Democracy Fighters"
+		location = 3256
+		division_template = "Dobraachvotnickaja Bryhada"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "Movement for Democracy Fighters"
+		location = 3281
+		division_template = "Dobraachvotnickaja Bryhada"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "Movement for Democracy Fighters"
+		location = 318
+		division_template = "Dobraachvotnickaja Bryhada"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "Movement for Democracy Fighters"
+		location = 3393
+		division_template = "Motastralkovaya Brigada"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "Movement for Democracy Fighters"
+		location = 3392
+		division_template = "Motastralkovaya Brigada"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "Movement for Democracy Fighters"
+		location = 11503
+		division_template = "Motastralkovaya Brigada"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+}

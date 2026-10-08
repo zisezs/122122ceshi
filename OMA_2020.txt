@@ -1,0 +1,123 @@
+﻿division_template = {
+	name = "Fawj Moudar'a"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+	}
+	support = {
+		light_tank_recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+
+}
+
+division_template = {
+	name = "Fawj Mushat Mechaniqui"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+	}
+	support = {
+		spa_company = { x = 0 y = 0 }
+	}
+
+}
+
+division_template = {
+	name = "Fawj Mushat"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+
+}
+
+division_template = {
+	name = "Fawj Mushat Khafifa"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+	support = {
+	}
+
+}
+
+units = {
+division = {
+		name = "1. Fawj Moudar'a"
+		location = 10760
+		division_template = "Fawj Moudar'a"
+		start_experience_factor = 0.3
+		
+	}
+
+	division = {
+		name = "2. Fawj Moudar'a"
+		location = 10760
+		division_template = "Fawj Moudar'a"
+		start_experience_factor = 0.3
+		
+	}
+
+	division = {
+		name = "Fawj Mechaniqui"
+		location = 10760
+		division_template = "Fawj Mushat Mechaniqui"
+		start_experience_factor = 0.3
+		
+	}
+
+	division = {
+		name = "Fawj Mascat"
+		location = 10760
+		division_template = "Fawj Mushat"
+		start_experience_factor = 0.3
+		
+	}
+
+	division = {
+		name = "Fawj Alhudud Alshamalia"
+		location = 4993
+		division_template = "Fawj Mushat"
+		start_experience_factor = 0.3
+		
+	}
+
+	division = {
+		name = "Fawj Jabal"
+		location = 8020
+		division_template = "Fawj Mushat"
+		start_experience_factor = 0.3
+		
+	}
+
+	division = {
+		name = "1. Fawj Janubii"
+		location = 2059
+		division_template = "Fawj Mushat"
+		start_experience_factor = 0.3
+		
+	}
+
+	division = {
+		name = "2. Fawj Janubii"
+		location = 2103
+		division_template = "Fawj Mushat"
+		start_experience_factor = 0.3
+		
+	}
+
+	division = {
+		name = "Fawj Sahra"
+		location = 5049
+		division_template = "Fawj Mushat Khafifa"
+		start_experience_factor = 0.3
+		
+	}
+}
+
+### Air OOB ###

@@ -1,0 +1,44 @@
+﻿division_template = {
+	name = "Motorized Infantry Brigade"
+	regiments = {
+		motorized = {
+			x = 0
+			y = 0
+		}
+	}
+	support = {
+	}
+}
+
+units = {
+	division = {
+		name = "1st Militia Brigade"
+		location = 11654
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.03
+	}
+	division = {
+		name = "2nd Militia Brigade"
+		location = 11654
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.03
+	}
+	division = {
+		name = "3rd Militia Brigade"
+		location = 11654
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.03
+	}
+	division = {
+		name = "4th Militia Brigade"
+		location = 11654
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.03
+	}
+	division = {
+		name = "5th Militia Brigade"
+		location = 11654
+		division_template = "Motorized Militia"
+		start_experience_factor = 0.03
+	}
+}

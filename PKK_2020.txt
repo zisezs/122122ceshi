@@ -1,0 +1,140 @@
+﻿division_template = {
+	name = "Militia Brigade"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 0 y = 4 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		anti_tank = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Motorized Brigade"
+	
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+		mot_militia = { x = 0 y = 1 }
+		mot_militia = { x = 0 y = 2 }
+		mot_militia = { x = 0 y = 3 }
+	}
+	
+	support = {
+		signal_company = { x = 0 y = 0 }
+	}
+	
+	priority = 1
+	
+	template_counter = 11
+}
+
+division_template = {
+	name = "Mechanized Brigade"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		mechanized = { x = 0 y = 3 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+		anti_tank = { x = 0 y = 3 }
+	}
+	
+}
+
+units = {
+
+	division = {
+		name = "1. Mechanized Brigade"
+		location = 9858
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Mechanized Brigade"
+		location = 11880
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1. Militia Brigade"
+		location = 7470
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Militia Brigade"
+		location = 6935
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3. Militia Brigade"
+		location = 864
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "4. Militia Brigade"
+		location = 1463
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "5. Militia Brigade"
+		location = 12318
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "6. Militia Brigade"
+		location = 9858
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "7. Militia Brigade"
+		location = 12476
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "1. Motorized Brigade"
+		location = 10497
+		division_template = "Motorized Brigade"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Motorized Brigade"
+		location = 12387
+		division_template = "Motorized Brigade"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3. Motorized Brigade"
+		location = 14338
+		division_template = "Motorized Brigade"
+		start_experience_factor = 0.1
+	}
+}

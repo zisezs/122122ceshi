@@ -1,0 +1,105 @@
+﻿division_template = {
+	name = "Bùbīng Lǚ A"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		artillery_brigade = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Bùbīng Lǚ B"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		artillery_brigade = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Tèzhǒng Zuòzhàn Dàduì"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+		special_forces = { x = 0 y = 3 }
+		special_forces = { x = 0 y = 4 }
+	}
+
+	priority = 2
+}
+
+units = {
+
+	division = {
+		name = "1. Bubing Lu"
+		location = 14723
+		division_template = "Bùbīng Lǚ B"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Bubing Lu"
+		location = 12027
+		division_template = "Bùbīng Lǚ A"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "3. Bubing Lu"
+		location = 12027
+		division_template = "Bùbīng Lǚ A"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "4. Bubing Lu"
+		location = 9955
+		division_template = "Bùbīng Lǚ B"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "5. Bubing Lu"
+		location = 9955
+		division_template = "Bùbīng Lǚ B"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "6. Bubing Lu"
+		location = 14723
+		division_template = "Bùbīng Lǚ B"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1. Tezhong Zuozhàn Daduì"
+		location = 14723
+		division_template = "Tèzhǒng Zuòzhàn Dàduì"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "2. Tezhong Zuozhàn Daduì"
+		location = 14723
+		division_template = "Tèzhǒng Zuòzhàn Dàduì"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "3. Tezhong Zuozhàn Daduì"
+		location = 9955
+		division_template = "Tèzhǒng Zuòzhàn Dàduì"
+		start_experience_factor = 0.4
+	}
+	
+}

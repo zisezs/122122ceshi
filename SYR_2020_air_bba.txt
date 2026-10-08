@@ -1,0 +1,57 @@
+﻿air_wings = {
+	1032 = {
+		#MiG-21
+		fighter_airframe_1 =  {
+			owner = "SYR" 
+			amount = 24
+			version_name = "Mig-29"
+		}
+	}
+	
+	1032 = {
+		#MiG-29
+		fighter_airframe_1 =  {
+			owner = "SYR" 
+			amount = 24
+			version_name = "Mig-29"
+		}
+	}
+	
+	1032 = {
+		#MiG-23
+		fighter_airframe_0 =  {
+			owner = "SYR" 
+			amount = 50
+			version_name = "Mig-23"
+		}
+	}
+	
+	1032 = {
+		#Su-22
+		uav_airframe_0 =  {
+			owner = "SYR" 
+			amount = 30
+			version_name = "Su-24"
+		}
+	}
+	
+	677 = {
+		#Su-24 - Tactical Bomber
+		uav_airframe_0 =  {
+			owner = "SYR" 
+			amount = 10
+			version_name = "Su-24"
+		}
+	}
+	
+	677 = {
+		#MiG-25 - Interceptor
+		fighter_airframe_1 =  {
+			owner = "SYR" 
+			amount = 24
+			version_name = "Mig-29"
+		}
+	}
+	677 = {
+	}
+}

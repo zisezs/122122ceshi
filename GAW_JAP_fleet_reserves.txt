@@ -1,0 +1,111 @@
+
+units = {
+
+	### Naval OOB ###
+	fleet = {
+		name = "东京湾捞出来的舰队" #Osaka
+		naval_base = 7072
+		task_force = {
+			name = "刚捞出来的舰娘们" #Osaka
+			location = 7072
+			ship = { name = "CV-01 赤城号" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = JAP version_name = "Naruhito-class" } } }
+			ship = { name = "CV-02 天城号" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = JAP version_name = "Naruhito-class" } } }
+			ship = { name = "CV-03 大凤号" definition = carrier equipment = { ship_hull_carrier_1 = { amount = 1 owner = JAP version_name = "Naruhito-class" } } }
+			ship = { name = "DD-115 秋月号" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "朝日/秋月级导弹驱逐舰" } } }
+			ship = { name = "DD-116 照月号" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "朝日/秋月级导弹驱逐舰" } } }
+            ship = { name = "DD-117 凉月号" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "朝日/秋月级导弹驱逐舰" } } }
+			ship = { name = "DD-118 冬月号" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "朝日/秋月级导弹驱逐舰" } } }
+			ship = { name = "DD-119 朝日号" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "朝日/秋月级导弹驱逐舰" } } }
+			ship = { name = "DD-120 不知火号" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "朝日/秋月级导弹驱逐舰" } } }
+			ship = { name = "DD-122 那智号" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "朝日/秋月级导弹驱逐舰" } } }
+			ship = { name = "DD-121 利根号" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "朝日/秋月级导弹驱逐舰" } } }
+			ship = { name = "DD-105 电号" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "Hatsuyuki-class" } } }
+			ship = { name = "DD-106 五月雨号" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "Hatsuyuki-class" } } }
+			ship = { name = "DD-107 雷号" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "Hatsuyuki-class" } } }
+			ship = { name = "DD-108 曙号" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "Hatsuyuki-class" } } }
+			ship = { name = "DD-109 有明号" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "Hatsuyuki-class" } } }
+			ship = { name = "DD-110 高波号" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "Hatsuyuki-class" } } }
+			ship = { name = "DD-111 大波号" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "Hatsuyuki-class" } } }
+			ship = { name = "DD-112 卷波号" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "Hatsuyuki-class" } } }
+			ship = { name = "DD-113 链波号" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "Hatsuyuki-class" } } }
+			ship = { name = "DD-114 凉波号" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "Hatsuyuki-class" } } }
+            ship = { name = "DDG-177 爱宕号" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "爱宕/摩耶级导弹驱逐舰" } } }
+			ship = { name = "DDG-178 足柄号" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "爱宕/摩耶级导弹驱逐舰" } } }
+            ship = { name = "DDG-181 榛名号" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "爱宕/摩耶级导弹驱逐舰" } } }
+			ship = { name = "DDG-182 比睿号" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "爱宕/摩耶级导弹驱逐舰" } } }
+            ship = { name = "DDG-183 古鹰号" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "爱宕/摩耶级导弹驱逐舰" } } }
+			ship = { name = "DDG-184 青叶号" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "爱宕/摩耶级导弹驱逐舰" } } }
+            ship = { name = "DDG-179 摩耶号" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "爱宕/摩耶级导弹驱逐舰" } } }
+			ship = { name = "DDG-180 羽黑号" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "爱宕/摩耶级导弹驱逐舰" } } }
+            ship = { name = "FFM-1 最上号" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "最上级护卫舰" } } }
+			ship = { name = "FFM-2 熊野号" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "最上级护卫舰" } } }
+            ship = { name = "FFM-3 能代号" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "最上级护卫舰" } } }
+			ship = { name = "FFM-4 三隈号" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "最上级护卫舰" } } }
+            ship = { name = "FFM-5 矢矧号" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "最上级护卫舰" } } }
+			ship = { name = "FFM-6 阿贺野号" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "最上级护卫舰" } } }
+            ship = { name = "FFM-7 仁淀号" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "最上级护卫舰" } } }
+            ship = { name = "FFM-8 涌别号" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "最上级护卫舰" } } }
+			ship = { name = "FFM-9 名取号" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "最上级护卫舰" } } }
+            ship = { name = "FFM-10 长良号" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "最上级护卫舰" } } }
+			ship = { name = "FFM-11 铃谷号" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "最上级护卫舰" } } }
+            ship = { name = "FFM-12 三隈号" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "最上级护卫舰" } } }
+            ship = { name = "FFM-13 铃鹿号" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "最上级护卫舰" } } }
+			ship = { name = "FFM-14 浅间号" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "最上级护卫舰" } } }
+            ship = { name = "FFM-15 磐手号" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "最上级护卫舰" } } }
+			ship = { name = "FFM-16 吾妻号" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "最上级护卫舰" } } }
+            ship = { name = "FFM-17 筑摩号" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "最上级护卫舰" } } }
+			ship = { name = "FFM-18 宗谷号" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "最上级护卫舰" } } }
+            ship = { name = "FFM-19 津轻号" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "最上级护卫舰" } } }
+            ship = { name = "FFM-21 阿苏号" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "最上级护卫舰" } } }
+			ship = { name = "FFM-22 伊吹号" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "最上级护卫舰" } } }
+            ship = { name = "FFM-23 衣笠号" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "最上级护卫舰" } } }
+			ship = { name = "FFM-20 那须号" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "最上级护卫舰" } } }
+            ship = { name = "FFM-24 赤石号" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "最上级护卫舰" } } }
+			ship = { name = "FFM-25 神通号" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "最上级护卫舰" } } }
+            ship = { name = "FFM-26 那珂号" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "最上级护卫舰" } } }
+            ship = { name = "FFM-27 川内号" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "最上级护卫舰" } } }
+			ship = { name = "FFM-28 夕张号" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "最上级护卫舰" } } }
+            ship = { name = "FFM-29 大井号" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "最上级护卫舰" } } }
+			ship = { name = "FFM-30 长良号" definition = light_cruiser equipment = { ship_hull_cruiser_3 = { amount = 1 owner = JAP version_name = "最上级护卫舰" } } }
+            ship = { name = "妙风号" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = JAP version_name = "Taisen-class Corvette" } } }
+            ship = { name = "清风号" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = JAP version_name = "Taisen-class Corvette" } } }
+            ship = { name = "雪风号" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = JAP version_name = "Taisen-class Corvette" } } }
+            ship = { name = "天津风号" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = JAP version_name = "Taisen-class Corvette" } } }
+            ship = { name = "岛风号" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = JAP version_name = "Taisen-class Corvette" } } }
+            ship = { name = "樫号" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = JAP version_name = "Taisen-class Corvette" } } }
+            ship = { name = "早苗号" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = JAP version_name = "Taisen-class Corvette" } } }
+            ship = { name = "霜风号" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = JAP version_name = "Taisen-class Corvette" } } }
+            ship = { name = "冬云号" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = JAP version_name = "Taisen-class Corvette" } } }
+            ship = { name = "夕风号" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = JAP version_name = "Taisen-class Corvette" } } }
+            ship = { name = "疾风号" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = JAP version_name = "Taisen-class Corvette" } } }
+            ship = { name = "朝凪号" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = JAP version_name = "Taisen-class Corvette" } } }
+            ship = { name = "睦月号" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = JAP version_name = "Taisen-class Corvette" } } }
+            ship = { name = "夕立号" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = JAP version_name = "Taisen-class Corvette" } } }
+            ship = { name = "占守号" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = JAP version_name = "Taisen-class Corvette" } } }
+            ship = { name = "福江号" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = JAP version_name = "Taisen-class Corvette" } } }
+            ship = { name = "石垣号" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = JAP version_name = "Taisen-class Corvette" } } }
+            ship = { name = "草垣号" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = JAP version_name = "Taisen-class Corvette" } } }
+            ship = { name = "八重樱号" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = JAP version_name = "Taisen-class Corvette" } } }
+            ship = { name = "丰川祥子号" definition = destroyer equipment = { ship_hull_light_3 = { amount = 1 owner = JAP version_name = "Taisen-class Corvette" } } }
+		}
+	}
+}
+air_wings = {
+"CV-01 赤城号" = {
+	cv_airframe_1 =  { owner = JAP amount = 50 version_name = "F-35B" }
+	cv_airframe_1 =  { owner = JAP amount = 50 version_name = "F-35B" }
+}
+
+"CV-02 天城号" = {
+	cv_airframe_1 =  { owner = JAP amount = 50 version_name = "F-35B" }
+	cv_airframe_1 =  { owner = JAP amount = 50 version_name = "F-35B" }
+}
+
+"CV-03 大凤号" = {
+	cv_airframe_1 =  { owner = JAP amount = 50 version_name = "F-35B" }
+	cv_airframe_1 =  { owner = JAP amount = 50 version_name = "F-35B" }
+}
+}
+
+
+

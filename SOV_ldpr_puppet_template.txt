@@ -1,0 +1,40 @@
+﻿division_template = {
+	name = "Armoured Division"
+	
+	regiments = {
+		light_mechanized = { x = 0 y = 0 }
+		light_mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		mechanized = { x = 0 y = 3 }
+		light_mechanized = { x = 1 y = 0 }
+		light_mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+		mechanized = { x = 1 y = 3 }
+	}
+	
+	support = {
+		spa_company = { x = 0 y = 0 }
+		mbt_company = { x = 0 y = 1 }
+		mot_recon = { x = 0 y = 2 }
+		signal_company = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Infantry Division"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		modern_sp_artillery_brigade = { x = 1 y = 2 }
+	}
+	
+	support = {
+		spa_company = { x = 0 y = 0 }
+		mot_recon = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+	}
+}

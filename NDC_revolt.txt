@@ -1,0 +1,50 @@
+﻿	division_template = {
+		name = "Militia Brigade"
+		
+		regiments = {
+			militia = { x = 0 y = 0 }
+			militia = { x = 0 y = 1 }
+			militia = { x = 0 y = 2 }
+			militia = { x = 1 y = 0 }
+			militia = { x = 1 y = 1 }
+			militia = { x = 1 y = 2 }
+		}
+		
+		support = {
+		
+		}
+		
+		priority = 2
+	}
+	units = {	
+		division = {
+			name = "1. Militia Brigade"
+			location = 1181
+			division_template = "Militia Brigade"
+			start_experience_factor = 0.3
+		}
+		division = {
+			name = "2. Militia Brigade"
+			location = 1181
+			division_template = "Militia Brigade"
+			start_experience_factor = 0.3
+		}
+		division = {
+			name = "3. Militia Brigade"
+			location = 14548
+			division_template = "Militia Brigade"
+			start_experience_factor = 0.3
+		}
+		division = {
+			name = "4. Militia Brigade"
+			location = 14543
+			division_template = "Militia Brigade"
+			start_experience_factor = 0.3
+		}
+		division = {
+			name = "5. Militia Brigade"
+			location = 1181
+			division_template = "Militia Brigade"
+			start_experience_factor = 0.3
+		}
+	}

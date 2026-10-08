@@ -1,0 +1,21 @@
+### Air OOB ###
+
+air_wings = {
+	550 = {
+		#Su-27
+		fighter_airframe_1 = {
+			owner = "ERI" 
+			amount = 2
+			version_name = "Su-27"
+		}
+
+	}
+	550 = {
+		#MiG-29
+		fighter_airframe_1 = {
+			owner = "ERI" 
+			amount = 5
+			version_name = "MiG-29"
+		}
+	}
+}

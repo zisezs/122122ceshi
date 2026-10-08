@@ -1,0 +1,211 @@
+﻿division_template = {
+	name = "Special Forces Unit"
+	
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+	}
+	
+	support = {
+		signal_company = { x = 0 y = 0 } #turkish support
+		anti_tank = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+	}
+	
+	priority = 2
+}
+
+division_template = {
+	name = "Liwa Almushaa"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		anti_tank = { x = 0 y = 1 }
+		anti_air = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Milishia Mustaqila"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+	
+	support = {
+		anti_tank = { x = 0 y = 0 }
+		rocket_artillery = { x = 0 y = 1 }
+	}
+	
+	template_counter = 14
+	
+	priority = 0
+}
+
+division_template = {
+	name = "Liwa Mikanikiun"
+	
+	regiments = {
+		light_mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		mechanized = { x = 0 y = 3 }
+	}
+	
+	support = {
+		mbt_company = { x = 0 y = 0 }
+	}
+	
+	priority = 2
+}
+
+division_template = {
+	name = "Liwa Mudarae"
+	
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	
+	support = {
+		signal_company = { x = 0 y = 0 }
+	}
+	
+	priority = 2
+}
+
+division_template = {
+	name = "Milishia Aliat Mustaqila"
+	
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+		mot_militia = { x = 0 y = 1 }
+		mot_militia = { x = 0 y = 2 }
+	}
+	
+	support = {
+		signal_company = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+	
+	template_counter = 11
+}
+
+units = {
+	
+	division = {
+		name = "Inghimasi unit"
+		location = 13641
+		division_template = "Special Forces Unit"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "Abu Amara Battalion"
+		location = 13640
+		division_template = "Milishia Mustaqila"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "Army of Aleppo"
+		location = 13642
+		division_template = "Liwa Almushaa"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Army of Eastern Ghouta"
+		location = 13641
+		division_template = "Liwa Almushaa"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Army of Idlib"
+		location = 13641
+		division_template = "Liwa Almushaa"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Army of Al-Badia"
+		location = 13640
+		division_template = "Liwa Almushaa"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Abdullah Azzam Brigade"
+		location = 13640
+		division_template = "Liwa Almushaa"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Usud al-Harb Brigade"
+		location = 13640
+		division_template = "Milishia Mustaqila"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Ahl al-Bayt Brigade"
+		location = 13642
+		division_template = "Milishia Mustaqila"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "al-Majd Brigade"
+		location = 13640
+		division_template = "Milishia Mustaqila"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Army of Al-Sham"
+		location = 13642
+		division_template = "Milishia Aliat Mustaqila"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Army of Al-Hudud"
+		location = 13641
+		division_template = "Milishia Aliat Mustaqila"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Glory of Islam Brigade"
+		location = 13640
+		division_template = "Liwa Mikanikiun"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Aleppo City Battalion"
+		location = 13642
+		division_template = "Milishia Aliat Mustaqila"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Army of Othman bin Affan"
+		location = 13640
+		division_template = "Milishia Aliat Mustaqila"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Mountain Army"
+		location = 13642
+		division_template = "Liwa Mikanikiun"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Independent Armor Brigade"
+		location = 13642
+		division_template = "Liwa Mudarae"
+		start_experience_factor = 0.1
+	}
+}

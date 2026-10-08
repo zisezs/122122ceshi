@@ -1,0 +1,134 @@
+﻿	division_template = {
+		name = "Volunteer Brigade"
+		
+		regiments = {
+			militia = { x = 0 y = 0 }
+			militia = { x = 0 y = 1 }
+			militia = { x = 0 y = 2 }
+		}
+		
+		support = {
+			engineer = { x = 0 y = 0 }
+		}
+			
+	}
+
+	division_template = {
+		name = "Infantry Brigade"
+		division_names_group = NSM_INF_01 
+		
+		regiments = {
+			infantry = { x = 0 y = 0 }
+			infantry = { x = 0 y = 1 }
+			infantry = { x = 0 y = 2 }
+		}
+		
+		support = {
+			engineer = { x = 0 y = 0 }
+			logistics_company = { x = 0 y = 1 }
+		}
+			
+	}
+
+	division_template = {
+		name = "Motorized Militia"
+		
+		regiments = {
+			mot_militia = { x = 0 y = 0 }
+			mot_militia = { x = 0 y = 1 }
+			mot_militia = { x = 0 y = 2 }
+		}
+		
+		support = {
+			logistics_company = { x = 0 y = 0 }
+			signal_company = { x = 0 y = 1 }
+		}
+		
+	}
+		
+	units = {
+		division = {
+			name = "1st Infantry Brigade 'Großdeutschland'"
+			location = 13821
+			division_template = "Infantry Brigade"
+			start_experience_factor = 0.1
+			force_equipment_variants = { infantry_equipment_1 = { owner = "NSM" } }
+			officer = {
+				name = "Donald Schäfer"
+				portraits = {
+					army = {
+						large=GFX_Portrait_NSM_Generic_land_13
+						small="GFX_Portrait_NSM_Generic_land_13_small"
+					}
+				}
+			}
+		}
+		
+		division = {
+			name = "2nd Infantry Brigade 'Rösselsprung'"
+			location = 13820
+			division_template = "Infantry Brigade"
+			start_experience_factor = 0.1
+			officer = {
+				name = "Ulrich Pfeffer"
+				portraits = {
+					army = {
+						large=GFX_Portrait_NSM_Generic_land_12
+						small="GFX_Portrait_NSM_Generic_land_12_small"
+					}
+				}
+			}
+		}
+		
+		division = {
+			name = "3rd Infantry Brigade"
+			location = 6769
+			division_template = "Infantry Brigade"
+			start_experience_factor = 0.1
+			force_equipment_variants = { infantry_equipment_1 = { owner = "NSM" } }
+		}
+		
+		division = {
+			name = "1st Volunteer Militia"
+			location = 11669
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+			force_equipment_variants = { infantry_equipment_2 = { owner = "WGR" } }
+		}
+		
+		division = {
+			name = "2nd Volunteer Militia"
+			location = 9724
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		
+		division = {
+			name = "3rd Volunteer Militia"
+			location = 13823
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+			force_equipment_variants = { infantry_equipment_1 = { owner = "WGR" } }
+		}
+		
+		division = {
+			name = "4th Volunteer Brigade"
+			location = 6769
+			division_template = "Motorized Militia"
+			start_experience_factor = 0.1
+		}
+		
+		division = {
+			name = "5th Volunteer Brigade"
+			location = 13820
+			division_template = "Motorized Militia"
+			start_experience_factor = 0.1
+		}
+		
+		division = {
+			name = "6th Volunteer Brigade"
+			location = 13821
+			division_template = "Motorized Militia"
+			start_experience_factor = 0.1
+		}
+	}

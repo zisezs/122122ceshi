@@ -1,0 +1,228 @@
+﻿division_template = {
+	name = "Liwa Mudarae"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		light_mechanized = { x = 1 y = 0 }
+		light_mechanized = { x = 1 y = 1 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 1 }
+		spaa_brigade = { x = 2 y = 2 }
+		
+	}
+	support = { 
+	
+	}
+}
+
+division_template = {
+	name = "Alliwa Almikanikiu"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		light_mechanized = { x = 0 y = 3 }
+		modern_armor = { x = 1 y = 0 }
+		spaa_brigade = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+		
+	}
+	support = { 
+	
+	}
+}
+
+division_template = {
+	name = "Liwa Musha"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		light_mechanized = { x = 1 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+		spaa_brigade = { x = 2 y = 1 }
+	}
+	support = { 
+	
+	}
+}
+
+division_template = {
+	name = "Liwa Mikaniki"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		light_mechanized = { x = 0 y = 1 }
+		modern_armor = { x = 1 y = 0 }
+		spaa_brigade = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+	}
+	support = { 
+	
+	}
+}
+
+division_template = {
+	name = "Alharas Almalakiu"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+		special_forces = { x = 0 y = 3 }
+	}
+	support = {
+		
+	}
+}
+
+division_template = {
+	name = "Liwa Alhujum Aljawiyi"
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		special_forces = { x = 1 y = 0 }
+		
+	}
+	support = {
+		
+	}
+}
+
+division_template = {
+	name = "Sharikat Easkariat Khasa"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		mechanized = { x = 1 y = 0 }
+		special_forces = { x = 1 y = 1 }
+		artillery_brigade = { x = 2 y = 0 }
+		
+	}
+	support = {
+		
+	}
+}
+
+division_template = {
+	name = "Liwa' Milishia"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+	}
+}
+
+units = {
+	division = {	
+		name = "1. Liwa Alhujum Aljawiyi"
+		location = 13917
+		division_template = "Liwa Alhujum Aljawiyi"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "2. Liwa Alhujum Aljawiyi"
+		location = 13918
+		division_template = "Liwa Alhujum Aljawiyi"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "1. Alharas Almalakiu"
+		location = 12727
+		division_template = "Alharas Almalakiu"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "2. Alharas Almalakiu"
+		location = 12727
+		division_template = "Alharas Almalakiu"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "3. Alharas Almalakiu"
+		location = 12870
+		division_template = "Alharas Almalakiu"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "4. Alliwa Almikanikiu"
+		location = 5093
+		division_template = "Alharas Almalakiu"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "1. Liwa Musha"
+		location = 13988
+		division_template = "Liwa Musha"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "2. Liwa Musha"
+		location = 10923
+		division_template = "Liwa Musha"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "3. Liwa Musha"
+		location = 5093
+		division_template = "Liwa Musha"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "1. Liwa' Milishia"
+		location = 8060
+		division_template = "Liwa' Milishia"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "2. Liwa' Milishia"
+		location = 8004
+		division_template = "Liwa' Milishia"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "1. Liwa Mikaniki"
+		location = 4968
+		division_template = "Liwa Mikaniki"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {	
+		name = "1. Sharikat Easkariat Khasa"
+		location = 13790
+		division_template = "Sharikat Easkariat Khasa"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "2. Sharikat Easkariat Khasa"
+		location = 13790
+		division_template = "Sharikat Easkariat Khasa"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+}

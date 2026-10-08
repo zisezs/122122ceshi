@@ -1,0 +1,19 @@
+﻿division_template = {
+	name = "Infanteria Alemania"
+	
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		modern_sp_artillery_brigade = { x = 0 y = 3 }
+	}
+}
+
+units = {
+	division = {
+		name = "IX. Legión Cóndor"
+		location = 885
+		division_template = "Infanteria Alemania"
+		start_experience_factor = 0.2
+	}
+}

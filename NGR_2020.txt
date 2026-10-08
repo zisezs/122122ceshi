@@ -1,0 +1,47 @@
+﻿division_template = {
+	name = "Bataillon d'Infanterie"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+	}
+	support = {
+		light_tank_recon = { x = 0 y = 0 }
+	}
+}
+
+units = {
+
+	division = {			
+		name = "1er Bataillon d'Infanterie"
+		location = 1975 
+		division_template = "Bataillon d'Infanterie"
+		start_experience_factor = 0.1
+	}
+
+	division = {			
+		name = "2éme Bataillon d'Infanterie"
+		location = 10758 
+		division_template = "Bataillon d'Infanterie"
+		start_experience_factor = 0.1
+	}
+	
+	division = {			
+		name = "3éme Bataillon d'Infanterie"
+		location = 8028 
+		division_template = "Bataillon d'Infanterie"
+		start_experience_factor = 0.1
+	}
+	division = {			
+		name = "4éme Bataillon d'Infanterie"
+		location = 8028
+		division_template = "Bataillon d'Infanterie"
+		start_experience_factor = 0.1
+	}
+	division = {			
+		name = "5éme Bataillon d'Infanterie"
+		location = 10758 
+		division_template = "Bataillon d'Infanterie"
+		start_experience_factor = 0.1
+	}
+
+}

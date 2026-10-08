@@ -1,0 +1,147 @@
+﻿division_template = {
+	name = "Zrahapat Gumartak"
+	
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		light_mechanized = { x = 1 y = 0 }
+	}
+	
+	support = {
+		spa_company = { x = 0 y = 0 }	
+	}
+	
+}
+
+division_template = {
+	name = "Motohradzgayin Gndi"
+	
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		light_mechanized = { x = 0 y = 2 }
+		modern_sp_artillery_brigade = { x = 0 y = 3 }
+	}
+	
+	support = {
+		spaa_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Hradzgayin Gndi"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		artillery_brigade = { x = 0 y = 3 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Armenian Army Corps"
+	
+	regiments = { 
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		artillery_brigade = { x = 1 y = 0 }
+		artillery_brigade = { x = 1 y = 1 }
+		modern_armor = { x = 2 y = 0 }
+		mechanized = { x = 2 y = 1 }
+	}
+	
+	support = {
+		spaa_company = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+	
+}
+
+division_template = {
+	name = "Hatuk Uzhery Gndi"
+	
+	regiments = { 
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+	
+	priority = 2
+}
+
+division_template = {
+	name = "Odadesantayin Gund"
+	
+	regiments = { 
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+	}
+	
+	support = {
+	}
+	
+	priority = 2
+}
+
+units = {
+	division = {	
+		name = "1st Army Corps"
+		location = 6642
+		division_template = "Armenian Army Corps"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "2nd Army Corps"
+		location = 12450
+		division_template = "Motohradzgayin Gndi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "3rd Army Corps"
+		location = 12380
+		division_template = "Armenian Army Corps"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "4th Army Corps"
+		location = 11708
+		division_template = "Armenian Army Corps"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "5th Army Corps"
+		location = 12320
+		division_template = "Hradzgayin Gndi"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "Hatuk Uzhery Gndi"
+		location = 12320
+		division_template = "Hatuk Uzhery Gndi"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "Odadesantayin Gund"
+		location = 12320
+		division_template = "Odadesantayin Gund"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}	
+}

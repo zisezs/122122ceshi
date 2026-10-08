@@ -1,0 +1,60 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {
+		name = "Iranian Navy - Surface Force"
+		naval_base = 7982
+		task_force = {
+			name = "Iranian Navy - Surface Force"
+			location = 7982
+			ship = { name = "Jafari" definition = heavy_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PER } } }
+			ship = { name = "Ruhollah" definition = heavy_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PER } } }
+			ship = { name = "Alvand (71)" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PER } } }
+			ship = { name = "Alborz (72)" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PER } } }
+			ship = { name = "Sabalan (73)" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PER } } }
+			ship = { name = "Jamaran (73)" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PER } } }
+			ship = { name = "Damavand (76)" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = PER } } }
+			ship = { name = "Bayandor (91)" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PER } } }
+			ship = { name = "Sahand (74)" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PER } } }
+			ship = { name = "Naghdi (82)" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PER } } }
+			ship = { name = "Hamzeh (802)" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PER } } }
+			ship = { name = "Kalat" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PER } } }
+			ship = { name = "Fath (P313-1)" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PER } } }
+			ship = { name = "Nasr (P313-2)" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PER } } }
+			ship = { name = "Saf (P313-3)" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PER } } }
+			ship = { name = "Ra'ad (P313-4)" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PER } } }
+			ship = { name = "Rajr (P313-5)" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PER } } }
+			ship = { name = "Shams (P313-6)" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PER } } }
+			ship = { name = "Me'raj (P313-7)" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PER } } }
+			ship = { name = "Falaq (P313-8)" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PER } } }
+			ship = { name = "Hadid (P313-9)" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PER } } }
+			ship = { name = "Qadir (P313-10)" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PER } } }
+			ship = { name = "Kaman (P221)" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PER } } }
+			ship = { name = "Zoubin (P222)" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PER } } }
+			ship = { name = "Khadang (P223)" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PER } } }
+			ship = { name = "Paykan (P224)" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PER } } }
+			ship = { name = "Joshan (P225)" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PER } } }
+			ship = { name = "Falakhon (P226)" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PER } } }
+			ship = { name = "Shamshir (P227)" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PER } } }
+			ship = { name = "Gorz (P228)" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PER } } }
+			ship = { name = "Gardouneh (P229)" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PER } } }
+			ship = { name = "Khanjar (P230)" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PER } } }
+			ship = { name = "Neyzeh (P231)" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PER } } }
+			ship = { name = "Tabarzin (P232)" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PER } } }
+		}
+	}
+	
+	fleet = {
+		name = "Iranian Navy - submarine Force"
+		naval_base = 7982
+		task_force = {
+			name = "Iranian Navy - submarine Force"
+			location = 7982
+			ship = { name = "Tareq (901)" definition = submarine equipment = { submarine_2 = { amount = 1 owner = PER } } }
+			ship = { name = "Noor (902)" definition = submarine equipment = { submarine_2 = { amount = 1 owner = PER } } }
+			ship = { name = "Yunes (903)" definition = submarine equipment = { submarine_2 = { amount = 1 owner = PER } } }
+			ship = { name = "Fateh (920)" definition = submarine equipment = { submarine_2 = { amount = 1 owner = PER } } }
+			ship = { name = "Fateh (961)" definition = submarine equipment = { submarine_2 = { amount = 1 owner = PER } } }
+		}
+	}
+}

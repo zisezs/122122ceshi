@@ -1,0 +1,83 @@
+﻿division_template = {
+	name = "Natsionalna Hvardiya"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 1 y = 3 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "1-a Natsionalna Hvardiya"
+		location = 525
+		division_template = "Natsionalna Hvardiya"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "2-a Natsionalna Hvardiya"
+		location = 525
+		division_template = "Natsionalna Hvardiya"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "3-a Natsionalna Hvardiya"
+		location = 525
+		division_template = "Natsionalna Hvardiya"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "4-a Natsionalna Hvardiya"
+		location = 525
+		division_template = "Natsionalna Hvardiya"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "5-a Natsionalna Hvardiya"
+		location = 525
+		division_template = "Natsionalna Hvardiya"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "6-a Natsionalna Hvardiya"
+		location = 525
+		division_template = "Natsionalna Hvardiya"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "7-a Natsionalna Hvardiya"
+		location = 525
+		division_template = "Natsionalna Hvardiya"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "8-a Natsionalna Hvardiya"
+		location = 525
+		division_template = "Natsionalna Hvardiya"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "9-a Natsionalna Hvardiya"
+		location = 525
+		division_template = "Natsionalna Hvardiya"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "10-a Natsionalna Hvardiya"
+		location = 525
+		division_template = "Natsionalna Hvardiya"
+		start_experience_factor = 0.1
+	}
+}

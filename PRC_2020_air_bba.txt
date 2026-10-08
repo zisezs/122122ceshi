@@ -1,0 +1,942 @@
+### Air Wings
+air_wings = {
+## 战斗机中队 - Fighter
+	716 = {
+		fighter_airframe_2 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-20A"
+		}
+		name = "空1旅“强军先锋”"
+		start_experience_factor = 0.53
+	}
+
+	715 = {
+		fighter_airframe_1 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-10A"
+		}
+		name = "空2旅“草原雄鹰”"
+		start_experience_factor = 0.45
+	}
+	
+	714 = {
+		fighter_airframe_1 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-16"
+		}
+		name = "空3旅“海东青旅”"
+		start_experience_factor = 0.53
+	}
+
+	592 = {
+		fighter_airframe_1 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-11A"
+		}
+		name = "空4旅“雄狮劲旅”"
+		start_experience_factor = 0.53
+	}
+
+	599 = {
+		fighter_airframe_1 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-10C"
+		}
+		name = "空5旅“雄心亮剑”"
+		start_experience_factor = 0.53
+	}
+
+	728 = {
+		fighter_airframe_1 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "苏-30MKK"
+		}
+		name = "空6旅“南疆利剑”"
+		start_experience_factor = 0.53
+	}
+
+	1221 = {
+		fighter_airframe_1 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-16"
+		}
+		name = "空7旅“英雄中队”"
+		start_experience_factor = 0.53
+
+		fighter_airframe_2 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-20A"
+		}
+		name = "空9旅“王海大队”"
+		start_experience_factor = 0.53
+	}
+
+	1220 = {
+		fighter_airframe_1 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-10A"
+		}
+		name = "空8旅“神勇大队”"
+		start_experience_factor = 0.45
+	}
+
+	1393 = {
+		fighter_airframe_0 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼轰-7A"
+		}
+		name = "空15旅“雷霆劲旅”"
+		start_experience_factor = 0.53
+
+		fighter_airframe_1 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-10A"
+		}
+		name = "空34旅“长空铁拳”"
+		start_experience_factor = 0.45
+
+		fighter_airframe_0 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼轰-7A"
+		}
+		name = "空35旅“海空飞豹”"
+		start_experience_factor = 0.53
+	}
+
+	1199 = {
+		fighter_airframe_1 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-11A"
+		}
+		name = "空16旅“贺兰飞狮”"
+		start_experience_factor = 0.45
+	}
+
+	283 = {
+		fighter_airframe_0 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-7G"
+		}
+		name = "空18旅“铁翼精鹰”"
+		start_experience_factor = 0.5
+	}
+
+	611 = {
+		fighter_airframe_1 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-11BG"
+		}
+		name = "空19旅“河山劲旅”"
+		start_experience_factor = 0.45
+	}
+
+	608  = {
+		fighter_airframe_0 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-7G"
+		}
+		name = "空21旅“首都雄鹰”"
+		start_experience_factor = 0.45
+	}
+
+	1206 = {
+		fighter_airframe_0 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-7G"
+		}
+		name = "空25旅"
+		start_experience_factor = 0.45
+
+		fighter_airframe_1 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-10A"
+		}
+		name = "空26旅“剑锋劲旅”"
+		start_experience_factor = 0.45
+	}
+
+	328 = {
+		fighter_airframe_0 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼轰-7A"
+		}
+		name = "空31旅"
+		start_experience_factor = 0.5
+	}
+
+	1425 = {
+		fighter_airframe_1 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-11BG"
+		}
+		name = "空37旅"
+		start_experience_factor = 0.45
+	}
+
+	600 = {
+		fighter_airframe_1 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-16"
+		}
+		name = "空40旅“杜凤瑞大队”"
+		start_experience_factor = 0.53
+	}
+
+	1217 = {
+		fighter_airframe_1 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-11A"
+		}
+		name = "空41旅“闽赣尖刀”"
+		start_experience_factor = 0.53
+	}
+
+	1233 = {
+		fighter_airframe_1 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-10A"
+		}
+		name = "空43旅“雁门天虎”"
+		start_experience_factor = 0.45
+	}
+
+	621 = {
+		fighter_airframe_0 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-7G"
+		}
+		name = "空44旅“北疆飞虎”"
+		start_experience_factor = 0.45
+	}
+
+	1211 = {
+		fighter_airframe_0 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-7G"
+		}
+		name = "空52旅“楚天雄鹰”"
+		start_experience_factor = 0.45
+
+		fighter_airframe_0 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-7G"
+		}
+		name = "空53旅“襄楚雄鹰”"
+		start_experience_factor = 0.45
+	}
+
+	1208 = {
+		fighter_airframe_1 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "苏-30MKK"
+		}
+		name = "空54旅“霹雳雄鹰”"
+		start_experience_factor = 0.53
+	}
+
+	1230 = {
+		fighter_airframe_1 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-11A"
+		}
+		name = "空55旅“无影赤霄”"
+		start_experience_factor = 0.53
+	}
+
+	1226 = {
+		fighter_airframe_1 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-10C"
+		}
+		name = "空56旅“中原雄鹰”"
+		start_experience_factor = 0.53
+	}
+
+	1415 = {
+		fighter_airframe_1 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-10C"
+		}
+		name = "空61旅“北疆神鹰”"
+		start_experience_factor = 0.45
+	}
+
+	1416 = {
+		fighter_airframe_0 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-8II"
+		}
+		name = "空63旅“草原天狼”"
+		start_experience_factor = 0.45
+	}
+
+	1198 = {
+		fighter_airframe_1 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-11BG"
+		}
+		name = "空66旅"
+		start_experience_factor = 0.45
+	}
+
+	1158 = {
+		fighter_airframe_1 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-10C"
+		}
+		name = "空68旅"
+		start_experience_factor = 0.45
+
+		fighter_airframe_1 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-11BG"
+		}
+		name = "空111旅“库尔勒雄鹰”"
+		start_experience_factor = 0.53
+	}
+
+	1431 = {
+		fighter_airframe_1 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-10C"
+		}
+		name = "空69旅"
+		start_experience_factor = 0.45
+	}
+
+	609 = {
+		fighter_airframe_1 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-10A"
+		}
+		name = "空70旅“空中霹雳虎”"
+		start_experience_factor = 0.45
+	}
+
+	1157 = {
+		fighter_airframe_1 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-10C"
+		}
+		name = "空72旅“京卫雄鹰”"
+		start_experience_factor = 0.45
+	}
+
+	1215 = {
+		fighter_airframe_0 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-8II"
+		}
+		name = "空78旅“东海空防前哨”"
+		start_experience_factor = 0.45
+	}
+
+	1220 = {
+		fighter_airframe_0 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼轰-7A"
+		}
+		name = "空83旅“钱江飞豹”"
+		start_experience_factor = 0.45
+	}
+
+	1159 = {
+		fighter_airframe_1 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "苏-30MKK"
+		}
+		name = "空85旅“空海尖刀”"
+		start_experience_factor = 0.45
+
+		fighter_airframe_0 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼轰-7A"
+		}
+		name = "空96旅“先锋劲旅”"
+		start_experience_factor = 0.5
+	}
+
+	1413 = {
+		fighter_airframe_0 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-7G"
+		}
+		name = "空88旅“红旗劲旅”"
+		start_experience_factor = 0.5
+	}
+
+	1394 = {
+		fighter_airframe_1 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-11BG"
+		}
+		name = "空89旅“辽东雄鹰”"
+		start_experience_factor = 0.45
+	}
+
+	596  = {
+		fighter_airframe_1 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "苏-30MKK"
+		}
+		name = "空94旅“海空雄鹰”"
+		start_experience_factor = 0.53
+
+		fighter_airframe_1 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-11BG"
+		}
+		name = "空128旅“海空雄风”"
+		start_experience_factor = 0.53
+	}
+
+	598 = {
+		fighter_airframe_1 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-11BG"
+		}
+		name = "空95旅“淮海利剑”"
+		start_experience_factor = 0.45
+	}
+
+	1189 = {
+		fighter_airframe_0 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-7G"
+		}
+		name = "空97旅“铁翼雄狮”"
+		start_experience_factor = 0.53
+
+		fighter_airframe_1 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-16"
+		}
+		name = "空98旅“雾都雄鹰”"
+		start_experience_factor = 0.53
+	}
+
+	619 = {
+		fighter_airframe_1 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-16"
+		}
+		name = "空99旅“昆仑战鹰”"
+		start_experience_factor = 0.53
+	}
+
+	617 = {
+		fighter_airframe_0 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-8II"
+		}
+		name = "空109旅“天山利剑”"
+		start_experience_factor = 0.5
+	}
+
+	1165 = {
+		fighter_airframe_0 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼轰-7A"
+		}
+		name = "空110旅“天山雄鹰”"
+		start_experience_factor = 0.45
+	}
+
+	594 = {
+		fighter_airframe_0 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-7G"
+		}
+		name = "空124旅“红城战鹰”"
+		start_experience_factor = 0.45
+	}
+
+	1204 = {
+		fighter_airframe_1 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-10A"
+		}
+		name = "空125旅“剑鹰劲旅”"
+		start_experience_factor = 0.45
+	}
+
+	1205 = {
+		fighter_airframe_0 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼轰-7A"
+		}
+		name = "空126旅“龙城飞豹””"
+		start_experience_factor = 0.53
+	}
+
+	591 = {
+		fighter_airframe_0 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼轰-7A"
+		}
+		name = "空129旅“南海飞豹”"
+		start_experience_factor = 0.53
+	}
+
+	325 = {
+		fighter_airframe_1 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-10A"
+		}
+		name = "空130旅“云岭金雕”"
+		start_experience_factor = 0.45
+	}
+
+	1196 = {
+		fighter_airframe_1 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-10C"
+		}
+		name = "空131旅“云岭红鹰”"
+		start_experience_factor = 0.53
+	}
+
+	1192 = {
+		fighter_airframe_0 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-7G"
+		}
+		name = "空132旅“铁翼云鹰”"
+		start_experience_factor = 0.45
+	}
+
+	1232 = {
+		fighter_airframe_1 =  {
+			owner = "PRC" 
+			amount = 40
+			version_name = "歼-10C"
+		}
+		name = "空151旅"
+		start_experience_factor = 0.45
+	}
+
+## 运输机中队 - Transport
+	622 = {
+		transport_plane_equipment_0 =  {
+			owner = "PRC" 
+			amount = 20
+		}
+		name = "空10团"
+		start_experience_factor = 0.45
+	}
+
+	603 = {
+		transport_plane_equipment_0 =  {
+			owner = "PRC" 
+			amount = 20
+		}
+		name = "空11团"
+		start_experience_factor = 0.45
+	}
+
+	605 = {
+		transport_plane_equipment_1 =  {
+			owner = "PRC" 
+			amount = 20
+		}
+		name = "空12团"
+		start_experience_factor = 0.45
+	}
+
+	620 = {
+		transport_plane_equipment_1 =  {
+			owner = "PRC" 
+			amount = 20
+		}
+		name = "空37团"
+		start_experience_factor = 0.45
+	}
+
+	1211 = {
+		transport_plane_equipment_0 =  {
+			owner = "PRC" 
+			amount = 20
+		}
+		name = "空38团"
+		start_experience_factor = 0.45
+	}
+
+	1223 = {
+		transport_plane_equipment_0 =  {
+			owner = "PRC" 
+			amount = 20
+		}
+		name = "空39团"
+		start_experience_factor = 0.45
+
+		transport_plane_equipment_0 =  {
+			owner = "PRC" 
+			amount = 20
+		}
+		name = "空100团"
+		start_experience_factor = 0.45
+
+		transport_plane_equipment_0 =  {
+			owner = "PRC" 
+			amount = 20
+		}
+		name = "空101团"
+		start_experience_factor = 0.45
+
+		transport_plane_equipment_0 =  {
+			owner = "PRC" 
+			amount = 20
+		}
+		name = "空102团"
+		start_experience_factor = 0.45
+	}
+
+	#战略轰炸机中队
+	1208 = {
+		bomber_airframe_0 = {
+			owner = "PRC"
+			amount = 20
+			version_name = "轰-6K"
+		}
+		name = "空22团"
+		start_experience_factor = 0.45
+	}
+
+	1209 = {
+		bomber_airframe_0 = {
+			owner = "PRC"
+			amount = 20
+			version_name = "轰-6K"
+		}
+		name = "空23团"
+		start_experience_factor = 0.45
+	}
+
+	1430 = {
+		bomber_airframe_0 = {
+			owner = "PRC"
+			amount = 20
+			version_name = "轰-6K"
+		}
+		name = "空24团“时代楷模”"
+		start_experience_factor = 0.5
+	}
+
+	606 = {
+		bomber_airframe_0 = {
+			owner = "PRC"
+			amount = 20
+			version_name = "轰-6K"
+		}
+		name = "空28团"
+		start_experience_factor = 0.45
+	}
+
+	1222 = {
+		bomber_airframe_0 = {
+			owner = "PRC"
+			amount = 20
+			version_name = "轰-6K"
+		}
+		name = "空29团"
+		start_experience_factor = 0.45
+
+		bomber_airframe_0 = {
+			owner = "PRC"
+			amount = 20
+			version_name = "轰-6K"
+		}
+		name = "空30团"
+		start_experience_factor = 0.45
+	}
+
+	622 = {
+		bomber_airframe_0 = {
+			owner = "PRC"
+			amount = 20
+			version_name = "轰-6K"
+		}
+		name = "空106团"
+		start_experience_factor = 0.45
+
+		bomber_airframe_0 = {
+			owner = "PRC"
+			amount = 20
+			version_name = "轰-6K"
+		}
+		name = "空107团"
+		start_experience_factor = 0.45
+
+		bomber_airframe_0 = {
+			owner = "PRC"
+			amount = 20
+			version_name = "轰-6K"
+		}
+		name = "空108团“神威大队”"
+		start_experience_factor = 0.5
+	}
+
+	613 = {
+		bomber_airframe_0 = {
+			owner = "PRC"
+			amount = 20
+			version_name = "轰-6J"
+		}
+		name = "空817团"
+		start_experience_factor = 0.5
+	}
+
+	1191 = {
+		bomber_airframe_0 = {
+			owner = "PRC"
+			amount = 20
+			version_name = "轰-6J"
+		}
+		name = "空823团"
+		start_experience_factor = 0.5
+	}
+
+	#海航中队
+	"山东舰" = {
+	 	cv_airframe_1 =  {
+			owner = "PRC"
+			amount = 10
+			version_name = "歼-15"
+		}
+		start_experience_factor = 0.53	
+	 	cv_airframe_1 =  {
+			owner = "PRC"
+			amount = 10
+			version_name = "歼-15"
+		}
+		start_experience_factor = 0.53	
+	 	cv_airframe_1 =  {
+			owner = "PRC"
+			amount = 10
+			version_name = "歼-15"
+		}
+		start_experience_factor = 0.53	
+	 	cv_airframe_1 =  {
+			owner = "PRC"
+			amount = 10
+			version_name = "歼-15T"
+		}
+		start_experience_factor = 0.53	
+	 	cv_airframe_1 =  {
+			owner = "PRC"
+			amount = 10
+			version_name = "歼-15T"
+		}
+		start_experience_factor = 0.53	
+	 	cv_airframe_1 =  {
+			owner = "PRC"
+			amount = 10
+			version_name = "歼-15T"
+		}
+		start_experience_factor = 0.53		
+	}
+
+	"辽宁舰" = {
+	 	cv_airframe_1 =  {
+			owner = "PRC"
+			amount = 10
+			version_name = "歼-15"
+		}
+		start_experience_factor = 0.53	
+	 	cv_airframe_1 =  {
+			owner = "PRC"
+			amount = 10
+			version_name = "歼-15"
+		}
+		start_experience_factor = 0.53	
+	 	cv_airframe_1 =  {
+			owner = "PRC"
+			amount = 10
+			version_name = "歼-15"
+		}
+		start_experience_factor = 0.53	
+	 	cv_airframe_1 =  {
+			owner = "PRC"
+			amount = 10
+			version_name = "歼-15T"
+		}
+		start_experience_factor = 0.53	
+	 	cv_airframe_1 =  {
+			owner = "PRC"
+			amount = 10
+			version_name = "歼-15T"
+		}
+		start_experience_factor = 0.53	
+	 	cv_airframe_1 =  {
+			owner = "PRC"
+			amount = 10
+			version_name = "歼-15T"
+		}	
+		start_experience_factor = 0.53
+	}
+}
+
+
+instant_effect = {
+	# add_equipment_production = {
+	# 	equipment = {
+	# 		type = small_plane_airframe_2
+	# 		creator = "PRC"
+	# 		version_name = "Chengdu J-20"
+	# 	}
+	# 	industrial_manufacturer = mio:PRC_avic_chengdu_organization
+	# 	requested_factories = 3
+	# 	progress = 0.15
+	# 	efficiency = 50
+	# }
+	# add_equipment_production = {
+	# 	equipment = {
+	# 		type = small_plane_airframe_1
+	# 		creator = "PRC"
+	# 		version_name = "Shenyang J-16"
+	# 	}
+	# 	industrial_manufacturer = mio:PRC_avic_shenyang_organization
+	# 	requested_factories = 3
+	# 	progress = 0.15
+	# 	efficiency = 50
+	# }
+	# add_equipment_production = {
+	# 	equipment = {
+	# 		type = small_plane_airframe_0
+	# 		creator = "PRC"
+	# 		version_name = "Chengdu J-10"
+	# 	}
+	# 	industrial_manufacturer = mio:PRC_avic_chengdu_organization
+	# 	requested_factories = 2
+	# 	progress = 0.30
+	# 	efficiency = 50
+	# }
+	# add_equipment_production = {
+	# 	equipment = {
+	# 		type = small_plane_airframe_0
+	# 		creator = "PRC"
+	# 		version_name = "Chengdu J-11"
+	# 	}
+	# 	industrial_manufacturer = mio:PRC_avic_shenyang_organization
+	# 	requested_factories = 1
+	# 	progress = 0.30
+	# 	efficiency = 50
+	# }
+	# add_equipment_production = {
+	# 	equipment = {
+	# 		type = cv_small_plane_naval_bomber_airframe_1
+	# 		creator = "PRC"
+	# 		version_name = "Shenyang J-15 Flying Shark"
+	# 	}
+	# 	industrial_manufacturer = mio:PRC_avic_shenyang_organization
+	# 	requested_factories = 1
+	# 	progress = 0.15
+	# 	efficiency = 30
+	# }
+	# add_equipment_production = {
+	# 	equipment = {
+	# 		type = small_plane_cas_airframe_1
+	# 		creator = "PRC"
+	# 		version_name = "Xian JH-7"
+	# 	}
+	# 	#industrial_manufacturer = mio:PRC_avic_xian_organization
+	# 	requested_factories = 2
+	# 	progress = 0.15
+	# 	efficiency = 50
+	# }
+	# add_equipment_production = {
+	# 	equipment = {
+	# 		type = large_plane_airframe_1
+	# 		creator = "PRC"
+	# 		version_name = "Xian H-6K"
+	# 	}
+	# 	industrial_manufacturer = mio:PRC_avic_xian_organization
+	# 	requested_factories = 3
+	# 	progress = 0.30
+	# 	efficiency = 70
+	# }
+
+	add_equipment_to_stockpile = {
+		type = uav_airframe_1
+		amount = 200
+		producer = PRC
+		variant_name = "攻击-3"
+	}
+
+	add_equipment_to_stockpile = {
+		type = uav_airframe_2
+		amount = 50
+		producer = PRC
+		variant_name = "攻击-11"
+	}
+
+	add_equipment_to_stockpile = {
+		type = scout_plane_equipment_1
+		amount = 20
+		producer = PRC
+	}
+
+	add_equipment_to_stockpile = {
+		type = scout_plane_equipment_2
+		amount = 30
+		producer = PRC
+	}
+}

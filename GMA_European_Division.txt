@@ -1,0 +1,37 @@
+﻿division_template = {
+	name = "Euro Environmentalist Brigade"
+	override_model = SOV_light_mechanized_entity
+	is_locked = yes
+	
+	regiments = {
+		light_mechanized = { x = 0 y = 0 }
+		light_mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+	}
+	
+	support = {
+		mot_recon = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {			
+		name = "European Environmentalist Liberation Brigade"
+		location = 13831
+		division_template = "Euro Environmentalist Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+		officer = {
+			name = "Greta Thunberg"
+			portraits = {
+				army = {
+					large="gfx/leaders/GMA/Greta_Thunberg.png"
+					small="GFX_idea_GMA_Greta_Thunberg_Minister"
+				}
+			}
+		}
+	}
+}

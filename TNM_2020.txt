@@ -1,0 +1,144 @@
+﻿division_template = {
+	name = "Foot Militia"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+	
+	support = {
+	}
+		
+}
+
+division_template = {
+	name = "Motorized Militia"
+	
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+		mot_militia = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+	
+}
+
+division_template = {
+	name = "Motorized Brigade"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+	
+	support = {
+	}
+	
+}
+
+units = {
+	division = {
+		name = "1st Independent Volunteer Militia"
+		location = 1500
+		division_template = "Foot Militia"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "2nd Independent Volunteer Militia"
+		location = 6968
+		division_template = "Foot Militia"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "3rd Independent Volunteer Militia"
+		location = 805
+		division_template = "Foot Militia"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "4th Independent Volunteer Militia"
+		location = 6968
+		division_template = "Foot Militia"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "5th Independent Volunteer Militia"
+		location = 6968
+		division_template = "Motorized Militia"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "6th Independent Volunteer Militia"
+		location = 6968
+		division_template = "Motorized Militia"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "7th Independent Volunteer Militia"
+		location = 6968
+		division_template = "Motorized Militia"
+		start_experience_factor = 0.01
+	}
+	division = {
+		name = "8th Independent Volunteer Militia"
+		location = 1500
+		division_template = "Foot Militia"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "9th Independent Volunteer Militia"
+		location = 1500
+		division_template = "Foot Militia"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "10th Independent Volunteer Militia"
+		location = 1500
+		division_template = "Foot Militia"
+		start_experience_factor = 0.01
+	}
+
+	division = {
+		name = "11th Independent Volunteer Militia"
+		location = 1500
+		division_template = "Foot Militia"
+		start_experience_factor = 0.01
+	}
+
+	division = {
+		name = "12th Independent Volunteer Militia"
+		location = 805
+		division_template = "Motorized Militia"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "13th Independent Volunteer Militia"
+		location = 805
+		division_template = "Motorized Militia"
+		start_experience_factor = 0.01
+	}
+
+	division = {
+		name = "14th Independent Volunteer Militia"
+		location = 805
+		division_template = "Motorized Militia"
+		start_experience_factor = 0.01
+	}
+	
+}

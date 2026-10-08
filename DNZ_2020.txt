@@ -1,0 +1,74 @@
+﻿division_template = {
+	name = "Syla Militsiyi"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+	}
+	
+	support = {
+	}
+}
+
+division_template = {
+	name = "Mekhanizovani Syly"
+	
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mot_militia = { x = 0 y = 1 }
+		mot_militia = { x = 0 y = 2 }
+		mot_militia = { x = 0 y = 3 }
+	}
+	
+	support = {
+	}
+	
+	priority = 1
+}
+
+units = {
+	
+	division = {
+		name = "1. Syla Militsiyi"
+		location = 6460
+		division_template = "Syla Militsiyi"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Syla Militsiyi"
+		location = 6460
+		division_template = "Syla Militsiyi"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3. Syla Militsiyi"
+		location = 6460
+		division_template = "Syla Militsiyi"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "4. Syla Militsiyi"
+		location = 6460
+		division_template = "Syla Militsiyi"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1. Mekhanizovani Syly"
+		location = 6460
+		division_template = "Mekhanizovani Syly"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Mekhanizovani Syly"
+		location = 6460
+		division_template = "Mekhanizovani Syly"
+		start_experience_factor = 0.1
+	}
+}

@@ -1,0 +1,48 @@
+﻿division_template = {
+	name = "Mobilisatsioonibrigaad"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "1. Mobilisatsioonibrigaad"
+		location = 3152
+		division_template = "Mobilisatsioonibrigaad"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "2. Mobilisatsioonibrigaad"
+		location = 3152
+		division_template = "Mobilisatsioonibrigaad"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "3. Mobilisatsioonibrigaad"
+		location = 3152
+		division_template = "Mobilisatsioonibrigaad"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "4. Mobilisatsioonibrigaad"
+		location = 3152
+		division_template = "Mobilisatsioonibrigaad"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "5. Mobilisatsioonibrigaad"
+		location = 3152
+		division_template = "Mobilisatsioonibrigaad"
+		start_experience_factor = 0.3
+	}
+}
+	

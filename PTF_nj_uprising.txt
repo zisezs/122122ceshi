@@ -1,0 +1,41 @@
+﻿division_template = {
+	name = "Provisional Minutemen"
+	division_names_group = PTF_MIN_01 
+	template_counter = 04
+		regiments = {
+			militia = { x = 0 y = 0 }
+			militia = { x = 0 y = 1 }
+			militia = { x = 1 y = 0 }
+			militia = { x = 1 y = 1 }
+		}
+		
+		support = {
+		}
+}
+
+units = {
+	division = {
+		name = "1st New Jersey Provisional Minutemen" 
+		location = 6882
+		division_template = "Provisional Minutemen"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "2nd New Jersey Provisional Minutemen" 
+		location = 3693
+		division_template = "Provisional Minutemen"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "3rd New Jersey Provisional Minutemen" 
+		location = 3863
+		division_template = "Provisional Minutemen"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "4th New Jersey Provisional Minutemen" 
+		location = 11782
+		division_template = "Provisional Minutemen"
+		start_experience_factor = 0.3
+	}
+}

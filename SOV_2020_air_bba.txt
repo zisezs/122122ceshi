@@ -1,0 +1,460 @@
+### Air OOB ###
+
+# air_wings = {
+# 		### Western MD ###
+# 	260 = {
+# 		#Su-27
+# 		small_plane_airframe_1 =  {
+# 			owner = "SOV" 
+# 			amount = 56
+# 			version_name = "Su-27"
+# 		}
+# 		attack_helicopter_equipment_1 = {
+# 			owner = "SOV" 
+# 			amount = 32
+# 		}
+# 	}
+# 	260 = {
+# 		#Su-34
+# 		small_plane_cas_airframe_1 =  {
+# 			owner = "SOV" 
+# 			amount = 24
+# 			version_name = "Su-25"
+# 		}
+# 	}
+# 	260 = {
+# 		#Su-25
+# 		small_plane_cas_airframe_1 =  {
+# 			owner = "SOV" 
+# 			amount = 48
+# 			version_name = "Su-25"
+# 		}
+# 	}
+# 	260 = {
+# 		#Su-24
+# 		small_plane_cas_airframe_0 =  {
+# 			owner = "SOV" 
+# 			amount = 12
+# 			version_name = "Su-24"
+# 		}
+# 	}
+# 	216 = {
+# 		#Su-27
+# 		small_plane_airframe_1 =  {
+# 			owner = "SOV" 
+# 			amount = 30
+# 			version_name = "Su-27"
+# 		}
+# 	}
+# 	216 = {
+# 		#Su-25
+# 		small_plane_cas_airframe_1 =  {
+# 			owner = "SOV" 
+# 			amount = 40
+# 			version_name = "Su-25"
+# 		}
+# 		attack_helicopter_equipment_1 = {
+# 			owner = "SOV" 
+# 			amount = 32
+# 		}
+# 		attack_helicopter_equipment_1 = {
+# 			owner = "SOV" 
+# 			amount = 32
+# 		}
+# 	}
+# 	213 = {
+# 		#MiG-31 Interceptor, change tech if added.
+# 		small_plane_airframe_0 =  {
+# 			owner = "SOV" 
+# 			amount = 30
+# 			version_name = "Mig-31"
+# 		}
+# 	}
+# 	213 = {
+# 		#Su-24
+# 		small_plane_cas_airframe_0 =  {
+# 			owner = "SOV" 
+# 			amount = 36
+# 			version_name = "Su-24"
+# 		}
+# 	}
+# 	247 = {
+# 		#MiG-31 Interceptor, change tech if added.
+# 		small_plane_airframe_0 =  {
+# 			owner = "SOV" 
+# 			amount = 24
+# 			version_name = "Mig-31"
+# 		}
+# 	}
+# 	247 = {
+# 		#Su-27
+# 		small_plane_airframe_1 =  {
+# 			owner = "SOV" 
+# 			amount = 36
+# 			version_name = "Su-27"
+# 		}
+# 	}
+# 	220 = {
+# 		#MiG-29
+# 		small_plane_airframe_1 =  {
+# 			owner = "SOV" 
+# 			amount = 42
+# 			version_name = "Mig-29"
+# 		}
+# 	}
+# 	253 = {
+# 		#Su-27
+# 		small_plane_airframe_1 =  {
+# 			owner = "SOV" 
+# 			amount = 24
+# 			version_name = "Su-27"
+# 		}
+# 	}
+# 	253 = {
+# 		#Su-30
+# 		small_plane_airframe_1 =  {
+# 			owner = "SOV" 
+# 			amount = 24
+# 			version_name = "Su-27"
+# 		}
+# 	}
+# 	741 = {
+# 		#Su-27
+# 		small_plane_airframe_1 =  {
+# 			owner = "SOV" 
+# 			amount = 60
+# 			version_name = "Su-27"
+# 		}
+# 	}
+# 	741 = {
+# 		#Su-24
+# 		small_plane_cas_airframe_0 =  {
+# 			owner = "SOV" 
+# 			amount = 16
+# 			version_name = "Su-24"
+# 		}
+# 	}
+# 	137 = {
+# 		#MiG-29
+# 		small_plane_airframe_1 =  {
+# 			owner = "SOV" 
+# 			amount = 60
+# 			version_name = "Mig-29"
+# 		}
+# 	}
+# 		### Southern MD ###
+# 	234 = {
+# 		#Su-27
+# 		small_plane_airframe_1 =  {
+# 			owner = "SOV" 
+# 			amount = 42
+# 			version_name = "Su-27"
+# 		}
+# 		attack_helicopter_equipment_1 = {
+# 			owner = "SOV" 
+# 			amount = 54
+# 		}
+# 	}
+# 	245 = {
+# 		#MiG-29
+# 		small_plane_airframe_1 =  {
+# 			owner = "SOV" 
+# 			amount = 60
+# 			version_name = "Mig-29"
+# 		}
+# 	}
+# 	245 = {
+# 		#Su-24
+# 		small_plane_cas_airframe_0 =  {
+# 			owner = "SOV" 
+# 			amount = 54
+# 			version_name = "Su-24"
+# 		}
+# 	}
+# 	234 = {
+# 		#Su-25
+# 		small_plane_cas_airframe_1 =  {
+# 			owner = "SOV" 
+# 			amount = 42
+# 			version_name = "Su-25"
+# 		}
+# 	}
+# 	217 = {
+# 		#Su-24
+# 		small_plane_cas_airframe_0 =  {
+# 			owner = "SOV" 
+# 			amount = 24
+# 			version_name = "Su-24"
+# 		}
+# 		attack_helicopter_equipment_1 = {
+# 			owner = "SOV" 
+# 			amount = 32
+# 		}
+# 	}
+# 	230 = {
+# 		#MiG-29 - Armenia Detachment
+# 		small_plane_airframe_1 =  {
+# 			owner = "SOV" 
+# 			amount = 13
+# 			version_name = "Mig-29"
+# 		}
+
+# 	}
+# 		### Central MD ###
+# 	572 = {
+# 		#MiG-29
+# 		small_plane_airframe_1 =  {
+# 			owner = "SOV" 
+# 			amount = 24
+# 			version_name = "Mig-29"
+# 		}
+# 		attack_helicopter_equipment_1 = {
+# 			owner = "SOV" 
+# 			amount = 24
+# 		}
+# 	}
+# 	572 = {
+# 		#Su-34
+# 		small_plane_cas_airframe_1 =  {
+# 			owner = "SOV" 
+# 			amount = 24
+# 			version_name = "Su-25"
+# 		}
+# 	}
+# 	572 = {
+# 		#Su-34
+# 		small_plane_cas_airframe_1 =  {
+# 			owner = "SOV" 
+# 			amount = 36
+# 			version_name = "Su-25"
+# 		}
+# 	}
+# 	398 = {
+# 		#MiG-31 Interceptor Change tech if added
+# 		small_plane_airframe_0 =  {
+# 			owner = "SOV" 
+# 			amount = 24
+# 			version_name = "Mig-31"
+# 		}
+# 	}
+# 	568 = {
+# 		#MiG-31 Interceptor Change tech if added
+# 		small_plane_airframe_0 =  {
+# 			owner = "SOV" 
+# 			amount = 24
+# 			version_name = "Mig-31"
+# 		}
+# 	}
+# 	563 = {
+# 		#MiG-29
+# 		small_plane_airframe_1 =  {
+# 			owner = "SOV" 
+# 			amount = 24
+# 			version_name = "Mig-29"
+# 		}
+# 	}
+# 	563 = {
+# 		#Su-25
+# 		small_plane_cas_airframe_1 =  {
+# 			owner = "SOV" 
+# 			amount = 30
+# 			version_name = "Su-25"
+# 		}
+# 	}
+# 		### Eastern MD ###
+# 	637 = {
+# 		#MiG-31 Interceptor Upgrade if tech is added.
+# 		small_plane_airframe_0 =  {
+# 			owner = "SOV" 
+# 			amount = 24
+# 			version_name = "Mig-31"
+# 		}
+# 	}
+# 	409 = {
+# 		#Su-35
+# 		small_plane_cas_airframe_1 =  {
+# 			owner = "SOV" 
+# 			amount = 38
+# 			version_name = "Su-25"
+# 		}
+# 	}
+# 	409 = {
+# 		#Su-24
+# 		small_plane_cas_airframe_0 =  {
+# 			owner = "SOV" 
+# 			amount = 36
+# 			version_name = "Su-24"
+# 		}
+# 	}
+# 	408 = {
+# 		#MiG-31 Interceptor Upgrade if tech is added.
+# 		small_plane_airframe_0 =  {
+# 			owner = "SOV" 
+# 			amount = 12
+# 			version_name = "Mig-31"
+# 		}
+# 		attack_helicopter_equipment_1 = {
+# 			owner = "SOV" 
+# 			amount = 32
+# 		}
+# 	}
+# 	408 = {
+# 		#Su-27
+# 		small_plane_airframe_1 =  {
+# 			owner = "SOV" 
+# 			amount = 30
+# 			version_name = "Su-27"
+# 		}
+# 	}
+# 	408 = {
+# 		#Su-25
+# 		small_plane_cas_airframe_1 =  {
+# 			owner = "SOV" 
+# 			amount = 42
+# 			version_name = "Su-25"
+# 		}
+
+# 	}
+# 		### Strategic Aviation ###
+# 	217 = {
+# 		#Tu-95
+# 		large_plane_airframe_1 =  {
+# 			owner = "SOV" 
+# 			amount = 18
+# 			version_name = "Tu-95"
+# 		}
+# 	}
+# 	217 = {
+# 		#Tu-160
+# 		large_plane_airframe_1 =  {
+# 			owner = "SOV" 
+# 			amount = 13
+# 			version_name = "Tu-160"
+# 		}
+# 	}
+# 	657 = {
+# 		#Tu-95
+# 		large_plane_airframe_1 =  {
+# 			owner = "SOV" 
+# 			amount = 40
+# 			version_name = "Tu-95"
+# 		}
+# 	}
+# 	242 = {
+# 		#Tu-22M
+# 		large_plane_airframe_1 =  {
+# 			owner = "SOV" 
+# 			amount = 48
+# 			version_name = "Tu-160"
+# 		}
+# 	}
+# 	213 = {
+# 		#Tu-22M
+# 		large_plane_airframe_1 =  {
+# 			owner = "SOV" 
+# 			amount = 20
+# 			version_name = "Tu-160"
+# 		}
+
+# 	}
+# 	234 = {
+# 		#Tu-22M
+# 		large_plane_airframe_1 =  {
+# 			owner = "SOV" 
+# 			amount = 36
+# 			version_name = "Tu-160"
+# 		}
+# 	}
+# }
+instant_effect = {
+	add_equipment_to_stockpile = {
+		type = fighter_airframe_1
+		amount = 118
+		producer = SOV
+		variant_name = "Su-27SK"
+	}
+	add_equipment_to_stockpile = {
+		type = fighter_airframe_1
+		amount = 111
+		producer = SOV
+		variant_name = "Su-30SM"
+	}
+	add_equipment_to_stockpile = {
+		type = fighter_airframe_1
+		amount = 88
+		producer = SOV
+		variant_name = "Su-35S"
+	}
+	add_equipment_to_stockpile = {
+		type = fighter_airframe_1
+		amount = 125
+		producer = SOV
+		variant_name = "Mig-29"
+	}
+	add_equipment_to_stockpile = {
+		type = fighter_airframe_0
+		amount = 120
+		producer = SOV
+		variant_name = "Mig-31"
+	}
+	add_equipment_to_stockpile = {
+		type = fighter_airframe_1
+		amount = 123
+		producer = SOV
+		variant_name = "Su-34"
+	}
+	add_equipment_to_stockpile = {
+		type = fighter_airframe_0
+		amount = 100
+		producer = SOV
+		variant_name = "Su-24"
+	}
+	add_equipment_to_stockpile = {
+		type = fighter_airframe_0
+		amount = 185
+		producer = SOV
+		variant_name = "Su-25"
+	}
+	add_equipment_to_stockpile = {
+		type = bomber_airframe_0
+		amount = 67
+		producer = SOV
+		variant_name = "Tu-22"
+	}
+	add_equipment_to_stockpile = {
+		type = bomber_airframe_0
+		amount = 60
+		producer = SOV
+		variant_name = "Tu-95MS"
+	}
+	add_equipment_to_stockpile = {
+		type = bomber_airframe_1
+		amount = 16
+		producer = SOV
+		variant_name = "Tu-160M"
+	}
+	add_equipment_to_stockpile = {
+		type = bomber_airframe_0
+		amount = 24
+		producer = SOV
+		variant_name = "Tu-142"
+	}
+
+	add_equipment_to_stockpile = {
+		type = transport_plane_equipment_0
+		amount = 60
+		producer = SOV
+	}
+	add_equipment_to_stockpile = {
+		type = transport_plane_equipment_1
+		amount = 115
+		producer = SOV
+	}
+
+	# 预警机生成待定
+	# add_equipment_to_stockpile = {
+	# 	type = scout_plane_equipment_1
+	# 	amount = 20
+	# 	producer = SOV
+	# }
+}

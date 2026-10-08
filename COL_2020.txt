@@ -1,0 +1,209 @@
+﻿division_template = {
+	name = "Brigada Mecanizada"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		medium_armor = { x = 0 y = 3 }
+		artillery_brigade = { x = 0 y = 4 }
+	}
+
+	support = {
+		mbt_company = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Brigada de Infantería"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		artillery_brigade = { x = 0 y = 4 }
+	}
+
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Brigada de Fuerzas Especiales"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+	}
+
+	support = {
+		signal_company = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Brigada Blindada"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_mechanized = { x = 0 y = 1 }
+		light_mechanized = { x = 0 y = 2 }
+		mechanized = { x = 0 y = 3 }
+	}
+
+	support = {
+		signal_company = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Brigada Móvil"
+
+	regiments = {
+		recce = { x = 0 y = 0 }
+		recce = { x = 0 y = 1 }
+		recce = { x = 0 y = 2 }
+	}
+
+	support = {
+		signal_company = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+units = {
+
+	division = {
+		name = "2a Brigada Mecanizada"
+		location = 8056
+		division_template = "Brigada Mecanizada"
+		start_experience_factor = 0.5
+		
+	}
+
+	division = {
+		name = "10a Brigada Blindada"
+		location = 7993
+		division_template = "Brigada Blindada"
+		start_experience_factor = 0.5
+		
+	}
+
+	division = {
+		name = "5a Brigada de Infantería"
+		location = 7936
+		division_template = "Brigada de Infantería"
+		start_experience_factor = 0.5
+		
+	}
+
+	division = {
+		name = "23a Brigada Móvil"
+		location = 2023
+		division_template = "Brigada Móvil"
+		start_experience_factor = 0.5
+		
+	}
+
+	division = {
+		name = "30a Brigada de Infantería"
+		location = 10747
+		division_template = "Brigada de Infantería"
+		start_experience_factor = 0.5
+		
+	}
+
+	division = {
+		name = "3a Brigada de Infantería"
+		location = 2007
+		division_template = "Brigada de Infantería"
+		start_experience_factor = 0.5
+		
+	}
+
+	division = {
+		name = "8a Brigada de Infantería"
+		location = 10747
+		division_template = "Brigada de Infantería"
+		start_experience_factor = 0.5
+		
+	}
+
+	division = {
+		name = "23a Brigada de Infantería"
+		location = 1887
+		division_template = "Brigada de Infantería"
+		start_experience_factor = 0.5
+		
+	}
+
+	division = {
+		name = "29a Brigada de Infantería"
+		location = 1887
+		division_template = "Brigada de Infantería"
+		start_experience_factor = 0.5
+		
+	}
+	
+	division = {
+		name = "7a Brigada de Infantería"
+		location = 1887
+		division_template = "Brigada de Infantería"
+		start_experience_factor = 0.5
+		
+	}
+	
+	division = {
+		name = "31a Brigada de Fuerzas Especiales"
+		location = 1887
+		division_template = "Brigada de Fuerzas Especiales"
+		start_experience_factor = 0.5
+		
+	}
+	
+	division = {
+		name = "11a Brigada de Fuerzas Especiales"
+		location = 1887
+		division_template = "Brigada de Fuerzas Especiales"
+		start_experience_factor = 0.5
+		
+	}
+	
+	division = {
+		name = "13a Brigada Móvil"
+		location = 1887
+		division_template = "Brigada Móvil"
+		start_experience_factor = 0.5
+		
+	}
+	
+	
+	division = {
+		name = "13a Brigada Blindada"
+		location = 1887
+		division_template = "Brigada Blindada"
+		start_experience_factor = 0.5
+		
+	}
+	#26 convoys
+
+
+
+}
+
+### Air OOB ###
+
+#air_wings = {
+#	306 = {
+#		#Kfir
+#		fighter_equipment_2 = {
+#			owner = "COL" 
+#			amount = 20
+#		}
+#	}
+#}

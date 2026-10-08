@@ -1,0 +1,112 @@
+﻿division_template = {
+	name = "Régiment Blindé"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Bataillon d'Infanterie"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Bataillon d'Infanterie Mécanisé"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		spa_company = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Bataillon des Forces Spéciales"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+	}
+
+	priority = 2
+}
+
+division_template = {
+	name = "Régiment d'Infanterie Parachutiste"
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+	}
+
+	priority = 2
+}
+
+units = {
+
+	division = {
+		name = "Régiment Blindé"
+		location = 8116
+		division_template = "Régiment Blindé"
+		start_experience_factor = 0.0
+		
+	}
+
+	division = {
+		name = "2ème Bataillon d'Infanterie"
+		location = 10788
+		division_template = "Bataillon d'Infanterie"
+		start_experience_factor = 0.0
+		
+	}
+
+	division = {
+		name = "3ème Bataillon d'Infanterie"
+		location = 10829
+		division_template = "Bataillon d'Infanterie"
+		start_experience_factor = 0.0
+		
+	}
+
+	division = {
+		name = "4e Bataillon d'Infanterie"
+		location = 12794
+		division_template = "Bataillon d'Infanterie Mécanisé"
+		start_experience_factor = 0.0
+		
+	}
+
+	division = {
+		name = "1er Bataillon d'Infanterie"
+		location = 5101
+		division_template = "Bataillon d'Infanterie Mécanisé"
+		start_experience_factor = 0.0
+		
+	}
+
+	division = {
+		name = "Bataillon des Forces Spéciales"
+		location = 12751
+		division_template = "Bataillon des Forces Spéciales"
+		start_experience_factor = 0.3
+		
+	}
+
+	division = {
+		name = "33ème Régiment d'Infanterie Parachutiste"
+		location = 10915
+		division_template = "Régiment d'Infanterie Parachutiste"
+		start_experience_factor = 0.2
+		
+	}
+
+}

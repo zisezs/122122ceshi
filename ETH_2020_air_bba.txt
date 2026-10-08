@@ -1,0 +1,16 @@
+﻿### Air OOB ###
+air_wings = {
+	271 = {
+		#Typhoon
+		fighter_airframe_1 = {
+			owner = "ETH" 
+			amount = 54
+			version_name = "Typhoon"
+		}
+
+	}
+	866 = {
+		#Typhoon
+
+	}
+}

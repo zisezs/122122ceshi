@@ -1,0 +1,50 @@
+﻿units = {
+	division = {
+		name = "Simon's Volunteers"
+		location = 9747
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "Andrew's Volunteers"
+		location = 13826
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "James' Volunteers"
+		location = 13825
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "John's Volunteers"
+		location = 3766
+		division_template = "Motorized Militia"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "Philip's Volunteers"
+		location = 7420
+		division_template = "Motorized Militia"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "Bartholomew's Volunteers"
+		location = 10303
+		division_template = "Motorized Militia"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "Matthew's Volunteers"
+		location = 9747
+		division_template = "Motorized Militia"
+		start_experience_factor = 0.1
+	}
+}

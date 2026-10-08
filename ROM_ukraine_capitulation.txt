@@ -1,0 +1,105 @@
+﻿﻿division_template = {
+	name = "Brigada Infanterie Blindata"
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+		mechanized = { x = 1 y = 3 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		spa_company = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Brigada Infanterie"
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		mechanized = { x = 0 y = 3 }
+		artillery_brigade = { x = 0 y = 4 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "Brigada 18 Mecanizata Infanterie Blindata"
+		location = 9617
+		division_template = "Brigada Infanterie"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "Brigada 21 Mecanizata Infanterie Blindata"
+		location = 9617
+		division_template = "Brigada Infanterie"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "Brigada 22 Mecanizata Infanterie Blindata"
+		location = 9617
+		division_template = "Brigada Infanterie"
+		start_experience_factor = 0.5
+	}
+
+	division = {
+		name = "Brigada 12 Infanterie"
+		location = 6652
+		division_template = "Brigada Infanterie"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "Brigada 16 Infanterie"
+		location = 6652
+		division_template = "Brigada Infanterie"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "Brigada 13 Infanterie"
+		location = 6652
+		division_template = "Brigada Infanterie"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "Brigada 30 Infanterie"
+		location = 6652
+		division_template = "Brigada Infanterie"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "Brigada 8 Infanterie"
+		location = 6652
+		division_template = "Brigada Infanterie"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "Brigada 11 Infanterie"
+		location = 6652
+		division_template = "Brigada Infanterie"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "Brigada 44 Infanterie"
+		location = 6652
+		division_template = "Brigada Infanterie"
+		start_experience_factor = 0.5
+	}
+}

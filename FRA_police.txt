@@ -1,0 +1,147 @@
+﻿division_template = {
+	name = "Police Nationale"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+	}
+	
+	support = {
+		signal_company = { x = 0 y = 0 }
+		logistics_company = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Gendarmerie"
+
+	regiments = {
+		light_mechanized = { x = 0 y = 0 }
+		light_mechanized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+	}
+	
+	support = {
+		signal_company = { x = 0 y = 0 }
+		logistics_company = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Brigade de Infanterie"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		artillery_brigade = { x = 0 y = 3 }
+	}
+	
+	support = {
+		signal_company = { x = 0 y = 0 }
+		logistics_company = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Brigade de Volontaires"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+	}
+	
+	support = {
+
+	}
+}
+
+units = {
+	division = {	
+		name = "1er Brigade de Chasseurs Alpins"
+		location = 9658
+		division_template = "Gendarmerie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "1er Brigade de Police"
+		location = 11508
+		division_template = "Police Nationale"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "2e Brigade de Police"
+		location = 527
+		division_template = "Police Nationale"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "3e Brigade de Police"
+		location = 3523
+		division_template = "Police Nationale"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "4e Brigade de Police"
+		location = 3669
+		division_template = "Police Nationale"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "5e Brigade de Police"
+		location = 3669
+		division_template = "Police Nationale"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "1er Brigade de Gendarmerie"
+		location = 3509
+		division_template = "Gendarmerie"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "2e Brigade de Gendarmerie"
+		location = 11463
+		division_template = "Gendarmerie"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "1er Brigade de Infanterie"
+		location = 6533
+		division_template = "Brigade de Infanterie"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "2e Brigade de Infanterie"
+		location = 512
+		division_template = "Brigade de Infanterie"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "3e Brigade de Infanterie"
+		location = 6518
+		division_template = "Brigade de Infanterie"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "4e Brigade de Infanterie"
+		location = 3506
+		division_template = "Brigade de Infanterie"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+}

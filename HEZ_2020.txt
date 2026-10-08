@@ -1,0 +1,209 @@
+﻿division_template = {
+	name = "Military Operational Command"
+	is_locked = yes
+	
+	regiments = {
+		bus = { x = 0 y = 0 }
+	}
+	support = {
+
+	}
+}
+
+division_template = {
+	name = "Katibat Almilishia"
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+		mot_militia = { x = 0 y = 1 }
+		mot_militia = { x = 0 y = 2 }
+	}
+	support = {
+		mbt_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Liwa Almsha"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+	}
+	support = {
+		spaa_company = { x = 0 y = 0 }
+		spa_company = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Liwa Aihtiatiin"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Quwwat Aleamaliat Alkhasa"
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		spaa_company = { x = 0 y = 1 }
+		spa_company = { x = 0 y = 2 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Liwa' Mudarae"
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+	}
+	
+	support = {
+		recon = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+	}
+	
+	priority = 2
+}
+
+units = {
+	division = {
+		name = "Military Operational Command"
+		location = 11919
+		division_template = "Military Operational Command"
+		
+	}
+	
+	division = {
+		name = "1. Liwa Aihtiatiin"
+		location = 11919
+		division_template = "Liwa Aihtiatiin"
+		
+	}
+	
+	division = {
+		name = "2. Liwa Aihtiatiin"
+		location = 11919
+		division_template = "Liwa Aihtiatiin"
+		
+	}
+	
+	division = {
+		name = "3. Liwa Aihtiatiin"
+		location = 11919
+		division_template = "Liwa Aihtiatiin"
+	}
+	
+	division = {
+		name = "4. Liwa Aihtiatiin"
+		location = 11919
+		division_template = "Liwa Aihtiatiin"
+		
+	}
+	
+	division = {
+		name = "1. Liwa Almsha"
+		location = 11919
+		division_template = "Liwa Almsha"
+		
+	}
+	
+	division = {
+		name = "2. Liwa Almsha"
+		location = 11919
+		division_template = "Liwa Almsha"
+		
+	}
+	
+	division = {
+		name = "3. Liwa Almsha"
+		location = 11919
+		division_template = "Liwa Almsha"
+		
+	}
+	
+	division = {
+		name = "4. Liwa Almsha"
+		location = 11919
+		division_template = "Liwa Almsha"
+		
+	}
+
+	division = {
+		name = "5. Liwa Almsha"
+		location = 13290
+		division_template = "Liwa Almsha"
+		
+	}
+	
+	division = {
+		name = "1. Quwwat Aleamaliat Alkhasa"
+		location = 13290
+		division_template = "Quwwat Aleamaliat Alkhasa"
+		
+	}
+	
+	division = {
+		name = "2. Quwwat Aleamaliat Alkhasa"
+		location = 13290
+		division_template = "Quwwat Aleamaliat Alkhasa"
+		
+	}
+	
+	division = {
+		name = "3. Quwwat Aleamaliat Alkhasa"
+		location = 13290
+		division_template = "Quwwat Aleamaliat Alkhasa"
+		
+	}
+
+	division = {
+		name = "1. Katibat Almilishia"
+		location = 13290
+		division_template = "Katibat Almilishia"
+		
+	}
+	
+	division = {
+		name = "2. Katibat Almilishia"
+		location = 13290
+		division_template = "Katibat Almilishia"
+		
+	}
+	
+	division = {
+		name = "3. Katibat Almilishia"
+		location = 13290
+		division_template = "Katibat Almilishia"
+		
+	}
+	
+	division = {
+		name = "4. Katibat Almilishia"
+		location = 13290
+		division_template = "Katibat Almilishia"
+		
+	}
+	
+	division = {
+		name = "1. Liwa' Mudarae"
+		location = 13290
+		division_template = "Liwa' Mudarae"
+		
+	}
+}

@@ -1,0 +1,133 @@
+﻿division_template = {
+	name = "Liwa Mechaniqui"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		modern_sp_artillery_brigade = { x = 1 y = 2 }
+
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		light_tank_recon = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Liwa Moudar'a"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		light_mechanized = { x = 0 y = 1 }
+		light_mechanized = { x = 0 y = 2 }
+		light_mechanized = { x = 1 y = 0 }
+		light_mechanized = { x = 1 y = 1 }
+		modern_sp_artillery_brigade = { x = 1 y = 2 }
+
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		light_tank_recon = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Liwa Mushat"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		modern_sp_artillery_brigade = { x = 1 y = 1 }
+
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		light_tank_recon = { x = 0 y = 1 }
+
+	}
+}
+
+division_template = {
+	name = "Presidential Guard"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		recce = { x = 2 y = 0 }
+	}
+
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+
+	priority = 2
+}
+
+division_template = {
+	name = "Special Operations Command"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+	}
+
+	priority = 2
+}
+
+
+units = {
+	division = {
+		name = "1. Liwa Mechaniqui"
+		location = 10904
+		division_template = "Liwa Mechaniqui"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "2. Liwa Mechaniqui"
+		location = 8108
+		division_template = "Liwa Mechaniqui"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "1. Liwa Moudar'a"
+		location = 2048
+		division_template = "Liwa Moudar'a"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "2. Liwa Moudar'a"
+		location = 10904
+		division_template = "Liwa Moudar'a"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "1. Liwa Mushat"
+		location = 7960
+		division_template = "Liwa Mushat"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "Presidential Guard"
+		location = 7960
+		division_template = "Presidential Guard"
+		start_experience_factor = 0.75
+		
+	}
+	division = {
+		name = "Special Operations Command"
+		location = 13252
+		division_template = "Special Operations Command"
+		start_experience_factor = 0.75
+		
+	}
+}

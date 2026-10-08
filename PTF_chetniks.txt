@@ -1,0 +1,24 @@
+﻿division_template = {
+	name = "Chetnik Volunteers"
+	is_locked = yes
+	
+	regiments = {
+		recce = { x = 0 y = 0 }
+		recce = { x = 0 y = 1 }
+		recce = { x = 1 y = 0 }
+	}
+	
+	support = {
+		signal_company = { x = 0 y = 0 }
+	}
+		
+}
+
+units = {
+	division = {
+		name = "Zlatko Chetnik Battalion"
+		location = 9847
+		division_template = "Chetnik Volunteers"
+		start_experience_factor = 0.1
+	}
+}

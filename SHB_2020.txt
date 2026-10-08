@@ -1,0 +1,156 @@
+﻿division_template = {
+	name = "Al-Shabaab Almilishia"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	
+	support = {
+	}
+		
+}
+
+division_template = {
+	name = "Almilishia"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+		
+	template_counter = 14
+}
+
+division_template = {
+	name = "Shajid Mubayl"
+	
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+		mot_militia = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+		
+	template_counter = 11
+}
+
+units = {
+	
+	division = {
+		name = "1. Al-Shabaab Almilishia"
+		location = 11014
+		division_template = "Al-Shabaab Almilishia"
+		start_experience_factor = 0.03
+	}
+	
+	division = {
+		name = "2. Al-Shabaab Almilishia"
+		location = 12941
+		division_template = "Al-Shabaab Almilishia"
+		start_experience_factor = 0.03
+	}
+	
+	division = {
+		name = "3. Al-Shabaab Almilishia"
+		location = 13827
+		division_template = "Al-Shabaab Almilishia"
+		start_experience_factor = 0.03
+	}
+	
+	division = {
+		name = "4. Al-Shabaab Almilishia"
+		location = 10818
+		division_template = "Al-Shabaab Almilishia"
+		start_experience_factor = 0.03
+	}
+	
+	division = {
+		name = "5. Al-Shabaab Almilishia"
+		location = 10928
+		division_template = "Al-Shabaab Almilishia"
+		start_experience_factor = 0.03
+	}
+
+	division = {
+		name = "6. Al-Shabaab Almilishia"
+		location = 10928
+		division_template = "Al-Shabaab Almilishia"
+		start_experience_factor = 0.03
+	}
+	
+	division = {
+		name = "1. Almilishia"
+		location = 2063
+		division_template = "Almilishia"
+		start_experience_factor = 0.03
+	}
+	
+	division = {
+		name = "2. Almilishia"
+		location = 13828
+		division_template = "Almilishia"
+		start_experience_factor = 0.03
+	}
+	
+	division = {
+		name = "3. Almilishia"
+		location = 1966
+		division_template = "Almilishia"
+		start_experience_factor = 0.03
+	}
+	
+	division = {
+		name = "4. Almilishia"
+		location = 2063
+		division_template = "Almilishia"
+		start_experience_factor = 0.03
+	}
+
+	division = {
+		name = "5. Almilishia"
+		location = 2063
+		division_template = "Almilishia"
+		start_experience_factor = 0.03
+	}
+
+	division = {
+		name = "6. Almilishia"
+		location = 1966
+		division_template = "Almilishia"
+		start_experience_factor = 0.03
+	}
+	
+	division = {
+		name = "1. Shajid Mubayl"
+		location = 13375
+		division_template = "Shajid Mubayl"
+		start_experience_factor = 0.03
+	}
+	
+	division = {
+		name = "2. Shajid Mubayl"
+		location = 12991
+		division_template = "Shajid Mubayl"
+		start_experience_factor = 0.03
+	}
+	
+	division = {
+		name = "3. Shajid Mubayl"
+		location = 10818
+		division_template = "Shajid Mubayl"
+		start_experience_factor = 0.03
+	}
+
+	division = {
+		name = "4. Shajid Mubayl"
+		location = 10818
+		division_template = "Shajid Mubayl"
+		start_experience_factor = 0.03
+	}
+}

@@ -1,0 +1,92 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {
+		name = "1. Korvettengeschwader"
+		naval_base = 6389
+		task_force = {
+			name = "1. Korvettengeschwader"
+			location = 6389
+			ship = { name = "Braunschweig (F-260)" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "Braunschweig class" } } }
+			ship = { name = "Magdeburg (F-261)" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "Braunschweig class" } } }
+			ship = { name = "Oldenburg (F-262)" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "Braunschweig class" } } }
+			ship = { name = "Erfurt (F-264)" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "Braunschweig class" } } }
+			ship = { name = "Ludwigshafen am Rhein (F-265)" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "Braunschweig class" } } }
+		}
+	}
+	fleet = {
+		name = "1. Ubootgeschwader"
+		naval_base = 6389
+		task_force = {
+			name = "1. Ubootgeschwader"
+			location = 6389
+			ship = { name = "U-31 (S-181)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type 212 Submarine" } } }
+			ship = { name = "U-32 (S-182)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type 212 Submarine" } } }
+			ship = { name = "U-33 (S-183)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type 212 Submarine" } } }
+			ship = { name = "U-34 (S-184)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type 212 Submarine" } } }
+			ship = { name = "U-35 (S-186)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type 212 Submarine" } } }
+			ship = { name = "U-36 (S-187)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type 212 Submarine" } } }
+		}
+	}
+	fleet = {
+		name = "2. Fregattengeschwader"
+		naval_base = 241
+		task_force = {
+			name = "2. Fregattengeschwader"
+			location = 241
+			ship = { name = "Brandenburg (F-215)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Brandenburg class" } } }
+			ship = { name = "Schleswig-Holstein (F-216)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Brandenburg class" } } }
+			ship = { name = "Bayern (F-217)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Brandenburg class" } } }
+			ship = { name = "Mecklenburg-Vorpommern (F-218)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Brandenburg class" } } }
+			ship = { name = "Sachsen (F-219)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Sachsen class" } } }
+			ship = { name = "Hamburg (F-220)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Sachsen class" } } }
+			ship = { name = "Hessen (F-221)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Sachsen class" } } }
+		}
+	}
+	fleet = {
+		name = "4. Fregattengeschwader"
+		naval_base = 241
+		task_force = {
+			name = "4. Fregattengeschwader"
+			location = 241
+			ship = { name = "Baden-Württemberg (F-222)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Baden-Wurttemberg class" } } }
+			ship = { name = "Nordrhein-Westfalen (F-223)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Baden-Wurttemberg class" } } }
+			ship = { name = "Sachsen-Anhalt (F-224)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Baden-Wurttemberg class" } } }
+			ship = { name = "Lübeck (F-214)" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Bremen class" } } }
+		}
+	}
+	fleet = {
+		name = "3. Minensuchgeschwader"
+		naval_base = 6389
+		task_force = {
+			name = "3. Minensuchgeschwader"
+			location = 6389
+			ship = { name = "Frankenthal (M1066)" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Frankenthal class" } } }
+			ship = { name = "Weiden (M1060)" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Frankenthal class" } } }
+			ship = { name = "Rottweil (M1061)" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Frankenthal class" } } }
+			ship = { name = "Bad Bevensen (M1063)" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Frankenthal class" } } }
+			ship = { name = "Bad Rappenau (M1067)" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Frankenthal class" } } }
+			ship = { name = "Gromitz (M1064)" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Frankenthal class" } } }
+			ship = { name = "Datteln (M1068)" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Frankenthal class" } } }
+			ship = { name = "Dillingen (M1065)" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Frankenthal class" } } }
+			ship = { name = "Homburg (M1069)" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Frankenthal class" } } }
+			ship = { name = "Sulzbach-Rosenberg (M1062)" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Frankenthal class" } } }
+			ship = { name = "Fulda (M1058)" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Frankenthal class" } } }
+			ship = { name = "Weilheim (M1059)" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Frankenthal class" } } }
+			
+		}
+	}
+	fleet = {
+		name = "3. Minensuchgeschwader"
+		naval_base = 6389
+		task_force = {
+			name = "3. Minensuchgeschwader"
+			location = 6389
+			ship = { name = "Ensdorf (M1094)" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "Ensdorf class" } } }
+			ship = { name = "Auerbach (M1093)" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "Ensdorf class" } } }
+			ship = { name = "Hameln (M1092)" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "Ensdorf class" } } }
+			ship = { name = "Pegnitz (M1090)" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "Ensdorf class" } } }
+			ship = { name = "Siegburg (M1098)" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = GER version_name = "Ensdorf class" } } }
+		}
+	}
+}

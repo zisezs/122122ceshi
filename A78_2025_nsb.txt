@@ -1,0 +1,784 @@
+division_template = {
+	name = "中国人民武警部队"
+	regiments = {
+		PAP_light_mechanized = { x = 0 y = 0 }
+		PAP_light_mechanized = { x = 0 y = 1 }
+		PAP_light_mechanized = { x = 0 y = 2 }
+		PAP_light_mechanized = { x = 0 y = 3 }
+		PAP_light_mechanized = { x = 1 y = 0 }
+		PAP_light_mechanized = { x = 1 y = 1 }
+		PAP_light_mechanized = { x = 1 y = 2 }
+		PAP_light_mechanized = { x = 1 y = 3 }
+	}
+	support = {
+		military_police = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+		field_hospital = { x = 1 y = 0}
+	}
+	division_names_group = PRC_PAP_01
+	priority = 0
+}
+division_template = {
+	name = "警卫师"
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 1 y = 3 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+		motorized_rocket_brigade = { x = 2 y = 1 }
+		spaa_brigade = { x = 3 y = 0 }
+		spaa_brigade = { x = 3 y = 1 }
+	}
+	support = {
+		field_hospital = { x = 0 y = 0 }
+		armored_car_recon = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+		logistics_company = { x = 0 y = 3 }
+		engineer = { x = 0 y = 4 }
+		maintenance_company = { x = 1 y = 0 }
+		spaa_company = { x = 1 y = 1 }
+	}
+	division_names_group = PRC_GAR_01
+}
+division_template = {
+	name = "边防团"
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		light_mechanized = { x = 1 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+	}
+	support = {
+		logistics_company = { x = 0 y = 0 }
+		maintenance_company = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+		signal_company = { x = 0 y = 4 }
+		logistics_company = { x = 1 y = 0 }
+	}
+	division_names_group = PRC_GAR_02
+}
+division_template = {
+	name = "边防旅"
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		light_mechanized = { x = 1 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+	}
+	support = {
+		logistics_company = { x = 0 y = 0 }
+		maintenance_company = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+		signal_company = { x = 0 y = 4 }
+		logistics_company = { x = 1 y = 0 }
+		spa_company = { x = 1 y = 1 }
+		apc_company = { x = 1 y = 2 }
+	}
+	division_names_group = PRC_GAR_04
+}
+division_template = {
+	name = "轻型合成旅"
+	regiments = {
+		modern_tank_destroyer_brigade = { x = 0 y = 0 }
+		modern_tank_destroyer_brigade = { x = 0 y = 1 }
+		modern_tank_destroyer_brigade = { x = 0 y = 2 }
+		modern_tank_destroyer_brigade = { x = 0 y = 3 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 1 y = 3 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+		motorized_rocket_brigade = { x = 3 y = 0 }
+		spaa_brigade = { x = 4 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		logistics_company = { x = 0 y = 1 }
+		maintenance_company = { x = 0 y = 2 }
+		mot_recon = { x = 0 y = 3 }
+		field_hospital = { x = 1 y = 0 }
+		signal_company = { x = 1 y = 1 }
+		wuzhi_support = { x = 1 y = 2 }
+		spaa_company = { x = 1 y = 3 }
+	}
+	division_names_group = PRC_CAB_01
+}
+division_template = {
+	name = "中型合成旅"
+	regiments = {
+		modern_tank_destroyer_brigade = { x = 0 y = 0 }
+		modern_tank_destroyer_brigade = { x = 0 y = 1 }
+		modern_tank_destroyer_brigade = { x = 0 y = 2 }
+		modern_tank_destroyer_brigade = { x = 0 y = 3 }
+		light_mechanized = { x = 1 y = 0 }
+		light_mechanized = { x = 1 y = 1 }
+		light_mechanized = { x = 1 y = 2 }
+		light_mechanized = { x = 1 y = 3 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 1 }
+		motorized_rocket_brigade = { x = 3 y = 0 }
+		motorized_rocket_brigade = { x = 3 y = 1 }
+		spaa_brigade = { x = 4 y = 0 }
+		spaa_brigade = { x = 4 y = 1 }
+	}
+	support = {
+		spa_company = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+		maintenance_company = { x = 0 y = 3 }
+		light_tank_recon = { x = 0 y = 4 }
+		field_hospital = { x = 1 y = 0 }
+		signal_company = { x = 1 y = 1 }
+		wuzhi_support = { x = 1 y = 2 }
+		spaa_company = { x = 1 y = 3 }
+	}
+	division_names_group = PRC_CAB_01
+}
+division_template = {
+	name = "重型合成旅"
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		modern_armor = { x = 0 y = 3 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+		mechanized = { x = 1 y = 3 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 1 }
+		motorized_rocket_brigade = { x = 3 y = 0 }
+		motorized_rocket_brigade = { x = 3 y = 1 }
+		spaa_brigade = { x = 4 y = 0 }
+		spaa_brigade = { x = 4 y = 1 }
+	}
+	support = {
+		spa_company = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+		maintenance_company = { x = 0 y = 3 }
+		light_tank_recon = { x = 0 y = 4 }
+		field_hospital = { x = 1 y = 0 }
+		signal_company = { x = 1 y = 1 }
+		wuzhi_support = { x = 1 y = 2 }
+		spaa_company = { x = 1 y = 3 }
+	}
+	division_names_group = PRC_CAB_01
+}
+division_template = {
+	name = "合成师"
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		modern_armor = { x = 0 y = 3 }
+		modern_armor = { x = 0 y = 4 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+		mechanized = { x = 1 y = 3 }
+		mechanized = { x = 1 y = 4 }
+		mechanized = { x = 2 y = 0 }
+		mechanized = { x = 2 y = 1 }
+		mechanized = { x = 2 y = 2 }
+		light_armor = { x = 3 y = 0 }
+		light_armor = { x = 3 y = 1 }
+		light_armor = { x = 3 y = 2 }
+		modern_sp_artillery_brigade = { x = 3 y = 3 }
+		modern_sp_artillery_brigade = { x = 3 y = 4 }
+		modern_sp_artillery_brigade = { x = 4 y = 0 }
+		motorized_rocket_brigade = { x = 4 y = 1 }
+		motorized_rocket_brigade = { x = 4 y = 2 }
+		motorized_rocket_brigade = { x = 4 y = 3 }
+		spaa_brigade = { x = 4 y = 4}
+	}
+	support = {
+		field_hospital = { x = 0 y = 0 }
+		light_tank_recon = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+		logistics_company = { x = 0 y = 3 }
+		engineer = { x = 0 y = 4 }
+		maintenance_company = { x = 1 y = 0 }
+		spa_company = { x = 1 y = 1 }
+		wuzhi_support = { x = 1 y = 2}
+		mbt_company = { x = 1 y = 3 }
+		spaa_company = { x = 1 y = 4 }
+	}
+	division_names_group = PRC_CAD_01
+	priority = 2
+}
+division_template = {
+	name = "两栖合成旅"
+	regiments = {
+		amphibious_armor = { x = 0 y = 0 }
+		amphibious_armor = { x = 0 y = 1 }
+		amphibious_armor = { x = 0 y = 2 }
+		amphibious_armor = { x = 0 y = 3 }
+		amphibious_mechanized = { x = 1 y = 0 }
+		amphibious_mechanized = { x = 1 y = 1 }
+		amphibious_mechanized = { x = 1 y = 2 }
+		amphibious_mechanized = { x = 1 y = 3 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 1 }
+		spaa_brigade = { x = 3 y = 0 }
+		spaa_brigade = { x = 3 y = 1 }
+		motorized_rocket_brigade = { x = 4 y = 0 }
+		motorized_rocket_brigade = { x = 4 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		logistics_company = { x = 0 y = 1 }
+		maintenance_company = { x = 0 y = 2 }
+		recon = { x = 0 y = 3 }
+		spa_company = { x = 0 y = 4 }
+		field_hospital = { x = 1 y = 0 }
+		signal_company = { x = 1 y = 1 }
+		wuzhi_support = { x = 1 y = 2 }
+		spaa_company = { x = 1 y = 3 }
+	}
+	division_names_group = PRC_CAB_01
+}
+division_template = {
+	name = "山地合成旅"
+	regiments = {
+		modern_tank_destroyer_brigade = { x = 0 y = 0 }
+		modern_tank_destroyer_brigade = { x = 0 y = 1 }
+		recce = { x = 1 y = 0 }
+		recce = { x = 1 y = 1 }
+		recce = { x = 1 y = 2 }
+		recce = { x = 1 y = 3 }
+		motorized_rocket_brigade = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 1 }
+		spaa_brigade = { x = 3 y = 0 }
+		motorized = { x = 4 y = 0 }
+		motorized = { x = 4 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		logistics_company = { x = 0 y = 1 }
+		maintenance_company = { x = 0 y = 2 }
+		recon = { x = 0 y = 3 }
+		field_hospital = { x = 1 y = 0 }
+		signal_company = { x = 1 y = 1 }
+		wuzhi_support = { x = 1 y = 2 }
+		spaa_company = { x = 1 y = 3 }
+	}
+	division_names_group = PRC_CAB_01
+	priority = 2
+}
+division_template = {
+	name = "空中突击旅"
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		paratrooper = { x = 0 y = 3 }
+		paratrooper = { x = 1 y = 0 }
+		paratrooper = { x = 1 y = 1 }
+		paratrooper = { x = 1 y = 2 }
+		paratrooper = { x = 1 y = 3 }
+		paratrooper = { x = 2 y = 0 }
+		paratrooper = { x = 2 y = 1 }
+		paratrooper = { x = 2 y = 2 }
+		paratrooper = { x = 2 y = 3 }
+	}
+	support = {
+		air_mechanized = { x = 0 y = 0 }
+		helicopter_recon = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+		logistics_company = { x = 0 y = 3 }
+		signal_company = { x = 0 y = 4 }
+		wuzhi_support = { x = 1 y = 0 }
+		field_hospital = { x = 1 y = 1 }
+		maintenance_company = { x = 1 y = 2 }
+	}
+	division_names_group = PRC_AAB_01
+	priority = 2
+}
+division_template = {
+	name = "特种作战旅"
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+		special_forces = { x = 0 y = 3 }
+		special_forces = { x = 1 y = 0 }
+		special_forces = { x = 1 y = 1 }
+		special_forces = { x = 1 y = 2 }
+		special_forces = { x = 1 y = 3 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		motorized = { x = 2 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		apc_company = { x = 0 y = 1 }
+		field_hospital = { x = 0 y = 2 }
+		recon = { x = 0 y = 3 }
+		wuzhi_support = { x = 0 y = 4 }
+		logistics_company = { x = 1 y = 0 }
+		spa_company = { x = 1 y = 1 }
+		signal_company = { x = 1 y = 2 }
+	}
+	division_names_group = PRC_SOB_01
+	priority = 2
+}
+division_template = {
+	name = "空降旅"
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+		special_forces = { x = 0 y = 3 }
+		special_forces = { x = 1 y = 0 }
+		special_forces = { x = 1 y = 1 }
+		special_forces = { x = 1 y = 2 }
+		special_forces = { x = 1 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		field_hospital = { x = 0 y = 1 }
+		helicopter_recon = { x = 0 y = 2 }
+		wuzhi_support = { x = 0 y = 3 }
+		logistics_company = { x = 1 y = 0 }
+		signal_company = { x = 1 y = 1 }
+		air_mechanized = { x = 1 y = 2 }
+		spaa_company = { x = 1 y = 3 }
+		anti_tank = { x = 1 y = 4 }
+	}
+	division_names_group = PRC_PAR_01
+	priority = 2
+}
+division_template = {
+	name = "战区司令部"
+	is_locked = yes
+	division_names_group = PRC_BUS_01
+	regiments = {
+		bus = { x = 0 y = 0 }
+	}
+	support = {
+		military_police = { x = 0 y = 0 }		
+	}
+}
+
+units = {
+	division = {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 321
+		}
+		location = 10698
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 322
+		}
+		location = 10433
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 78
+		}
+		location =10368
+		division_template = "特种作战旅"
+		start_experience_factor =0.4
+		start_equipment_factor = 1
+	}
+	division = {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 79
+		}
+		location = 10368
+		division_template = "特种作战旅"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 80
+		}
+		location = 10368
+		division_template = "特种作战旅"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 46
+		}
+		location = 4551
+		division_template = "中型合成旅"
+		start_experience_factor = 0.5
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 116
+		}
+		location = 10521
+		division_template = "重型合成旅"
+		start_experience_factor = 0.6
+	}
+	division = {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 119
+		}
+		location = 7569
+		division_template = "轻型合成旅"
+		start_experience_factor = 0.5
+	}
+	division = {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 190
+		}
+		location = 12500
+		division_template = "重型合成旅"
+		start_experience_factor = 0.5
+	}
+	division = {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 191
+		}
+		location = 9798
+		division_template = "轻型合成旅"
+		start_experience_factor = 0.4
+	}
+	division = {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 5427
+		division_template = "重型合成旅"
+		start_experience_factor = 0.4
+	}
+	division = {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 48
+		}
+		location = 6863
+		division_template = "轻型合成旅"
+		start_experience_factor = 0.5
+	}
+	division = {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 68
+		}
+		location = 3815
+		division_template = "重型合成旅"
+		start_experience_factor = 0.5
+	}
+	division = {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 115
+		}
+		location = 6811
+		division_template = "中型合成旅"
+		start_experience_factor = 0.6
+	}
+	division = {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 202
+		}
+		location = 6806
+		division_template = "重型合成旅"
+		start_experience_factor = 0.6
+	}
+	division = {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 204
+		}
+		location = 783
+		division_template = "重型合成旅"
+		start_experience_factor = 0.6
+	}
+	division = {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 323
+		}
+		location = 10698
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 324
+		}
+		location = 1693
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 325
+		}
+		location = 12548
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 326
+		}
+		location = 7832
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 327
+		}
+		location = 10675
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 328
+		}
+		location = 7848
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 329
+		}
+		location = 10541
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 330
+		}
+		location = 1776
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 331
+		}
+		location = 7848
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 332
+		}
+		location = 7848
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 333
+		}
+		location = 7848
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 334
+		}
+		location = 7848
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 335
+		}
+		location = 7848
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 47
+		}
+		location = 3944
+		division_template = "轻型合成旅"
+		start_experience_factor = 0.3
+	}
+	division = {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 69
+		}
+		location = 6806
+		division_template = "重型合成旅"
+		start_experience_factor = 0.3
+	}
+	division = {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 118
+		}
+		location = 783
+		division_template = "中型合成旅"
+		start_experience_factor = 0.5
+	}
+	division = {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 138
+		}
+		location = 6811
+		division_template = "轻型合成旅"
+		start_experience_factor = 0.3
+	}
+	division = {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 199
+		}
+		location = 3815
+		division_template = "轻型合成旅"
+		start_experience_factor = 0.3
+	}
+
+	division = {			
+		division_name = {
+			is_name_ordered = yes
+			name_order = 203
+		}
+		location = 5427
+		division_template = "中型合成旅"
+		start_experience_factor = 0.3
+	}
+
+}
+	instant_effect = {
+		create_railway_gun = {
+			equipment = railway_gun_equipment_1
+			name = "火箭军第651旅"
+		}
+		#飞机
+		add_equipment_to_stockpile = {
+			type = fighter_airframe_2
+			amount = 20
+			producer = PRC
+			variant_name = "歼-20“威龙”"
+		}
+		add_equipment_to_stockpile = {
+			type = transport_plane_equipment_1
+			amount = 20
+			producer = PRC
+		}
+		add_equipment_to_stockpile = {
+			type = attack_helicopter_equipment_1
+			amount = 40
+			producer = PRC
+			variant_name = "直-10“霹雳火”"
+		}
+		#步兵
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 25
+			producer = PRC
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_1
+			amount = 3050
+			producer = PRC
+			variant_name = "81式"
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_1
+			amount = 5200
+			producer = PRC
+			variant_name = "81-1式"
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_2
+			amount = 470
+			producer = PRC
+			variant_name = "QBZ-95"
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_3
+			amount = 300
+			producer = PRC
+		}
+		#装甲
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 300
+			producer = PRC
+		}
+		add_equipment_to_stockpile = {
+			type = mechanized_equipment_3
+			amount = 100
+			producer = PRC
+		}
+		add_equipment_to_stockpile = {
+			type = modern_tank_artillery_equipment_2
+			amount = 100
+			producer = PRC
+		}
+		add_equipment_to_stockpile = {
+			type = modern_tank_chassis_2
+			amount = 200
+			producer = PRC
+			variant_name = "ZTZ-99A"
+		}
+		add_equipment_to_stockpile = {
+			type = modern_tank_chassis_2
+			amount = 300
+			producer = PRC
+			variant_name = "ZTZ-99"
+		}
+		add_equipment_to_stockpile = {
+			type = modern_tank_chassis_1
+			amount = 300
+			producer = PRC
+			variant_name = "ZTZ-96B"
+		}
+	}
+	

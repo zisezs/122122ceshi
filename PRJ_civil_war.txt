@@ -1,0 +1,205 @@
+﻿division_template = {
+	name = "Zhanqu Siling Bu"
+	is_locked = yes 
+	regiments = {
+		bus = { x = 0 y = 0 }
+	}
+	
+	support = {
+		
+	}	
+}
+
+division_template = {
+	name = "Jixiehua Bubing Shi"
+	
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_sp_artillery_brigade = { x = 0 y = 2 }
+		modern_armor = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+		modern_sp_artillery_brigade = { x = 1 y = 2 }
+		mechanized = { x = 2 y = 0 }
+		mechanized = { x = 2 y = 1 }
+		mechanized = { x = 2 y = 2 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+		spaa_company = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }		
+	}
+		
+}
+
+division_template = {
+	name = "Zhuangjia Lu"
+	
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		light_mechanized = { x = 0 y = 3 }
+		modern_sp_artillery_brigade = { x = 1 y = 0 }
+		modern_sp_artillery_brigade = { x = 1 y = 1 }
+	}
+	
+	support = {
+	}
+	
+	priority = 1
+}
+
+division_template = {
+	name = "Zhuangjia Shi"
+	
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		light_mechanized = { x = 0 y = 3 }
+		light_mechanized = { x = 0 y = 4 }
+		modern_armor = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+		modern_armor = { x = 1 y = 2 }
+		light_mechanized = { x = 1 y = 3 }
+		light_mechanized = { x = 1 y = 4 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 1 }
+		modern_sp_artillery_brigade = { x = 2 y = 2 }
+		modern_sp_artillery_brigade = { x = 2 y = 3 }
+		modern_sp_artillery_brigade = { x = 2 y = 4 }
+		motorized = { x = 3 y = 0 }
+		spaa_brigade = { x = 3 y = 1 }
+	}
+	
+	support = {
+	}
+	
+}
+
+division_template = {
+	name = "Jidong Lu"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		artillery_brigade = { x = 1 y = 0 }
+		artillery_brigade = { x = 1 y = 1 }
+	}
+	
+	support = {
+		spaa_company = { x = 0 y = 0 }
+		mbt_company = { x = 0 y = 1 }
+		spa_company = { x = 0 y = 2 }
+		signal_company = { x = 0 y = 3 }
+	}
+	
+}
+
+division_template = {
+	name = "Jidong Bubing Shi"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		modern_armor = { x = 2 y = 0 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+		spaa_brigade = { x = 4 y = 0 }
+		modern_sp_artillery_brigade = { x = 4 y = 1 }
+	}
+	
+	support = {
+
+	}
+	
+}
+
+division_template = {
+	name = "Tezhong Zuozhan Budui"
+	
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		apc_company = { x = 0 y = 1 }
+	}
+	
+}
+
+division_template = {
+	name = "Kongxi Lu" 
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		paratrooper = { x = 1 y = 0 }
+		paratrooper = { x = 1 y = 1 }
+		paratrooper = { x = 1 y = 2 }
+	}
+	
+	support = {
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Haijun Lu Zhandui" 
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 0 y = 3 }
+		
+		light_armor = { x = 1 y = 0 }
+		
+		artillery_brigade = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
+	}
+	
+	support = {
+	   spaa_company = { x = 0 y = 0 }
+	}
+}
+
+
+units = {
+	division = {	
+		name = "Jixiehua Bubing Shi"
+		location = 7316
+		division_template = "Jixiehua Bubing Shi"
+		start_experience_factor = 0.2
+	}
+
+	division = {	
+		name = "Jixiehua Bubing Shi"
+		location = 10810
+		division_template = "Jixiehua Bubing Shi"
+		start_experience_factor = 0.2
+	}
+
+	division = {	
+		name = "Tezhong Zuozhan Budui"
+		location = 7316
+		division_template = "Tezhong Zuozhan Budui"
+		start_experience_factor = 0.2
+	}
+	division = {	
+		name = "Tezhong Zuozhan Budui"
+		location = 10810
+		division_template = "Tezhong Zuozhan Budui"
+		start_experience_factor = 0.2	
+	}
+}

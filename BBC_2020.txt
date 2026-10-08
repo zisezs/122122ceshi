@@ -1,0 +1,129 @@
+﻿division_template = {
+	name = "Foot Militia"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+	
+	support = {
+	}
+		
+}
+
+division_template = {
+	name = "Infantry Brigade"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		recce = { x = 0 y = 3 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "National Guard"
+	is_locked = yes
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		artillery_brigade = { x = 2 y = 0 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+	}
+	
+}
+
+division_template = {
+	name = "Motorized Brigade"
+		is_locked = yes
+		regiments = {
+			mot_militia = { x = 0 y = 0 }
+			mot_militia = { x = 0 y = 1 }
+			mot_militia = { x = 0 y = 2 }
+			mot_militia = { x = 1 y = 0 }
+			mot_militia = { x = 1 y = 1 }
+			mot_militia = { x = 1 y = 2 }
+		}
+		
+		support = {
+			recon = { x = 0 y = 0 }
+		}
+	
+}
+
+
+units = {
+	division = {
+		name = "1st National Guard Defectors"
+		location = 13553
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "2nd National Guard Defectors"
+		location = 13553
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1st Patriot Militia"
+		location = 10305
+		division_template = "Foot Militia"
+		start_experience_factor = 0.01
+	}
+
+	division = {
+		name = "2nd Patriot Militia"
+		location = 13549
+		division_template = "Foot Militia"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "3rd 'Faith and Country' Militia"
+		location = 13551
+		division_template = "Foot Militia"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "4th 'Freedom' Militia"
+		location = 13552
+		division_template = "Foot Militia"
+		start_experience_factor = 0.01
+	}
+
+	division = {
+		name = "5th 'Lord's Mercy' Militia"
+		location = 7721
+		division_template = "Foot Militia"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "1st 'Thomas Jefferson' Brigade"
+		location = 13552
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.2
+	}
+}

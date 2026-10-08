@@ -1,0 +1,135 @@
+﻿division_template = {
+	name = "Recon Unit"
+	
+	regiments = {
+		recce = { x = 0 y = 0 }
+		recce = { x = 0 y = 1 }
+		recce = { x = 1 y = 0 }
+		recce = { x = 1 y = 1 }
+	}
+	
+	support = {
+	}
+	
+	priority = 2
+}
+
+division_template = {
+	name = "Foot Militia"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+	
+	support = {
+	}
+		
+}
+
+division_template = {
+	name = "ATF Brigade"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		artillery_brigade = { x = 1 y = 0 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	
+	support = {
+	}
+	
+}
+
+units = {
+	division = {
+		name = "1st ATF Regiment"
+		location = 13395
+		division_template = "ATF Brigade"
+		start_experience_factor = 1.0
+	}
+	
+	division = {
+		name = "2nd ATF Regiment"
+		location = 13395
+		division_template = "ATF Brigade"
+		start_experience_factor = 1.0
+	}
+	
+	division = {
+		name = "3rd ATF Regiment"
+		location = 13395
+		division_template = "ATF Brigade"
+		start_experience_factor = 1.0
+	}
+	
+	division = {
+		name = "4th ATF Regiment"
+		location = 13395
+		division_template = "ATF Brigade"
+		start_experience_factor = 1.0
+	}
+
+	division = {
+		name = "1st Volunteer Militia"
+		location = 13395
+		division_template = "Foot Militia"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "2nd Volunteer Militia"
+		location = 13395
+		division_template = "Foot Militia"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "7th Volunteer Militia"
+		location = 13395
+		division_template = "Foot Militia"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "5th ATF Regiment"
+		location = 13460
+		division_template = "ATF Brigade"
+		start_experience_factor = 1.0
+	}
+	
+	division = {
+		name = "6th ATF Regiment"
+		location = 13460
+		division_template = "ATF Brigade"
+		start_experience_factor = 1.0
+	}
+	
+	division = {
+		name = "1st Recon"
+		location = 13378
+		division_template = "Recon Unit"
+		start_experience_factor = 1.0
+	}
+	
+	division = {
+		name = "2nd Recon"
+		location = 13378
+		division_template = "Recon Unit"
+		start_experience_factor = 1.0
+	}
+
+	division = {
+		name = "5th Volunteer Miltia"
+		location = 13378
+		division_template = "Foot Militia"
+		start_experience_factor = 0.3
+	}
+
+}

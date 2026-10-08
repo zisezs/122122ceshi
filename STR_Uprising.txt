@@ -1,0 +1,83 @@
+﻿division_template = {
+	name = "Mobilizovannoye Grazhdanstvo"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+	
+	support = {
+		anti_tank = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Mobilizovannoye Grazhdanskoye Dvizheniye"
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+	}
+	
+	support = {
+		anti_tank = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Soldaty Mishany"
+		location = 11633
+		division_template = "Mobilizovannoye Grazhdanstvo"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "Soldaty Mishany"
+		location = 6718
+		division_template = "Mobilizovannoye Grazhdanstvo"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "Soldaty Mishany"
+		location = 6733
+		division_template = "Mobilizovannoye Grazhdanstvo"
+		start_experience_factor = 0.5
+	}
+
+	division = {
+		name = "Soldaty Mishany"
+		location = 11661
+		division_template = "Mobilizovannoye Grazhdanstvo"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "Soldaty Mishany"
+		location = 6702
+		division_template = "Mobilizovannoye Grazhdanstvo"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "Soldaty Mishany"
+		location = 6702
+		division_template = "Mobilizovannoye Grazhdanstvo"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "Soldaty Mishany"
+		location = 11690
+		division_template = "Mobilizovannoye Grazhdanskoye Dvizheniye"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "Soldaty Mishany"
+		location = 11690
+		division_template = "Mobilizovannoye Grazhdanskoye Dvizheniye"
+		start_experience_factor = 0.5
+	}
+}

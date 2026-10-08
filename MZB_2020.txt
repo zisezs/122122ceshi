@@ -1,0 +1,86 @@
+﻿division_template = {
+	name = "Infantry Brigade"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+
+}
+division_template = {
+	name = "Motorized Brigade"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+	}
+	support = {
+		logistics_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Special Forces"
+	
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 1 y = 0 }
+	}
+
+	support = {
+	}
+}
+
+division_template = {
+	name = "Armored Brigade"
+	
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+	support = {
+		field_hospital = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	
+	division = {
+		name = "1st Infantry Brigade"
+		location = 8245
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2nd Infantry Brigade"
+		location = 2120
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1st Motorized"
+		location = 8245
+		division_template = "Motorized Brigade"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Special Forces"
+		location = 8245
+		division_template = "Special Forces"
+		start_experience_factor = 0.6
+	}
+	
+}

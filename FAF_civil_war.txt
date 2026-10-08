@@ -1,0 +1,57 @@
+﻿division_template = {
+	name = "Milice Nationale Française"	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }	
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	
+	division = {
+		name = "1e 'Joffre'"
+		location = 11548
+		division_template = "Milice Nationale Française"
+		start_experience_factor = 0.35
+	}
+	
+	division = {
+		name = "2e 'Petain'"
+		location = 13011
+		division_template = "Milice Nationale Française"
+		start_experience_factor = 0.35
+	}
+	
+	division = {
+		name = "3e 'Nivelle'"
+		location = 9642
+		division_template = "Milice Nationale Française"
+		start_experience_factor = 0.35
+	}
+	division = {
+		name = "4e 'Foch'"
+		location = 11548
+		division_template = "Milice Nationale Française"
+		start_experience_factor = 0.35
+	}
+	division = {
+		name = "5e 'Castelnau'"
+		location = 11516
+		division_template = "Milice Nationale Française"
+		start_experience_factor = 0.35
+	}
+	division = {
+		name = "6e 'Bonaparte'"
+		location = 11548
+		division_template = "Milice Nationale Française"
+		start_experience_factor = 0.35
+	}
+}

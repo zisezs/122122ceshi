@@ -1,0 +1,433 @@
+﻿division_template = {
+	name = "Liwa Mudarae"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		light_mechanized = { x = 1 y = 0 }
+		light_mechanized = { x = 1 y = 1 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 1 }
+		spaa_brigade = { x = 2 y = 2 }
+		
+	}
+	support = { 
+	
+	}
+}
+
+division_template = {
+	name = "Alliwa Almikanikiu"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		light_mechanized = { x = 0 y = 3 }
+		modern_armor = { x = 1 y = 0 }
+		spaa_brigade = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+		
+	}
+	support = { 
+	
+	}
+}
+
+division_template = {
+	name = "Liwa Alhujum Aljawiyi"
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		special_forces = { x = 1 y = 0 }
+		
+	}
+	support = {
+		
+	}
+}
+
+division_template = {
+	name = "Fawj Albahria"
+
+	regiments = {
+		amphibious_mechanized = { x = 0 y = 0 }
+		amphibious_mechanized = { x = 0 y = 1 }
+		amphibious_mechanized = { x = 0 y = 2 }
+	}
+	support = {
+		
+	}
+}
+
+division_template = {
+	name = "Liwa Almsha"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		light_mechanized = { x = 1 y = 0 }
+		artillery_brigade = { x = 2 y = 0 }
+		
+	}
+	support = {
+		
+	}
+}
+
+units = {
+	division = {	
+		name = "1. Liwa Mudarae"
+		location = 8101
+		division_template = "Liwa Mudarae"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "2. Liwa Mudarae"
+		location = 10850
+		division_template = "Liwa Mudarae"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "4. Liwa Mudarae"
+		location = 8030
+		division_template = "Liwa Mudarae"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "8. Alliwa Almikanikiu"
+		location = 10850
+		division_template = "Liwa Mudarae"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "7. Liwa Mudarae"
+		location = 4974
+		division_template = "Liwa Mudarae"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "10. Alliwa Almikanikiu"
+		location = 5006
+		division_template = "Alliwa Almikanikiu"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "11. Alliwa Almikanikiu"
+		location = 12455
+		division_template = "Alliwa Almikanikiu"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "6. Alliwa Almikanikiu"
+		location = 8073
+		division_template = "Alliwa Almikanikiu"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "12. Alliwa Almikanikiu"
+		location = 10815
+		division_template = "Alliwa Almikanikiu"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "16. Liwa Almsha"
+		location = 8030
+		division_template = "Liwa Almsha"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "17. Liwa Almsha"
+		location = 8030
+		division_template = "Liwa Almsha"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "18. Liwa Almsha"
+		location = 8073
+		division_template = "Liwa Almsha"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	#####
+	division = {	
+		name = "17. Liwa Almsha"
+		location = 8030
+		division_template = "Liwa Almsha"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "18. Liwa Almsha"
+		location = 8030
+		division_template = "Liwa Almsha"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "19. Liwa Almsha"
+		location = 8073
+		division_template = "Liwa Almsha"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "20. Liwa Almsha"
+		location = 8030
+		division_template = "Liwa Almsha"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "21. Liwa Almsha"
+		location = 8030
+		division_template = "Liwa Almsha"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "22. Liwa Almsha"
+		location = 8073
+		division_template = "Liwa Almsha"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "23. Liwa Almsha"
+		location = 8030
+		division_template = "Liwa Almsha"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "24. Liwa Almsha"
+		location = 8030
+		division_template = "Liwa Almsha"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "25. Liwa Almsha"
+		location = 8073
+		division_template = "Liwa Almsha"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	#####
+	division = {	
+		name = "1. Liwa Alhujum Aljawiyi"
+		location = 8060
+		division_template = "Liwa Alhujum Aljawiyi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+
+	division = {	
+		name = "13. Alliwa Almikanikiu"
+		location = 10923
+		division_template = "Alliwa Almikanikiu"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "14. Alliwa Almikanikiu"
+		location = 10786
+		division_template = "Alliwa Almikanikiu"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "15. Alliwa Almikanikiu"
+		location = 10786
+		division_template = "Alliwa Almikanikiu"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "19. Liwa Almsha"
+		location = 5037
+		division_template = "Liwa Almsha"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "16. Alliwa Almikanikiu"
+		location = 10791
+		division_template = "Alliwa Almikanikiu"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "3. Liwa Alhujum Aljawiyi"
+		location = 10791
+		division_template = "Liwa Alhujum Aljawiyi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "20. Liwa Almsha"
+		location = 12702
+		division_template = "Liwa Almsha"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "21. Liwa Almsha"
+		location = 12101
+		division_template = "Liwa Almsha"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "2. Liwa Alhujum Aljawiyi"
+		location = 12101
+		division_template = "Liwa Alhujum Aljawiyi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "22. Liwa Almsha"
+		location = 5058
+		division_template = "Liwa Almsha"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "23. Liwa Almsha"
+		location = 4981
+		division_template = "Liwa Almsha"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "Mushat Albahriat Almalakiat Alsewdy"
+		location = 4981
+		division_template = "Fawj Albahria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	
+}
+
+instant_effect = {
+	
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_1
+		amount = 4000
+		producer = SOV 
+	}
+	
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_1
+		amount = 350
+		producer = SER
+	}
+	
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_2
+		amount = 350
+		producer = BEL
+	}
+	
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_1
+		amount = 1300
+		producer = BEL
+	}
+	
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_1
+		amount = 1300
+		producer = GER
+	}
+	
+	add_equipment_to_stockpile = {
+		type = anti_tank_equipment_1			
+		amount = 200
+		producer = SOV
+	}
+	
+	add_equipment_to_stockpile = {
+		type = modern_tank_destroyer_equipment_1			
+		amount = 100
+		producer = SOV
+	}
+	
+	add_equipment_to_stockpile = {
+		type = anti_tank_equipment_1			
+		amount = 200
+		producer = SOV
+	}
+	
+	add_equipment_to_stockpile = {
+		type = modern_tank_equipment_1
+		amount = 50
+		producer = SOV
+	}
+	
+	add_equipment_to_stockpile = {
+		type = modern_tank_equipment_2
+		amount = 50
+		producer = SOV
+	}
+	
+	add_equipment_to_stockpile = {
+		type = modern_tank_equipment_3
+		amount = 20
+		producer = SOV
+	}
+	
+	add_equipment_to_stockpile = {
+		type = light_mechanized_equipment_1
+		amount = 100
+		producer = SOV
+	}
+	
+	add_equipment_to_stockpile = {
+		type = motorized_equipment_1
+		amount = 50
+		producer = SOV
+	}
+	
+	add_equipment_to_stockpile = {
+		type = motorized_equipment_1
+		amount = 169
+		producer = UAE
+	}
+	
+	add_equipment_to_stockpile = {
+		type = motorized_equipment_1
+		amount = 200
+		producer = USA
+	}
+	
+	add_equipment_to_stockpile = {
+		type = motorized_equipment_1			
+		amount = 700
+		producer = SOV
+	}
+	
+	add_equipment_to_stockpile = {
+		type = modern_tank_artillery_equipment_1
+		amount = 20
+		producer = SOV
+	}
+}

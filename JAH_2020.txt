@@ -1,0 +1,241 @@
+﻿division_template = {
+	name = "Mushat Alshrye"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+	}
+	
+	support = {
+	}
+		
+	template_counter = 14
+}
+
+division_template = {
+	name = "Shajid Mubayl"
+	
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+		mot_militia = { x = 0 y = 1 }
+		mot_militia = { x = 0 y = 2 }
+	}
+	
+	support = {
+		signal_company = { x = 0 y = 0 }
+		logistics_company = { x = 0 y = 1 }
+	}
+	
+	priority = 1
+}
+
+division_template = {
+	name = "Liwa Mushat Mechaniqui"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+	}
+	
+	priority = 1
+	
+	template_counter = 11
+}
+
+division_template = {
+	name = "Liwa Almsha"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		light_mechanized = { x = 1 y = 0 }
+		artillery_brigade = { x = 2 y = 0 }
+		
+	}
+	support = {
+		
+	}
+}
+
+division_template = {
+	name = "Liwa Mikaniki"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		light_mechanized = { x = 0 y = 1 }
+		modern_armor = { x = 1 y = 0 }
+		spaa_brigade = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+	}
+	support = { 
+	
+	}
+}
+
+units = {
+	
+	division = {
+		name = "1. Mushat Alshrye"
+		location = 8073
+		division_template = "Mushat Alshrye"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Mushat Alshrye"
+		location = 8073
+		division_template = "Mushat Alshrye"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3. Mushat Alshrye"
+		location = 8073
+		division_template = "Mushat Alshrye"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "4. Mushat Alshrye"
+		location = 8073
+		division_template = "Mushat Alshrye"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "6. Liwa Mushat Mechaniqui"
+		location = 8073
+		division_template = "Liwa Mushat Mechaniqui"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "5. Liwa Mushat Mechaniqui"
+		location = 13782
+		division_template = "Liwa Mushat Mechaniqui"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "4. Liwa Mushat Mechaniqui"
+		location = 12455
+		division_template = "Liwa Mushat Mechaniqui"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "1. Shajid Mubayl"
+		location = 1033
+		division_template = "Shajid Mubayl"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Shajid Mubayl"
+		location = 8073
+		division_template = "Shajid Mubayl"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3. Shajid Mubayl"
+		location = 13796
+		division_template = "Shajid Mubayl"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "4. Shajid Mubayl"
+		location = 12455
+		division_template = "Shajid Mubayl"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "5. Shajid Mubayl"
+		location = 13786
+		division_template = "Shajid Mubayl"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "5. Mushat Alshrye"
+		location = 13792
+		division_template = "Mushat Alshrye"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "6. Mushat Alshrye"
+		location = 13795
+		division_template = "Mushat Alshrye"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "7. Mushat Alshrye"
+		location = 13793
+		division_template = "Mushat Alshrye"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "8. Mushat Alshrye"
+		location = 13795
+		division_template = "Mushat Alshrye"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1. Liwa Mushat Mechaniqui"
+		location = 13787
+		division_template = "Liwa Mushat Mechaniqui"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Liwa Mushat Mechaniqui"
+		location = 8073
+		division_template = "Liwa Mushat Mechaniqui"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3. Liwa Mushat Mechaniqui"
+		location = 8073
+		division_template = "Liwa Mushat Mechaniqui"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "33. Liwa Mikaniki"
+		location = 13796
+		division_template = "Liwa Mikaniki"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "12. Liwa Mushat Mechaniqui"
+		location = 13797
+		division_template = "Liwa Mushat Mechaniqui"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1. Liwa Almsha"
+		location = 13785
+		division_template = "Liwa Almsha"
+		start_experience_factor = 0.1
+	}
+}

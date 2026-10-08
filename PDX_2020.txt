@@ -1,0 +1,35 @@
+﻿division_template = {
+	name = "Militia"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+		
+}
+
+units = {
+	division = {
+		name = "Looters"
+		location = 13543
+		division_template = "Militia"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "Scrappers"
+		location = 13543
+		division_template = "Militia"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "Bikers"
+		location = 13543
+		division_template = "Militia"
+		start_experience_factor = 0.01
+	}
+}

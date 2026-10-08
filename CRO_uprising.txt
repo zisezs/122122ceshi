@@ -1,0 +1,81 @@
+﻿division_template = {
+	name = "Motorizirana Brigada"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_sp_artillery_brigade = { x = 0 y = 1 }
+		spaa_brigade = { x = 0 y = 2 }
+		light_mechanized = { x = 1 y = 0 }
+		light_mechanized = { x = 1 y = 1 }
+		light_mechanized = { x = 1 y = 2 }
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Dobrovoljačka Brigada"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+
+units = {
+
+	division = {
+		name = "1. Motorizirana Brigada"
+		location = 6889
+		division_template = "Motorizirana Brigada"
+	}
+
+	division = {
+		name = "2. Motorizirana Brigada"
+		location = 3868
+		division_template = "Motorizirana Brigada"
+	}
+	
+	division = {
+		name = "3. Motorizirana Brigada"
+		location = 11816
+		division_template = "Motorizirana Brigada"
+	}
+
+	division = {
+		name = "4. Motorizirana Brigada"
+		location = 3924
+		division_template = "Motorizirana Brigada"
+	}
+
+	division = {
+		name = "1. Dobrovoljačka Brigada"
+		location = 3974
+		division_template = "Dobrovoljačka Brigada"
+	}
+
+	division = {
+		name = "2. Motorizirana Brigada"
+		location = 11901
+		division_template = "Dobrovoljačka Brigada"
+	}
+	
+	division = {
+		name = "3. Dobrovoljačka Brigada"
+		location = 3924
+		division_template = "Dobrovoljačka Brigada"
+	}
+
+	division = {
+		name = "4. Dobrovoljačka Brigada"
+		location = 11816
+		division_template = "Dobrovoljačka Brigada"
+	}
+}

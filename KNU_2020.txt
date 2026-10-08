@@ -1,0 +1,65 @@
+﻿division_template = {
+	name = "Regional Command"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	
+	division = {
+		name = "1. Regional Command"
+		location = 4293
+		division_template = "Regional Command"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "2. Regional Command"
+		location = 7441
+		division_template = "Regional Command"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "3. Regional Command"
+		location = 12238
+		division_template = "Regional Command"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "4. Regional Command"
+		location = 12317
+		division_template = "Regional Command"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "5. Regional Command"
+		location = 4408
+		division_template = "Regional Command"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "6. Regional Command"
+		location = 4408
+		division_template = "Regional Command"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "7. Regional Command"
+		location = 4408
+		division_template = "Regional Command"
+		start_experience_factor = 0.2
+	}
+}

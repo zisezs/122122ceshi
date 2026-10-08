@@ -1,0 +1,2392 @@
+﻿ division_template = {
+	name = "中国人民武警部队"
+	regiments = {
+		PAP_light_mechanized = { x = 0 y = 0 }
+		PAP_light_mechanized = { x = 0 y = 1 }
+		PAP_light_mechanized = { x = 0 y = 2 }
+		PAP_light_mechanized = { x = 0 y = 3 }
+		PAP_light_mechanized = { x = 1 y = 0 }
+		PAP_light_mechanized = { x = 1 y = 1 }
+		PAP_light_mechanized = { x = 1 y = 2 }
+		PAP_light_mechanized = { x = 1 y = 3 }
+	}
+	support = {
+		military_police = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+		field_hospital = { x = 1 y = 0}
+	}
+	division_names_group = PRC_PAP_01
+	priority = 0
+}
+division_template = {
+	name = "警卫师"
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 1 y = 3 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+		motorized_rocket_brigade = { x = 2 y = 1 }
+		spaa_brigade = { x = 3 y = 0 }
+		spaa_brigade = { x = 3 y = 1 }
+	}
+	support = {
+		field_hospital = { x = 0 y = 0 }
+		armored_car_recon = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+		logistics_company = { x = 0 y = 3 }
+		engineer = { x = 0 y = 4 }
+		maintenance_company = { x = 1 y = 0 }
+		spaa_company = { x = 1 y = 1 }
+	}
+	division_names_group = PRC_GAR_01
+}
+division_template = {
+	name = "边防团"
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		light_mechanized = { x = 1 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+	}
+	support = {
+		logistics_company = { x = 0 y = 0 }
+		maintenance_company = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+		signal_company = { x = 0 y = 4 }
+		logistics_company = { x = 1 y = 0 }
+	}
+	division_names_group = PRC_GAR_02
+}
+division_template = {
+	name = "边防旅"
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		light_mechanized = { x = 1 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+	}
+	support = {
+		logistics_company = { x = 0 y = 0 }
+		maintenance_company = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+		signal_company = { x = 0 y = 4 }
+		logistics_company = { x = 1 y = 0 }
+		spa_company = { x = 1 y = 1 }
+		apc_company = { x = 1 y = 2 }
+	}
+	division_names_group = PRC_GAR_04
+}
+division_template = {
+	name = "轻型合成旅"
+	regiments = {
+		modern_tank_destroyer_brigade = { x = 0 y = 0 }
+		modern_tank_destroyer_brigade = { x = 0 y = 1 }
+		modern_tank_destroyer_brigade = { x = 0 y = 2 }
+		modern_tank_destroyer_brigade = { x = 0 y = 3 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 1 y = 3 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+		motorized_rocket_brigade = { x = 2 y = 1 }
+		spaa_brigade = { x = 3 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		logistics_company = { x = 0 y = 1 }
+		maintenance_company = { x = 0 y = 2 }
+		mot_recon = { x = 0 y = 3 }
+		field_hospital = { x = 1 y = 0 }
+		signal_company = { x = 1 y = 1 }
+		wuzhi_support = { x = 1 y = 2 }
+		spaa_company = { x = 1 y = 3 }
+	}
+	division_names_group = PRC_CAB_01
+}
+division_template = {
+	name = "中型合成旅"
+	regiments = {
+		modern_tank_destroyer_brigade = { x = 0 y = 0 }
+		modern_tank_destroyer_brigade = { x = 0 y = 1 }
+		modern_tank_destroyer_brigade = { x = 0 y = 2 }
+		modern_tank_destroyer_brigade = { x = 0 y = 3 }
+		light_mechanized = { x = 1 y = 0 }
+		light_mechanized = { x = 1 y = 1 }
+		light_mechanized = { x = 1 y = 2 }
+		light_mechanized = { x = 1 y = 3 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 1 }
+		motorized_rocket_brigade = { x = 2 y = 2 }
+		motorized_rocket_brigade = { x = 2 y = 3 }
+		spaa_brigade = { x = 3 y = 0 }
+		spaa_brigade = { x = 3 y = 1 }
+	}
+	support = {
+		spa_company = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+		maintenance_company = { x = 0 y = 3 }
+		light_tank_recon = { x = 0 y = 4 }
+		field_hospital = { x = 1 y = 0 }
+		signal_company = { x = 1 y = 1 }
+		wuzhi_support = { x = 1 y = 2 }
+		spaa_company = { x = 1 y = 3 }
+	}
+	division_names_group = PRC_CAB_01
+}
+division_template = {
+	name = "重型合成旅"
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		modern_armor = { x = 0 y = 3 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+		mechanized = { x = 1 y = 3 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 1 }
+		motorized_rocket_brigade = { x = 2 y = 2 }
+		motorized_rocket_brigade = { x = 2 y = 3 }
+		spaa_brigade = { x = 3 y = 0 }
+		spaa_brigade = { x = 3 y = 1 }
+	}
+	support = {
+		spa_company = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+		maintenance_company = { x = 0 y = 3 }
+		light_tank_recon = { x = 0 y = 4 }
+		field_hospital = { x = 1 y = 0 }
+		signal_company = { x = 1 y = 1 }
+		wuzhi_support = { x = 1 y = 2 }
+		spaa_company = { x = 1 y = 3 }
+	}
+	division_names_group = PRC_CAB_01
+}
+division_template = {
+	name = "合成师"
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		mechanized = { x = 0 y = 3 }
+		mechanized = { x = 0 y = 4 }
+		light_mechanized = { x = 1 y = 0 }
+		light_mechanized = { x = 1 y = 1 }
+		light_mechanized = { x = 1 y = 2 }
+		light_mechanized = { x = 1 y = 3 }
+		light_mechanized = { x = 1 y = 4 }
+		modern_armor = { x = 2 y = 0 }
+		modern_armor = { x = 2 y = 1 }
+		modern_armor = { x = 2 y = 2 }
+		modern_armor = { x = 2 y = 3 }
+		modern_armor = { x = 2 y = 4 }
+		modern_sp_artillery_brigade = { x = 3 y = 0 }
+		modern_sp_artillery_brigade = { x = 3 y = 1 }
+		modern_sp_artillery_brigade = { x = 3 y = 2 }
+		motorized_rocket_brigade = { x = 3 y = 3 }
+		motorized_rocket_brigade = { x = 3 y = 4 }
+	}
+	support = {
+		field_hospital = { x = 0 y = 0 }
+		light_tank_recon = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+		logistics_company = { x = 0 y = 3 }
+		engineer = { x = 0 y = 4 }
+		maintenance_company = { x = 1 y = 0 }
+		spa_company = { x = 1 y = 1 }
+		wuzhi_support = { x = 1 y = 2}
+		mbt_company = { x = 1 y = 3 }
+		spaa_company = { x = 1 y = 4 }
+	}
+	division_names_group = PRC_CAD_01
+	priority = 2
+}
+division_template = {
+	name = "两栖合成旅"
+	regiments = {
+		amphibious_armor = { x = 0 y = 0 }
+		amphibious_armor = { x = 0 y = 1 }
+		amphibious_armor = { x = 0 y = 2 }
+		amphibious_armor = { x = 0 y = 3 }
+		amphibious_mechanized = { x = 1 y = 0 }
+		amphibious_mechanized = { x = 1 y = 1 }
+		amphibious_mechanized = { x = 1 y = 2 }
+		amphibious_mechanized = { x = 1 y = 3 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 1 }
+		motorized_rocket_brigade = { x = 2 y = 2 }
+		motorized_rocket_brigade = { x =2 y = 3 }
+		spaa_brigade = { x = 3 y = 0 }
+		spaa_brigade = { x = 3 y = 1 }
+
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		logistics_company = { x = 0 y = 1 }
+		maintenance_company = { x = 0 y = 2 }
+		recon = { x = 0 y = 3 }
+		spa_company = { x = 0 y = 4 }
+		field_hospital = { x = 1 y = 0 }
+		signal_company = { x = 1 y = 1 }
+		wuzhi_support = { x = 1 y = 2 }
+		spaa_company = { x = 1 y = 3 }
+	}
+	division_names_group = PRC_CAB_01
+}
+division_template = {
+	name = "山地合成旅"
+	regiments = {
+		modern_tank_destroyer_brigade = { x = 0 y = 0 }
+		modern_tank_destroyer_brigade = { x = 0 y = 1 }
+		recce = { x = 1 y = 0 }
+		recce = { x = 1 y = 1 }
+		recce = { x = 1 y = 2 }
+		recce = { x = 1 y = 3 }
+		motorized_rocket_brigade = { x = 3 y = 0 }
+		modern_sp_artillery_brigade = { x = 3 y = 1 }
+		spaa_brigade = { x = 3 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		logistics_company = { x = 0 y = 1 }
+		maintenance_company = { x = 0 y = 2 }
+		recon = { x = 0 y = 3 }
+		field_hospital = { x = 1 y = 0 }
+		signal_company = { x = 1 y = 1 }
+		wuzhi_support = { x = 1 y = 2 }
+		spaa_company = { x = 1 y = 3 }
+	}
+	division_names_group = PRC_CAB_01
+	priority = 2
+}
+division_template = {
+	name = "空中突击旅"
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		paratrooper = { x = 0 y = 3 }
+		paratrooper = { x = 1 y = 0 }
+		paratrooper = { x = 1 y = 1 }
+		paratrooper = { x = 1 y = 2 }
+		paratrooper = { x = 1 y = 3 }
+		paratrooper = { x = 2 y = 0 }
+		paratrooper = { x = 2 y = 1 }
+		paratrooper = { x = 2 y = 2 }
+		paratrooper = { x = 2 y = 3 }
+	}
+	support = {
+		air_mechanized = { x = 0 y = 0 }
+		helicopter_recon = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+		logistics_company = { x = 0 y = 3 }
+		signal_company = { x = 0 y = 4 }
+		wuzhi_support = { x = 1 y = 0 }
+		field_hospital = { x = 1 y = 1 }
+		maintenance_company = { x = 1 y = 2 }
+	}
+	division_names_group = PRC_AAB_01
+	priority = 2
+}
+division_template = {
+	name = "特种作战旅"
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+		special_forces = { x = 0 y = 3 }
+		special_forces = { x = 1 y = 0 }
+		special_forces = { x = 1 y = 1 }
+		special_forces = { x = 1 y = 2 }
+		special_forces = { x = 1 y = 3 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		motorized = { x = 2 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		apc_company = { x = 0 y = 1 }
+		field_hospital = { x = 0 y = 2 }
+		recon = { x = 0 y = 3 }
+		wuzhi_support = { x = 0 y = 4 }
+		logistics_company = { x = 1 y = 0 }
+		spa_company = { x = 1 y = 1 }
+		signal_company = { x = 1 y = 2 }
+	}
+	division_names_group = PRC_SOB_01
+	priority = 2
+}
+division_template = {
+	name = "空降旅"
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+		special_forces = { x = 0 y = 3 }
+		special_forces = { x = 1 y = 0 }
+		special_forces = { x = 1 y = 1 }
+		special_forces = { x = 1 y = 2 }
+		special_forces = { x = 1 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		field_hospital = { x = 0 y = 1 }
+		helicopter_recon = { x = 0 y = 2 }
+		wuzhi_support = { x = 0 y = 3 }
+		logistics_company = { x = 1 y = 0 }
+		signal_company = { x = 1 y = 1 }
+		air_mechanized = { x = 1 y = 2 }
+		spaa_company = { x = 1 y = 3 }
+		anti_tank = { x = 1 y = 4 }
+	}
+	division_names_group = PRC_PAR_01
+	priority = 2
+}
+division_template = {
+	name = "战区司令部"
+	is_locked = yes
+	division_names_group = PRC_BUS_01
+	regiments = {
+		bus = { x = 0 y = 0 }
+	}
+	support = {
+		military_police = { x = 0 y = 0 }		
+	}
+}
+
+units = {
+	
+	##武警
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4093
+		division_template = "中国人民武警部队"
+		start_experience_factor =0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 4196
+		division_template = "中国人民武警部队"
+		start_experience_factor = 0.2
+	}
+	##警卫师
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9843
+		division_template = "警卫师"
+		start_experience_factor = 0.3
+		officer = {
+			name = NSTFR_PRC_Chen_Denglu_commander
+		}
+	}
+	##边防团
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 361
+		}
+		location = 8029
+		division_template = "边防团"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 362
+		}
+		location = 1961
+		division_template = "边防团"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 363
+		}
+		location = 8112
+		division_template = "边防团"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 364
+		}
+		location = 1970
+		division_template = "边防团"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 365
+		}
+		location = 1766
+		division_template = "边防团"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 366
+		}
+		location = 1703
+		division_template = "边防团"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 367
+		}
+		location = 12601
+		division_template = "边防团"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 368
+		}
+		location = 12526
+		division_template = "边防团"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 369
+		}
+		location = 7866
+		division_template = "边防团"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 370
+		}
+		location = 1708
+		division_template = "边防团"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 371
+		}
+		location = 1844
+		division_template = "边防团"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 372
+		}
+		location = 4823
+		division_template = "边防团"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 373
+		}
+		location = 4849
+		division_template = "边防团"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 374
+		}
+		location = 10674
+		division_template = "边防团"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 375
+		}
+		location = 4704
+		division_template = "边防团"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 351
+		}
+		location = 5018
+		division_template = "边防团"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 352
+		}
+		location = 8041
+		division_template = "边防团"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 353
+		}
+		location = 5102
+		division_template = "边防团"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 354
+		}
+		location = 2098
+		division_template = "边防团"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 355
+		}
+		location = 2014
+		division_template = "边防团"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 356
+		}
+		location = 4900
+		division_template = "边防团"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 357
+		}
+		location = 12807
+		division_template = "边防团"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 358
+		}
+		location = 1991
+		division_template = "边防团"
+		start_experience_factor = 0.2
+	}
+	##边防旅
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 301
+		}
+		location = 4091
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 302
+		}
+		location = 14936
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 303
+		}
+		location = 4196
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 304
+		}
+		location = 10010
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 311
+		}
+		location = 14939
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 312
+		}
+		location = 1038
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 313
+		}
+		location = 4121
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 314
+		}
+		location = 1522
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 315
+		}
+		location = 10413
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 316
+		}
+		location = 7976
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 317
+		}
+		location = 10863
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 321
+		}
+		location = 8055
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 322
+		}
+		location = 12448
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 323
+		}
+		location = 4555
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 324
+		}
+		location = 1558
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 325
+		}
+		location = 1558
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 326
+		}
+		location = 7832
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 327
+		}
+		location = 10463
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 328
+		}
+		location = 3815
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 329
+		}
+		location = 944
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 330
+		}
+		location = 11781
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 331
+		}
+		location = 6981
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 332
+		}
+		location = 1150
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 333
+		}
+		location = 1200
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 334
+		}
+		location = 4205
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 335
+		}
+		location = 10000
+		division_template = "边防旅"
+		start_experience_factor = 0.2
+	}
+	##轻型合成旅
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 179
+		}
+		location = 11913
+		division_template = "轻型合成旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Wang_Wenhua_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 90
+		}
+		location = 11920
+		division_template = "轻型合成旅"
+		start_experience_factor = 0.3
+		officer = {
+			name = NSTFR_PRC_Gao_Rui_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 10086
+		division_template = "轻型合成旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Tu_Feibo_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 92
+		}
+		location = 11986
+		division_template = "轻型合成旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Hu_Liwei_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 132
+		}
+		location = 1070
+		division_template = "轻型合成旅"
+		start_experience_factor = 0.37
+		officer = {
+			name = NSTFR_PRC_Hao_Shengwang_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 163
+		}
+		location = 14186
+		division_template = "轻型合成旅"
+		start_experience_factor = 0.37
+		officer = {
+			name = NSTFR_PRC_Qiu_Boliu_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 7446
+		division_template = "轻型合成旅"
+		start_experience_factor = 0.3
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 56
+		}
+		location = 2099
+		division_template = "轻型合成旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Yang_Shengchun_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 182
+		}
+		location = 556
+		division_template = "轻型合成旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Zhang_Haiyang_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 55
+		}
+		location = 13984
+		division_template = "轻型合成旅"
+		start_experience_factor = 0.3
+		officer = {
+			name = NSTFR_PRC_Pang_Guoxing_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 53
+		}
+		location = 2098
+		division_template = "轻型合成旅"
+		start_experience_factor = 0.3
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 48
+		}
+		location = 9803
+		division_template = "轻型合成旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Tian_Weixin_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 119
+		}
+		location = 7633
+		division_template = "轻型合成旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Liu_Guangtao_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 191
+		}
+		location = 6981
+		division_template = "轻型合成旅"
+		start_experience_factor = 0.3
+		officer = {
+			name = NSTFR_PRC_Zhang_Yunyi_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 47
+		}
+		location = 12093
+		division_template = "轻型合成旅"
+		start_experience_factor = 0.2
+		officer = {
+			name = NSTFR_PRC_Cui_Jinglong_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 138
+		}
+		location = 1200
+		division_template = "轻型合成旅"
+		start_experience_factor = 0.2
+		officer = {
+			name = NSTFR_PRC_Du_Tiehuan_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 199
+		}
+		location = 12074
+		division_template = "轻型合成旅"
+		start_experience_factor = 0.2
+		officer = {
+			name = NSTFR_PRC_Li_Bude_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 70
+		}
+		location = 11801
+		division_template = "轻型合成旅"
+		start_experience_factor = 0.3
+		officer = {
+			name = NSTFR_PRC_Zheng_Chuanfu_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 80
+		}
+		location = 4093
+		division_template = "轻型合成旅"
+		start_experience_factor = 0.3
+		officer = {
+			name = NSTFR_PRC_Qian_Guoliang_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 196
+		}
+		location = 4140
+		division_template = "轻型合成旅"
+		start_experience_factor = 0.3
+		officer = {
+			name = NSTFR_PRC_Yuan_Jie_commander
+		}
+	}
+	##中型合成旅
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 178
+		}
+		location = 1146
+		division_template = "中型合成旅"
+		start_experience_factor = 0.45
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 34
+		}
+		location = 11982
+		division_template = "中型合成旅"
+		start_experience_factor = 0.37
+		officer = {
+			name = NSTFR_PRC_Li_Changcai_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 85
+		}
+		location = 4038
+		division_template = "中型合成旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Wu_Peng_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 145
+		}
+		location = 9938
+		division_template = "中型合成旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Lai_Yishou_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 154
+		}
+		location = 9970
+		division_template = "中型合成旅"
+		start_experience_factor = 0.37
+		officer = {
+			name = NSTFR_PRC_Chen_Tingwei_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 122
+		}
+		location = 14190
+		division_template = "中型合成旅"
+		start_experience_factor = 0.37
+		officer = {
+			name = NSTFR_PRC_Cai_Zhengguo_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 149
+		}
+		location = 8081
+		division_template = "中型合成旅"
+		start_experience_factor = 0.3
+		officer = {
+			name = NSTFR_PRC_Wang_Yong_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 181
+		}
+		location = 1395
+		division_template = "中型合成旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Chang_Wanquan_commander
+		}
+	}
+               division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 39
+		}
+		location = 6999
+		division_template = "中型合成旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Hu_Zhongqiang_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 115
+		}
+		location = 1645
+		division_template = "中型合成旅"
+		start_experience_factor = 0.53
+		officer = {
+			name = NSTFR_PRC_Zhang_Hongchan_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 46
+		}
+		location = 1150
+		division_template = "中型合成旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Wu_Changhai_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 200
+		}
+		location = 11764
+		division_template = "中型合成旅"
+		start_experience_factor = 0.3
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 118
+		}
+		location = 9835
+		division_template = "中型合成旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Bao_Pi_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 203
+		}
+		location = 10000
+		division_template = "中型合成旅"
+		start_experience_factor = 0.2
+		officer = {
+			name = NSTFR_PRC_Wang_Tao_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 162
+		}
+		location = 4093
+		division_template = "中型合成旅"
+		start_experience_factor = 0.37
+		officer = {
+			name = NSTFR_PRC_Wu_Ruishan_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 189
+		}
+		location = 10068
+		division_template = "中型合成旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Liu_Huasheng_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 127
+		}
+		location = 4058
+		division_template = "中型合成旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Liu_Junfeng_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 58
+		}
+		location = 10364
+		division_template = "中型合成旅"
+		start_experience_factor = 0.37
+		officer = {
+			name = NSTFR_PRC_Yang_Gensi_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 60
+		}
+		location = 12713
+		division_template = "中型合成旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Lian_Wei_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 113
+		}
+		location = 11931
+		division_template = "中型合成旅"
+		start_experience_factor = 0.37
+		officer = {
+			name = NSTFR_PRC_Liu_Haiqing_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 131
+		}
+		location = 12713
+		division_template = "中型合成旅"
+		start_experience_factor = 0.37
+		officer = {
+			name = NSTFR_PRC_Zhang_Wannian_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 193
+		}
+		location = 7074
+		division_template = "中型合成旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Liu_Hualin_commander
+		}
+	}
+                division = {
+		name = "驻港部队合成旅“红一团”"
+		location = 10062
+		division_template = "中型合成旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Yang_Dedong_commander
+		}
+	}
+	##重型合成旅
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11973
+		division_template = "重型合成旅"
+		start_experience_factor = 0.37
+		officer = {
+			name = NSTFR_PRC_Wang_Jie_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 35
+		}
+		location = 7025
+		division_template = "重型合成旅"
+		start_experience_factor = 0.3
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 160
+		}
+		location = 1121
+		division_template = "重型合成旅"
+		start_experience_factor = 0.3
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 235
+		}
+		location = 1146
+		division_template = "重型合成旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Chen_Xiaoming_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 10076
+		division_template = "重型合成旅"
+		start_experience_factor = 0.37
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 86
+		}
+		location = 4196
+		division_template = "重型合成旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Chen_Daoxiang_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 16
+		}
+		location = 1047
+		division_template = "重型合成旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 31
+		}
+		location = 7965
+		division_template = "重型合成旅"
+		start_experience_factor = 0.3
+		officer = {
+			name = NSTFR_PRC_Yang_Jinshan_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 123
+		}
+		location = 4028
+		division_template = "重型合成旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Zhang_Xiuchuan_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 2028
+		division_template = "重型合成旅"
+		start_experience_factor = 0.37
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 10724
+		division_template = "重型合成旅"
+		start_experience_factor = 0.37
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 62
+		}
+		location = 7971
+		division_template = "重型合成旅"
+		start_experience_factor = 0.3
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 139
+		}
+		location = 1367
+		division_template = "重型合成旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Xu_Fenlin_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 54
+		}
+		location = 13984
+		division_template = "重型合成旅"
+		start_experience_factor = 0.3
+		officer = {
+			name = NSTFR_PRC_Chen_Guang_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 10433
+		division_template = "重型合成旅"
+		start_experience_factor = 0.37
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 68
+		}
+		location = 1588
+		division_template = "重型合成旅"
+		start_experience_factor = 0.53
+		officer = {
+			name = NSTFR_PRC_Wu_Changfu_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 202
+		}
+		location = 4642
+		division_template = "重型合成旅"
+		start_experience_factor = 0.53
+		officer = {
+			name = NSTFR_PRC_Zhang_Dazhi_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 204
+		}
+		location = 7663
+		division_template = "重型合成旅"
+		start_experience_factor = 0.53
+		officer = {
+			name = NSTFR_PRC_Li_Zhizhou_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 116
+		}
+		location = 9781
+		division_template = "重型合成旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Liu_Zhidan_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 190
+		}
+		location = 3895
+		division_template = "重型合成旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Wang_Guosheng_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 69
+		}
+		location = 1184
+		division_template = "重型合成旅"
+		start_experience_factor = 0.2
+		officer = {
+			name = NSTFR_PRC_Gao_Guanghui_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 7158
+		division_template = "重型合成旅"
+		start_experience_factor = 0.3
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 194
+		}
+		location = 10068
+		division_template = "重型合成旅"
+		start_experience_factor = 0.3
+		officer = {
+			name = NSTFR_PRC_Liu_Fulian_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 195
+		}
+		location = 12348
+		division_template = "重型合成旅"
+		start_experience_factor = 0.3
+		officer = {
+			name = NSTFR_PRC_Man_Guangzhi_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 7000
+		division_template = "重型合成旅"
+		start_experience_factor = 0.2
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 112
+		}
+		location = 7109
+		division_template = "重型合成旅"
+		start_experience_factor = 0.53
+		officer = {
+			name = NSTFR_PRC_Peng_Xuefeng_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 151
+		}
+		location = 7109
+		division_template = "重型合成旅"
+		start_experience_factor = 0.53
+		officer = {
+			name = NSTFR_PRC_Guo_Yi_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 188
+		}
+		location = 4469
+		division_template = "重型合成旅"
+		start_experience_factor = 0.3
+		officer = {
+			name = NSTFR_PRC_Song_Shuanglai_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 7568
+		division_template = "重型合成旅"
+		start_experience_factor = 0.3
+	}
+	##合成师
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 4682
+		division_template = "合成师"
+		start_experience_factor = 0.37
+		officer = {
+			name = NSTFR_PRC_Du_Jincai_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 8112
+		division_template = "合成师"
+		start_experience_factor = 0.45
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 1783
+		division_template = "合成师"
+		start_experience_factor = 0.37
+		officer = {
+			name = NSTFR_PRC_Liu_Lin_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 4709
+		division_template = "合成师"
+		start_experience_factor = 0.37
+		officer = {
+			name = NSTFR_PRC_Xi_Zichang_commander
+		}
+	}
+	division = {
+		name = "警卫第 3 师“御林军”"
+		location = 14932
+		division_template = "合成师"
+		start_experience_factor = 0.37
+		officer = {
+			name = NSTFR_PRC_Chen_Mingguang_commander
+		}
+	}
+##两栖合成旅
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 7191
+		division_template = "两栖合成旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_He_Bingyan_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 124
+		}
+		location = 7120
+		division_template = "两栖合成旅"
+		start_experience_factor = 0.3
+		officer = {
+			name = NSTFR_PRC_Su_Ke_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 10010
+		division_template = "两栖合成旅"
+		start_experience_factor = 0.3
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 91
+		}
+		location = 10010
+		division_template = "两栖合成旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Zhang_Yingbo_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 14168
+		division_template = "两栖合成旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Gao_Wusheng_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 125
+		}
+		location = 14168
+		division_template = "两栖合成旅"
+		start_experience_factor = 0.3
+		officer = {
+			name = NSTFR_PRC_Gong_Duoxi_commander
+		}
+	}
+	division = {
+		name = "海军陆战队第 1 旅“猛虎旅”"
+		location = 11981
+		division_template = "两栖合成旅"
+		start_experience_factor = 0.45
+	}
+	division = {
+		name = "海军陆战队第 2 旅“雄狮旅”"
+		location = 11981
+		division_template = "两栖合成旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Ye_Aiqun_commander
+		}
+	}
+	division = {
+		name = "海军陆战队第 3 旅“刀锋旅”"
+		location = 7071
+		division_template = "两栖合成旅"
+		start_experience_factor = 0.37
+		officer = {
+			name = NSTFR_PRC_Tan_Youlin_commander
+		}
+	}
+	division = {
+		name = "海军陆战队第 4 旅“东海尖兵”"
+		location = 9978
+		division_template = "两栖合成旅"
+		start_experience_factor = 0.37
+	}
+	division = {
+		name = "海军陆战队第 5 旅“尖刀旅”"
+		location = 10000
+		division_template = "两栖合成旅"
+		start_experience_factor = 0.37
+	}
+	division = {
+		name = "海军陆战队第 6 旅“沂蒙旅”"
+		location = 4186
+		division_template = "两栖合成旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Dong_Chao_commander
+		}
+	}
+	division = {
+		name = "海军陆战队第 7 旅“蛟龙突击队”"
+		location = 994
+		division_template = "特种作战旅"
+		start_experience_factor = 0.53
+	}
+	##山地合成旅
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 32
+		}
+		location = 7446
+		division_template = "山地合成旅"
+		start_experience_factor = 0.3
+		officer = {
+			name = NSTFR_PRC_Liu_Hongwei_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 37
+		}
+		location = 1114
+		division_template = "山地合成旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Lu_Xuemei_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 40
+		}
+		location = 5018
+		division_template = "山地合成旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Liang_Zhongyu_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 150
+		}
+		location = 2098
+		division_template = "山地合成旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Luo_Jie_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 52
+		}
+		location = 5018
+		division_template = "山地合成旅"
+		start_experience_factor = 0.3
+		officer = {
+			name = NSTFR_PRC_Zeng_Zesheng_commander
+		}
+	}
+	##空中突击 旅
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 121
+		}
+		location = 1469
+		division_template = "空中突击旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Yi_Changxin_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 161
+		}
+		location = 7074
+		division_template = "空中突击旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Gao_Jianguo_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 130
+		}
+		location = 7580
+		division_template = "空中突击旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Huang_Zhen_commander
+		}
+	}
+	##特种作战 旅
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 71
+		}
+		location = 11973
+		division_template = "特种作战旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Zhao_Lantian_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 72
+		}
+		location = 7120
+		division_template = "特种作战旅"
+		start_experience_factor = 0.3
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 73
+		}
+		location = 10010
+		division_template = "特种作战旅"
+		start_experience_factor = 0.45
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 74
+		}
+		location = 14186
+		division_template = "特种作战旅"
+		start_experience_factor = 0.45
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 75
+		}
+		location = 7446
+		division_template = "特种作战旅"
+		start_experience_factor = 0.3
+		officer = {
+			name = NSTFR_PRC_Liu_Feng_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 76
+		}
+		location = 12327
+		division_template = "特种作战旅"
+		start_experience_factor = 0.45
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 77
+		}
+		location = 12141
+		division_template = "特种作战旅"
+		start_experience_factor = 0.45
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 78
+		}
+		location = 10433
+		division_template = "特种作战旅"
+		start_experience_factor = 0.45
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 79
+		}
+		location = 987
+		division_template = "特种作战旅"
+		start_experience_factor = 0.3
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 80
+		}
+		location = 1184
+		division_template = "特种作战旅"
+		start_experience_factor = 0.45
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 81
+		}
+		location = 4093
+		division_template = "特种作战旅"
+		start_experience_factor = 0.3
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 82
+		}
+		location = 7109
+		division_template = "特种作战旅"
+		start_experience_factor = 0.45
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 83
+		}
+		location = 1139
+		division_template = "特种作战旅"
+		start_experience_factor = 0.45
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 84
+		}
+		location = 2015
+		division_template = "特种作战旅"
+		start_experience_factor = 0.45
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 85
+		}
+		location = 13984
+		division_template = "特种作战旅"
+		start_experience_factor = 0.45
+	}
+	division = {
+		name = "火箭军特战旅“利刃”"
+		location = 7137
+		division_template = "特种作战旅"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "陆军反恐特战大队“刀锋”"
+		location = 7792
+		division_template = "特种作战旅"
+		start_experience_factor = 0.53
+	}
+	##空降兵 旅
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 127
+		}
+		location = 7656
+		division_template = "空降旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Wen_Dong_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 128
+		}
+		location = 7656
+		division_template = "空降旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Jiang_Tao_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 131
+		}
+		location = 7580
+		division_template = "空降旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Qin_Jiwei_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 133
+		}
+		location = 4619
+		division_template = "空降旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Cui_Jiangong_commander
+		}
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 134
+		}
+		location = 4619
+		division_template = "空降旅"
+		start_experience_factor = 0.45
+		officer = {
+			name = NSTFR_PRC_Liu_Faqing_commander
+		}
+	}
+	division = {
+		name = "空军特战旅“雷神突击队”"
+		location = 7167
+		division_template = "特种作战旅"
+		start_experience_factor = 0.53
+	}
+}
+	instant_effect = {
+		create_railway_gun = {
+			equipment = railway_gun_equipment_1
+		}
+		create_railway_gun = {
+			equipment = railway_gun_equipment_1
+		}
+		add_equipment_production = {
+			equipment = {
+				type = infantry_equipment_3
+				creator = "PRC"
+				version_name = "QBZ-95-1"
+			}
+			industrial_manufacturer =  mio:MIO_PRC_208S
+			requested_factories = 5
+			progress = 0.3
+			efficiency = 50
+		}
+		add_equipment_production = {
+			equipment = {
+				type = support_equipment_1
+				creator = "PRC" 
+				version_name = "C4ISR设备"
+			}
+			industrial_manufacturer =  mio:MIO_PRC_CETGC
+			requested_factories = 4
+			progress = 0.3
+			efficiency = 50
+		}	
+		add_equipment_production = {
+			equipment = {
+				type = train_equipment_1
+				creator = "PRC"
+				version_name = "HXN3柴油机车"
+			}
+			industrial_manufacturer =  mio:MIO_PRC_BFCLJT
+			requested_factories = 1
+			progress = 0.3
+			efficiency = 50
+		}
+		add_equipment_production = {
+			equipment = {
+				type = motorized_equipment_1
+				creator = "PRC"
+				version_name = "陕汽SX-2190"
+			}
+			industrial_manufacturer =  mio:MIO_PRC_BFCLJT
+			requested_factories = 1
+			progress = 0.3
+			efficiency = 50
+		}	
+		add_equipment_production = {
+			equipment = {
+				type = spaa_equipment_1
+				creator = "PRC" 
+				version_name = "PGZ-09"
+			}
+			industrial_manufacturer =  mio:MIO_PRC_CNIGC_HFM
+			requested_factories = 1
+			progress = 0.3
+			efficiency = 50
+		}
+		add_equipment_production = {
+			equipment = {
+				type = modern_tank_artillery_equipment_2
+				creator = "PRC" 
+				version_name = "PLZ-05B"
+			}
+			industrial_manufacturer =  mio:MIO_PRC_CNIGC_HFM
+			requested_factories = 20
+			progress = 0.3
+			efficiency = 50
+		}
+		add_equipment_production = {
+			equipment = {
+				type = mechanized_equipment_3
+				creator = "PRC" 
+				version_name = "ZBD-04A"
+			}
+			industrial_manufacturer =  mio:MIO_PRC_CNIGC_MFM
+			requested_factories = 20
+			progress = 0.3
+			efficiency = 50
+		}
+		add_equipment_production = {
+			equipment = {
+				type = modern_tank_chassis_2
+				creator = "PRC" 
+				version_name = "ZTZ-99A"
+			}
+			industrial_manufacturer =  mio:MIO_PRC_CNIGC_MFM
+			requested_factories = 5
+			progress = 0.3
+			efficiency = 50
+		}
+		add_equipment_production = {
+			equipment = {
+				type = light_tank_chassis_2
+				creator = "PRC" 
+				version_name = "ZTQ-15“黑豹”"
+			}
+			industrial_manufacturer =  mio:MIO_PRC_CNIGC_MFM
+			requested_factories = 5
+			progress = 0.3
+			efficiency = 50
+		}
+		add_equipment_production = {
+			equipment = {
+				type = railway_gun_equipment_2
+				creator = "PRC"
+				version_name = "DF-16中短程弹道导弹"
+			}
+			industrial_manufacturer =  mio:MIO_PRC_SANY
+			requested_factories = 1
+			progress = 0.3
+			efficiency = 50
+		}
+		add_equipment_production = {
+			equipment = {
+				type = fighter_airframe_2
+				creator = "PRC" 
+				version_name = "歼-20A"
+			}
+			industrial_manufacturer = mio:MIO_PRC_AVIC_I
+			requested_factories = 10
+			progress = 0.3
+			efficiency = 50
+		}
+		add_equipment_production = {
+			equipment = {
+				type = uav_airframe_2
+				creator = "PRC" 
+				version_name = "攻击-11"
+			}
+			industrial_manufacturer = mio:MIO_PRC_AVIC_I
+			requested_factories = 20
+			progress = 0.3
+			efficiency = 50
+		}
+		add_equipment_production = {
+			equipment = {
+				type = cv_airframe_1
+				creator = "PRC" 
+				version_name = "歼-15T"
+			}
+			industrial_manufacturer = mio:MIO_PRC_AVIC_I
+			requested_factories =10
+			progress = 0.3
+			efficiency = 50
+		}
+		#飞机
+		add_equipment_to_stockpile = {
+			type = uav_airframe_1
+			amount = 300
+			producer = PRC
+			variant_name = "翼龙-2"
+		}
+		add_equipment_to_stockpile = {
+			type = cv_airframe_2
+			amount = 30
+			producer = PRC
+			variant_name = "歼-35“蓝鲨”"
+		}
+		add_equipment_to_stockpile = {
+			type = transport_plane_equipment_1
+			amount = 200
+			producer = PRC
+		}
+		add_equipment_to_stockpile = {
+			type = attack_helicopter_equipment_1
+			amount = 200
+			producer = PRC
+			variant_name = "直-10“霹雳火”"
+		}
+		#步兵
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 250
+			producer = PRC
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_1
+			amount = 30500
+			producer = PRC
+			variant_name = "81式"
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_1
+			amount = 52000
+			producer = PRC
+			variant_name = "81-1式"
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_2
+			amount = 4700
+			producer = PRC
+			variant_name = "QBZ-95"
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_3
+			amount = 3000
+			producer = PRC
+		}
+		#装甲
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 13000
+			producer = PRC
+		}
+		add_equipment_to_stockpile = {
+			type = mechanized_equipment_3
+			amount = 1000
+			producer = PRC
+		}
+		add_equipment_to_stockpile = {
+			type = modern_tank_artillery_equipment_2
+			amount = 1000
+			producer = PRC
+		}
+
+
+		add_equipment_to_stockpile = {
+			type = modern_tank_chassis_1
+			amount = 3000
+			producer = PRC
+			variant_name = "ZTZ-96A"
+		}
+	}

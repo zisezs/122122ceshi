@@ -1,0 +1,56 @@
+﻿division_template = {
+	name = "Insurgent Army"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+	is_locked = yes
+	support = {
+	}
+}
+units = {
+	division = {
+		name = "1st Appalachian Volunteer Brigade"
+		location = 9923
+		division_template = "Insurgent Army"
+		start_experience_factor = 0.1
+		allow_spawning_on_enemy_provs = yes
+	}
+	division = {
+		name = "2nd Appalachian Volunteer Brigade"
+		location = 7646
+		division_template = "Insurgent Army"
+		start_experience_factor = 0.1
+		allow_spawning_on_enemy_provs = yes
+	}
+	division = {
+		name = "3rd Appalachian Volunteer Brigade 'Duke of Hazard'"
+		location = 7646
+		division_template = "Insurgent Army"
+		start_experience_factor = 0.1
+		allow_spawning_on_enemy_provs = yes
+	}
+	division = {
+		name = "4th Appalachian Volunteer Brigade 'Appalachian State 2007'"
+		location = 3941
+		division_template = "Insurgent Army"
+		start_experience_factor = 0.1
+		allow_spawning_on_enemy_provs = yes
+	}
+	division = {
+		name = "5th Appalachian Volunteer Brigade 'Moonshiner'"
+		location = 9923
+		division_template = "Insurgent Army"
+		start_experience_factor = 0.1
+		allow_spawning_on_enemy_provs = yes
+	}
+	division = {
+		name = "6th Appalachian Volunteer Brigade 'Single Wives Support Club'"
+		location = 801
+		division_template = "Insurgent Army"
+		start_experience_factor = 0.1
+		allow_spawning_on_enemy_provs = yes
+	}
+}

@@ -1,0 +1,270 @@
+﻿division_template = {
+	name = "Armored Cavalry Brigade"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_sp_artillery_brigade = { x = 0 y = 2 }
+		spaa_brigade = { x = 1 y = 0 }
+		mechanized = { x = 2 y = 0 }
+		mechanized = { x = 2 y = 1 }
+		mechanized = { x = 2 y = 2 }
+	}
+	
+	support = {
+		signal_company = { x = 0 y = 0 }
+		logistics_company = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Mechanized Brigade"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		modern_sp_artillery_brigade = { x = 0 y = 3 }
+		spaa_brigade = { x = 1 y = 0 }
+	}
+	
+	support = {
+
+	}
+}
+division_template = {
+	name = "Legion Brigade"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		spaa_brigade = { x = 0 y = 1 }
+		light_mechanized = { x = 1 y = 0 }
+		light_mechanized = { x = 1 y = 1 }
+		modern_sp_artillery_brigade = { x = 1 y = 2 }
+	}
+	
+	support = {
+		signal_company = { x = 0 y = 0 }
+		logistics_company = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+		maintenance_company = { x = 0 y = 3 }
+	}
+	
+}
+division_template = {
+	name = "Coastal Brigade"
+
+	regiments = {
+		amphibious_armor = { x = 0 y = 0 }
+		amphibious_armor = { x = 0 y = 1 }
+		amphibious_armor = { x = 0 y = 2 }
+		modern_sp_artillery_brigade = { x = 0 y = 3 }
+		spaa_brigade = { x = 0 y = 4 }
+		mechanized = { x = 1 y = 0 }
+
+	}
+	support = {
+	}
+}
+division_template = {
+	name = "Airborne Brigade"
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+
+	}
+	support = {
+	}
+}
+division_template = {
+	name = "Air Cavalry Brigade"
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+	
+}
+division_template = {
+	name = "Rifle Brigade"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_sp_artillery_brigade = { x = 0 y = 1 }
+		spaa_brigade = { x = 0 y = 2 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+	}
+	
+	support = {
+	}
+	
+}
+division_template = {
+	name = "Komandosi"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+	}
+	
+	support = {
+	}
+	
+	priority = 2
+}
+division_template = {
+	name = "Territorial Defence Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+	}
+	
+	support = {
+	}
+	
+}
+
+units = {
+	division = {
+		name = "11th Brygada Kawalerii Pancernej"
+		location = 3438
+		division_template = "Armored Cavalry Brigade"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "17th Brygada Zmechanizowana"
+		location = 9387
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "34th Brygada Kawalerii Pancernej"
+		location = 9470
+		division_template = "Armored Cavalry Brigade"
+		start_experience_factor = 0.2
+		
+	}
+
+	division = {
+		name = "2nd Brygada Zmechanizowana Legionu"
+		location = 9252
+		division_template = "Legion Brigade"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "7th Brygada Obrony Wybrzeża"
+		location = 11372
+		division_template = "Coastal Brigade"
+		start_experience_factor = 0.2
+		
+	}
+
+	division = {
+		name = "12th Brygada Zmechanizowana"
+		location = 6282
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "1st Brygada Pancerna"
+		location = 3544
+		division_template = "Legion Brigade"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "9th Brygada Kawalerii Pancernej"
+		location = 6402
+		division_template = "Armored Cavalry Brigade"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "15th Brygada Zmechanizowana"
+		location = 266
+		division_template = "Legion Brigade"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "20th Brygada Zmechanizowana"
+		location = 11245
+		division_template = "Legion Brigade"
+		start_experience_factor = 0.2
+		
+	}
+
+	division = {
+		name = "6th Brygada Powietrznodesantowa"
+		location = 9427
+		division_template = "Airborne Brigade"
+		start_experience_factor = 0.2
+		
+	}
+
+	division = {
+		name = "21st Brygada Strzelców Podhalańskich"
+		location = 9494
+		division_template = "Rifle Brigade"
+		start_experience_factor = 0.2
+		
+	}
+
+	division = {
+		name = "25th Brygada Kawalerii Powietrznej"
+		location = 467
+		division_template = "Air Cavalry Brigade"
+		start_experience_factor = 0.2
+		
+	}
+
+	division = {
+		name = "JW Grom"
+		location = 3544
+		division_template = "Komandosi"
+		start_experience_factor = 0.9
+		
+	}
+	division = {
+		name = "JW Formoza"
+		location = 9263
+		division_template = "Komandosi"
+		start_experience_factor = 0.8
+		
+	}
+	division = {
+		name = "JW Agat"
+		location = 6512
+		division_template = "Komandosi"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "JW Komandosów"
+		location = 9511
+		division_template = "Komandosi"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "JW Nil"
+		location = 9427
+		division_template = "Komandosi"
+		start_experience_factor = 0.2
+		
+	}
+}

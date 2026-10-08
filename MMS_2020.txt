@@ -1,0 +1,48 @@
+﻿division_template = {
+	name = "MS"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+	}
+	support = {
+	}
+		
+}
+
+units = {
+	
+	division = {
+		name = "Hitters"
+		location = 12381 
+		division_template = "MS"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "Hitters"
+		location = 12381
+		division_template = "MS"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "Hitters"
+		location = 12381
+		division_template = "MS"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "Hitters"
+		location = 12381
+		division_template = "MS"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Hitters"
+		location = 12381
+		division_template = "MS"
+		start_experience_factor = 0.1
+	}
+}

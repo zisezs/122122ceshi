@@ -1,0 +1,41 @@
+instant_effect = {
+	add_equipment_to_stockpile = {
+		type = fighter_airframe_1
+		amount = 102
+		producer = FRA
+		variant_name = "Rafale-C-F4"
+	}
+	add_equipment_to_stockpile = {
+		type = fighter_airframe_1
+		amount = 100
+		producer = FRA
+		variant_name = "Mirage-2000C"
+	}
+	add_equipment_to_stockpile = {
+		type = transport_plane_equipment_0
+		amount = 16
+		producer = USA
+	}
+	add_equipment_to_stockpile = {
+		type = transport_plane_equipment_0
+		amount = 17
+		producer = FRA
+	}
+	add_equipment_to_stockpile = {
+		type = scout_plane_equipment_1
+		amount = 4
+		producer = FRA
+	}
+	# add_equipment_to_stockpile = {
+	# 	type = cv_airframe_1
+	# 	amount = 35
+	# 	producer = FRA
+	# 	variant_name = "Rafale-M"
+	# }
+	# add_equipment_to_stockpile = {
+	# 	type = scout_plane_equipment_7
+	# 	amount = 3
+	# 	producer = FRA
+	# 	variant_name = "E-2C"
+	# }
+}

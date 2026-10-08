@@ -1,0 +1,20 @@
+### Air OOB ###
+air_wings = {
+	34 = {
+		#F-16AM
+		fighter_airframe_1 = {
+			owner = "BEL" 
+			amount = 15
+			version_name = "F-16AM"
+		}
+
+	}
+	1364 = {
+		#F-16AM
+		fighter_airframe_1 = {
+			owner = "BEL" 
+			amount = 14
+			version_name = "F-16AM"
+		}
+	}
+}

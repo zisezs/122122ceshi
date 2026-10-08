@@ -1,0 +1,59 @@
+﻿### Air OOB ###
+air_wings = {
+	49 = {
+		#F-16C
+		fighter_airframe_1 =  {
+			owner = "TUR" 
+			amount = 60
+			version_name = "F-16"
+		}
+	}
+	340 = {
+		#F-16C
+		fighter_airframe_1 =  {
+			owner = "TUR" 
+			amount = 80
+			version_name = "F-16"
+		}
+	}
+	350 = {
+		#F-16C
+		fighter_airframe_1 =  {
+			owner = "TUR" 
+			amount = 40
+			version_name = "F-16"
+		}
+	}
+	346 = {
+		#F-16C
+		fighter_airframe_1 =  {
+			owner = "TUR" 
+			amount = 20
+			version_name = "F-16"
+		}
+	}
+	355 = {
+		#F-16C
+		fighter_airframe_0 =  {
+			owner = "TUR" 
+			amount = 30
+			version_name = "F-15E"
+		}
+	}
+	49 = {
+		#F-4E Terminator 2020
+		uav_airframe_1 =  {
+			owner = "TUR" 
+			amount = 50
+			version_name = "F-4E"
+		}
+	}
+	350 = {
+		#F-4E Terminator 2020
+		uav_airframe_1 =  {
+			owner = "TUR" 
+			amount = 25
+			version_name = "F-4E"
+		}
+	}
+}

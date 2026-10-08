@@ -1,0 +1,32 @@
+units = {
+
+	### Naval OOB ###
+	fleet = {
+		name = "South China Excursion Fleet" #Darwin
+		naval_base = 7669
+		task_force = {
+			name = "South China Excursion Squadron 1" #Darwin
+			location = 7669
+			ship = { name = "HMAS Tweed Heads" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AST version_name = "Anzac class" } } }
+            ship = { name = "HMAS Maitland" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AST version_name = "Anzac class" } } }
+            ship = { name = "HMAS Queanbeyan" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AST version_name = "Anzac class" } } }
+            ship = { name = "HMAS Wollongong" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AST version_name = "Anzac class" } } }
+            ship = { name = "HMAS Geelong" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AST version_name = "Anzac class" } } }
+			ship = { name = "HMAS Melbourne" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "Perth class Destroyer" } } }
+			ship = { name = "HMAS Sydney" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "Perth class Destroyer" } } }
+            ship = { name = "HMAS Brisbane" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "Perth class Destroyer" } } }
+            ship = { name = "HMAS Perth" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "Perth class Destroyer" } } }
+            ship = { name = "HMAS Adelaide" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "Perth class Destroyer" } } }
+			ship = { name = "HMAS Hobart" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "Huon class" } } }
+            ship = { name = "HMAS Townsville" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "Huon class" } } }
+            ship = { name = "HMAS Cairns" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "Huon class" } } }
+            ship = { name = "HMAS Toowoomba" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "Huon class" } } }
+            ship = { name = "HMAS Darwin" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "Huon class" } } }
+            ship = { name = "HMAS Ballarat" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "Huon class" } } }
+            ship = { name = "HMAS Bendigo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "Huon class" } } }
+            ship = { name = "HMAS Launceston" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "Huon class" } } }
+            ship = { name = "HMAS Mackay" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "Huon class" } } }
+            ship = { name = "HMAS Rockhampton" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "Huon class" } } }
+		}
+	}
+}

@@ -1,0 +1,168 @@
+﻿division_template = {
+	name = "Brigata Paracadutisti"
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		artillery_brigade = { x = 0 y = 3 }
+	}
+	
+	support = {
+	}
+}
+division_template = {
+	name = "Brigata Alpina"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		mechanized = { x = 0 y = 3 }
+		artillery_brigade = { x = 1 y = 0 }
+	}
+	
+	support = {
+	}
+}
+division_template = {
+	name = "Brigata del Carro Armato"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		light_mechanized = { x = 0 y = 3 }
+		modern_sp_artillery_brigade = { x = 0 y = 4 }
+	}
+	
+	support = {
+	}
+}
+division_template = {
+	name = "Brigata Cavalleria"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		amphibious_mechanized = { x = 0 y = 1 }
+		amphibious_mechanized = { x = 0 y = 2 }
+		artillery_brigade = { x = 1 y = 0 }
+	}
+	
+	support = {
+	}
+}
+division_template = {
+	name = "Brigata Meccanizzata"
+
+	regiments = {
+		light_mechanized = { x = 0 y = 0 }
+		light_mechanized = { x = 0 y = 1 }
+		light_mechanized = { x = 0 y = 2 }
+		artillery_brigade = { x = 1 y = 0 }
+	}
+	
+	support = {
+	}
+}
+division_template = {
+	name = "Brigata Bersaglieri"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		light_mechanized = { x = 0 y = 2 }
+		light_mechanized = { x = 0 y = 3 }
+		modern_sp_artillery_brigade = { x = 0 y = 4 }	
+	}
+	
+	support = {
+	}
+}
+
+units = {
+	division = {			
+		name = "4th Alpini Parachutist Regiment"
+		location = 11584
+		division_template = "Brigata Paracadutisti"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "9th Parachutist Assault Regiment"
+		location = 11833
+		division_template = "Brigata Paracadutisti"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "Folgore Parachute Brigade"
+		location = 11833
+		division_template = "Brigata Paracadutisti"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "Taurinense Alpine Brigade"
+		location = 6780
+		division_template = "Brigata Alpina"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "Julia Alpine Brigade"
+		location = 6780
+		division_template = "Brigata Alpina"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "Ariete Armored Brigade"
+		location = 6656
+		division_template = "Brigata del Carro Armato"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "Pozzuolo del Friuli Brigade"
+		location = 6606
+		division_template = "Brigata Cavalleria"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "Sassari Mechanized Brigade"
+		location = 9772
+		division_template = "Brigata Meccanizzata"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "Granatieri di Sardegna Mechanized Brigade"
+		location = 923
+		division_template = "Brigata Meccanizzata"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "Garibaldi Bersaglieri Brigade"
+		location = 819
+		division_template = "Brigata Bersaglieri"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "Pinerolo Mechanized Brigade"
+		location = 9784
+		division_template = "Brigata Bersaglieri"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "Aosta Mechanized Brigade"
+		location = 4159
+		division_template = "Brigata Meccanizzata"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+}

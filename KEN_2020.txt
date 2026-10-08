@@ -1,0 +1,107 @@
+﻿division_template = {
+	name = "Armored Brigade"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		spaa_company = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Infantry Brigade"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		spaa_company = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Infantry Battalion"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+	
+	priority = 0
+}
+
+division_template = {
+	name = "Special Forces Battalion"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+	}
+	
+	support = {
+	}
+	
+	priority = 2
+}
+
+units = {
+	division = {	
+		name = "14th Armored Brigade"
+		location = 5079
+		division_template = "Armored Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {	
+		name = "12th Infantry Brigade"
+		location = 5210 		
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {	
+		name = "8th Infantry Brigade"
+		location = 12927
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {	
+		name = "10th Infantry Battalion"
+		location = 11145 		
+		division_template = "Infantry Battalion"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {	
+		name = "Special Operations Battalion"
+		location = 1939 		
+		division_template = "Special Forces Battalion"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+
+	division = {	
+		name = "Ranger Battalion"
+		location = 1939 		
+		division_template = "Special Forces Battalion"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+}

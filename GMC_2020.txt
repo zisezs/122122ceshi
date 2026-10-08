@@ -1,0 +1,97 @@
+﻿division_template = {
+	name = "Green Mountain Company"
+	regiments = {
+		mountaineers = {
+			x = 0
+			y = 0
+		}
+		mountaineers = {
+			x = 0
+			y = 1
+		}
+		mountaineers = {
+			x = 0
+			y = 2
+		}
+		mountaineers = {
+			x = 0
+			y = 3
+		}
+		mountaineers = {
+			x = 1
+			y = 0
+		}
+		mountaineers = {
+			x = 1
+			y = 1
+		}
+		mountaineers = {
+			x = 1
+			y = 2
+		}
+		mountaineers = {
+			x = 1
+			y = 3
+		}
+	}
+	support = {
+		artillery = {
+			x = 0
+			y = 0
+		}
+		field_hospital = {
+			x = 0
+			y = 1
+		}
+		anti_air = {
+			x = 0
+			y = 2
+		}
+	}
+}
+
+division_template = {
+	name = "Green Mountain Company Mobile Headquarters"
+	is_locked = yes
+	regiments = {
+		bus = {
+			x = 0
+			y = 0
+		}
+	}
+	support = {
+	}
+}
+
+units = {
+	division = {
+		name = "1st 'Allen' Division"
+		location = 3712
+		division_template = "Green Mountain Company"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "2nd 'Warner' Division"
+		location = 3712
+		division_template = "Green Mountain Company"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "3rd 'Baker' Division"
+		location = 3712
+		division_template = "Green Mountain Company"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "4th 'Montpelier' Division"
+		location = 3712
+		division_template = "Green Mountain Company"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "5th 'Ticonderoga' Division"
+		location = 3712
+		division_template = "Green Mountain Company"
+		start_experience_factor = 0.7
+	}
+}

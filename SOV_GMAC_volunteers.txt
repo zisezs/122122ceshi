@@ -1,0 +1,53 @@
+﻿division_template = {
+	name = "Motostrelkovaya Brigada"
+	override_model = SOV_light_mechanized_entity
+	
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		light_mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+		motorized_rocket_brigade = { x = 2 y = 0 }
+	}
+	
+	support = {
+		mot_recon = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {			
+		name = "282y Motostrelkovaya Brigada"
+		location = 13862
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+		officer = {
+			name = "'Artyom'"
+			portraits = {
+				army = {
+					large=GFX_Artyom_land
+					small="GFX_Artyom_small"
+				}
+			}
+		}
+	}
+	
+	division = {			
+		name = "201y Motostrelkovaya Brigada"
+		location = 13862
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	#STOP SENDING WAGNER
+	#division = {			
+	#	name = "Gruppa Vagnera"
+	#	location = 13862
+	#	division_template = "Motostrelkovaya Brigada"
+	#	start_experience_factor = 0.5
+	#	start_equipment_factor = 1
+	#}
+}

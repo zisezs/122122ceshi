@@ -1,0 +1,59 @@
+﻿### Air OOB ###
+air_wings = {
+	787 = {
+		#J-10
+		fighter_equipment_2 = {
+			owner = "PAK" 
+			amount = 20
+		}
+	}
+	442 = {
+		#JF-17
+		fighter_equipment_2 = {
+			owner = "PAK" 
+			amount = 40
+		}
+	}
+	440 = {
+		#JF-17
+		fighter_equipment_2 = {
+			owner = "PAK" 
+			amount = 100
+		}
+	}
+	444 = {
+		#F-16
+		fighter_equipment_3 = {
+			owner = "PAK" 
+			amount = 45
+		}
+	}
+	440 = {
+		#F-16
+		fighter_equipment_3 = {
+			owner = "PAK" 
+			amount = 30
+		}
+	}
+	440 = {
+		#Mirage III
+		CAS_equipment_2 = {
+			owner = "PAK" 
+			amount = 87
+		}
+	}
+	444 = {
+		#Mirage 2000-5
+		CAS_equipment_2 = {
+			owner = "PAK" 
+			amount = 60
+		}
+	}
+	787 = {
+		#J-7
+		fighter_equipment_1 = {
+			owner = "PAK" 
+			amount = 40
+		}
+	}
+}

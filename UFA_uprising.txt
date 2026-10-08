@@ -1,0 +1,224 @@
+﻿division_template = {
+	name = "Prykordonnyi Zagin"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		artillery_brigade = { x = 0 y = 4 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		artillery_brigade = { x = 1 y = 4 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		anti_tank = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Hirsko-Shturmova Bryhada"
+	
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		modern_armor = { x = 1 y = 0 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+		anti_tank = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Desantno-Shturmova Bryhada"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		modern_sp_artillery_brigade = { x = 1 y = 0 }
+		spaa_brigade = { x = 1 y = 1 }
+		light_armor = { x = 1 y = 2 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Polk Spetsialnoho Pryznachennya"
+
+	regiments = {						
+		special_forces = { x = 0 y = 0 } 
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 0 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Natsionalna Hvardiya"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Kyyivsʹka Spetshrupa Pivn"
+		location = 13393
+		division_template = "Natsionalna Hvardiya"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "Kyyivsʹka Spetshrupa Pivd"
+		location = 13398
+		division_template = "Natsionalna Hvardiya"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "Kyyivsʹka Spetshrupa Tsentr"
+		location = 525
+		division_template = "Natsionalna Hvardiya"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "Kyyivsʹka Spetshrupa Zakh"
+		location = 13392
+		division_template = "Natsionalna Hvardiya"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "26-yi Polk Spetsialnoho Pryznachennya"
+		location = 13393
+		division_template = "Polk Spetsialnoho Pryznachennya"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "27-yi Polk Spetsialnoho Pryznachennya"
+		location = 525
+		division_template = "Polk Spetsialnoho Pryznachennya"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "31-yi Prykordonnyi Zagin"
+		location = 11670
+		division_template = "Prykordonnyi Zagin"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "79-yi Prykordonnyi Zagin"
+		location = 754
+		division_template = "Prykordonnyi Zagin"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "26-a Prykordonnyi Zagin"
+		location = 3757
+		division_template = "Prykordonnyi Zagin"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "32-yi Desantno-Shturmova Bryhada"
+		location = 3575
+		division_template = "Desantno-Shturmova Bryhada"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "40-a Desantno-Shturmova Bryhada"
+		location = 6597
+		division_template = "Desantno-Shturmova Bryhada"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "44-a Desantno-Shturmova Bryhada"
+		location = 11546
+		division_template = "Desantno-Shturmova Bryhada"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "44-a Natsionalna Hvardiya"
+		location = 574
+		division_template = "Natsionalna Hvardiya"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "55-a Natsionalna Hvardiya"
+		location = 9673
+		division_template = "Natsionalna Hvardiya"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "406-a Natsionalna Hvardiya"
+		location = 14376
+		division_template = "Natsionalna Hvardiya"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1-a Natsionalna Hvardiya"
+		location = 3573
+		division_template = "Natsionalna Hvardiya"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "17-a Tankova Bryhada"
+		location = 568
+		division_template = "Desantno-Shturmova Bryhada"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "14-a Okrema Mekhanizovana Bryhada"
+		location = 9712
+		division_template = "Desantno-Shturmova Bryhada"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "24-a Okrema Mekhanizovana Bryhada"
+		location = 6771
+		division_template = "Mekhanizovana Bryhada"
+		start_experience_factor = 0.5
+	}
+}

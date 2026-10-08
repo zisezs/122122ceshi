@@ -1,0 +1,88 @@
+﻿division_template = {
+	name = "Milisbrigaden"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+	}
+	
+	support = {
+	}
+	
+	priority = 0
+}
+
+units = {
+	division = {			
+		name = "1. Milisbrigaden"
+		location = 9096
+		division_template = "Milisbrigaden"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "2. Milisbrigaden"
+		location = 9196
+		division_template = "Milisbrigaden"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "3. Milisbrigaden"
+		location = 3129
+		division_template = "Milisbrigaden"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "4. Milisbrigaden"
+		location = 11196
+		division_template = "Milisbrigaden"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "5. Milisbrigaden"
+		location = 9047
+		division_template = "Milisbrigaden"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "6. Milisbrigaden"
+		location = 6204
+		division_template = "Milisbrigaden"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "32. Infanteribataljon"
+		location = 3192
+		division_template = "Infanteribataljon"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "111. Infanteribataljon"
+		location = 11198
+		division_template = "Infanteribataljon"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "44. Infanteribataljon"
+		location = 11176	
+		division_template = "Infanteribataljon"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "60. Infanteribataljon"
+		location = 122
+		division_template = "Infanteribataljon"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+}

@@ -1,0 +1,185 @@
+﻿division_template = {
+	name = "Liwa Mudarae"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		light_mechanized = { x = 1 y = 0 }
+		light_mechanized = { x = 1 y = 1 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 1 }
+		spaa_brigade = { x = 2 y = 2 }
+		
+	}
+	support = { 
+	
+	}
+}
+
+division_template = {
+	name = "Alliwa Almikanikiu"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		light_mechanized = { x = 0 y = 3 }
+		modern_armor = { x = 1 y = 0 }
+		spaa_brigade = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+		
+	}
+	support = { 
+	
+	}
+}
+
+division_template = {
+	name = "Liwa Alhujum Aljawiyi"
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		special_forces = { x = 1 y = 0 }
+		
+	}
+	support = {
+		
+	}
+}
+
+division_template = {
+	name = "Liwa Almsha"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		light_mechanized = { x = 1 y = 0 }
+		artillery_brigade = { x = 2 y = 0 }
+		
+	}
+	support = {
+		
+	}
+}
+
+division_template = {
+	name = "Liwa' Milishia"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Liwa' Milishia Ali"
+
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+		mot_militia = { x = 0 y = 1 }
+		mot_militia = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {	
+		name = "1. Liwa Mudarae"
+		location = 13787
+		division_template = "Liwa Mudarae"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "2. Liwa Mudarae"
+		location = 1033
+		division_template = "Liwa Mudarae"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "1. Alliwa Almikanikiu"
+		location = 13786
+		division_template = "Alliwa Almikanikiu"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "2. Alliwa Almikanikiu"
+		location = 13785
+		division_template = "Alliwa Almikanikiu"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "1. Liwa Almsha"
+		location = 14148
+		division_template = "Liwa Almsha"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "2. Liwa Almsha"
+		location = 13782
+		division_template = "Liwa Almsha"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "3. Liwa Almsha"
+		location = 12455
+		division_template = "Liwa Almsha"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "1. Liwa Alhujum Aljawiyi"
+		location = 8101
+		division_template = "Liwa Alhujum Aljawiyi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "2. Liwa Alhujum Aljawiyi"
+		location = 13789
+		division_template = "Liwa Alhujum Aljawiyi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "1. Liwa' Milishia"
+		location = 10815
+		division_template = "Liwa' Milishia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "2. Liwa' Milishia"
+		location = 4974
+		division_template = "Liwa' Milishia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "3. Liwa' Milishia"
+		location = 5058
+		division_template = "Liwa' Milishia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "4. Liwa' Milishia"
+		location = 13785
+		division_template = "Liwa' Milishia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+}

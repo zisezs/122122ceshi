@@ -1,0 +1,27 @@
+units = {
+
+	### Naval OOB ###
+	fleet = {
+		name = "Taiwan Fleet"
+		naval_base = 4096
+		task_force = {
+			name = "Taiwan Squadron 1"
+			location = 4096
+	   ship = { name = "ROCS Hai Kung" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST } } }
+            ship = { name = "ROCS Hai Ding" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST } } }
+            ship = { name = "ROCS Hai Ning" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST } } }
+            ship = { name = "ROCS Hai Ming" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST } } }
+            ship = { name = "ROCS Hai Hua" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST } } }
+	    ship = { name = "ROCS Hai Chang" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST } } }
+	    ship = { name = "ROCS Hai De" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST } } }
+            ship = { name = "ROCS Hai Ho" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST } } }
+            ship = { name = "ROCS Hai Fei" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST } } }
+            ship = { name = "ROCS Hai Tzu" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST } } }
+	    ship = { name = "ROCS 1" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST } } }
+	    ship = { name = "ROCS 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST } } }
+            ship = { name = "ROCS 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST } } }
+            ship = { name = "ROCS 4" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST } } }
+            ship = { name = "ROCS 5" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST } } }
+		}
+	}
+}

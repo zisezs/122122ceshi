@@ -1,0 +1,115 @@
+﻿division_template = {
+	name = "Foot Militia"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+	
+	support = {
+	}
+}
+
+division_template = {
+	name = "Infantry Brigade"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		recce = { x = 0 y = 3 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "National Guard"
+	is_locked = yes
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		artillery_brigade = { x = 2 y = 0 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+	}
+	
+}
+
+division_template = {
+	name = "Motorized Brigade"
+		is_locked = yes
+		regiments = {
+			mot_militia = { x = 0 y = 0 }
+			mot_militia = { x = 0 y = 1 }
+			mot_militia = { x = 0 y = 2 }
+			mot_militia = { x = 1 y = 0 }
+			mot_militia = { x = 1 y = 1 }
+			mot_militia = { x = 1 y = 2 }
+		}
+		
+		support = {
+			recon = { x = 0 y = 0 }
+		}
+	
+}
+
+
+units = {
+	
+	division = {
+		name = "'Underclass Heroes' Motorized Brigade"
+		location = 13543
+		division_template = "Motorized Brigade"
+		start_experience_factor = 0.01
+	}
+
+	division = {
+		name = "'Black Cats' Motorized Brigade"
+		location = 13543
+		division_template = "Motorized Brigade"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "1st Northwestern Motorized Brigade"
+		location = 13543
+		division_template = "Motorized Brigade"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "1st Northwestern Antifascist Guard"
+		location = 13543
+		division_template = "National Guard"
+		start_experience_factor = 0.01
+	}
+
+	division = {
+		name = "2nd Northwestern Antifascist Guard"
+		location = 13543
+		division_template = "National Guard"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "3rd Northwestern Antifascist Guard"
+		location = 13543
+		division_template = "National Guard"
+		start_experience_factor = 0.2
+	}
+}

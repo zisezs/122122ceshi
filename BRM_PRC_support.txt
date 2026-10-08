@@ -1,0 +1,85 @@
+﻿division_template = {
+	name = "Armoured Brigade"
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		mechanized = { x = 0 y = 3 }
+		modern_armor = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+		modern_sp_artillery_brigade = { x = 1 y = 2 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		spa_company = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Light Infantry Brigade"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		artillery_brigade = { x = 2 y = 0 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "1. Armoured Brigade"
+		location = 4626
+		division_template = "Armoured Brigade"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2. Armoured Brigade"
+		location = 4626
+		division_template = "Armoured Brigade"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3. Armoured Brigade"
+		location = 4626
+		division_template = "Armoured Brigade"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4. Armoured Brigade"
+		location = 4626
+		division_template = "Armoured Brigade"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1. Light Infantry Brigade"
+		location = 4626
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2. Light Infantry Brigade"
+		location = 4626
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "3. Light Infantry Brigade"
+		location = 4626
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "4. Light Infantry Brigade"
+		location = 4626
+		division_template = "Light Infantry Brigade"
+		start_experience_factor = 0.2
+	}
+}

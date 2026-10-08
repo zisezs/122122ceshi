@@ -1,0 +1,26 @@
+﻿### Air OOB ###
+
+air_wings = {
+	46 = {
+		#F-16
+		fighter_airframe_1 =  {
+			owner = "ROM" 
+			amount = 26
+			version_name = "F-16"
+		}
+		#MiG-21 LanceR
+		uav_airframe_0 =  {
+			owner = "ROM" 
+			amount = 24
+			version_name = "MiG-21"
+		}
+	}
+	82 = {
+		#MiG-21 LanceR
+		uav_airframe_0 =  {
+			owner = "ROM" 
+			amount = 18
+			version_name = "MiG-21"
+		}
+	}
+}

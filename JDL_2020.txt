@@ -1,0 +1,50 @@
+﻿division_template = {
+	name = "Jewish Defense Brigade"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+		
+}
+
+units = {
+	division = {
+		name = "1st Jewish Defense Brigade"
+		location = 9774
+		division_template = "Jewish Defense Brigade"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2nd Jewish Defense Brigade"
+		location = 9774
+		division_template = "Jewish Defense Brigade"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3rd Jewish Defense Brigade"
+		location = 9774
+		division_template = "Jewish Defense Brigade"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "4th Jewish Defense Brigade"
+		location = 9774
+		division_template = "Jewish Defense Brigade"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "5th Jewish Defense Brigade"
+		location = 9774
+		division_template = "Jewish Defense Brigade"
+		start_experience_factor = 0.1
+	}
+	
+}

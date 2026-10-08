@@ -1,0 +1,18 @@
+units = {
+	fleet = {
+		name = "Admiral Kuznetsov Task Force"
+		naval_base = 3134
+		task_force = {
+			name = "Admiral Kuznetsov Task Force"
+			location = 3134 #Murmansk
+			ship = { name = "Admiral Kuznetsov" definition = carrier equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = SOV version_name = "Kuznetsov-class" } } }
+		}
+	}
+}
+
+air_wings = {
+	"Admiral Kuznetsov" = {
+		cv_airframe_1 =  { owner = "SOV" amount = 24 version_name = "Mig-29K" }
+		cv_airframe_1 =  { owner = "SOV" amount = 24 version_name = "Su-33" }		
+	}
+}

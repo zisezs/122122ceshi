@@ -1,0 +1,17 @@
+﻿### Air Wings
+air_wings = {
+	714 = {
+		fighter_airframe_1 =  {
+			owner = "PRC" 
+			amount = 85
+			version_name = "歼-16“潜龙”"
+		}
+	}
+	717 = {
+		fighter_airframe_1 =  {
+			owner = "PRC" 
+			amount = 156
+			version_name = "歼-11BG“应龙”"
+		}
+	}
+}

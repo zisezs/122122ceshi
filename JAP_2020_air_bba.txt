@@ -1,0 +1,131 @@
+### Air OOB ###
+# air_wings = {
+# 	282 = {
+# 		#F-15
+# 		small_plane_airframe_1 =  {
+# 			owner = "JAP" 
+# 			amount = 36
+# 			version_name = "F-15J"
+# 		}
+
+# 	}
+# 	529 = {
+# 		#F-15
+# 		small_plane_airframe_1 =  {
+# 			owner = "JAP" 
+# 			amount = 48
+# 			version_name = "F-15J"
+# 		}
+
+# 	}
+# 	529 = {
+# 		#F-15e
+# 		small_plane_cas_airframe_1 =  {
+# 			owner = "JAP" 
+# 			amount = 48
+# 			version_name = "Mitsubishi F-2"
+# 		}
+
+# 	}
+# 	536 = {
+# 		#F4
+# 		small_plane_cas_airframe_0 =  {
+# 			owner = "JAP" 
+# 			amount = 25
+# 			version_name = "F-4EJ Kai"
+# 		}
+
+# 	}
+# 	1336 = {
+# 		#F-15
+# 		small_plane_airframe_1 =  {
+# 			owner = "JAP" 
+# 			amount = 20
+# 			version_name = "F-15J"
+# 		}
+# 		#F-2
+# 		small_plane_cas_airframe_1 =  {
+# 			owner = "JAP" 
+# 			amount = 40
+# 			version_name = "Mitsubishi F-2"
+# 		}
+# 	}
+# 	526 = {
+# 		#F-15
+# 		small_plane_airframe_1 =  {
+# 			owner = "JAP" 
+# 			amount = 30
+# 			version_name = "F-15J"
+# 		}
+# 		#F-2
+# 		small_plane_cas_airframe_1 =  {
+# 			owner = "JAP" 
+# 			amount = 25
+# 			version_name = "Mitsubishi F-2"
+# 		}
+# 	}
+
+# 	"JDS Izumo (DDH-183)" = {
+# 		cv_small_plane_naval_bomber_airframe_1 =  { owner = "JAP" amount = 10 version_name = "F-35B" }
+# 		cv_small_plane_naval_bomber_airframe_1 =  { owner = "JAP" amount = 10 version_name = "F-35B" }			
+# 	}
+# 	"JDS Kaga (DDH-184)" = {
+# 		cv_small_plane_naval_bomber_airframe_1 =  { owner = "JAP" amount = 10 version_name = "F-35B" }
+# 		cv_small_plane_naval_bomber_airframe_1 =  { owner = "JAP" amount = 10 version_name = "F-35B" }			
+# 	}
+# 	"JDS Hyuga (DDH-181)" = {
+# 		cv_small_plane_naval_bomber_airframe_1 =  { owner = "JAP" amount = 10 version_name = "F-35B" }
+# 		cv_small_plane_naval_bomber_airframe_1 =  { owner = "JAP" amount = 10 version_name = "F-35B" }			
+# 	}
+# 	"JDS Ise (DDH-182)" = {
+# 		cv_small_plane_naval_bomber_airframe_1 =  { owner = "JAP" amount = 10 version_name = "F-35B" }
+# 		cv_small_plane_naval_bomber_airframe_1 =  { owner = "JAP" amount = 10 version_name = "F-35B" }			
+# 	}
+# }
+instant_effect = {
+	add_equipment_to_stockpile = {
+		type = fighter_airframe_1
+		amount = 200
+		producer = JAP
+		variant_name = "F-15J"
+	}
+	add_equipment_to_stockpile = {
+		type = fighter_airframe_1
+		amount = 140
+		producer = USA
+		variant_name = "F-16C/D"
+	}
+	add_equipment_to_stockpile = {
+		type = fighter_airframe_2
+		amount = 12
+		producer = USA
+		variant_name = "F-35A"
+	}
+	add_equipment_to_stockpile = {
+		type = bomber_airframe_0
+		amount = 40
+		producer = USA
+		variant_name = "P-8A Poseidon"
+	}
+	add_equipment_to_stockpile = {
+		type = transport_plane_equipment_0
+		amount = 14
+		producer = JAP
+	}
+	add_equipment_to_stockpile = {
+		type = transport_plane_equipment_1
+		amount = 7
+		producer = JAP
+	}
+	# 预警机待定
+	# add_equipment_to_stockpile = {
+	# 	type = scout_plane_equipment_1
+	# 	amount = 4
+	# 	producer = JAP
+	# }
+	# add_equipment_to_stockpile = {
+	# 	type = scout_plane_equipment_5
+	# 	amount = 14
+	# 	producer = JAP
+	# }
+}

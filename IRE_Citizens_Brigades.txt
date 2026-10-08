@@ -1,0 +1,123 @@
+﻿division_template = {
+	name = "Briogáid na Saoránach"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+	
+	support = {
+	}
+		
+}
+division_template = {
+	name = "Óglaigh na hÉireann"
+	
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		light_mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+		motorized_rocket_brigade = { x = 2 y = 0 }
+	}
+	
+	support = {
+		mot_recon = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {			
+		name = "Defence Force"
+		location = 285
+		division_template = "Óglaigh na hÉireann"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+		
+	}
+
+	division = {			
+		name = "Defence Force"
+		location = 11293
+		division_template = "Óglaigh na hÉireann"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "1st Citizens Brigade"
+		location = 11293
+		division_template = "Briogáid na Saoránach"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "2nd Citizens Brigade"
+		location = 11293
+		division_template = "Briogáid na Saoránach"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "3rd Citizens Brigade"
+		location = 11293
+		division_template = "Briogáid na Saoránach"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "4th Citizens Brigade"
+		location = 11293
+		division_template = "Briogáid na Saoránach"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "5th Citizens Brigade"
+		location = 11293
+		division_template = "Briogáid na Saoránach"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "6th Citizens Brigade"
+		location = 11293
+		division_template = "Briogáid na Saoránach"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "7th Citizens Brigade"
+		location = 11293
+		division_template = "Briogáid na Saoránach"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "8th Citizens Brigade"
+		location = 285
+		division_template = "Briogáid na Saoránach"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "9th Citizens Brigade"
+		location = 3359
+		division_template = "Briogáid na Saoránach"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "10th Citizens Brigade"
+		location = 7377
+		division_template = "Briogáid na Saoránach"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "11th Citizens Brigade"
+		location = 285
+		division_template = "Briogáid na Saoránach"
+		start_experience_factor = 0.4
+	}
+}

@@ -1,0 +1,80 @@
+﻿division_template = {
+	name = "Musulmanskaya Brigada Smerti"
+	override_model = SOV_akhmat_motorized_entity
+
+	regiments = {						
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		mechanized = { x = 0 y = 4 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		logistics_company = { x = 0 y = 1 }
+		anti_tank = { x = 0 y = 2 }
+		mot_recon = { x = 0 y = 3 }
+		signal_company = { x = 0 y = 4 }
+	}
+	priority = 2
+	
+	template_counter = 17
+}
+
+division_template = {
+	name = "Spetsnaz Akhmatiki"
+	division_names_group = SOV_SOF_01
+	
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+		special_forces = { x = 0 y = 3 }
+		special_forces = { x = 1 y = 0 }
+		special_forces = { x = 1 y = 1 }
+	}
+	
+	support = {
+		anti_tank = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+	}
+	
+	priority = 2
+}
+
+units = {
+	division = {			
+		name = "1ya Brigada Allah-Babah"
+		location = 9753
+		division_template = "Musulmanskaya Brigada Smerti"
+		start_experience_factor = 0.3
+	}
+	
+	division = {			
+		name = "2ya Brigada Bismillah po Milosti Allaha"
+		location = 9753
+		division_template = "Musulmanskaya Brigada Smerti"
+		start_experience_factor = 0.3
+	}
+	
+	division = {			
+		name = "3ya Brigada Shakery"
+		location = 9753
+		division_template = "Spetsnaz Akhmatiki"
+		start_experience_factor = 0.4
+	}
+	
+	division = {			
+		name = "4ya Brigada Chernozhopiki"
+		location = 9753
+		division_template = "Spetsnaz Akhmatiki"
+		start_experience_factor = 0.4
+	}
+
+	division = {			
+		name = "5ya Brigada Razboyniki Tryasiteli"
+		location = 9753
+		division_template = "Spetsnaz Akhmatiki"
+		start_experience_factor = 0.4
+	}
+}

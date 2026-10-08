@@ -1,0 +1,296 @@
+﻿division_template = {
+	name = "Bureau of Special Operations"
+	is_locked = yes
+	
+	regiments = {
+		bus = { x = 0 y = 0 }
+	}
+	
+	support = {
+		signal_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Armoured Operations Command"
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		mechanized = { x = 0 y = 3 }
+		modern_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		modern_sp_artillery_brigade = { x = 1 y = 2 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		spa_company = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Light Infantry Division"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		artillery_brigade = { x = 2 y = 0 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Military Operations Command"
+	regiments = {
+		light_mechanized = { x = 0 y = 0 }
+		light_mechanized = { x = 0 y = 1 }
+		light_mechanized = { x = 0 y = 2 }
+		light_mechanized = { x = 0 y = 3 }	
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Regional Operations Command"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "Bureau of Special Operations"
+		location = 4585
+		division_template = "Bureau of Special Operations"
+		start_experience_factor = 0.2
+		
+	}
+	
+	division = {
+		name = "71st Armoured Operations Command"
+		location = 12449
+		division_template = "Armoured Operations Command"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "72nd Armoured Operations Command"
+		location = 12127
+		division_template = "Armoured Operations Command"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "73rd Armoured Operations Command"
+		location = 1492
+		division_template = "Armoured Operations Command"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "74th Armoured Operations Command"
+		location = 10486
+		division_template = "Armoured Operations Command"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "75th Armoured Operations Command"
+		location = 10344
+		division_template = "Armoured Operations Command"
+		start_experience_factor = 0.2
+		
+	}
+	
+	#Light Infantry Divisions
+	division = {
+		name = "11th Light Infantry Division"
+		location = 4626
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "22nd Light Infantry Division"
+		location = 4336
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "33rd Light Infantry Division"
+		location = 10386
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "44th Light Infantry Division"
+		location = 4336
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "55th Light Infantry Division"
+		location = 4585
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "66th Light Infantry Division"
+		location = 1333
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "77th Light Infantry Division"
+		location = 14921
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "88th Light Infantry Division"
+		location = 4318
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "99th Light Infantry Division"
+		location = 1650
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "101st Light Infantry Division"
+		location = 4541
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "102st Light Infantry Division"
+		location = 4541
+		division_template = "Light Infantry Division"
+		start_experience_factor = 0.2
+		
+	}
+
+	division = {
+		name = "1st Military Operations Command"
+		location = 7562
+		division_template = "Military Operations Command"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "2nd Military Operations Command"
+		location = 2061
+		division_template = "Military Operations Command"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "3rd Military Operations Command"
+		location = 12464
+		division_template = "Military Operations Command"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "4th Military Operations Command"
+		location = 7254
+		division_template = "Military Operations Command"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "5th Military Operations Command"
+		location = 3651
+		division_template = "Military Operations Command"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "6th Military Operations Command"
+		location = 4626
+		division_template = "Military Operations Command"
+		start_experience_factor = 0.2
+		
+	}
+
+	division = {
+		name = "Loikaw Regional Operations Command"
+		location = 4654
+		division_template = "Regional Operations Command"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "Laukkai Regional Operations Command"
+		location = 1170
+		division_template = "Regional Operations Command"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "Kalay Regional Operations Command"
+		location = 4454
+		division_template = "Regional Operations Command"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "Sittwe Regional Operations Command"
+		location = 12090
+		division_template = "Regional Operations Command"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "Pyay Regional Operations Command"
+		location = 1333
+		division_template = "Regional Operations Command"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "Tanaing Regional Operations Command"
+		location = 4588
+		division_template = "Regional Operations Command"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "Wanhseng Regional Operations Command"
+		location = 7909 
+		division_template = "Regional Operations Command"
+		start_experience_factor = 0.2
+		
+	}
+}

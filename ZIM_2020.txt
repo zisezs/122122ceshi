@@ -1,0 +1,99 @@
+﻿
+division_template = {
+	name = "Infantry Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	
+	support = {
+		recon = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Mechanized Brigade"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+	}
+	
+	support = {
+		spa_company = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Presidential Guard"
+	
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+	}
+
+	support = {
+	}
+}
+
+units = {
+	division = {			
+		name = "1st Infantry Brigade"
+		location = 4851
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+
+	division = {			
+		name = "2nd Infantry Brigade"
+		location = 10929
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+
+	division = {			
+		name = "3rd Infantry Brigade"
+		location = 2151
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+
+	division = {			
+		name = "4th Infantry Brigade"
+		location = 2151
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+
+	division = {			
+		name = "5th Infantry Brigade"
+		location = 4851
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+
+	division = {			
+		name = "Presidential Guard"
+		location = 10929
+		division_template = "Presidential Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {			
+		name = "Mechanized Brigade"
+		location = 10929
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.1
+	}
+	
+}
+

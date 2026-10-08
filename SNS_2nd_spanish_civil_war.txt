@@ -1,0 +1,326 @@
+division_template = {
+	name = "Foot Militia"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+	}
+	
+	support = {
+	}
+		
+}
+
+division_template = {
+	name = "Mechanized Brigade"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		light_mechanized = { x = 0 y = 1 }
+		modern_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		mechanized = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 3 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Recon Brigade"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+		artillery_brigade = { x = 3 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Parachute Brigade"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		paratrooper = { x = 1 y = 0 }
+		mechanized = { x = 2 y = 0 }
+		mechanized = { x = 3 y = 0 }
+		artillery_brigade = { x = 4 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Mechanized Brigade 2"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_mechanized = { x = 1 y = 0 }
+		mechanized = { x = 2 y = 0 }
+		mechanized = { x = 3 y = 0 }
+		artillery_brigade = { x = 4 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Cavalry Regiment"
+
+	regiments = {
+		light_mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+	}
+	support = {
+		mbt_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Cavalry Regiment 2"
+
+	regiments = {
+		light_mechanized = { x = 0 y = 0 }
+		light_mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+
+	}
+	support = {
+		mbt_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Special Operations Group"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Marine Infantry Brigade"
+
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		amphibious_mechanized = { x = 1 y = 0 }
+		recce = { x = 2 y = 0 }
+
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }
+		mbt_company = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		spa_company = { x = 0 y = 3 }
+		spaa_company = { x = 0 y = 4 }
+	}
+}
+
+units = {
+	#####Murica
+	division = {
+		name = "Brigada falangista"
+		location = 740
+		division_template = "Foot Militia"
+		start_experience_factor = 0.75
+	}
+
+	division = {
+		name = "Caballeros de los Templarios"
+		location = 6903
+		division_template = "Foot Militia"
+		start_experience_factor = 0.75
+	}
+
+	division = {
+		name = "Primer Grupo de Operaciones Especiales"
+		location = 11825
+		division_template = "Special Operations Group"
+		start_experience_factor = 0.75
+	}
+
+	division = {
+		name = "Primer Reconocimiento"
+		location = 3859
+		division_template = "Recon Brigade"
+		start_experience_factor = 0.75
+	}
+
+	#####North
+	division = {
+		name = "Brigada Carlista"
+		location = 9719
+		division_template = "Foot Militia"
+		start_experience_factor = 0.75
+	}
+
+	division = {
+		name = "Caballeros de los Templarios"
+		location = 3725
+		division_template = "Foot Militia"
+		start_experience_factor = 0.75
+	}
+	
+	division = {
+		name = "Primera Brigada Nacionalista"
+		location = 3725
+		division_template = "Foot Militia"
+		start_experience_factor = 0.75
+	}
+
+	division = {
+		name = "Segunda Brigada Nacionalista"
+		location = 3725
+		division_template = "Foot Militia"
+		start_experience_factor = 0.75
+	}
+
+	division = {
+		name = "Tercera Brigada Nacionalista"
+		location = 3725
+		division_template = "Foot Militia"
+		start_experience_factor = 0.75
+	}
+	
+	division = {
+		name = "Tercera Brigada Nacionalista"
+		location = 3725
+		division_template = "Foot Militia"
+		start_experience_factor = 0.75
+	}
+	
+	division = {
+		name = "Tercera Brigada Nacionalista"
+		location = 3725
+		division_template = "Foot Militia"
+		start_experience_factor = 0.75
+	}
+	
+	division = {
+		name = "Tercera Brigada Nacionalista"
+		location = 3725
+		division_template = "Foot Militia"
+		start_experience_factor = 0.75
+	}
+	
+	division = {
+		name = "Tercera Brigada Nacionalista"
+		location = 3725
+		division_template = "Foot Militia"
+		start_experience_factor = 0.75
+	}
+
+	division = {
+		name = "Segundo Grupo de Operaciones Especiales"
+		location = 11707
+		division_template = "Special Operations Group"
+		start_experience_factor = 0.75
+	}
+
+	division = {
+		name = "Francisco Franco Divison"
+		location = 885
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.75
+	}
+
+	division = {
+		name = "1st División Nacional de España"
+		location = 3887
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.75
+	}
+
+	division = {
+		name = "2nd División Nacional de España"
+		location = 9800
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.75
+	}
+
+	division = {
+		name = "3rd División Nacional de España"
+		location = 3859
+		division_template = "Mechanized Brigade 2"
+		start_experience_factor = 0.75
+	}
+
+	division = {
+		name = "4th División Nacional de España"
+		location = 6907
+		division_template = "Mechanized Brigade 2"
+		start_experience_factor = 0.75
+	}
+
+	division = {
+		name = "5th División Nacional de España"
+		location = 11825
+		division_template = "Recon Brigade"
+		start_experience_factor = 0.75
+	}
+
+	division = {
+		name = "6th División Nacional de España"
+		location = 740
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.75
+	}
+
+	division = {
+		name = "7th División Nacional de España"
+		location = 9870
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.75
+	}
+
+	division = {
+		name = "8th División Nacional de España"
+		location = 740
+		division_template = "Marine Infantry Brigade"
+		start_experience_factor = 0.75
+	}
+
+	division = {
+		name = "9th División Nacional de España"
+		location = 9870
+		division_template = "Cavalry Regiment 2"
+		start_experience_factor = 0.75
+	}
+
+	division = {
+		name = "10th División Nacional de España"
+		location = 9870
+		division_template = "Cavalry Regiment"
+		start_experience_factor = 0.75
+	}
+
+	division = {
+		name = "11th División Nacional de España"
+		location = 9872
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.75
+	}
+
+	division = {
+		name = "12th División Nacional de España"
+		location = 9719
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.75
+	}
+	
+	division = {
+		name = "13th División Nacional de España"
+		location = 9719
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.75
+	}
+	
+	division = {
+		name = "14th División Nacional de España"
+		location = 9719
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.75
+	}
+
+}

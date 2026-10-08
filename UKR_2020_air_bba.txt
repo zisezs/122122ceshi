@@ -1,0 +1,78 @@
+﻿### Air OOB ###
+air_wings = {
+	259 = {
+		#Su-27
+		fighter_airframe_1 =  {
+			owner = "UKR" 
+			amount = 74
+			version_name = "Su-27"
+		}
+	}
+	201 = {
+		#MiG-29A - If  80s equipment is added should be downgraded.
+		fighter_airframe_1 =  {
+			owner = "UKR" 
+			amount = 45
+			version_name = "Mig-29"
+		}
+	}
+	202 = {
+		#MiG-29A - If  80s equipment is added should be downgraded.
+		fighter_airframe_1 =  {
+			owner = "UKR" 
+			amount = 45
+			version_name = "Mig-29"
+		}
+	}
+	89 = {
+		#MiG-29A - If  80s equipment is added should be downgraded.
+		fighter_airframe_1 =  {
+			owner = "UKR" 
+			amount = 45
+			version_name = "Mig-29"
+		}
+	}
+	197 = {
+		#MiG-29A - If  80s equipment is added should be downgraded.
+		fighter_airframe_1 =  {
+			owner = "UKR" 
+			amount = 43
+			version_name = "Mig-29"
+		}
+	}
+	137 = {
+		#MiG-29A - If  80s equipment is added should be downgraded.
+		fighter_airframe_1 =  {
+			owner = "UKR" 
+			amount = 45
+			version_name = "Mig-29"
+		}
+	}
+	197 = {
+		#Su-25
+		uav_airframe_1 =  {
+			owner = "UKR" 
+			amount = 63
+			version_name = "Su-25"
+		}
+	}
+	197 = {
+		#Su-17
+		uav_airframe_1 =  {
+			owner = "UKR" 
+			amount = 55
+			version_name = "Su-25"
+		}
+	}
+	199 = {
+		#Su-24 - If tactical bombers are added, switch to that tech.
+		uav_airframe_0 =  {
+			owner = "UKR" 
+			amount = 110
+			version_name = "Su-24"
+		}
+	}
+	202 = {
+		#Su-25
+	}
+}

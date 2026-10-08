@@ -1,0 +1,71 @@
+﻿division_template = {
+	name = "Division Blindée"
+	
+	
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		light_mechanized = { x = 0 y = 3 }
+		modern_armor = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+		modern_armor = { x = 1 y = 2 }
+		light_mechanized = { x = 1 y = 3 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 1 }
+		modern_sp_artillery_brigade = { x = 2 y = 2 }
+		modern_sp_artillery_brigade = { x = 2 y = 3 }
+		modern_sp_artillery_brigade = { x = 3 y = 0 }
+		modern_sp_artillery_brigade = { x = 3 y = 1 }
+		spaa_brigade = { x = 4 y = 0 }
+		spaa_brigade = { x = 4 y = 1 }
+		light_armor = { x = 4 y = 2 }
+	}
+	
+	support = {
+	}
+	
+	priority = 2
+}
+
+
+units = {
+	
+	division = {
+		name = "Brigade Citoyenne de la Liberté"
+		location = 11506
+		division_template = "Division Blindée"
+		start_experience_factor = 0.35
+	}
+	division = {
+		name = "Brigade Républicaine de l'Égalité"
+		location = 11506
+		division_template = "Division Blindée"
+		start_experience_factor = 0.35
+	}
+	division = {
+		name = "Brigade de la Fraternité Républicaine"
+		location = 11506
+		division_template = "Division Blindée"
+		start_experience_factor = 0.35
+	}
+	division = {
+		name = "Brigade des Droits de l'Homme"
+		location = 11506
+		division_template = "Division Blindée"
+		start_experience_factor = 0.35
+	}
+	division = {
+		name = "Brigade Républicaine des Lumières"
+		location = 11506
+		division_template = "Division Blindée"
+		start_experience_factor = 0.35
+	}
+	division = {
+		name = "Brigade du Peuple Souverain"
+		location = 11506
+		division_template = "Division Blindée"
+		start_experience_factor = 0.35
+	}
+	
+}

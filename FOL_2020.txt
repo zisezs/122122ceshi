@@ -1,0 +1,101 @@
+﻿	division_template = {
+		name = "Volunteer Brigade"
+		
+		regiments = {
+			militia = { x = 0 y = 0 }
+			militia = { x = 0 y = 1 }
+			militia = { x = 0 y = 2 }
+			militia = { x = 1 y = 0 }
+			militia = { x = 1 y = 1 }
+			militia = { x = 1 y = 2 }
+		}
+		
+		support = {
+		}
+			
+	}
+
+	division_template = {
+		name = "Infantry Brigade"
+		division_names_group = NSM_INF_01 
+		
+		regiments = {
+			infantry = { x = 0 y = 0 }
+			infantry = { x = 0 y = 1 }
+			infantry = { x = 0 y = 2 }
+			infantry = { x = 1 y = 0 }
+			infantry = { x = 1 y = 1 }
+			infantry = { x = 1 y = 2 }
+		}
+		
+		support = {
+			engineer = { x = 0 y = 0 }
+			logistics_company = { x = 0 y = 1 }
+		}
+			
+	}
+		
+	units = {
+		division = {
+			name = "1st Volunteer Militia"
+			location = 13852
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		
+		division = {
+			name = "2nd Volunteer Militia"
+			location = 13852
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		
+		division = {
+			name = "3rd Volunteer Militia"
+			location = 13852
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		
+		division = {
+			name = "4th Volunteer Brigade"
+			location = 13852
+			division_template = "Infantry Brigade"
+			start_experience_factor = 0.1
+		}
+		
+		division = {
+			name = "5th Volunteer Brigade"
+			location = 13852
+			division_template = "Infantry Brigade"
+			start_experience_factor = 0.1
+		}
+		
+		division = {
+			name = "6th Volunteer Brigade"
+			location = 13852
+			division_template = "Infantry Brigade"
+			start_experience_factor = 0.1
+		}
+
+		division = {
+			name = "7th Volunteer Militia"
+			location = 13852
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+
+		division = {
+			name = "8th Volunteer Militia"
+			location = 13852
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+
+		division = {
+			name = "9th Volunteer Militia"
+			location = 13852
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+	}

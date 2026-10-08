@@ -1,0 +1,50 @@
+﻿division_template = {
+	name = "Warlock Bikers"
+	
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+		mot_militia = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+	
+}
+
+units = {
+	division = {
+		name = "Bikers"
+		location = 13329
+		division_template = "Warlock Bikers"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "Bikers"
+		location = 13329
+		division_template = "Warlock Bikers"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "Bikers"
+		location = 13329
+		division_template = "Warlock Bikers"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "Bikers"
+		location = 13329
+		division_template = "Warlock Bikers"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "Bikers"
+		location = 13329
+		division_template = "Warlock Bikers"
+		start_experience_factor = 0.01
+	}
+
+}

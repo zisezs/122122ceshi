@@ -1,0 +1,107 @@
+﻿division_template = {
+	name = "Tripoli SOF"
+	
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Motorized Infantry Brigade"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+	}
+	
+	support = {
+	}
+	
+}
+
+division_template = {
+	name = "Rijal Qabayil"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+	
+	support = {
+	}
+	
+	priority = 0
+	
+}
+
+units = {
+	division = {
+		name = "1. Tripoli SOF"
+		location = 1118
+		division_template = "Tripoli SOF"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "2. Tripoli SOF"
+		location = 1118
+		division_template = "Tripoli SOF"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "1. Motorized Infantry Brigade"
+		location = 7194
+		division_template = "Motorized Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Motorized Infantry Brigade"
+		location = 4117
+		division_template = "Motorized Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3. Motorized Infantry Brigade"
+		location = 11940
+		division_template = "Motorized Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1. Rijal Qabayil"
+		location = 1174
+		division_template = "Rijal Qabayil"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Rijal Qabayil"
+		location = 4051
+		division_template = "Rijal Qabayil"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3. Rijal Qabayil"
+		location = 1189
+		division_template = "Rijal Qabayil"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "4. Rijal Qabayil"
+		location = 1189
+		division_template = "Rijal Qabayil"
+		start_experience_factor = 0.1
+	}
+}

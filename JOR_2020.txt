@@ -1,0 +1,250 @@
+﻿division_template = {
+	name = "Liwa Mushat" 	#Infantry Brigade
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		modern_sp_artillery_brigade = { x = 0 y = 3 }
+	}
+	support = {
+		spaa_company = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Liwa Mushat Mechaniqui"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		modern_sp_artillery_brigade = { x = 0 y = 3 }
+	}
+	support = {
+		spaa_company = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Liwa Mushat Khafif"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		modern_sp_artillery_brigade = { x = 0 y = 3 }
+	}
+	support = {
+		spaa_company = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Liwa Moudar'a"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		light_mechanized = { x = 0 y = 2 }
+		modern_sp_artillery_brigade = { x = 0 y = 3 }
+	}
+	support = {
+		spaa_company = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Liwa Alharis"
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+	}
+	support = {
+	}
+
+	priority = 2
+}
+
+division_template = {
+	name = "Liwa Alquwwat Alkhasa"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+	}
+	support = {
+	}
+
+	priority = 2
+}
+
+division_template = {
+	name = "Liwa Harass Houdoud"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+	}
+
+	priority = 0
+}
+
+units = {
+	division = {
+		name = "1. 'Al-Amirat Ealyh' Liwa Mushat"
+		location = 7170
+		division_template = "Liwa Mushat"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "3. 'Almalik Talal' Liwa Mushat Mechaniqui"
+		location = 7170
+		division_template = "Liwa Mushat Mechaniqui"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "12. 'Al-Yarmouk' Liwa Mushat Mechaniqui"
+		location = 7170
+		division_template = "Liwa Mushat Mechaniqui"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "1. Liwa Haris Milkiun Mushat Mechaniqui"
+		location = 7151
+		division_template = "Liwa Mushat Mechaniqui"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "2. 'Alhashmy' Liwa Mushat"
+		location = 7151
+		division_template = "Liwa Mushat Khafif"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "2. Liwa Haris Milkiun Mushat Mechaniqui"
+		location = 7001
+		division_template = "Liwa Mushat Mechaniqui"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "90. 'Almalik Eabd Allh' Liwa Mushat Mechaniqui"
+		location = 7001
+		division_template = "Liwa Mushat Mechaniqui"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "99. 'Wasfi Al Tal' Liwa Moudar'a"
+		location = 4115
+		division_template = "Liwa Moudar'a"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "99. 'Al-Amir Zayd Bin Husayn' Liwa Mushat Mechaniqui"
+		location = 4115
+		division_template = "Liwa Mushat Mechaniqui"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "40. 'Almalik Husayn' Liwa Moudar'a"
+		location = 4017
+		division_template = "Liwa Moudar'a"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "60. 'Al-Amir Hasan' Liwa Moudar'a"
+		location = 4017
+		division_template = "Liwa Moudar'a"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "91. Liwa Moudar'a Milki"
+		location = 4017
+		division_template = "Liwa Moudar'a"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "28. 'Al-Amir Husayn Bin Eabd Allh II' Liwa Alharis"
+		location = 7151
+		division_template = "Liwa Alharis"
+		start_experience_factor = 0.5
+		
+	}
+	division = {
+		name = "30. 'Almalik Husayn Bin Eali' Liwa Midali"
+		location = 7151
+		division_template = "Liwa Alharis"
+		start_experience_factor = 0.5
+		
+	}
+	division = {
+		name = "37. 'Almalik Eabd Allh II' Liwa Alquwwat Alkhasa"
+		location = 7151
+		division_template = "Liwa Alquwwat Alkhasa"
+		start_experience_factor = 0.5
+		
+	}
+	division = {
+		name = "81. Katiba Midali"
+		location = 7151
+		division_template = "Liwa Alquwwat Alkhasa"
+		start_experience_factor = 0.5
+		
+	}
+	division = {
+		name = "91. Katiba Midali"
+		location = 7151
+		division_template = "Liwa Alquwwat Alkhasa"
+		start_experience_factor = 0.5
+		
+	}
+	division = {
+		name = "1. Liwa Harass Houdoud"
+		location = 7001
+		division_template = "Liwa Harass Houdoud"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "2. Liwa Harass Houdoud"
+		location = 7170
+		division_template = "Liwa Harass Houdoud"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "3. Liwa Harass Houdoud"
+		location = 7151
+		division_template = "Liwa Harass Houdoud"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "4. Liwa Harass Houdoud"
+		location = 4115
+		division_template = "Liwa Harass Houdoud"
+		start_experience_factor = 0.3
+		
+	}
+}

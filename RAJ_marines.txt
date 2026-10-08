@@ -1,0 +1,82 @@
+﻿division_template = {
+	name = "GAW Indian Marines"
+	
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+		special_forces = { x = 0 y = 3 }
+		special_forces = { x = 1 y = 0 }
+		special_forces = { x = 1 y = 1 }
+		special_forces = { x = 1 y = 2 }
+		special_forces = { x = 1 y = 3 }
+	}
+	
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		signal_company = { x = 0 y = 3 }
+	}
+	
+	priority = 2
+}
+
+units = {
+	division = {			
+		name = "1. GAW Indian Marines"
+		location = 1349
+		division_template = "GAW Indian Marines"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "2. GAW Indian Marines"
+		location = 1349
+		division_template = "GAW Indian Marines"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "3. GAW Indian Marines"
+		location = 1349
+		division_template = "GAW Indian Marines"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "4. GAW Indian Marines"
+		location = 1349
+		division_template = "GAW Indian Marines"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "5. GAW Indian Marines"
+		location = 1349
+		division_template = "GAW Indian Marines"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "6. GAW Indian Marines"
+		location = 1349
+		division_template = "GAW Indian Marines"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "7. GAW Indian Marines"
+		location = 1349
+		division_template = "GAW Indian Marines"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "8. GAW Indian Marines"
+		location = 1349
+		division_template = "GAW Indian Marines"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}

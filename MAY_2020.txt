@@ -1,0 +1,183 @@
+﻿division_template = {
+	name = "Briged Para"
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		paratrooper = { x = 0 y = 3 }
+		artillery_brigade = { x = 0 y = 4 }
+	}
+
+	support = {
+		apc_company = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Briged Infantri Ringan"
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		mechanized = { x = 1 y = 0 }
+		light_mechanized = { x = 1 y = 1 }
+		artillery_brigade = { x = 2 y = 0 }
+	}
+
+	support = {
+		apc_company = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Batalion Renjer"
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+		special_forces = { x = 0 y = 3 }
+	}
+
+	priority = 2
+}
+
+division_template = {
+	name = "Grup Gerak Khas"
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+	}
+
+	priority = 2
+}
+
+division_template = {
+	name = "Batalion Sempadan"
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Briged Mekanikal"
+	regiments = {
+		light_mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		mechanized = { x = 0 y = 3 }
+
+		modern_armor = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+	}
+
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "10 Briged Para"
+		location = 1364		#Terendak Camp
+		division_template = "Briged Para"
+		start_experience_factor = 0.4
+		
+	}
+
+	division = {
+		name = "1 Briged Infantri Ringan"
+		location = 1208		#
+		division_template = "Briged Infantri Ringan"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "2 Briged Infantri Ringan"
+		location = 10212		#
+		division_template = "Briged Infantri Ringan"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "3 Briged Infantri Ringan"
+		location = 7329		#
+		division_template = "Briged Infantri Ringan"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "4 Briged Infantri Ringan"
+		location = 4424		#
+		division_template = "Briged Infantri Ringan"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "5 Briged Infantri Ringan"
+		location = 1364		#
+		division_template = "Briged Infantri Ringan"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "6 Briged Infantri Ringan"
+		location = 7427		#
+		division_template = "Briged Infantri Ringan"
+		start_experience_factor = 0.3
+		
+	}
+
+	division = {
+		name = "1 Briged Mekanikal"
+		location = 10297		#
+		division_template = "Briged Mekanikal"
+		start_experience_factor = 0.3
+		
+	}
+
+	division = {
+		name = "1 Renjer"
+		location = 4424		#Camp Ulu Tiram, Johor Bahru
+		division_template = "Batalion Renjer"
+		start_experience_factor = 0.4
+		
+	}
+	division = {
+		name = "2 Renjer"
+		location = 1364		#Syed Putra Camp, Ipoh
+		division_template = "Batalion Renjer"
+		start_experience_factor = 0.4
+		
+	}
+
+	division = {
+		name = "1 Batalion Sempadan"
+		location = 7329		#Batu Sebelas Camp, Tanah Merah
+		division_template = "Batalion Sempadan"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "2 Batalion Sempadan"
+		location = 7329		#Batu Melintang Camp, Jeli
+		division_template = "Batalion Sempadan"
+		start_experience_factor = 0.3
+		
+	}
+
+	division = {
+		name = "Grup Gerak Khas"
+		location = 10313		#Mersing, Johor
+		division_template = "Grup Gerak Khas"
+		start_experience_factor = 0.5
+		
+	}
+
+	#navy
+
+
+}

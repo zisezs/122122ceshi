@@ -1,0 +1,49 @@
+### Air OOB ###
+
+air_wings = {
+	500 = {
+		#F-5E
+		fighter_airframe_1 = {
+			owner = "BRA" 
+			amount = 38
+			version_name = "F-5E"
+		}
+
+	}
+	500 = {
+		#AMX
+		uav_airframe_1 = {
+			owner = "BRA" 
+			amount = 18
+			version_name = "AMX"
+		}
+
+	}
+	495 = {
+		#F-5E
+		fighter_airframe_1 = {
+			owner = "BRA" 
+			amount = 12
+			version_name = "F-5E"
+		}
+
+	}
+	502 = {
+		#AMX
+		uav_airframe_1 = {
+			owner = "BRA" 
+			amount = 36
+			version_name = "AMX"
+		}
+
+	}
+	499 = {
+		#P-3 Orion
+		cv_airframe_1 = {
+			owner = "BRA" 
+			amount = 8
+			version_name = "P-3 Orion"
+		}
+
+	}
+}

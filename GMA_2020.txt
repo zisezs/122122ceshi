@@ -1,0 +1,93 @@
+﻿focus = {
+	current = "AOF_Formalize_Association_Councils"
+	progress = 0
+}
+division_template = {
+	name = "Green Mountain Anarchist Militia Brigade"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+		
+}
+
+division_template = {
+	name = "Green Mountain Anarchist Infantry Division"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		recce = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		recce = { x = 1 y = 2 }
+	}
+		
+	support = {
+		engineer = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st Militia Brigade"
+		location = 4445
+		division_template = "Green Mountain Anarchist Militia Brigade"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1st ''Better Red than Dead'' Division"
+		location = 4445
+		division_template = "Green Mountain Anarchist Infantry Division"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "2nd ''Unironic Anarchist'' Division"
+		location = 4445
+		division_template = "Green Mountain Anarchist Infantry Division"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "5th Militia Brigade"
+		location = 9675
+		division_template = "Motorized Militia"
+		start_experience_factor = 0.2
+	}
+
+	
+	division = {
+		name = "'Voltairine' 2nd Militia"
+		location = 9675
+		division_template = "Green Mountain Anarchist Militia Brigade"
+		start_experience_factor = 0.5
+	}
+	
+}
+instant_effect = {
+	add_equipment_to_stockpile = {
+		type = anti_tank_equipment_1
+		amount = 200
+	}
+	
+	add_equipment_to_stockpile = {
+		type = anti_air_equipment_1
+		amount = 200
+	}
+	
+	add_equipment_to_stockpile = {
+		type = motorized_equipment_1
+		amount = 400
+	}
+}

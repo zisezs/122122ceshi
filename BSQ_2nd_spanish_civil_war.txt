@@ -1,0 +1,56 @@
+﻿division_template = {
+	name = "Foot Militia"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+		
+}
+
+division_template = {
+	name = "Motorized Infantry Brigade"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+	
+}
+
+units = {
+	
+	division = {
+		name = "Euskara Askatzeko Lehen Miliziak"
+		location = 3933
+		division_template = "Foot Militia"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "Euskara Askatzeko Bigarren Milizia"
+		location = 3933
+		division_template = "Foot Militia"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "Euskara Askatzeko Hirugarren Milizia"
+		location = 3933
+		division_template = "Foot Militia"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "Euskara Askapenerako Laugarren Milizia"
+		location = 3933
+		division_template = "Foot Militia"
+		start_experience_factor = 0.01
+	}
+}

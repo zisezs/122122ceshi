@@ -1,0 +1,58 @@
+﻿division_template = {
+	name = "Rezervnaya Tankovaya Brigada"
+
+	regiments = {						
+		modern_armor = { x = 0 y = 0 } 
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 1 }
+	}
+	
+	support = {
+		spaa_company = { x = 0 y = 0 }
+	}
+	priority = 2
+}
+
+units = {
+	division = {			
+		name = "181y Rezervnaya Tankovaya Brigada"
+		location = 6380
+		division_template = "Rezervnaya Tankovaya Brigada"
+		start_experience_factor = 0.0
+		force_equipment_variants = { modern_tank_equipment_3 = { owner = "SV1" } }
+		force_equipment_variants = { mechanized_equipment_1 = { owner = "SV1" } }
+		force_equipment_variants = { modern_tank_artillery_equipment_1 = { owner = "SV1" } }
+	}
+	division = {			
+		name = "150y Rezervnaya Tankovaya Brigada"
+		location = 6380
+		division_template = "Rezervnaya Tankovaya Brigada"
+		start_experience_factor = 0.0
+		force_equipment_variants = { modern_tank_equipment_3 = { owner = "SV1" } }
+		force_equipment_variants = { mechanized_equipment_1 = { owner = "SV1" } }
+		force_equipment_variants = { modern_tank_artillery_equipment_1 = { owner = "SV1" } }
+	}
+	division = {			
+		name = "151y Rezervnaya Tankovaya Brigada"
+		location = 6380
+		division_template = "Rezervnaya Tankovaya Brigada"
+		start_experience_factor = 0.0
+		force_equipment_variants = { modern_tank_equipment_3 = { owner = "SV1" } }
+		force_equipment_variants = { mechanized_equipment_1 = { owner = "SV1" } }
+		force_equipment_variants = { modern_tank_artillery_equipment_1 = { owner = "SV1" } }
+	}
+	 division = {			
+		name = "152y Rezervnaya Tankovaya Brigada"
+		location = 6380
+		division_template = "Rezervnaya Tankovaya Brigada"
+		start_experience_factor = 0.0
+		force_equipment_variants = { modern_tank_equipment_3 = { owner = "SV1" } }
+		force_equipment_variants = { mechanized_equipment_1 = { owner = "SV1" } }
+		force_equipment_variants = { modern_tank_artillery_equipment_1 = { owner = "SV1" } }
+	}	
+}

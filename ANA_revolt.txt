@@ -1,0 +1,95 @@
+﻿division_template = {
+	name = "Anarchist Militia"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 2 y = 2 }
+	}
+	
+	support = {
+		
+	}
+		
+}
+
+units = {
+	division = {
+		name = "1st Anarchist Militia"
+		location = 13675
+		division_template = "Anarchist Militia"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "2nd Anarchist Militia"
+		location = 13676
+		division_template = "Anarchist Militia"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "3rd Anarchist Militia"
+		location = 13678
+		division_template = "Anarchist Militia"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "4th Anarchist Militia"
+		location = 7315
+		division_template = "Anarchist Militia"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "5th Anarchist Militia"
+		location = 7315
+		division_template = "Anarchist Militia"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "6th Anarchist Militia"
+		location = 7386
+		division_template = "Anarchist Militia"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "7th Anarchist Militia"
+		location = 10271
+		division_template = "Anarchist Militia"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "8th Anarchist Militia"
+		location = 13544
+		division_template = "Anarchist Militia"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "9th Anarchist Militia"
+		location = 13545
+		division_template = "Anarchist Militia"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "10th Anarchist Militia"
+		location = 3513
+		division_template = "Anarchist Militia"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "12th Anarchist Militia"
+		location = 13557
+		division_template = "Anarchist Militia"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "12th Anarchist Militia"
+		location = 4380
+		division_template = "Anarchist Militia"
+		start_experience_factor = 0.4
+	}
+}

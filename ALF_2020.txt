@@ -1,0 +1,98 @@
+﻿division_template = {
+	name = "Motorized Militia"
+	
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+	}
+	
+	support = {
+	}
+	
+}
+
+division_template = {
+	name = "Volunteer Brigade"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+	}
+	
+	support = {
+	}
+	
+}
+
+units = {
+	division = {
+		name = "1st Volunteer Militia"
+		location = 6742
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "2nd Volunteer Militia"
+		location = 7779
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "3rd Volunteer Militia"
+		location = 1736
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "4th Volunteer Militia"
+		location = 12124
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "5th Volunteer Militia"
+		location = 3781
+		division_template = "Motorized Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "6th Volunteer Militia"
+		location = 6742
+		division_template = "Motorized Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "7th Volunteer Militia"
+		location = 7779
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "8th Volunteer Militia"
+		location = 1736
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "9th Volunteer Militia"
+		location = 12124
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "10th Volunteer Militia"
+		location = 10327
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "11th Volunteer Militia"
+		location = 10687
+		division_template = "Motorized Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "12th Volunteer Militia"
+		location = 11712
+		division_template = "Motorized Militia"
+		start_experience_factor = 0.1
+	}
+}

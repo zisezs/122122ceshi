@@ -1,0 +1,92 @@
+﻿division_template = {
+	name = "Régiment Blindé"
+
+	regiments = {
+	   modern_armor = { x = 0 y = 0 }
+	   light_armor = { x = 0 y = 1 }
+	   light_armor = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Bataillon d'Infanterie Mécanisé"
+
+	regiments = {
+	   mechanized = { x = 0 y = 0 }
+	}
+
+	support = {
+		spa_company = { x = 0 y = 0 }
+	}
+
+}
+
+division_template = {
+	name = "Bataillon d'Infanterie"
+
+	regiments = {
+	   infantry = { x = 0 y = 0 }
+	}
+
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+
+}
+
+division_template = {
+	name = "Bataillon Commando"
+
+	regiments = {
+	   special_forces = { x = 0 y = 0 }
+	}
+
+	priority = 2
+}
+
+units = {
+
+	division = {
+		name = "Régiment Blindé"
+		location = 8193  
+		division_template = "Régiment Blindé"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Bataillon d'Infanterie Mécanisé"
+		location = 12975  
+		division_template = "Bataillon d'Infanterie Mécanisé"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "1er Bataillon d'Infanterie"
+		location = 3109 
+		division_template = "Bataillon d'Infanterie"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "2eme Bataillon d'Infanterie"
+		location = 6008  
+		division_template = "Bataillon d'Infanterie"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3eme Bataillon d'Infanterie"
+		location = 6008  
+		division_template = "Bataillon d'Infanterie"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Bataillon Commando"
+		location = 8193  
+		division_template = "Bataillon Commando"
+		start_experience_factor = 0.3
+	}
+
+}

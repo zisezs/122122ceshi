@@ -1,0 +1,90 @@
+﻿division_template = {
+	name = "Far Eastern Reserves"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 2 y = 0 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+	
+	is_locked = yes
+}
+
+units = {
+	division = {			
+		name = "1st Far Eastern Volunteer Division"
+		location = 7725
+		division_template = "Far Eastern Reserves"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "2nd Far Eastern Volunteer Division"
+		location = 7763
+		division_template = "Far Eastern Reserves"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "3rd Far Eastern Volunteer Division"
+		location = 7763
+		division_template = "Far Eastern Reserves"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "4th Far Eastern Volunteer Division"
+		location = 12261
+		division_template = "Far Eastern Reserves"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "5th Far Eastern Volunteer Division"
+		location = 12261
+		division_template = "Far Eastern Reserves"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "6th Far Eastern Volunteer Division"
+		location = 12189
+		division_template = "Far Eastern Reserves"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "7th Far Eastern Volunteer Division"
+		location = 12189
+		division_template = "Far Eastern Reserves"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "8th Far Eastern Volunteer Division"
+		location = 957
+		division_template = "Far Eastern Reserves"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "9th Far Eastern Volunteer Division"
+		location = 957
+		division_template = "Far Eastern Reserves"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "10th Far Eastern Volunteer Division"
+		location = 957
+		division_template = "Far Eastern Reserves"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+}

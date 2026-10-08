@@ -1,0 +1,59 @@
+﻿division_template = {
+	name = "Batallion d'Infanterie"
+
+	regiments = {
+	   infantry = { x = 0 y = 0 }
+	   infantry = { x = 0 y = 1 }
+	}
+	support = {
+
+	}
+}
+
+division_template = {
+	name = "Brigade d'Milita"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+	}
+	support = {
+	}
+}
+
+units = {
+	division = {	
+		name = "Mouvement patriotique pour la Centrafrique"
+		location = 8078
+		division_template = "Batallion d'Infanterie"
+		start_experience_factor = 0.1
+	}
+
+	division = {	
+		name = "Unite pour la paix en Centrafrique"
+		location = 1974
+		division_template = "Batallion d'Infanterie"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Front populaire pour la renaissance de la Centrafrique"
+		location = 12719 
+		division_template = "Brigade d'Milita"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Parti du rassemblement de la nation centrafricaine"
+		location = 3165 
+		division_template = "Brigade d'Milita"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Lord's Resistance Army"
+		location = 3165 
+		division_template = "Brigade d'Milita"
+		start_experience_factor = 0.1
+	}
+}

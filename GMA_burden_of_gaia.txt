@@ -1,0 +1,64 @@
+﻿division_template = {
+	name = "Anarchist Militia"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+	
+	support = {
+	}
+		
+}
+
+units = {
+	division = {
+		name = "Children of Gaia"
+		location = 13831
+		division_template = "Anarchist Militia"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "Montpelier Black Army"
+		location = 4445
+		division_template = "Anarchist Militia"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "New Hampshire Green Army"
+		location = 13866
+		division_template = "Anarchist Militia"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1st New Hampshire Black Army"
+		location = 13865
+		division_template = "Anarchist Militia"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2nd New Hampshire Black Army"
+		location = 10481
+		division_template = "Anarchist Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "3rd New Hampshire Black Army"
+		location = 13865
+		division_template = "Anarchist Militia"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "4th New Hampshire Black Army"
+		location = 10481
+		division_template = "Anarchist Militia"
+		start_experience_factor = 0.1
+	}
+}

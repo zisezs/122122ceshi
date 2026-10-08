@@ -1,0 +1,68 @@
+﻿division_template = {
+	name = "Spetsnaz Brigada"
+	division_names_group = SOV_SOF_01
+	
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+		special_forces = { x = 0 y = 3 }
+	}
+	
+	support = {
+	}
+	
+	priority = 2
+}
+units = {
+	division = {			
+		name = "Brigada Smerti Navalnogo"
+		location = 6103
+		division_template = "Spetsnaz Brigada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "Brigada Smerti Navalnogo"
+		location = 6103
+		division_template = "Spetsnaz Brigada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "Brigada Smerti Navalnogo"
+		location = 6103
+		division_template = "Spetsnaz Brigada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	 division = {			
+		name = "Brigada Smerti Navalnogo"
+		location = 11333
+		division_template = "Spetsnaz Brigada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}	
+	division = {			
+		name = "Brigada Smerti Navalnogo"
+		location = 11374
+		division_template = "Aeromobil'nyy Brigada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "Brigada Smerti Navalnogo"
+		location = 9239
+		division_template = "Aeromobil'nyy Brigada"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "Brigada Smerti Navalnogo"
+		location = 11374
+		division_template = "Aeromobil'nyy Brigada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+}

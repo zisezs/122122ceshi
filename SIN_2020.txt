@@ -1,0 +1,150 @@
+﻿division_template = {
+	name = "Brigada de infantería"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+		
+}
+
+division_template = {
+	name = "Brigada Motorizada"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+	}
+	
+	support = {
+		apc_company = { x = 0 y = 0 }
+	}
+	
+	priority = 2
+}
+
+division_template = {
+	name = "Voluntarios"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+	}
+	
+	support = {
+		
+	}
+	
+	priority = 2
+}
+
+units = {
+	
+	division = {
+		name = "1. Brigada de Sinaloa"
+		location = 1945
+		division_template = "Brigada de infantería"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Brigada de Sinaloa"
+		location = 13938
+		division_template = "Brigada de infantería"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3. Brigada de Sinaloa"
+		location = 4977
+		division_template = "Brigada Motorizada"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "4. Brigada de Sinaloa"
+		location = 10871
+		division_template = "Brigada de infantería"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1. Brigada de Culiacán"
+		location = 8003
+		division_template = "Brigada de infantería"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1. Brigada de Hermosillo"
+		location = 8033
+		division_template = "Brigada Motorizada"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Brigada de Hermosillo"
+		location = 12833
+		division_template = "Brigada Motorizada"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3. Brigada de Hermosillo"
+		location = 12833
+		division_template = "Brigada de infantería"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1. Brigada de Durango"
+		location = 10853
+		division_template = "Brigada de infantería"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "3. Brigada de Durango"
+		location = 7921
+		division_template = "Brigada Motorizada"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1. Brigada de Sonora"
+		location = 12746
+		division_template = "Brigada de infantería"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Brigada de Sonora"
+		location = 13940
+		division_template = "Brigada de infantería"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3. Brigada de Sonora"
+		location = 13939
+		division_template = "Brigada Motorizada"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "1. Brigada de Voluntarios"
+		location = 12746
+		division_template = "Voluntarios"
+		start_experience_factor = 0.1
+	}
+	
+}

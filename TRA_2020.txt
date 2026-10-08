@@ -1,0 +1,103 @@
+﻿division_template = {
+	name = "Militseyskaya Brigada"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+	}
+	
+	support = {
+	}
+		
+}
+
+division_template = {
+	name = "Mekhanizirovannaya Brigada"
+	
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+		mot_militia = { x = 0 y = 1 }
+		mot_militia = { x = 0 y = 2 }
+		mot_militia = { x = 0 y = 3 }
+		light_mechanized = { x = 1 y = 0 }
+	}
+	
+	support = {
+	}
+	
+
+}
+
+division_template = {
+	name = "Bronirovannaya Brigada"
+	
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+		mot_militia = { x = 2 y = 0 }
+		mot_militia = { x = 2 y = 1 }
+	}
+	
+	support = {
+		spaa_company = { x = 0 y = 0 }
+		apc_company = { x = 0 y = 1 }
+	}
+	
+	priority = 2
+}
+
+units = {
+	
+	division = {
+		name = "1ya Militseyskaya Brigada"
+		location = 13213
+		division_template = "Militseyskaya Brigada"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "2ya Militseyskaya Brigada"
+		location = 13210
+		division_template = "Militseyskaya Brigada"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "3ya Militseyskaya Brigada"
+		location = 13209
+		division_template = "Militseyskaya Brigada"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "1ya Mekhanizirovannaya Brigada"
+		location = 13214
+		division_template = "Mekhanizirovannaya Brigada"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "1ya Bronirovannaya Brigada"
+		location = 13212
+		division_template = "Bronirovannaya Brigada"
+		start_experience_factor = 0.01
+	}
+
+	division = {
+		name = "2ya Bronirovannaya Brigada"
+		location = 13212
+		division_template = "Bronirovannaya Brigada"
+		start_experience_factor = 0.01
+	}
+
+	division = {
+		name = "3ya Bronirovannaya Brigada"
+		location = 13212
+		division_template = "Bronirovannaya Brigada"
+		start_experience_factor = 0.01
+	}
+}

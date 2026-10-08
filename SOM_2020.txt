@@ -1,0 +1,128 @@
+﻿division_template = {
+	name = "Liwa Almilishia"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	
+	support = {
+	}
+		
+}
+
+division_template = {
+	name = "Alliwa Almikanikiu"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+	}
+	
+	support = {
+	}
+		
+}
+
+units = {
+	
+	division = {
+		name = "1. Liwa Almilishia"
+		location = 13374
+		division_template = "Liwa Almilishia"
+		start_experience_factor = 0.03
+	}
+	
+	division = {
+		name = "2. Liwa Almilishia"
+		location = 13373
+		division_template = "Liwa Almilishia"
+		start_experience_factor = 0.03
+	}
+	
+	division = {
+		name = "3. Liwa Almilishia"
+		location = 13373
+		division_template = "Liwa Almilishia"
+		start_experience_factor = 0.03
+	}
+	
+	division = {
+		name = "4. Liwa Almilishia"
+		location = 13829
+		division_template = "Liwa Almilishia"
+		start_experience_factor = 0.03
+	}
+	
+	division = {
+		name = "5. Liwa Almilishia"
+		location = 8164
+		division_template = "Liwa Almilishia"
+		start_experience_factor = 0.03
+	}
+	
+	division = {
+		name = "6. Liwa Almilishia"
+		location = 5065
+		division_template = "Liwa Almilishia"
+		start_experience_factor = 0.03
+	}
+	
+	division = {
+		name = "7. Liwa Almilishia"
+		location = 5065
+		division_template = "Liwa Almilishia"
+		start_experience_factor = 0.03
+	}
+	
+	division = {
+		name = "8. Liwa Almilishia"
+		location = 13374
+		division_template = "Liwa Almilishia"
+		start_experience_factor = 0.03
+	}
+	
+	division = {
+		name = "9. Liwa Almilishia"
+		location = 10891
+		division_template = "Liwa Almilishia"
+		start_experience_factor = 0.03
+	}
+
+	division = {
+		name = "9. Liwa Almilishia"
+		location = 13374
+		division_template = "Liwa Almilishia"
+		start_experience_factor = 0.03
+	}
+	
+	division = {
+		name = "1. Alliwa Almikanikiu"
+		location = 4909
+		division_template = "Alliwa Almikanikiu"
+		start_experience_factor = 0.03
+	}
+	
+	division = {
+		name = "2. Liwa Almilishia"
+		location = 12840
+		division_template = "Alliwa Almikanikiu"
+		start_experience_factor = 0.03
+	}
+	
+	division = {
+		name = "3. Liwa Almilishia"
+		location = 2020
+		division_template = "Alliwa Almikanikiu"
+		start_experience_factor = 0.03
+	}
+	
+	division = {
+		name = "4. Liwa Almilishia"
+		location = 2020
+		division_template = "Alliwa Almikanikiu"
+		start_experience_factor = 0.03
+	}
+}

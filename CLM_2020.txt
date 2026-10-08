@@ -1,0 +1,97 @@
+﻿division_template = {
+	name = "Recon Militia"
+	regiments = {
+		recce = {
+			x = 0
+			y = 0
+		}
+		recce = {
+			x = 0
+			y = 1
+		}
+		recce = {
+			x = 1
+			y = 0
+		}
+		recce = {
+			x = 1
+			y = 1
+		}
+	}
+	priority = 2
+}
+
+units = {
+	division = {
+		name = "1st Tehama Volunteers"
+		location = 13350
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "1st Yuba Volunteers"
+		location = 13350
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "1st Fresno Volunteers"
+		location = 13350
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "1st El Dorado Volunteers"
+		location = 13350
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "1st Stanislaus Volunteers"
+		location = 13349
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "1st Trinity Volunteers"
+		location = 13358
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "1st Shasta Volunteers"
+		location = 9697
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "1st Placer Volunteers"
+		location = 13366
+		division_template = "Motorized Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "1st Recon Brigade"
+		location = 13364
+		division_template = "Recon Militia"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "2nd Recon Brigade"
+		location = 13346
+		division_template = "Recon Militia"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "1st Modoc Volunteers"
+		location = 3644
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "2nd Modoc Volunteers"
+		location = 3644
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.1
+	}
+}

@@ -1,0 +1,127 @@
+﻿division_template = {
+	name = "Volunteer Infantry Division"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 1 y = 3 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+
+
+units = {
+	division = {
+		name = "1st Volunteer Infantry Division"
+		location = 12137
+		division_template = "Volunteer Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "2nd Volunteer Infantry Division"
+		location = 12137
+		division_template = "Volunteer Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "3rd Volunteer Infantry Division"
+		location = 12137
+		division_template = "Volunteer Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "31st Volunteer Infantry Division"
+		location = 12137
+		division_template = "Volunteer Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "33rd Volunteer Infantry Division"
+		location = 12137
+		division_template = "Volunteer Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "4th Volunteer Infantry Division"
+		location = 12137
+		division_template = "Volunteer Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "5th Volunteer Infantry Division"
+		location = 12137
+		division_template = "Volunteer Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "6th Volunteer Infantry Division"
+		location = 12137
+		division_template = "Volunteer Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "7th Volunteer Infantry Division"
+		location = 12137
+		division_template = "Volunteer Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "9th Volunteer Infantry Division"
+		location = 12137
+		division_template = "Volunteer Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "10th Volunteer Infantry Division"
+		location = 12137
+		division_template = "Volunteer Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "11th Volunteer Infantry Division"
+		location = 12137
+		division_template = "Volunteer Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "12th Volunteer Infantry Division"
+		location = 12137
+		division_template = "Volunteer Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "13th Volunteer Infantry Division"
+		location = 12137
+		division_template = "Volunteer Infantry Division"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "14th Volunteer Infantry Division"
+		location = 12137
+		division_template = "Volunteer Infantry Division"
+		start_experience_factor = 0.3
+	}
+}

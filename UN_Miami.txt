@@ -1,0 +1,54 @@
+﻿division_template = {
+	name = "Infantry Brigade"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+		
+}
+
+division_template = {
+	name = "Volunteer Infantry Brigade"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+}
+
+units = {
+	division = {
+		name = "1st United Nations Peacekeepers Brigade"
+		location = 13844
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "2nd United Nations Peacekeepers Brigade"
+		location = 13844
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "1. Local Volunteer Brigade"
+		location = 13844
+		division_template = "Volunteer Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "2. Local Volunteer Brigade"
+		location = 13844
+		division_template = "Volunteer Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+}
+

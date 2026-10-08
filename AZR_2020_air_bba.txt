@@ -1,0 +1,31 @@
+### Air OOB ###
+
+air_wings = {
+	229 = {
+		#MiG-29
+		fighter_airframe_1 = {
+			owner = "AZR" 
+			amount = 13
+			version_name = "Mig-29"
+			
+		}
+	}
+	229 = {
+		#MiG-21 - Downgraded to fit icon and for variety.
+		uav_airframe_0 = {
+			owner = "AZR" 
+			amount = 5
+			version_name = "Mig-21"
+			
+		}
+	}
+	229 = {
+		#Su-25
+		uav_airframe_1 = {
+			owner = "AZR" 
+			amount = 11
+			version_name = "Su-25"
+			
+		}
+	}
+}

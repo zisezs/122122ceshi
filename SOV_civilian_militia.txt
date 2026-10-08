@@ -1,0 +1,148 @@
+﻿division_template = {
+	name = "Mobilizovannoye Grazhdanstvo"
+	override_model = SOV_civilian_militia_infantry_entity
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 0 y = 4 }
+		
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 1 y = 3 }
+		militia = { x = 1 y = 4 }
+	}
+	
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Mobilizovannoye Grazhdanskoye Dvizheniye"
+	override_model = SOV_civilian_militia_motorized_entity
+	
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+		mot_militia = { x = 0 y = 1 }
+		mot_militia = { x = 0 y = 2 }
+		mot_militia = { x = 0 y = 3 }
+		mot_militia = { x = 0 y = 4 }
+	}
+	
+	support = {
+		mot_recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division = {			
+		name = "1y Mobilizovannoye Grazhdanstvo"
+		location = 11375
+		division_template = "Mobilizovannoye Grazhdanstvo"
+		start_experience_factor = 0.0
+	}
+	
+	division = {			
+		name = "2y Mobilizovannoye Grazhdanstvo"
+		location = 11375
+		division_template = "Mobilizovannoye Grazhdanstvo"
+		start_experience_factor = 0.0
+	}
+	
+	division = {			
+		name = "3y Mobilizovannoye Grazhdanstvo"
+		location = 11375
+		division_template = "Mobilizovannoye Grazhdanstvo"
+		start_experience_factor = 0.0
+	}
+	
+	division = {			
+		name = "4y Mobilizovannoye Grazhdanstvo"
+		location = 11375
+		division_template = "Mobilizovannoye Grazhdanstvo"
+		start_experience_factor = 0.0
+	}
+	
+	division = {			
+		name = "5y Mobilizovannoye Grazhdanstvo"
+		location = 11375
+		division_template = "Mobilizovannoye Grazhdanstvo"
+		start_experience_factor = 0.0
+	}
+	
+	division = {			
+		name = "6y Mobilizovannoye Grazhdanstvo"
+		location = 11375
+		division_template = "Mobilizovannoye Grazhdanstvo"
+		start_experience_factor = 0.0
+	}
+	
+	division = {			
+		name = "7y Mobilizovannoye Grazhdanstvo"
+		location = 11375
+		division_template = "Mobilizovannoye Grazhdanstvo"
+		start_experience_factor = 0.0
+	}
+	
+	division = {			
+		name = "8y Mobilizovannoye Grazhdanstvo"
+		location = 11375
+		division_template = "Mobilizovannoye Grazhdanstvo"
+		start_experience_factor = 0.0
+	}
+	
+	division = {			
+		name = "9y Mobilizovannoye Grazhdanstvo"
+		location = 11375
+		division_template = "Mobilizovannoye Grazhdanstvo"
+		start_experience_factor = 0.0
+	}
+	
+	division = {			
+		name = "10y Mobilizovannoye Grazhdanstvo"
+		location = 11375
+		division_template = "Mobilizovannoye Grazhdanstvo"
+		start_experience_factor = 0.0
+	}
+
+	division = {			
+		name = "1y Mobilizovannoye Grazhdanskoye Dvizheniye"
+		location = 11375
+		division_template = "Mobilizovannoye Grazhdanskoye Dvizheniye"
+		start_experience_factor = 0.0
+	}
+	
+	division = {			
+		name = "2y Mobilizovannoye Grazhdanskoye Dvizheniye"
+		location = 11375
+		division_template = "Mobilizovannoye Grazhdanskoye Dvizheniye"
+		start_experience_factor = 0.0
+	}
+	
+	division = {			
+		name = "3y Mobilizovannoye Grazhdanskoye Dvizheniye"
+		location = 11375
+		division_template = "Mobilizovannoye Grazhdanskoye Dvizheniye"
+		start_experience_factor = 0.0
+	}
+	
+	division = {			
+		name = "4y Mobilizovannoye Grazhdanskoye Dvizheniye"
+		location = 11375
+		division_template = "Mobilizovannoye Grazhdanskoye Dvizheniye"
+		start_experience_factor = 0.0
+	}
+	
+	division = {			
+		name = "5y Mobilizovannoye Grazhdanstvo"
+		location = 11375
+		division_template = "Mobilizovannoye Grazhdanskoye Dvizheniye"
+		start_experience_factor = 0.0
+	}
+}

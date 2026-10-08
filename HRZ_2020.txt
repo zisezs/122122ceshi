@@ -1,0 +1,104 @@
+﻿division_template = {
+	name = "Katibat Almilishia"
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+		mot_militia = { x = 0 y = 1 }
+		mot_militia = { x = 0 y = 2 }
+	}
+	support = {
+		mbt_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Liwa Almsha"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		recce = { x = 0 y = 2 }
+		recce = { x = 0 y = 3 }
+		modern_sp_artillery_brigade = { x = 0 y = 4 }
+	}
+	support = {
+		anti_air = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Liwa Aihtiatiin"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		modern_sp_artillery_brigade = { x = 0 y = 3 }
+	}
+	support = {
+
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Quwwat Aleamaliat Alkhasa"
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		spaa_company = { x = 0 y = 1 }
+		spa_company = { x = 0 y = 2 }
+	}
+	priority = 2
+}
+
+units = {
+
+	division = {
+		name = "1. Quwwat Aleamaliat Alkhasa"
+		location = 4473
+		division_template = "Quwwat Aleamaliat Alkhasa"
+		
+	}
+	
+	division = {
+		name = "1. Katibat Almilishia"
+		location = 4473
+		division_template = "Katibat Almilishia"
+		
+	}
+	
+	division = {
+		name = "2. Katibat Almilishia"
+		location = 4473
+		division_template = "Katibat Almilishia"
+		
+	}
+	
+	division = {
+		name = "3. Katibat Almilishia"
+		location = 4473
+		division_template = "Katibat Almilishia"
+	}
+	
+	division = {
+		name = "1. Liwa Almsha"
+		location = 4473
+		division_template = "Liwa Almsha"
+		
+	}
+	
+	division = {
+		name = "2. Liwa Almsha"
+		location = 4473
+		division_template = "Liwa Almsha"
+		
+	}
+
+	division = {
+		name = "3. Liwa Almsha"
+		location = 4473
+		division_template = "Liwa Almsha"
+		
+	}
+}

@@ -1,0 +1,81 @@
+﻿division_template = {
+	name = "Reserve-Panzergrenadierbrigade"
+	
+	division_names_group = GER_MEC_01
+	
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		light_mechanized = { x = 0 y = 3 }
+		motorized = { x = 0 y = 4 }
+
+	}
+	support = {
+		spa_company = { x = 0 y = 0 }
+		mbt_company = { x = 0 y = 1 } #for a little more punch
+	}
+}
+
+units = {
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 57
+		}
+		location = 6377
+		division_template = "Reserve-Panzergrenadierbrigade"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 67
+		}
+		location = 6521
+		division_template = "Reserve-Panzergrenadierbrigade"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 58
+		}
+		location = 6521
+		division_template = "Reserve-Panzergrenadierbrigade"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 68
+		}
+		location = 6521
+		division_template = "Reserve-Panzergrenadierbrigade"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 59
+		}
+		location = 6521
+		division_template = "Reserve-Panzergrenadierbrigade"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 69
+		}
+		location = 6521
+		division_template = "Reserve-Panzergrenadierbrigade"
+		start_experience_factor = 0.1
+	}
+}

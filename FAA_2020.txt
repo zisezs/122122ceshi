@@ -1,0 +1,76 @@
+﻿focus = {
+	current = "AOF_Formalize_Association_Councils"
+	progress = 0
+}
+division_template = {
+	name = "Sons of Liberty Militia Brigade"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+		
+}
+
+division_template = {
+	name = "Sons of Liberty Infantry Division"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		recce = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		recce = { x = 1 y = 2 }
+	}
+		
+	support = {
+		engineer = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st ''Golden Boys'' Division"
+		location = 13832
+		division_template = "Sons of Liberty Infantry Division"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "2nd ''Tax isn't Certain!'' Division"
+		location = 7629
+		division_template = "Sons of Liberty Infantry Division"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "'Jefferson' 1st Militia"
+		location = 7629
+		division_template = "Sons of Liberty Militia Brigade"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "'New Hampshire Freedom Fighters' National Guard Defectors"
+		location = 10481
+		division_template = "National Guard"
+		start_experience_factor = 0.2
+	}
+}
+instant_effect = {
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_1
+		amount = 2000
+	}
+	
+}

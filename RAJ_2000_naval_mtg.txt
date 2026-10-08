@@ -1,0 +1,132 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {
+		name = "Western Naval Command"
+		naval_base = 1349
+		task_force = {
+			name = "Western Naval Command"
+			location = 1349 #Mumbai
+			ship = { ordered_name = 1 definition = carrier equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = RAJ version_name = "超日王级/维克兰特级" } } }
+			ship = { ordered_name = 23 definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RAJ version_name = "德里级驱逐舰" } } }
+			ship = { ordered_name = 25 definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RAJ version_name = "德里级驱逐舰" } } }
+			ship = { ordered_name = 13 definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RAJ version_name = "尼尔吉里级/什瓦里克级大型护卫舰" } } }
+			ship = { ordered_name = 11 definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RAJ version_name = "尼尔吉里级/什瓦里克级大型护卫舰" } } }
+			ship = { ordered_name = 15 definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RAJ version_name = "尼尔吉里级/什瓦里克级大型护卫舰" } } }
+			ship = { ordered_name = 17 definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RAJ version_name = "尼尔吉里级/什瓦里克级大型护卫舰" } } }
+			ship = { ordered_name = 20 definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RAJ version_name = "塔尔瓦级护卫舰" } } }
+			ship = { ordered_name = 24 definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RAJ version_name = "塔尔瓦级护卫舰" } } }
+			ship = { ordered_name = 22 definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RAJ version_name = "塔尔瓦级护卫舰" } } }
+			ship = { ordered_name = 42  definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = RAJ version_name = "卡莫尔塔级反潜护卫舰" } } }
+			ship = { ordered_name = 44  definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = RAJ version_name = "卡莫尔塔级反潜护卫舰" } } }
+			ship = { ordered_name = 43  definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = RAJ version_name = "卡莫尔塔级反潜护卫舰" } } }
+			ship = { ordered_name = 41 definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = RAJ version_name = "卡莫尔塔级反潜护卫舰" } } }
+		}
+	}
+	fleet = {
+		name = "9th submarine Squadron"
+		naval_base = 1349
+		task_force = {
+			name = "9th submarine Squadron"
+			location = 1349 #Mumbai
+			ship = { name = "INS Vela (S-40)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = RAJ version_name = "基洛级" } } }
+			ship = { name = "INS Vagir (S-41)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = RAJ version_name = "基洛级" } } }
+			ship = { name = "INS Vagli (S-42)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = RAJ version_name = "基洛级" } } }
+		}
+	}
+	fleet = {
+		name = "10th submarine Squadron"
+		naval_base = 1349
+		task_force = {
+			name = "10th submarine Squadron"
+			location = 1349 #Mumbai
+			ship = { name = "INS Shishumar (S-44)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = RAJ version_name = "基洛级" } } }
+			ship = { name = "INS Shankush (S-45)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = RAJ version_name = "基洛级" } } }
+			ship = { name = "INS Shalki (S-46)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = RAJ version_name = "基洛级" } } }
+			ship = { name = "INS Shankul (S-47)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = RAJ version_name = "基洛级" } } }
+		}
+	}
+	fleet = {
+		name = "12th submarine Squadron"
+		naval_base = 1349
+		task_force = {
+			name = "12th submarine Squadron"
+			location = 1349 #Mumbai
+			ship = { name = "INS Sindhuratna (S-59)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = RAJ version_name = "鲉鱼级" } } }
+			ship = { name = "INS Sindhukesari (S-60)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = RAJ version_name = "鲉鱼级" } } }
+			ship = { name = "INS Sindhukirti (S-61)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = RAJ version_name = "鲉鱼级" } } }
+			ship = { name = "INS Sindhuvijay (S-62)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = RAJ version_name = "鲉鱼级" } } }
+			ship = { name = "INS Sindhurashak (S-63)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = RAJ version_name = "鲉鱼级" } } }
+			ship = { name = "INS Sindhurashtra (S-65)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = RAJ version_name = "鲉鱼级" } } }
+		}
+	}
+	fleet = {
+		name = "Eastern Naval Command"
+		naval_base = 4062
+		task_force = {
+			name = "Eastern Naval Command"
+			location = 4062 #Visakhpatnam, Kolkata in-game
+			ship = { ordered_name = 19 definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RAJ version_name = "拉杰普特级驱逐舰" } } }
+			ship = { ordered_name = 21 definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RAJ version_name = "拉杰普特级驱逐舰" } } }
+			ship = { ordered_name = 11 definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RAJ version_name = "加尔各答级/维沙卡帕特南级驱逐舰" } } }
+			ship = { ordered_name = 13 definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RAJ version_name = "加尔各答级/维沙卡帕特南级驱逐舰" } } }
+			ship = { ordered_name = 15 definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RAJ version_name = "加尔各答级/维沙卡帕特南级驱逐舰" } } }
+			ship = { ordered_name = 17 definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RAJ version_name = "加尔各答级/维沙卡帕特南级驱逐舰" } } }
+			ship = { ordered_name = 12 definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RAJ version_name = "尼尔吉里级/什瓦里克级大型护卫舰" } } }
+			ship = { ordered_name = 26 definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RAJ version_name = "塔尔瓦级护卫舰" } } }
+			ship = { ordered_name = 28 definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = RAJ version_name = "塔尔瓦级护卫舰" } } }
+			ship = { ordered_name = 30 definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RAJ version_name = "布拉马普特拉级护卫舰" } } }
+			ship = { ordered_name = 32 definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = RAJ version_name = "布拉马普特拉级护卫舰" } } }
+			ship = { name = "INS 科拉 (P-61)" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "科拉级/库克里级轻型护卫舰" } } }
+			ship = { name = "INS Sindhudurg (P-62)" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "科拉级/库克里级轻型护卫舰" } } }
+			ship = { name = "INS Anjadip (P-63)" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "科拉级/库克里级轻型护卫舰" } } }
+			ship = { name = "INS Amini (P-64)" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "科拉级/库克里级轻型护卫舰" } } }
+	
+		}
+	}
+	fleet = {
+		name = "8th submarine Squadron"
+		naval_base = 4062
+		task_force = {
+			name = "8th submarine Squadron"
+			location = 4062 #Visakhpatnam, Kolkata in-game
+			ship = { name = "INS Kursura (S-20)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = RAJ version_name = "基洛级" } } }
+			ship = { name = "INS Karanj (S-21)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = RAJ version_name = "基洛级" } } }
+		}
+	}
+	fleet = {
+		name = "11th submarine Squadron"
+		naval_base = 4062
+		task_force = {
+			name = "11th submarine Squadron"
+			location = 4062 #Visakhpatnam, Kolkata in-game
+			ship = { name = "INS Sindhughosh (S-55)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = RAJ version_name = "鲉鱼级" } } }
+			ship = { name = "INS Sindhudhvaj (S-56)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = RAJ version_name = "鲉鱼级" } } }
+			ship = { name = "INS Sindhuraj (S-57)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = RAJ version_name = "鲉鱼级" } } }
+			ship = { name = "INS Sindhuvir (S-58)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = RAJ version_name = "鲉鱼级" } } }
+					}
+	}
+	fleet = {
+		name = "Southern Naval Command"
+		naval_base = 1273
+		task_force = {
+			name = "Southern Naval Command"
+			location = 1273 #Kochi, Goa in-game
+			ship = { name = "INS Nishank (P-49)" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "科拉级/库克里级轻型护卫舰" } } }
+			ship = { name = "INS 库克里 (P-48)" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "科拉级/库克里级轻型护卫舰" } } }
+		}	
+	}
+}
+	instant_effect = {
+				add_equipment_production = {				
+			equipment = { 
+     version_name = "超日王级/维克兰特级"
+				type = ship_hull_carrier_conversion_bb
+				creator = "RAJ" 
+			}
+                        name = "INS 维克兰特号 (R-11)"
+			requested_factories = 5
+			progress = 0.6
+			amount = 1
+		}
+	}

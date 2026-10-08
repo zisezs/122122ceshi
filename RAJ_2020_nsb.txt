@@ -1,0 +1,795 @@
+﻿division_template = {
+	name = "Armored Division" 
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		modern_armor = { x = 0 y = 3 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		light_mechanized = { x = 2 y = 0 }
+		light_mechanized = { x = 2 y = 1 }
+		light_armor = { x = 2 y = 2 }
+		modern_sp_artillery_brigade = { x = 3 y = 0 }
+		modern_sp_artillery_brigade = { x = 3 y = 1 }
+		spaa_brigade = { x = 3 y = 2 }
+	}
+}
+
+division_template = {
+	name = "difficulty"
+	is_locked = yes
+	
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		modern_armor = { x = 0 y = 3 }
+		modern_armor = { x = 0 y = 4 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+		mechanized = { x = 1 y = 3 }
+		mechanized = { x = 1 y = 4 }
+		modern_sp_artillery_brigade = { x = 3 y = 0 }
+		modern_sp_artillery_brigade = { x = 3 y = 1 }
+		modern_sp_artillery_brigade = { x = 3 y = 2 }
+		modern_sp_artillery_brigade = { x = 3 y = 3 }
+		modern_sp_artillery_brigade = { x = 3 y = 4 }
+		spaa_brigade = { x = 2 y = 0 }
+		motorized_rocket_brigade = { x = 2 y = 1 }
+		modern_sp_artillery_brigade = { x = 3 y = 0 }
+		modern_sp_artillery_brigade = { x = 3 y = 3 }
+		modern_sp_artillery_brigade = { x = 3 y = 4 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+		spa_company = { x = 0 y = 1 }
+		light_tank_recon = { x = 0 y = 2 }
+		engineer = { x = 0 y = 3 }
+		logistics_company = { x = 1 y = 0 }
+		maintenance_company = { x = 1 y = 1 }
+		field_hospital = { x = 1 y = 2 }
+		signal_company = { x = 1 y = 3 }
+	}
+
+}
+
+division_template = {
+	name = "Armored Brigade"
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		light_mechanized = { x = 1 y = 0 }
+		modern_sp_artillery_brigade = { x = 1 y = 1 }
+	}
+	support = {
+	   spaa_company = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "RAPID Division" 
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		light_mechanized = { x = 1 y = 0 }
+		light_mechanized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		light_armor = { x = 2 y = 0 }
+		light_armor = { x = 2 y = 1 }
+		modern_sp_artillery_brigade = { x = 3 y = 0 }
+		modern_sp_artillery_brigade = { x = 3 y = 1 }
+		spaa_brigade = { x = 3 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Mechanized Brigade"
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		light_mechanized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		spaa_brigade = { x = 1 y = 2 }
+	}
+	support = {
+		spaa_company = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Infantry Division" 
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		artillery_brigade = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
+		artillery_brigade = { x = 2 y = 2 }
+		light_armor = { x = 3 y = 0 }
+		light_armor = { x = 3 y = 1 }
+		spaa_brigade = { x = 3 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Air Assault Brigade"
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		paratrooper = { x = 0 y = 3 }
+		paratrooper = { x = 0 y = 4 }
+	}
+}
+
+division_template = {
+	name = "Infantry Brigade"
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		artillery_brigade = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+	}
+	support = {
+	   spaa_company = { x = 0 y = 0 }
+		mbt_company = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Amphibious Infantry Brigade"
+	regiments = {
+		amphibious_mechanized = { x = 0 y = 0 }
+		amphibious_mechanized = { x = 0 y = 1 }
+		amphibious_mechanized = { x = 0 y = 2 }
+		artillery_brigade = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+	}
+	support = {
+		spaa_company = { x = 0 y = 0 }
+		mbt_company = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Marine Brigade"
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Parachute Brigade"
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		paratrooper = { x = 0 y = 3 }
+		artillery_brigade = { x = 1 y = 0 }
+		recce = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Mountain Division" 
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+		artillery_brigade = { x = 1 y = 0 }
+		artillery_brigade = { x = 1 y = 1 }
+		recce = { x = 2 y = 0 }
+		recce = { x = 2 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Mountain Brigade"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		artillery_brigade = { x = 1 y = 0 }
+		recce = { x = 1 y = 1 }
+	}
+	
+	support = {
+	}
+}
+
+division_template = {
+	name = "Para Commando Unit"
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+		special_forces = { x = 0 y = 3 }
+		special_forces = { x = 0 y = 4 }
+		recce = { x = 1 y = 0 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Marine Commando Brigade"
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Assam Rifles"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		recce = { x = 2 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Rashtriya Rifles"
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Tibetian Spec. Frontier Force"
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+		special_forces = { x = 0 y = 3 }
+	}
+	priority = 2
+}
+
+units = {
+	division = {
+		name = "23rd Infantry Division"
+		location = 12035
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "RAJ" version_name = "BRM-3K" } }
+	}
+	division = {
+		name = "56th Mountain Division"
+		location = 12322
+		division_template = "Mountain Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "57th Mountain Division"
+		location = 1553
+		division_template = "Mountain Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "21st Mountain Division"
+		location = 10866
+		division_template = "Mountain Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "71st Mountain Division"
+		location = 7455
+		division_template = "Mountain Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "17th Mountain Division"
+		location = 4435
+		division_template = "Mountain Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "20th Mountain Division"
+		location = 10389
+		division_template = "Mountain Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "27th Mountain Division"
+		location = 12338
+		division_template = "Mountain Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "59th Infantry Division"
+		location = 4245
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "RAJ" version_name = "BRM-3K" } }
+	}
+	division = {
+		name = "77th Armored Brigade"
+		location = 12322
+		division_template = "Armored Brigade"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { modern_tank_chassis_1 = { owner = "RAJ" version_name = "T-90S" } }
+	}
+	division = {
+		name = "44th Armored Brigade"
+		location = 12884
+		division_template = "Armored Brigade"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { modern_tank_chassis_1 = { owner = "RAJ" version_name = "T-90S" } }
+	}
+	division = {
+		name = "3rd Infantry Division"
+		location = 7273
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "RAJ" version_name = "BRM-3K" } }
+	}
+	division = {
+		name = "8th Mountain Division"
+		location = 10905
+		division_template = "Mountain Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "19th Infantry Division"
+		location = 10905
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "RAJ" version_name = "BRM-3K" } }
+	}
+	division = {
+		name = "28th Mountain Division"
+		location = 12876
+		division_template = "Mountain Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "10th Infantry Division"
+		location = 12754
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "RAJ" version_name = "BRM-3K" } }
+	}
+	division = {
+		name = "25th Infantry Division"
+		location = 12754
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "RAJ" version_name = "BRM-3K" } }
+	}
+	division = {
+		name = "39th Infantry Division"
+		location = 7106 
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "RAJ" version_name = "BRM-3K" } }
+	}
+	division = {
+		name = "11th Infantry Division"
+		location = 9975
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "RAJ" version_name = "BRM-3K" } }
+	}
+	division = {
+		name = "12th RAPID Division"
+		location = 4984
+		division_template = "RAPID Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { modern_tank_chassis_1 = { owner = "RAJ" version_name = "T-90S" } }
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "RAJ" version_name = "BRM-3K" } }
+	}
+	division = {
+		name = "4th Armored Brigade"
+		location = 4984
+		division_template = "Armored Brigade"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { modern_tank_chassis_1 = { owner = "RAJ" version_name = "T-90S" } }
+	}
+	division = {
+		name = "340th Mechanized Brigade"
+		location = 4984
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { modern_tank_chassis_1 = { owner = "RAJ" version_name = "T-90S" } }
+	}
+	division = {
+		name = "31st Armored Division"
+		location = 2036
+		division_template = "Armored Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { modern_tank_chassis_1 = { owner = "RAJ" version_name = "T-90S" } }
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "RAJ" version_name = "BRM-3K" } }
+	}
+	division = {
+		name = "36th RAPID Division"
+		location = 11995
+		division_template = "RAPID Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { modern_tank_chassis_1 = { owner = "RAJ" version_name = "T-90S" } }
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "RAJ" version_name = "BRM-3K" } }
+	}
+	division = {
+		name = "47th Air Assault Brigade"
+		location = 8087
+		division_template = "Air Assault Brigade"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "91st Amph. Infantry Brigade"
+		location = 12037
+		division_template = "Amphibious Infantry Brigade"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "RAJ" version_name = "BRM-3K" } }
+	}
+	division = {
+		name = "4th Infantry Division"
+		location = 5055
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "RAJ" version_name = "BRM-3K" } }
+	}
+	division = {
+		name = "6th Mountain Division"
+		location = 8114
+		division_template = "Mountain Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "33th Armored Division"
+		location = 4245
+		division_template = "Armored Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { modern_tank_chassis_1 = { owner = "RAJ" version_name = "T-90S" } }
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "RAJ" version_name = "BRM-3K" } }
+	}
+	division = {
+		name = "16th Infantry Division"
+		location = 12041
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "RAJ" version_name = "BRM-3K" } }
+	}
+	division = {
+		name = "18th RAPID Division"
+		location = 4984
+		division_template = "RAPID Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { modern_tank_chassis_1 = { owner = "RAJ" version_name = "T-90S" } }
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "RAJ" version_name = "BRM-3K" } }
+	}
+	division = {
+		name = "24th RAPID Division"
+		location = 4984
+		division_template = "RAPID Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { modern_tank_chassis_1 = { owner = "RAJ" version_name = "T-90S" } }
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "RAJ" version_name = "BRM-3K" } }
+	}
+	division = {
+		name = "6th Armored Brigade"
+		location = 2002
+		division_template = "Armored Brigade"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { modern_tank_chassis_1 = { owner = "RAJ" version_name = "T-90S" } }
+	}
+	division = {
+		name = "66th Armored Brigade"
+		location = 7428 
+		division_template = "Armored Brigade"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { modern_tank_chassis_1 = { owner = "RAJ" version_name = "T-90S" } }
+	}
+	division = {
+		name = "1st Armored Division"
+		location = 10729
+		division_template = "Armored Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { modern_tank_chassis_1 = { owner = "RAJ" version_name = "T-90S" } }
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "RAJ" version_name = "BRM-3K" } }
+	}
+	division = {
+		name = "14th RAPID Division"
+		location = 5157
+		division_template = "RAPID Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { modern_tank_chassis_1 = { owner = "RAJ" version_name = "T-90S" } }
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "RAJ" version_name = "BRM-3K" } }
+	}
+	division = {
+		name = "22nd RAPID Division"
+		location = 11955
+		division_template = "RAPID Division" #unsure
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { modern_tank_chassis_1 = { owner = "RAJ" version_name = "T-90S" } }
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "RAJ" version_name = "BRM-3K" } }
+	}
+	division = {
+		name = "26th Infantry Division"
+		location = 12754
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "RAJ" version_name = "BRM-3K" } }
+	}
+	division = {
+		name = "29th Infantry Division"
+		location = 2076
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "RAJ" version_name = "BRM-3K" } }
+	}
+	division = {
+		name = "2nd Armored Brigade"
+		location = 7106
+		division_template = "Armored Brigade"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { modern_tank_chassis_1 = { owner = "RAJ" version_name = "T-90S" } }
+	}
+	division = {
+		name = "3rd Armored Brigade"
+		location = 7106
+		division_template = "Armored Brigade"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { modern_tank_chassis_1 = { owner = "RAJ" version_name = "T-90S" } }
+	}
+	division = {
+		name = "7th Infantry Division"
+		location = 7428
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "RAJ" version_name = "BRM-3K" } }
+	}
+	division = {
+		name = "9th Infantry Division"
+		location = 11955
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "RAJ" version_name = "BRM-3K" } }
+	}
+	division = {
+		name = "15th Infantry Division"
+		location = 2076
+		division_template = "Infantry Division"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "RAJ" version_name = "BRM-3K" } }
+	}
+	division = {
+		name = "23rd Armored Brigade"
+		location = 9975
+		division_template = "Armored Brigade"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { modern_tank_chassis_1 = { owner = "RAJ" version_name = "T-90S" } }
+	}
+	division = {
+		name = "55th Mechanized Brigade"
+		location = 9975
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { modern_tank_chassis_1 = { owner = "RAJ" version_name = "T-90S" } }
+	}
+	division = {
+		name = "50th Parachute Brigade"
+		location = 4915
+		division_template = "Parachute Brigade"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "1st Rashtriya Rifles"
+		location = 9946
+		division_template = "Rashtriya Rifles"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2nd Rashtriya Rifles"
+		location = 12708
+		division_template = "Rashtriya Rifles"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3rd Rashtriya Rifles"
+		location = 7430
+		division_template = "Rashtriya Rifles"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "4th Rashtriya Rifles"
+		location = 12884
+		division_template = "Rashtriya Rifles"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "5th Rashtriya Rifles"
+		location = 7020
+		division_template = "Rashtriya Rifles"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "1st Assam Rifles"
+		location = 8087
+		division_template = "Assam Rifles"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2nd Assam Rifles"
+		location = 12322
+		division_template = "Assam Rifles"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3rd Assam Rifles"
+		location = 8011
+		division_template = "Assam Rifles"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Tibetian Special Forces"
+		location = 2076
+		division_template = "Tibetian Spec. Frontier Force"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "1st Amphibious Brigade"
+		location = 12251
+		division_template = "Marine Brigade"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Marine Commando Brigade"
+		location = 1349
+		division_template = "Marine Commando Brigade"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Para Commando Unit"
+		location = 2086
+		division_template = "Para Commando Unit"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Special Ranger Corps"
+		location = 10401
+		division_template = "Para Commando Unit"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "107th Infantry Brigade"
+		location = 1273
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "RAJ" version_name = "BRM-3K" } }
+	}
+	division = {
+		name = "117th Infantry Brigade"
+		location = 4516
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "RAJ" version_name = "BRM-3K" } }
+	}
+	division = {
+		name = "111th Infantry Brigade"
+		location = 997
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "RAJ" version_name = "BRM-3K" } }
+	}
+	division = {
+		name = "142nd Infantry Brigade"
+		location = 1103
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "RAJ" version_name = "BRM-3K" } }
+	}
+	division = {
+		name = "137th Infantry Brigade"
+		location = 10190
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "RAJ" version_name = "BRM-3K" } }
+	}
+	division = {
+		name = "163rd Infantry Brigade"
+		location = 4416
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "RAJ" version_name = "BRM-3K" } }
+	}
+	division = {
+		name = "223rd Mountain Brigade"
+		location = 4435
+		division_template = "Mountain Brigade"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+}

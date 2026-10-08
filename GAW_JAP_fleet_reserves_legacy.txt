@@ -1,0 +1,88 @@
+units = {
+
+	### Naval OOB ###
+	fleet = {
+		name = "Reserve Fleet" #Osaka
+		naval_base = 7072
+		task_force = {
+			name = "Reserve Squadron 1" #Osaka
+			location = 7072
+			ship = { name = "JDS Naruhito 1" definition = light_cruiser equipment = { light_cruiser_3 = { amount = 1 owner = JAP } } }
+			ship = { name = "JDS Naruhito 2" definition = light_cruiser equipment = { light_cruiser_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Naruhito 3" definition = light_cruiser equipment = { light_cruiser_3 = { amount = 1 owner = JAP } } }
+			ship = { name = "JDS Naruhito 4" definition = light_cruiser equipment = { light_cruiser_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Naruhito 5" definition = light_cruiser equipment = { light_cruiser_3 = { amount = 1 owner = JAP } } }
+			ship = { name = "JDS Naruhito 6" definition = light_cruiser equipment = { light_cruiser_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Naruhito 7" definition = light_cruiser equipment = { light_cruiser_3 = { amount = 1 owner = JAP } } }
+			ship = { name = "JDS Naruhito 8" definition = light_cruiser equipment = { light_cruiser_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Naruhito 9" definition = light_cruiser equipment = { light_cruiser_3 = { amount = 1 owner = JAP } } }
+			ship = { name = "JDS Naruhito 10" definition = light_cruiser equipment = { light_cruiser_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Naruhito 11" definition = light_cruiser equipment = { light_cruiser_3 = { amount = 1 owner = JAP } } }
+			ship = { name = "JDS Naruhito 12" definition = light_cruiser equipment = { light_cruiser_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Naruhito 13" definition = light_cruiser equipment = { light_cruiser_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Naruhito 14" definition = light_cruiser equipment = { light_cruiser_3 = { amount = 1 owner = JAP } } }
+			ship = { name = "JDS Naruhito 15" definition = light_cruiser equipment = { light_cruiser_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Naruhito 16" definition = light_cruiser equipment = { light_cruiser_3 = { amount = 1 owner = JAP } } }
+			ship = { name = "JDS Naruhito 17" definition = light_cruiser equipment = { light_cruiser_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Naruhito 18" definition = light_cruiser equipment = { light_cruiser_3 = { amount = 1 owner = JAP } } }
+			ship = { name = "JDS Naruhito 19" definition = light_cruiser equipment = { light_cruiser_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Naruhito 20" definition = light_cruiser equipment = { light_cruiser_3 = { amount = 1 owner = JAP } } }
+			ship = { name = "JDS Naruhito 21" definition = light_cruiser equipment = { light_cruiser_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Naruhito 22" definition = light_cruiser equipment = { light_cruiser_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Naruhito 23" definition = light_cruiser equipment = { light_cruiser_3 = { amount = 1 owner = JAP } } }
+			ship = { name = "JDS Naruhito 24" definition = light_cruiser equipment = { light_cruiser_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Naruhito 25" definition = light_cruiser equipment = { light_cruiser_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 1" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 2" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 3" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 4" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 5" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 6" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 7" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 8" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 9" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 10" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+		}
+        task_force = {
+			name = "Reserve Squadron 2" #Osaka
+			location = 7072
+			ship = { name = "JDS Reiwa 11" definition = carrier equipment = { carrier_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Reiwa 21" definition = carrier equipment = { carrier_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 11" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 21" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 31" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 41" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 51" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 61" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 71" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 81" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 91" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 101" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 111" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 121" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 131" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 141" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 151" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 161" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 171" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 181" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 191" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 201" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+		}
+        task_force = {
+			name = "Reserve Squadron 3" #Osaka
+			location = 7072
+			ship = { name = "JDS Reiwa 12" definition = carrier equipment = { carrier_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 12" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 22" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 32" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 42" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 52" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 62" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 72" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 82" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 92" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+            ship = { name = "JDS Fumihito 102" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = JAP } } }
+		}
+	}
+}

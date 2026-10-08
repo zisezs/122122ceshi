@@ -1,0 +1,118 @@
+﻿division_template = {
+	name = "Volunteer Brigade"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+		
+}
+
+division_template = {
+	name = "Motorized Volunteers"
+	
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+		mot_militia = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+		
+}
+
+units = {
+	division = {
+		name = "1st Volunteer Brigade"
+		location = 13588
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "2nd Volunteer Brigade"
+		location = 13587
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "3rd Volunteer Brigade"
+		location = 13589
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "4th Volunteer Brigade"
+		location = 13589
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "5th Volunteer Brigade"
+		location = 13600
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "6th Volunteer Brigade"
+		location = 13598
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "7th Volunteer Brigade"
+		location = 13596
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "8th Volunteer Brigade"
+		location = 13597
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "9th Volunteer Brigade"
+		location = 13599
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "10th Volunteer Brigade"
+		location = 13603
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "11th Volunteer Brigade"
+		location = 13604
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "12th Volunteer Brigade"
+		location = 13605
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "13th Volunteer Brigade"
+		location = 13605
+		division_template = "Motorized Volunteers"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "14th Volunteer Brigade"
+		location = 13605
+		division_template = "Motorized Volunteers"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "15th Volunteer Brigade"
+		location = 13587
+		division_template = "Motorized Volunteers"
+		start_experience_factor = 0.1
+	}
+}

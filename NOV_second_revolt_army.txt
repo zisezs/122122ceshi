@@ -1,0 +1,66 @@
+﻿division_template = {
+	name = "People's Militia"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "People's Militia"
+		location = 6474
+		division_template = "People's Militia"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}	
+	division = {
+		name = "People's Militia"
+		location = 6474
+		division_template = "People's Militia"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "People's Militia"
+		location = 14594
+		division_template = "People's Militia"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "People's Militia"
+		location = 9461
+		division_template = "People's Militia"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}		
+	division = {
+		name = "People's Militia"
+		location = 9461
+		division_template = "People's Militia"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}	
+	division = {
+		name = "People's Militia"
+		location = 6505
+		division_template = "People's Militia"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "People's Militia"
+		location = 6505
+		division_template = "People's Militia"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+}

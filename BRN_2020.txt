@@ -1,0 +1,85 @@
+﻿division_template = {
+	name = "Brigada de Infanteria"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+	
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+		
+}
+
+division_template = {
+	name = "Brigada de Motorizada"
+	
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+		mot_militia = { x = 0 y = 1 }
+		mot_militia = { x = 1 y = 0 }
+		mot_militia = { x = 1 y = 1 }
+	}
+	
+	support = {
+		mot_recon = { x = 0 y = 0 }
+	}
+	
+}
+
+units = {
+	
+	division = {
+		name = "1a Brigada de Infanteria"
+		location = 13525
+		division_template = "Brigada de Infanteria"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2a Brigada de Infanteria"
+		location = 13525
+		division_template = "Brigada de Infanteria"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3a Brigada de Infanteria"
+		location = 10783
+		division_template = "Brigada de Infanteria"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "4a Brigada de Infanteria"
+		location = 10783
+		division_template = "Brigada de Infanteria"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "5a Brigada de Infanteria"
+		location = 13526
+		division_template = "Brigada de Infanteria"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1a Brigada de Motorizada"
+		location = 13526
+		division_template = "Brigada de Motorizada"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "2a Brigada de Motorizada"
+		location = 13526
+		division_template = "Brigada de Motorizada"
+		start_experience_factor = 0.1
+	}
+}

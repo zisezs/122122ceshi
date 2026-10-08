@@ -1,0 +1,24 @@
+﻿### Air Wings
+air_wings = {
+	524 = {
+		fighter_airframe_1 =  {
+			owner = "CHI" 
+			amount = 268
+			version_name = "F-CK-1 Ching-kuo"
+		}
+	}
+}
+
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = fighter_airframe_1
+			creator = "CHI"
+			version_name = "F-CK-1 Ching-kuo"
+		}
+		requested_factories = 1
+		progress = 0.25
+		efficiency = 65
+	}
+}

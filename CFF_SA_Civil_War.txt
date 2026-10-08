@@ -1,0 +1,74 @@
+division_template = {
+	name = "Afrikaner Militia"
+		
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
+	}
+}
+
+
+units = {
+	division = {			
+		name = "1st Afrikaner Militia"
+		location = 4528
+		division_template = "Afrikaner Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {			
+		name = "2nd Afrikaner Militia"
+		location = 4528
+		division_template = "Afrikaner Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {			
+		name = "3rd Afrikaner Militia"
+		location = 10442
+		division_template = "Afrikaner Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {			
+		name = "4th Afrikaner Militia"
+		location = 10442
+		division_template = "Afrikaner Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {			
+		name = "5th Afrikaner Militia"
+		location = 14431
+		division_template = "Afrikaner Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+	division = {			
+		name = "6th Afrikaner Militia"
+		location = 14431
+		division_template = "Afrikaner Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+}
+
+instant_effect = {
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_2
+		amount = 3000
+		producer = SAF
+	}
+}

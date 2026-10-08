@@ -1,0 +1,62 @@
+﻿division_template = {
+	name = "Infantry Brigade"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+	}
+	
+	support = {
+	}
+		
+}
+
+division_template = {
+	name = "Hormuz SOF"
+	
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+	}
+	
+	support = {
+	}
+}
+
+units = {
+	division = {
+		name = "1st Infantry Brigade"
+		location = 7982
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "2nd Infantry Brigade"
+		location = 7982
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "3 Infantry Brigade"
+		location = 7982
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Hormuz SOF"
+		location = 7982
+		division_template = "Hormuz SOF"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Hormuz SOF"
+		location = 7982
+		division_template = "Hormuz SOF"
+		start_experience_factor = 0.1
+	}
+}
+

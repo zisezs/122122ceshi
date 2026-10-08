@@ -1,0 +1,59 @@
+﻿division_template = {
+	name = "People's Protection Force"
+	
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+		mot_militia = { x = 0 y = 1 }
+		mot_militia = { x = 0 y = 2 }
+	}
+	
+	support = {
+	}
+	
+	priority = 1
+}
+
+units = {
+	
+	division = {
+		name = "1. Motorized Volunteers"
+		location = 10573
+		division_template = "People's Protection Force"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Motorized Volunteers"
+		location = 13537
+		division_template = "People's Protection Force"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3. Motorized Volunteers"
+		location = 13540
+		division_template = "People's Protection Force"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "4. Motorized Volunteers"
+		location = 13538
+		division_template = "People's Protection Force"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "5. Motorized Volunteers"
+		location = 13538
+		division_template = "People's Protection Force"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "6. Motorized Volunteers"
+		location = 13538
+		division_template = "People's Protection Force"
+		start_experience_factor = 0.1
+	}
+}

@@ -1,0 +1,44 @@
+﻿units = {
+	division = {	
+		name = "12th Armoured Infantry Brigade"
+		location = 271
+		division_template = "Armoured Infantry Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "14th Armoured Infantry Brigade"
+		location = 271
+		division_template = "Armoured Infantry Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "20th Armoured Infantry Brigade"
+		location = 271
+		division_template = "Armoured Infantry Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "57th Infantry Brigade"
+		location = 271
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "60th Infantry Brigade"
+		location = 271
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "95th Infantry Brigade"
+		location = 271
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+}

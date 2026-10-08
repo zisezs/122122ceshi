@@ -1,0 +1,360 @@
+﻿division_template = {
+	name = "Liwa Alquwwat Alkhasa"
+	
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Liwa Alquwwat Aljawiya"
+	
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+		mot_militia = { x = 0 y = 1 }
+		mot_militia = { x = 0 y = 2 }
+	}
+	
+	support = {
+	}
+	
+}
+
+division_template = {
+	name = "Liwa Mushat Mechaniqui"
+	
+	regiments = {
+		light_mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+	}
+	
+	support = {
+
+	}
+	
+}
+
+division_template = {
+	name = "Liwa Milishia"
+	
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+		mot_militia = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+	
+	priority = 0
+	
+}
+
+division_template = {
+	name = "ChVK Wagner"
+	
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+	}
+	
+	support = {
+		apc_company = { x = 0 y = 0 }
+		spa_company = { x = 0 y = 1 }
+		spaa_company = { x = 0 y = 2 }
+		recon = { x = 0 y = 3 }
+	}
+	
+	priority = 2
+	
+}
+
+division_template = {
+	name = "Rijal Qabayil"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+	
+	priority = 0
+	
+}
+
+division_template = {
+	name = "Liwa' Mudarae"
+	
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+	}
+	
+	support = {
+	}
+	
+	priority = 0
+	
+}
+
+units = {
+	division = {
+		name = "1. Liwa' Mudarae"
+		location = 1118
+		division_template = "Liwa' Mudarae"
+		start_experience_factor = 0.2
+		force_equipment_variants = { modern_tank_chassis_1 = { owner = "HRL" version_name = "T-62" } }
+	}
+	
+	division = {
+		name = "1. Liwa Milishia"
+		location = 1118
+		division_template = "Liwa Milishia"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "2. Liwa Milishia"
+		location = 7194
+		division_template = "Liwa Milishia"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3. Liwa Milishia"
+		location = 4117
+		division_template = "Liwa Milishia"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1. Liwa Alquwwat Aljawiya"
+		location = 11940
+		division_template = "Liwa Alquwwat Aljawiya"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Liwa Alquwwat Aljawiya"
+		location = 1174
+		division_template = "Liwa Alquwwat Aljawiya"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3. Liwa Alquwwat Aljawiya"
+		location = 4051
+		division_template = "Liwa Alquwwat Aljawiya"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "4. Liwa Alquwwat Aljawiya"
+		location = 1189
+		division_template = "Liwa Alquwwat Aljawiya"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1. Rijal Qabayil"
+		location = 10067
+		division_template = "Rijal Qabayil"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Rijal Qabayil"
+		location = 13264
+		division_template = "Rijal Qabayil"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1. Liwa Mushat Mechaniqui"
+		location = 11940
+		division_template = "Liwa Mushat Mechaniqui"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Liwa Mushat Mechaniqui"
+		location = 4962
+		division_template = "Liwa Mushat Mechaniqui"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3. Rijal Qabayil"
+		location = 10884
+		division_template = "Rijal Qabayil"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "4. Rijal Qabayil"
+		location = 4117
+		division_template = "Rijal Qabayil"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1. Liwa Alquwwat Alkhasa"
+		location = 7194
+		division_template = "Liwa Alquwwat Alkhasa"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "2. Liwa Alquwwat Alkhasa"
+		location = 1174
+		division_template = "Liwa Alquwwat Alkhasa"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "1. Liwa Alquwwat Aljawiya"
+		location = 1189
+		division_template = "Liwa Alquwwat Aljawiya"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Liwa Alquwwat Aljawiya"
+		location = 4051
+		division_template = "Liwa Alquwwat Aljawiya"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "4. Liwa Milishia"
+		location = 10067
+		division_template = "Liwa Milishia"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "5. Liwa Milishia"
+		location = 10117
+		division_template = "Liwa Milishia"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "ChVK Wagner"
+		location = 1127
+		division_template = "ChVK Wagner"
+		start_experience_factor = 0.3
+	}
+}
+
+instant_effect = {
+	
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_1
+		amount = 4000
+		producer = SOV 
+	}
+	
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_1
+		amount = 350
+		producer = SER
+	}
+	
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_2
+		amount = 350
+		producer = BEL
+	}
+	
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_1
+		amount = 1300
+		producer = BEL
+	}
+	
+	add_equipment_to_stockpile = {
+		type = infantry_equipment_1
+		amount = 1300
+		producer = GER
+	}
+	
+	add_equipment_to_stockpile = {
+		type = anti_tank_equipment_1			
+		amount = 200
+		producer = SOV
+	}
+	
+	add_equipment_to_stockpile = {
+		type = modern_tank_destroyer_equipment_1			
+		amount = 100
+		producer = SOV
+	}
+	
+	add_equipment_to_stockpile = {
+		type = anti_tank_equipment_1			
+		amount = 200
+		producer = SOV
+	}
+	
+	add_equipment_to_stockpile = {
+		type = modern_tank_equipment_1
+		amount = 50
+		producer = SOV
+	}
+	
+	add_equipment_to_stockpile = {
+		type = modern_tank_equipment_2
+		amount = 50
+		producer = SOV
+	}
+	
+	add_equipment_to_stockpile = {
+		type = modern_tank_equipment_3
+		amount = 20
+		producer = SOV
+	}
+	
+	add_equipment_to_stockpile = {
+		type = light_mechanized_equipment_1
+		amount = 100
+		producer = SOV
+	}
+	
+	add_equipment_to_stockpile = {
+		type = motorized_equipment_1
+		amount = 50
+		producer = SOV
+	}
+	
+	add_equipment_to_stockpile = {
+		type = motorized_equipment_1
+		amount = 169
+		producer = UAE
+	}
+	
+	add_equipment_to_stockpile = {
+		type = motorized_equipment_1
+		amount = 200
+		producer = USA
+	}
+	
+	add_equipment_to_stockpile = {
+		type = motorized_equipment_1			
+		amount = 700
+		producer = SOV
+	}
+	
+	add_equipment_to_stockpile = {
+		type = modern_tank_artillery_equipment_1
+		amount = 20
+		producer = SOV
+	}
+}

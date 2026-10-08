@@ -1,0 +1,92 @@
+﻿division_template = {
+	name = "NSC Milita Brigade"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+	}
+}
+
+division_template = {
+	name = "NSC Infantry Brigade"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+	}
+
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st NSC Milita Brigade" 
+		location = 9850
+		division_template = "NSC Milita Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "2nd NSC Milita Brigade" 
+		location = 13260
+		division_template = "NSC Milita Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "3rd NSC Milita Brigade" 
+		location = 9774
+		division_template = "NSC Milita Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "4th NSC Milita Brigade" 
+		location = 14395
+		division_template = "NSC Milita Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "5th NSC Milita Brigade" 
+		location = 6909
+		division_template = "NSC Milita Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "6th NSC Milita Brigade" 
+		location = 706
+		division_template = "NSC Milita Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "7th NSC Milita Brigade" 
+		location = 7629
+		division_template = "NSC Milita Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "8th NSC Milita Brigade" 
+		location = 13865
+		division_template = "NSC Milita Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "9th NSC Milita Brigade" 
+		location = 3732
+		division_template = "NSC Milita Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "10th NSC Milita Brigade" 
+		location = 12459
+		division_template = "NSC Milita Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "11th NSC Milita Brigade" 
+		location = 6719
+		division_template = "NSC Milita Brigade"
+		start_experience_factor = 0.3
+	}
+}

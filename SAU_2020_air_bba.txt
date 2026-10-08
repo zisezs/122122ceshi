@@ -1,0 +1,44 @@
+﻿### Air OOB ###
+air_wings = {
+	893 = {
+		#F-16C
+		fighter_airframe_1 =  {
+			owner = "SAU" 
+			amount = 33
+			version_name = "F-16"
+		}
+		uav_airframe_1 =  {
+			owner = "SAU" 
+			amount = 35
+			version_name = "F-4E"
+		}
+	}
+	894 = {
+		#F-16C
+		fighter_airframe_1 =  {
+			owner = "SAU" 
+			amount = 55
+			version_name = "F-16"
+		}
+	}
+	895 = {
+		fighter_airframe_1 =  {
+			owner = "TUR" 
+			amount = 105
+			version_name = "F-16"
+		}
+	}
+	679 = {
+		#F-16C
+		fighter_airframe_1 =  {
+			owner = "TUR" 
+			amount = 55
+			version_name = "F-16"
+		}
+		uav_airframe_1 =  {
+			owner = "TUR" 
+			amount = 35
+			version_name = "F-4E"
+		}
+	}
+}

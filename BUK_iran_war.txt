@@ -1,0 +1,60 @@
+﻿division_template = {
+	name = "Fedayeen Saddam"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+	
+}
+
+units = {
+	division = {
+		name = "1. Fedayeen Saddam"
+		location = 14005
+		division_template = "Fedayeen Saddam"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Fedayeen Saddam"
+		location = 10106
+		division_template = "Fedayeen Saddam"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3. Fedayeen Saddam"
+		location = 1600
+		division_template = "Fedayeen Saddam"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "4. Fedayeen Saddam"
+		location = 14005
+		division_template = "Fedayeen Saddam"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "5. Fedayeen Saddam"
+		location = 10106
+		division_template = "Fedayeen Saddam"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "6. Fedayeen Saddam"
+		location = 1600
+		division_template = "Fedayeen Saddam"
+		start_experience_factor = 0.1
+	}
+	
+}

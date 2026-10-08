@@ -1,0 +1,225 @@
+﻿division_template = {
+	name = "Armored Brigade"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		mechanized = { x = 0 y = 3 }
+	}
+
+	support = {
+		spaa_company = { x = 0 y = 0 }
+		spa_company = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Ranger Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+
+	}
+
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Infantry Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Motorized Infantry Brigade"
+
+		regiments = {
+			motorized = { x = 0 y = 0 }
+			motorized = { x = 0 y = 1 }
+			motorized = { x = 0 y = 2 }
+		}
+
+		support = {
+			artillery = { x = 0 y = 0 }
+		}
+}
+
+division_template = {
+	name = "Mechanized Infantry Brigade"
+
+		regiments = {
+			mechanized = { x = 0 y = 0 }
+			mechanized = { x = 0 y = 1 }
+		}
+
+		support = {
+			artillery = { x = 0 y = 0 }
+		}
+}
+division_template = {
+	name = "Airborne Brigade"
+
+		regiments = {
+			infantry = { x = 0 y = 0 }
+			infantry = { x = 0 y = 1 }
+		}
+}
+division_template = {
+	name = "Light Armored Brigade"
+
+		regiments = {
+			mechanized = { x = 0 y = 0 }
+			mechanized = { x = 0 y = 1 }
+			light_mechanized = { x = 0 y = 2 }
+		}
+
+		support = {
+			spa_company = { x = 0 y = 0 }
+		}
+}
+division_template = {
+	name = "Armored Cavalry Brigade"
+
+		regiments = {
+			light_mechanized = { x = 0 y = 0 }
+			light_armor = { x = 0 y = 1 }
+			light_armor = { x = 0 y = 2 }
+
+		}
+
+		support = {
+			spa_company = { x = 0 y = 0 }
+		}
+}
+
+units = {
+	division = {
+		name = "11th Armored Brigade Brigadier Pedro Ruiz Rondon"
+		location = 8113
+		division_template = "Armored Brigade"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "12th Caribbean Ranger Brigade"
+		location = 5317
+		division_template = "Ranger Brigade"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "13th Infantry Brigade"
+		location = 4526
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "14th Mechanized Infantry Brigade"
+		location = 10823
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "14th Mechanized Infantry Brigade"
+		location = 10767
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.5
+		
+	}
+	division = {
+		name = "21st Motorized Infantry Brigade"
+		location = 5056
+		division_template = "Motorized Infantry Brigade"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "22nd Mountain Infantry Brigade"
+		location = 10849
+		division_template = "Ranger Brigade"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "25th Mechanized Infantry Brigade"
+		location = 8080
+		division_template = "Mechanized Infantry Brigade"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "31st Mechanized Infantry Brigade"
+		location = 10912
+		division_template = "Mechanized Infantry Brigade"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "32nd Caribbean Ranger Brigade"
+		location = 10879
+		division_template = "Ranger Brigade"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "41st Armored Brigade"
+		location = 2052
+		division_template = "Armored Brigade"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "42nd Airborne Brigade"
+		location = 7915
+		division_template = "Airborne Brigade"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "44th Light Armored Brigade"
+		location = 1944
+		division_template = "Light Armored Brigade"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "51st Jungle Infantry Brigade"
+		location = 10736
+		division_template = "Ranger Brigade"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "52nd Jungle Infantry Brigade"
+		location = 8050
+		division_template = "Ranger Brigade"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "53rd Jungle Infantry Brigade"
+		location = 4892
+		division_template = "Ranger Brigade"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "91st Armored Cavalry Brigade"
+		location = 10912
+		division_template = "Armored Cavalry Brigade"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "92nd Caribbean Ranger Brigade"
+		location = 12772
+		division_template = "Ranger Brigade"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "93rd Caribbean Ranger Brigade"
+		location = 1944
+		division_template = "Ranger Brigade"
+		start_experience_factor = 0.5
+	}
+}

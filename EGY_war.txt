@@ -1,0 +1,55 @@
+﻿division_template = {
+	name = "Liwa Mushat"
+	
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		modern_sp_artillery_brigade = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+	}
+	
+	support = {
+	
+	}
+}
+
+units = {
+	division = {	
+		name = "1. Liwa Mushat"
+		location = 10073
+		division_template = "Liwa Mushat"
+		start_experience_factor = 0.2
+		
+	}
+	division = {	
+		name = "2. Liwa Mushat"
+		location = 11964
+		division_template = "Liwa Mushat"
+		start_experience_factor = 0.2
+		
+	}
+	division = {	
+		name = "3. Liwa Mushat"
+		location = 10073
+		division_template = "Liwa Mushat"
+		start_experience_factor = 0.5
+		
+	}
+	division = {	
+		name = "4. Liwa Mushat"
+		location = 4076
+		division_template = "Liwa Mushat"
+		start_experience_factor = 0.2
+		
+	}
+	division = {	
+		name = "5. Liwa Mushat"
+		location = 4145
+		division_template = "Liwa Mushat"
+		start_experience_factor = 0.2
+		
+	}
+}

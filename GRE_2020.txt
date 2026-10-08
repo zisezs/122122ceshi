@@ -1,0 +1,287 @@
+﻿division_template = {
+	name = "Tethorakisméno Tágmatos Ippikoú"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		mechanized = { x = 0 y = 3 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }		
+	}
+}
+
+division_template = {
+	name = "Taxiarhia Katadromon-Alexiptotiston"
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Taxiarhia Pezonavton"
+
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		artillery_brigade = { x = 0 y = 3 }
+	}
+	support = {
+		mbt_company = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+
+}
+
+division_template = {
+	name = "Aerometaforeméni Taxiarhia"
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		artillery_brigade = { x = 0 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+
+}
+
+division_template = {
+	name = "Tethorakisméni Taxiarhia"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		light_mechanized = { x = 0 y = 2 }
+		modern_sp_artillery_brigade = { x = 0 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+
+}
+
+division_template = {
+	name = "Michanokíniti Taxiarhia"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		modern_sp_artillery_brigade = { x = 0 y = 3 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+
+}
+
+division_template = {
+	name = "Michanopoiiméni Taxiarhia Pezikoú"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+
+}
+
+division_template = {
+	name = "Anotéra Dioíkisi Tagmáton Ethnofylakís"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		apc_company = { x = 0 y = 1 }
+	}
+
+	priority = 0
+
+}
+
+units = {
+	division = {
+		name = "1 Thorakisméno Tágmatos Ippikoú"
+		location = 863
+		division_template = "Tethorakisméno Tágmatos Ippikoú"
+		start_experience_factor = 0.65
+	}
+	division = {
+		name = "1 Taxiarhia Katadromon-Alexiptotiston"
+		location = 895
+		division_template = "Taxiarhia Katadromon-Alexiptotiston"
+		start_experience_factor = 0.9
+	}
+	division = {
+		name = "32 Taxiarhia Pezonavton 'Moravas'"
+		location = 3973
+		division_template = "Taxiarhia Pezonavton"
+		start_experience_factor = 0.65
+	}
+	division = {
+		name = "71 Aerometaforeméni Taxiarhia 'Pontos'"
+		location = 11818
+		division_template = "Aerometaforeméni Taxiarhia"
+		start_experience_factor = 0.65
+	}
+	division = {
+		name = "24 Tethorakisméni Taxiarhia '1o Si Florina'"
+		location = 3844
+		division_template = "Tethorakisméni Taxiarhia"
+		start_experience_factor = 0.65
+	}
+	division = {
+		name = "33 Michanokíniti Taxiarhia 'Sýntagma Kydóniai'"
+		location = 3526
+		division_template = "Michanokíniti Taxiarhia"
+		start_experience_factor = 0.65
+	}
+	division = {
+		name = "34 Michanokíniti Taxiarhia 'Apóspasma Schoú Dialéti'"
+		location = 11818
+		division_template = "Michanokíniti Taxiarhia"
+		start_experience_factor = 0.65
+	}
+	division = {
+		name = "50 Michanokíniti Taxiarhia 'Apsos'"
+		location = 11905
+		division_template = "Michanokíniti Taxiarhia"
+		start_experience_factor = 0.65
+	}
+	division = {
+		name = "29 Michanokíniti Taxiarhia 'Pogradec'"
+		location = 11774
+		division_template = "Michanokíniti Taxiarhia"
+		start_experience_factor = 0.65
+	}
+	division = {
+		name = "7 Michanokíniti Taxiarhia 'Sarantaporos'"
+		location = 11905
+		division_template = "Michanokíniti Taxiarhia"
+		start_experience_factor = 0.65
+
+	}
+	division = {
+		name = "31 Michanokíniti Taxiarhia 'Kamia'"
+		location = 11905
+		division_template = "Michanokíniti Taxiarhia"
+		start_experience_factor = 0.65
+	}
+	division = {
+		name = "3 Michanokíniti Taxiarhia 'Rimini'"
+		location = 11905
+		division_template = "Michanokíniti Taxiarhia"
+		start_experience_factor = 0.65
+	}
+	division = {
+		name = "30 Michanokíniti Taxiarhia 'Tomoritsa'"
+		location = 11905
+		division_template = "Michanokíniti Taxiarhia"
+		start_experience_factor = 0.65
+	}
+	division = {
+		name = "21 Tethorakisméni Taxiarhia 'Pindus'"
+		location = 11774
+		division_template = "Tethorakisméni Taxiarhia"
+		start_experience_factor = 0.65
+	}
+	division = {
+		name = "23 Tethorakisméni Taxiarhia '3o Sýntagma Ippikoú Dorylaíon'"
+		location = 11905
+		division_template = "Tethorakisméni Taxiarhia"
+		start_experience_factor = 0.65
+	}
+	division = {
+		name = "25 Tethorakisméni Taxiarhia '2o Sýntagma Ippikoú Éfessos'"
+		location = 9791
+		division_template = "Tethorakisméni Taxiarhia"
+		start_experience_factor = 0.65
+	}
+	division = {
+		name = "8i Michanopoiiméni Taxiarhia Pezikoú"
+		location = 3914
+		division_template = "Michanopoiiméni Taxiarhia Pezikoú"
+		start_experience_factor = 0.65
+	}
+	division = {
+		name = "9i Michanopoiiméni Taxiarhia Pezikoú 'Adrianoúpoli'"
+		location = 966
+		division_template = "Michanopoiiméni Taxiarhia Pezikoú"
+		start_experience_factor = 0.65
+	}
+	division = {
+		name = "10o Sýntagma Pezikoú"
+		location = 4109
+		division_template = "Michanopoiiméni Taxiarhia Pezikoú"
+		start_experience_factor = 0.65
+	}
+	division = {
+		name = "15o Sýntagma Pezikoú"
+		location = 9837
+		division_template = "Michanopoiiméni Taxiarhia Pezikoú"
+		start_experience_factor = 0.65
+	}
+	division = {
+		name = "5i Aerometaferómeni Taxiarhia Pezikoú 'I Merarchía Kritón'"
+		location = 12058
+		division_template = "Aerometaforeméni Taxiarhia"
+		start_experience_factor = 0.65
+	}
+	division = {
+		name = "79i Anotéra Dioíkisi Tagmáton Ethnofylakís"
+		location = 6550
+		division_template = "Anotéra Dioíkisi Tagmáton Ethnofylakís"
+		start_experience_factor = 0.65
+	}
+	division = {
+		name = "80i Anotéra Dioíkisi Tagmáton Ethnofylakís"
+		location = 7003
+		division_template = "Anotéra Dioíkisi Tagmáton Ethnofylakís"
+		start_experience_factor = 0.65
+	}
+	division = {
+		name = "88i Stratiotikí Dioíkisi"
+		location = 4109
+		division_template = "Anotéra Dioíkisi Tagmáton Ethnofylakís"
+		start_experience_factor = 0.65
+	}
+	division = {
+		name = "95i Anotéra Dioíkisi Tagmáton Ethnofylakís"
+		location = 10007
+		division_template = "Anotéra Dioíkisi Tagmáton Ethnofylakís"
+		start_experience_factor = 0.65
+	}
+	division = {
+		name = "96i Anotéra Dioíkisi Tagmáton Ethnofylakís"
+		location = 6550
+		division_template = "Anotéra Dioíkisi Tagmáton Ethnofylakís"
+		start_experience_factor = 0.65
+	}
+	division = {
+		name = "98i Anotéra Dioíkisi Tagmáton Ethnofylakís"
+		location = 8435
+		division_template = "Anotéra Dioíkisi Tagmáton Ethnofylakís"
+		start_experience_factor = 0.65
+	}
+}

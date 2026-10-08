@@ -1,0 +1,72 @@
+﻿division_template = {
+	name = "Chōhei-Tai"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	is_locked = yes
+	support = {
+	}
+}
+
+units = {
+	division = {
+		name = "Dai 1 Chōhei-Tai"
+		location = 9998
+		division_template = "Chōhei-Tai"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Dai 2 Chōhei-Tai"
+		location = 10125
+		division_template = "Chōhei-Tai"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Dai 3 Chōhei-Tai"
+		location = 7197
+		division_template = "Chōhei-Tai"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Dai 4 Chōhei-Tai"
+		location = 7110
+		division_template = "Chōhei-Tai"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Dai 5 Chōhei-Tai"
+		location = 7072
+		division_template = "Chōhei-Tai"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Dai 6 Chōhei-Tai"
+		location = 9998
+		division_template = "Chōhei-Tai"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Dai 7 Chōhei-Tai"
+		location = 9998
+		division_template = "Chōhei-Tai"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Dai 8 Chōhei-Tai"
+		location = 7110
+		division_template = "Chōhei-Tai"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Dai 9 Chōhei-Tai"
+		location = 7110
+		division_template = "Chōhei-Tai"
+		start_experience_factor = 0.1
+	}
+}

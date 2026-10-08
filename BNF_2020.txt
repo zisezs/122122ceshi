@@ -1,0 +1,165 @@
+﻿	division_template = {
+		name = "Foot Militia"
+	
+		regiments = {
+			militia = { x = 0 y = 0 }
+			militia = { x = 0 y = 1 }
+			militia = { x = 0 y = 2 }
+			militia = { x = 1 y = 0 }
+			militia = { x = 1 y = 1 }
+			militia = { x = 1 y = 2 }
+		}
+	
+		support = {
+		}
+	}
+	division_template = {
+		name = "National Guard"
+	
+		regiments = {
+			motorized = { x = 0 y = 0 }
+			motorized = { x = 0 y = 1 }
+			motorized = { x = 0 y = 2 }
+			infantry = { x = 1 y = 0 }
+			infantry = { x = 1 y = 1 }
+			infantry = { x = 1 y = 2 }
+			artillery_brigade = { x = 2 y = 0 }
+			artillery_brigade = { x = 2 y = 1 }
+		}
+	
+		support = {
+			engineer = { x = 0 y = 0 }
+			signal_company = { x = 0 y = 1 }
+			logistics_company = { x = 0 y = 2 }
+		}
+	
+		priority = 2
+	}
+
+	units = {
+
+		division = {
+			name = "1. Volunteer Militia"
+			location = 4865
+			division_template = "Foot Militia"
+			start_experience_factor = 0.1
+		}
+		
+		division = {
+			name = "2. Volunteer Militia"
+			location = 4865
+			division_template = "Volunteer Militia"
+			start_experience_factor = 0.1
+		}
+		
+		division = {
+			name = "3. Volunteer Militia"
+			location = 13880
+			division_template = "Volunteer Militia"
+			start_experience_factor = 0.1
+		}
+		
+		division = {
+			name = "4. Volunteer Militia"
+			location = 13881
+			division_template = "Volunteer Militia"
+			start_experience_factor = 0.1
+		}
+		
+		division = {
+			name = "5. Volunteer Militia"
+			location = 13885
+			division_template = "Volunteer Militia"
+			start_experience_factor = 0.1
+		}
+		
+		division = {
+			name = "6. Volunteer Militia"
+			location = 13886
+			division_template = "Volunteer Militia"
+			start_experience_factor = 0.1
+		}
+		
+		division = {
+			name = "1. National Guard Brigade"
+			location = 4742
+			division_template = "National Guard"
+			start_experience_factor = 0.1
+		}
+		
+		division = {
+			name = "2. National Guard Brigade"
+			location = 4742
+			division_template = "National Guard"
+			start_experience_factor = 0.1
+		}
+
+		division = {
+			name = "3. National Guard"
+			location = 13884
+			division_template = "National Guard"
+			start_experience_factor = 0.1
+		}
+
+		division = {
+			name = "4. National Guard"
+			location = 13884
+			division_template = "National Guard"
+			start_experience_factor = 0.1
+		}
+		
+
+		division = {
+			name = "7. Volunteer Militia"
+			location = 13840
+			division_template = "Volunteer Militia"
+			start_experience_factor = 0.1
+		}
+		
+		division = {
+			name = "8. Volunteer Militia"
+			location = 12607
+			division_template = "Volunteer Militia"
+			start_experience_factor = 0.1
+		}
+		
+		division = {
+			name = "9. Volunteer Militia"
+			location = 10602
+			division_template = "Volunteer Militia"
+			start_experience_factor = 0.1
+		}
+		division = {
+			name = "10. Volunteer Militia"
+			location = 3781
+			division_template = "Volunteer Militia"
+			start_experience_factor = 0.1
+		}
+
+		division = {
+			name = "11. Volunteer Militia"
+			location = 13840
+			division_template = "Volunteer Militia"
+			start_experience_factor = 0.1
+		}
+		
+		division = {
+			name = "12. Volunteer Militia"
+			location = 12607
+			division_template = "Volunteer Militia"
+			start_experience_factor = 0.1
+		}
+		
+		division = {
+			name = "13. Volunteer Militia"
+			location = 10602
+			division_template = "Volunteer Militia"
+			start_experience_factor = 0.1
+		}
+		division = {
+			name = "14. Volunteer Militia"
+			location = 3781
+			division_template = "Volunteer Militia"
+			start_experience_factor = 0.1
+		}
+	}

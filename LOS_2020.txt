@@ -1,0 +1,133 @@
+﻿division_template = {
+	name = "Volunteer Brigade"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+		
+	template_counter = 13
+}
+
+division_template = {
+	name = "Motorized Militia"
+	
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+		mot_militia = { x = 0 y = 1 }
+	}
+	
+	support = {
+		signal_company = { x = 0 y = 0 }
+	}
+	
+}
+
+division_template = {
+	name = "National Guard"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		artillery_brigade = { x = 2 y = 0 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+	}
+	
+}
+
+units = {
+	
+	division = {
+		name = "1st Sons of the South"
+		location = 4625
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "Quantrill's Raiders"
+		location = 7586
+		division_template = "Motorized Militia"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "Beauregard's Brigade"
+		location = 1646
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "1st 'Robert E. Lee' Brigade"
+		location = 4625
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "2nd 'Robert E. Lee' Brigade"
+		location = 10477
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "1st Volunteer Brigade"
+		location = 10477
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "Louisiana Volunteers"
+		location = 1503
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "1st 'Stonewall Jackson' Brigade"
+		location = 4597
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "2nd 'Stonewall Jackson' Brigade"
+		location = 4597
+		division_template = "Motorized Militia"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "1st National Guard Defectors"
+		location = 12489
+		division_template = "National Guard"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "2nd National Guard Defectors"
+		location = 12489
+		division_template = "National Guard"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "3rd National Guard Defectors"
+		location = 12489
+		division_template = "National Guard"
+		start_experience_factor = 0.3
+	}
+
+}

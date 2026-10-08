@@ -1,0 +1,155 @@
+﻿division_template = {
+	name = "Minutemen Militia Division"
+	is_locked = yes
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 1 y = 3 }
+		militia = { x = 1 y = 4 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
+		militia = { x = 2 y = 3 }
+		
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		military_police = { x = 0 y = 2 }
+	}
+		
+}
+
+units = {
+	division = {
+		name = "Minuteman Militia"
+		location = 13831
+		division_template = "Minutemen Militia Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Minuteman Militia"
+		location = 13831
+		division_template = "Minutemen Militia Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Minuteman Militia"
+		location = 13831
+		division_template = "Minutemen Militia Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Minuteman Militia"
+		location = 13831
+		division_template = "Minutemen Militia Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Minuteman Militia"
+		location = 13831
+		division_template = "Minutemen Militia Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Minuteman Militia"
+		location = 13831
+		division_template = "Minutemen Militia Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Minuteman Militia"
+		location = 13831
+		division_template = "Minutemen Militia Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Minuteman Militia"
+		location = 13831
+		division_template = "Minutemen Militia Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Minuteman Militia"
+		location = 13831
+		division_template = "Minutemen Militia Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Minuteman Militia"
+		location = 13831
+		division_template = "Minutemen Militia Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Minuteman Militia"
+		location = 13831
+		division_template = "Minutemen Militia Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Minuteman Militia"
+		location = 13831
+		division_template = "Minutemen Militia Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Minuteman Militia"
+		location = 13831
+		division_template = "Minutemen Militia Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Minuteman Militia"
+		location = 13831
+		division_template = "Minutemen Militia Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Minuteman Militia"
+		location = 13831
+		division_template = "Minutemen Militia Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Minuteman Militia"
+		location = 13831
+		division_template = "Minutemen Militia Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Minuteman Militia"
+		location = 13831
+		division_template = "Minutemen Militia Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Minuteman Militia"
+		location = 13831
+		division_template = "Minutemen Militia Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+}

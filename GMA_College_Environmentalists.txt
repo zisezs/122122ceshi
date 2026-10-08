@@ -1,0 +1,56 @@
+﻿division_template = {
+	name = "Environment Brigades"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+	
+	support = {
+	}
+		
+}
+
+units = {
+	division = {
+		name = "''Ted'' Brigade"
+		location = 13831
+		division_template = "Environment Brigades"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "''Beaver'' Brigade"
+		location = 4445
+		division_template = "Environment Brigades"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "''Greener Grass'' Brigade"
+		location = 13866
+		division_template = "Environment Brigades"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "''Green Mountain'' Brigade"
+		location = 13865
+		division_template = "Environment Brigades"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "''Orono'' Brigade"
+		location = 10481
+		division_template = "Environment Brigades"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "''Pine'' Brigade"
+		location = 10481
+		division_template = "Environment Brigades"
+		start_experience_factor = 0.1
+	}
+}

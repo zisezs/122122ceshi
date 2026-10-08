@@ -1,0 +1,122 @@
+﻿division_template = {
+	name = "Communist Brigade"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+		
+	template_counter = 1
+}
+
+units = {
+	
+	division = {
+		name = "Communist Brigade"
+		location = 13514
+		division_template = "Communist Brigade"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "Communist Brigade"
+		location = 13514
+		division_template = "Communist Brigade"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "Communist Brigade"
+		location = 13514
+		division_template = "Communist Brigade"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "Communist Brigade"
+		location = 13514
+		division_template = "Communist Brigade"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "Communist Brigade"
+		location = 13589
+		division_template = "Communist Brigade"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "Communist Brigade"
+		location = 13589
+		division_template = "Communist Brigade"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "Communist Brigade"
+		location = 13596
+		division_template = "Communist Brigade"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "Communist Brigade"
+		location = 13604
+		division_template = "Communist Brigade"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "Communist Brigade"
+		location = 13603
+		division_template = "Communist Brigade"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "Communist Brigade"
+		location = 13605
+		division_template = "Communist Brigade"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "Communist Brigade"
+		location = 13597
+		division_template = "Communist Brigade"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "Communist Brigade"
+		location = 13599
+		division_template = "Communist Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "Communist Brigade"
+		location = 13598
+		division_template = "Communist Brigade"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "Communist Brigade"
+		location = 13598
+		division_template = "Communist Brigade"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "Communist Brigade"
+		location = 13600
+		division_template = "Communist Brigade"
+		start_experience_factor = 0.3
+	}
+}
+

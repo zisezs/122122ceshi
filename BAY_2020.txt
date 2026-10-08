@@ -1,0 +1,84 @@
+﻿division_template = {
+	name = "Infanteriebrigade" #D/F Brig is officially an infantry brigade
+	
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		modern_sp_artillery_brigade = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Polizeibataillon"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Kommandobataillon"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+	}
+	support = {
+	}
+	priority = 2
+}
+
+units = {
+	
+	division = {
+		name = "39. Infanteriebrigade"
+		location = 692
+		division_template = "Infanteriebrigade"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "92. Infanteriebrigade"
+		location = 692
+		division_template = "Infanteriebrigade"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "120. Infanteriebrigade"
+		location = 692
+		division_template = "Infanteriebrigade"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "48. Infanteriebrigade"
+		location = 692
+		division_template = "Infanteriebrigade"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "1. Polizeibataillon"
+		location = 692
+		division_template = "Infanteriebrigade"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "2. Polizeibataillon"
+		location = 692
+		division_template = "Infanteriebrigade"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "KSK" #Referred to as KSK and not the full name
+		location = 692
+		division_template = "Kommandobataillon"
+		start_experience_factor = 0.5
+	}
+}

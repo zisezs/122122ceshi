@@ -1,0 +1,93 @@
+﻿division_template = {
+	name = "Ko Kongthab"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+	}
+	support = {
+		light_tank_recon = { x = 0 y = 0 }
+		spaa_company = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Phaaenk Thahan Hab"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		apc_company = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "Ko Kongthab"
+		location = 4539
+		division_template = "Ko Kongthab"
+		start_experience_factor = 0.2
+		
+	}
+
+	division = {
+		name = "1 Phaaenk Thahan Hab"
+		location = 1464
+		division_template = "Phaaenk Thahan Hab"
+		start_experience_factor = 0.2
+		
+	}
+
+	division = {
+		name = "2 Phaaenk Thahan Hab"
+		location = 1577
+		division_template = "Phaaenk Thahan Hab"
+		start_experience_factor = 0.2
+		
+	}
+
+	division = {
+		name = "3 Phaaenk Thahan Hab"
+		location = 10326
+		division_template = "Phaaenk Thahan Hab"
+		start_experience_factor = 0.2
+		
+	}
+
+	division = {
+		name = "4 Phaaenk Thahan Hab"
+		location = 4339
+		division_template = "Phaaenk Thahan Hab"
+		start_experience_factor = 0.2
+		
+	}
+
+	division = {
+		name = "5 Phaaenk Thahan Hab"
+		location = 12392
+		division_template = "Phaaenk Thahan Hab"
+		start_experience_factor = 0.2
+		
+	}
+
+	division = {
+		name = "6 Phaaenk Thahan Hab"
+		location = 10330
+		division_template = "Phaaenk Thahan Hab"
+		start_experience_factor = 0.2
+		
+	}
+
+	division = {
+		name = "7 Phaaenk Thahan Hab"
+		location = 9961
+		division_template = "Phaaenk Thahan Hab"
+		start_experience_factor = 0.2
+		
+	}
+}

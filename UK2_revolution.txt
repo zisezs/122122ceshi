@@ -1,0 +1,163 @@
+﻿division_template = {
+	name = "Revolutionary Militia"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+	template_counter = 26
+	is_locked = yes
+	support = {
+	}
+}
+
+units = {
+	division = {
+		name = "Revolutionary Militia"
+		location = 6384
+		division_template = "Revolutionary Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Revolutionary Militia"
+		location = 6384
+		division_template = "Revolutionary Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Revolutionary Militia"
+		location = 6384
+		division_template = "Revolutionary Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Revolutionary Militia"
+		location = 6384
+		division_template = "Revolutionary Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Revolutionary Militia"
+		location = 6318
+		division_template = "Revolutionary Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Revolutionary Militia"
+		location = 3205
+		division_template = "Revolutionary Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Revolutionary Militia"
+		location = 6335
+		division_template = "Revolutionary Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Revolutionary Militia"
+		location = 351
+		division_template = "Revolutionary Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Revolutionary Militia"
+		location = 11270
+		division_template = "Revolutionary Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Revolutionary Militia"
+		location = 377
+		division_template = "Revolutionary Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Revolutionary Militia"
+		location = 377
+		division_template = "Revolutionary Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Revolutionary Militia"
+		location = 377
+		division_template = "Revolutionary Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Revolutionary Militia"
+		location = 14412
+		division_template = "Revolutionary Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Revolutionary Militia"
+		location = 11332
+		division_template = "Revolutionary Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Revolutionary Militia"
+		location = 6237
+		division_template = "Revolutionary Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Revolutionary Militia"
+		location = 6237
+		division_template = "Revolutionary Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Revolutionary Militia"
+		location = 9315
+		division_template = "Revolutionary Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Revolutionary Militia"
+		location = 9315
+		division_template = "Revolutionary Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Revolutionary Militia"
+		location = 9392
+		division_template = "Revolutionary Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Revolutionary Militia"
+		location = 7239
+		division_template = "Revolutionary Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Revolutionary Militia"
+		location = 7239
+		division_template = "Revolutionary Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Revolutionary Militia"
+		location = 7239
+		division_template = "Revolutionary Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Revolutionary Militia"
+		location = 3273
+		division_template = "Revolutionary Militia"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Revolutionary Militia"
+		location = 3273
+		division_template = "Revolutionary Militia"
+		start_experience_factor = 0.1
+	}
+}

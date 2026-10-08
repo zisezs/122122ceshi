@@ -1,0 +1,79 @@
+﻿division_template = {
+	name = "Bloods"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+	}
+	support = {
+	}
+		
+}
+division_template = {
+	name = "Toyotas"
+	
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+	}
+	
+	support = {
+	}
+	
+}
+
+units = {
+	division = {
+		name = "1st Set"
+		location = 13302
+		division_template = "Bloods"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "2nd Set"
+		location = 13302
+		division_template = "Bloods"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "3rd Set"
+		location = 13302
+		division_template = "Bloods"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "4th Set"
+		location = 13302
+		division_template = "Bloods"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "5th Set"
+		location = 13302
+		division_template = "Bloods"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "6th Set"
+		location = 13302
+		division_template = "Bloods"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "1st Driveby Squad"
+		location = 13302
+		division_template = "Toyotas"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "2nd Driveby Squad"
+		location = 13302
+		division_template = "Toyotas"
+		start_experience_factor = 0.01
+	}
+}

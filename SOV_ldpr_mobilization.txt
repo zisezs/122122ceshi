@@ -1,0 +1,90 @@
+﻿division_template = {
+	name = "Diviziya Narodnoy Mobilizatsii"
+	
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+		mot_militia = { x = 0 y = 1 }
+		mot_militia = { x = 0 y = 2 }
+		mechanized = { x = 0 y = 3 }
+	}
+	
+	support = {
+		spa_company = { x = 0 y = 0 }
+		mbt_company = { x = 0 y = 1 }
+		mot_recon = { x = 0 y = 2 }
+		signal_company = { x = 0 y = 3 }
+	}
+}
+
+units = {
+	division = {			
+		name = "185y Diviziya Narodnoy Mobilizatsii"
+		location = 3672
+		division_template = "Diviziya Narodnoy Mobilizatsii"
+		start_experience_factor = 0.0
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "201y Diviziya Narodnoy Mobilizatsii"
+		location = 11225
+		division_template = "Diviziya Narodnoy Mobilizatsii"
+		start_experience_factor = 0.0
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "332y Diviziya Narodnoy Mobilizatsii"
+		location = 1821
+		division_template = "Diviziya Narodnoy Mobilizatsii"
+		start_experience_factor = 0.0
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "652y Diviziya Narodnoy Mobilizatsii"
+		location = 4797
+		division_template = "Diviziya Narodnoy Mobilizatsii"
+		start_experience_factor = 0.0
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "287y Diviziya Narodnoy Mobilizatsii"
+		location = 10299
+		division_template = "Diviziya Narodnoy Mobilizatsii"
+		start_experience_factor = 0.0
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "585y Diviziya Narodnoy Mobilizatsii"
+		location = 6338
+		division_template = "Diviziya Narodnoy Mobilizatsii"
+		start_experience_factor = 0.0
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "585y Diviziya Narodnoy Mobilizatsii"
+		location = 9292
+		division_template = "Diviziya Narodnoy Mobilizatsii"
+		start_experience_factor = 0.0
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "585y Diviziya Narodnoy Mobilizatsii"
+		location = 1821
+		division_template = "Diviziya Narodnoy Mobilizatsii"
+		start_experience_factor = 0.0
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "585y Diviziya Narodnoy Mobilizatsii"
+		location = 6278
+		division_template = "Diviziya Narodnoy Mobilizatsii"
+		start_experience_factor = 0.0
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "585y Diviziya Narodnoy Mobilizatsii"
+		location = 10696
+		division_template = "Diviziya Narodnoy Mobilizatsii"
+		start_experience_factor = 0.0
+		start_equipment_factor = 1
+	}
+}

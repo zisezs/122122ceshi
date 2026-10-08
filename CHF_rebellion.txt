@@ -1,0 +1,458 @@
+﻿division_template = {
+	name = "Geming Jun"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+		spaa_company = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }		
+	}
+		
+}
+
+division_template = {
+	name = "Jixiehua Bubing Shi"
+	
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_sp_artillery_brigade = { x = 0 y = 2 }
+		modern_armor = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+		modern_sp_artillery_brigade = { x = 1 y = 2 }
+		mechanized = { x = 2 y = 0 }
+		mechanized = { x = 2 y = 1 }
+		mechanized = { x = 2 y = 2 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+		spaa_company = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }		
+	}
+		
+}
+
+division_template = {
+	name = "Zhuangjia Lu"
+	
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		light_mechanized = { x = 0 y = 3 }
+		modern_sp_artillery_brigade = { x = 1 y = 0 }
+		modern_sp_artillery_brigade = { x = 1 y = 1 }
+	}
+	
+	support = {
+	}
+	
+	priority = 1
+}
+
+division_template = {
+	name = "Jidong Lu"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		artillery_brigade = { x = 1 y = 0 }
+		artillery_brigade = { x = 1 y = 1 }
+	}
+	
+	support = {
+		spaa_company = { x = 0 y = 0 }
+		mbt_company = { x = 0 y = 1 }
+		spa_company = { x = 0 y = 2 }
+		signal_company = { x = 0 y = 3 }
+	}
+	
+}
+
+division_template = {
+	name = "Jidong Bubing Shi"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		modern_armor = { x = 2 y = 0 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+		spaa_brigade = { x = 4 y = 0 }
+		modern_sp_artillery_brigade = { x = 4 y = 1 }
+	}
+	
+	support = {
+
+	}
+	
+}
+
+division_template = {
+	name = "Tezhong Zuozhan Budui"
+	
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		apc_company = { x = 0 y = 1 }
+	}
+	
+}
+
+division_template = {
+	name = "Kongxi Lu" 
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		paratrooper = { x = 1 y = 0 }
+		paratrooper = { x = 1 y = 1 }
+		paratrooper = { x = 1 y = 2 }
+	}
+	
+	support = {
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Haijun Lu Zhandui" 
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 0 y = 3 }
+		
+		light_armor = { x = 1 y = 0 }
+		
+		artillery_brigade = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
+	}
+	
+	support = {
+	   spaa_company = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {			
+		name = "Suchang Paratrooper Division"
+		location = 4091
+		division_template = "Kongxi Lu"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.9
+	}
+	division = {			
+		name = "Suchang Revolutionary Brigade"
+		location = 1089
+		division_template = "Geming Jun"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {			
+		name = "1st Nanjing Revolutionary Brigade"
+		location = 11982
+		division_template = "Geming Jun"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {			
+		name = "2nd Nanjing Revolutionary Brigade"
+		location = 4148
+		division_template = "Geming Jun"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {			
+		name = "'Liu Xiaobo' Guards Brigade"
+		location = 11913
+		division_template = "Tezhong Zuozhan Budui"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.85
+	}
+	division = {			
+		name = "'Sun Yat-Sen' Guards Brigade"
+		location = 11913
+		division_template = "Jixiehua Bubing Shi"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.85
+	}
+	division = {			
+		name = "'Bao Zunxin' Guards Brigade"
+		location = 11913
+		division_template = "Jidong Lu"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.85
+	}
+	division = {			
+		name = "1st Anqing Revolutionary Brigade"
+		location = 11994
+		division_template = "Geming Jun"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {			
+		name = "'Qin Yongmin' Guards Brigade"
+		location = 7222
+		division_template = "Jidong Lu"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.85
+	}
+	division = {			
+		name = "'Second Flying Tigers' Anqing Paratroopers"
+		location = 4203
+		division_template = "Kongxi Lu"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.9
+	}
+	division = {			
+		name = "1st Anqing Revolutionary Brigade"
+		location = 10017
+		division_template = "Geming Jun"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {			
+		name = "2nd Anqing Revolutionary Brigade"
+		location = 14174
+		division_template = "Geming Jun"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {			
+		name = "3rd Anqing Revolutionary Brigade"
+		location = 7035
+		division_template = "Geming Jun"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {			
+		name = "1st Nanchang Revolutionary Brigade"
+		location = 1628
+		division_template = "Geming Jun"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {			
+		name = "2nd Nanchang Revolutionary Brigade"
+		location = 10114
+		division_template = "Geming Jun"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {			
+		name = "3rd Nanchang Revolutionary Brigade"
+		location = 11988
+		division_template = "Geming Jun"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {			
+		name = "1st Luling Revolutionary Brigade"
+		location = 12495
+		division_template = "Geming Jun"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {			
+		name = "2nd Luling Revolutionary Brigade"
+		location = 4156
+		division_template = "Geming Jun"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {			
+		name = "1st Hengyang Revolutionary Brigade"
+		location = 1448
+		division_template = "Geming Jun"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {			
+		name = "2nd Hengyang Revolutionary Brigade"
+		location = 12350
+		division_template = "Geming Jun"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {			
+		name = "3rd Hengyang Revolutionary Brigade"
+		location = 1448
+		division_template = "Geming Jun"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {			
+		name = "4th Hengyang Revolutionary Brigade"
+		location = 10377
+		division_template = "Geming Jun"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {			
+		name = "5th Hengyang Revolutionary Brigade"
+		location = 4125
+		division_template = "Geming Jun"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {			
+		name = "6th Hengyang Revolutionary Brigade"
+		location = 12378
+		division_template = "Geming Jun"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {			
+		name = "1st Lingnan Revolutionary Brigade"
+		location = 9997
+		division_template = "Geming Jun"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {			
+		name = "1st Guangzhou Revolutionary Brigade"
+		location = 10121
+		division_template = "Geming Jun"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {			
+		name = "2nd Guangzhou Revolutionary Brigade"
+		location = 4092
+		division_template = "Geming Jun"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {			
+		name = "1st Cangwu Revolutionary Brigade"
+		location = 14187
+		division_template = "Geming Jun"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {			
+		name = "2nd Cangwu Revolutionary Brigade"
+		location = 4152
+		division_template = "Geming Jun"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {			
+		name = "3rd Cangwu Revolutionary Brigade"
+		location = 4028
+		division_template = "Geming Jun"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {			
+		name = "1st Qinlian Revolutionary Brigade"
+		location = 7192
+		division_template = "Geming Jun"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {			
+		name = "2nd Qinlian Revolutionary Brigade"
+		location = 10004
+		division_template = "Geming Jun"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {			
+		name = "'Heavenly Warriors' Paratrooper Division'"
+		location = 11926
+		division_template = "Kongxi Lu"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.9
+	}
+
+	division = {			
+		name = "'Chen Pokong' Guards Division"
+		location = 1047
+		division_template = "Zhuangjia Lu"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.9
+	}
+	division = {			
+		name = "'Yu Wensheng' Guards Division"
+		location = 1047
+		division_template = "Zhuangjia Lu"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.9
+	}
+	division = {			
+		name = "'Wang Quanzhang' Guards Division"
+		location = 1047
+		division_template = "Zhuangjia Lu"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.9
+	}
+
+	division = {			
+		name = "'Wu Gan' Guards Division"
+		location = 7108
+		division_template = "Zhuangjia Lu"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.9
+	}
+	division = {			
+		name = "'Xu Zhiyong' Guards Division"
+		location = 7108
+		division_template = "Zhuangjia Lu"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.9
+	}
+	division = {			
+		name = "'Cao Shunli' Guards Division"
+		location = 7108
+		division_template = "Zhuangjia Lu"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.9
+	}
+
+	division = {			
+		name = "'Ai Weiwei' Guards Division"
+		location = 7014
+		division_template = "Zhuangjia Lu"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.9
+	}
+	division = {			
+		name = "'Cheng Jianping' Guards Division"
+		location = 7014
+		division_template = "Zhuangjia Lu"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.9
+	}
+	division = {			
+		name = "'Tan Zuoren' Guards Division"
+		location = 7014
+		division_template = "Zhuangjia Lu"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.9
+	}
+}

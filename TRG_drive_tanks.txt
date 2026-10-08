@@ -1,0 +1,23 @@
+﻿division_template = {
+	name = "Armored Militia"
+	
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+		mot_militia = { x = 0 y = 1 }
+	}
+	
+	support = {
+		mbt_company = { x = 0 y = 0 }
+	}
+		
+}
+
+units = {
+	division = {
+		name = "1st Armored Brigade"
+		location = 13446
+		division_template = "Armored Militia"
+		start_experience_factor = 0.2
+		force_equipment_variants = { modern_tank_equipment_1 = { owner = "US1" } }
+	}
+}

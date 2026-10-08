@@ -1,0 +1,251 @@
+﻿division_template = {
+	name = "Mechanized Brigade"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		spa_company = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Mechanized Division"
+
+	regiments = {
+		light_mechanized = { x = 0 y = 0 }
+		light_mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		modern_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		light_armor = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		spa_company = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Motorised Division"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		artillery_brigade = { x = 3 y = 0 }
+		motorized = { x = 3 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Armoured Division"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		modern_armor = { x = 0 y = 3 }
+		light_mechanized = { x = 1 y = 0 }
+		light_mechanized = { x = 1 y = 1 }
+		light_armor = { x = 1 y = 2 }
+		modern_sp_artillery_brigade = { x = 1 y = 2 }
+	}
+	support = {
+		spaa_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Armoured Brigade"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		light_mechanized = { x = 0 y = 2 }
+	}
+	support = {
+		light_tank_recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		spa_company = { x = 0 y = 2 }
+		spaa_company = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Motorised Brigade"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Infantry Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Amphibious Brigade"
+
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+	}
+
+	priority = 2
+}
+
+division_template = {
+	name = "Christian Militas"
+	is_locked = yes
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 0 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Islamic Militas"
+	is_locked = yes
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 0 }
+	}
+	priority = 0
+}
+
+units = {
+
+	division = {
+		name = "1st Division"
+		location = 5028
+		division_template = "Mechanized Division"
+		start_experience_factor = 0.1
+		
+	}
+
+	division = {
+		name = "2nd Division"
+		location = 12731
+		division_template = "Armoured Division"
+		start_experience_factor = 0.1
+		
+	}
+
+	division = {
+		name = "3rd Armoured Division"
+		location = 4997		#Maiduguri
+		division_template = "Armoured Division"
+		start_experience_factor = 0.1
+		
+	}
+
+	#81st Division
+	division = {
+		name = "2nd Mechanized Brigade"
+		location = 2050
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.1
+		
+	}
+
+	division = {
+		name = "82nd Division"
+		location = 2050
+		division_template = "Motorised Division"
+		start_experience_factor = 0.2
+		
+	}
+
+	division = {
+		name = "79th Amphibious Brigade"
+		location = 8034
+		division_template = "Amphibious Brigade"
+		start_experience_factor = 0.1
+		
+	}
+
+	division = {
+		name = "7th Division"
+		location = 1992
+		division_template = "Motorised Division"
+		start_experience_factor = 0.1
+		
+	}
+
+	division = {
+		name = "6th Division"
+		location = 8034
+		division_template = "Motorised Division"
+		start_experience_factor = 0.1
+		
+	}
+
+	division = {
+		name = "8th Division"
+		location = 1891
+		division_template = "Motorised Division"
+		start_experience_factor = 0.1
+		
+	}
+
+	division = {
+		name = "Kaduna Militas"
+		location = 1969 #Kaduna
+		division_template = "Islamic Militas"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.05
+	}
+
+	division = {
+		name = "Maiduguri Militas"
+		location = 4997
+		division_template = "Islamic Militas"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.05
+	}
+
+	division = {
+		name = "Abuja Militas"
+		location = 2025
+		division_template = "Christian Militas"
+		start_equipment_factor = 0.45
+		start_experience_factor = 0.05
+	}
+
+
+}

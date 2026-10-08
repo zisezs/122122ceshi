@@ -1,0 +1,62 @@
+﻿division_template = {
+	name = "Minutemen"
+	is_locked = yes
+	division_names_group = PTF_MIN_01 
+	template_counter = 04
+		regiments = {
+			militia = { x = 0 y = 0 }
+			militia = { x = 0 y = 1 }
+			militia = { x = 0 y = 2 }
+			militia = { x = 1 y = 0 }
+			militia = { x = 1 y = 1 }
+			militia = { x = 1 y = 2 }
+		}
+		
+		support = {
+			engineer = { x = 0 y = 0 }
+		}
+}
+
+units = {
+	division = {
+		name = "1st Massachusetts Minutemen"
+		location = 9847
+		division_template = "Minutemen"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "2nd Massachusetts Minutemen"
+		location = 9847
+		division_template = "Minutemen"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1st Green Mountain Minutemen"
+		location = 9847
+		division_template = "Minutemen"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "2nd Green Mountain Minutemen"
+		location = 9847
+		division_template = "Minutemen"
+		start_experience_factor = 0.1
+	}
+	
+	
+	division = {
+		name = "1st Rhode Island Minutemen"
+		location = 9847
+		division_template = "Minutemen"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "2nd Rhode Island Minutemen"
+		location = 9847
+		division_template = "Minutemen"
+		start_experience_factor = 0.1
+	}
+}

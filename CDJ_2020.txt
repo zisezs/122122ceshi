@@ -1,0 +1,235 @@
+﻿division_template = {
+	name = "Brigada de infantería"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+		
+}
+
+division_template = {
+	name = "Brigada Motorizada"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+	}
+	
+	support = {
+		apc_company = { x = 0 y = 0 }
+	}
+	
+	priority = 2
+}
+
+division_template = {
+	name = "Brigada de Monstruos"
+	
+	regiments = {
+		light_mechanized = { x = 0 y = 0 }
+		light_mechanized = { x = 0 y = 1 }
+		light_mechanized = { x = 0 y = 2 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+	
+	priority = 2
+}
+
+division_template = {
+	name = "Voluntarios"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+	}
+	
+	support = {
+		
+	}
+	
+	priority = 2
+}
+
+units = {
+	
+	division = {
+		name = "1. Brigada de Infanteria"
+		location = 13089
+		division_template = "Brigada de infantería"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Brigada de Infanteria"
+		location = 2051
+		division_template = "Brigada de infantería"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3. Brigada de Infanteria"
+		location = 5052
+		division_template = "Brigada Motorizada"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "4. Brigada de Infanteria"
+		location = 12873
+		division_template = "Brigada de infantería"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "6. Brigada de Infanteria"
+		location = 10172
+		division_template = "Brigada de infantería"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "7. Brigada de Infanteria"
+		location = 13089
+		division_template = "Brigada Motorizada"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "8. Brigada de Infanteria"
+		location = 1952
+		division_template = "Brigada Motorizada"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "9. Brigada de Infanteria"
+		location = 10738
+		division_template = "Brigada de infantería"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1. Brigada Motorizada"
+		location = 13089
+		division_template = "Brigada Motorizada"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Brigada Motorizada"
+		location = 7973
+		division_template = "Brigada Motorizada"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "3. Brigada Motorizada"
+		location = 2060
+		division_template = "Brigada Motorizada"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1. Brigada de Monstruos"
+		location = 12873
+		division_template = "Brigada de Monstruos"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Brigada de Monstruos"
+		location = 10800
+		division_template = "Brigada de Monstruos"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3. Brigada de Monstruos"
+		location = 12850
+		division_template = "Brigada de Monstruos"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1. Brigada de Voluntarios"
+		location = 10916
+		division_template = "Voluntarios"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Brigada de Voluntarios"
+		location = 4898
+		division_template = "Voluntarios"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3. Brigada de Voluntarios"
+		location = 7935
+		division_template = "Voluntarios"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "4. Brigada de Voluntarios"
+		location = 12745
+		division_template = "Voluntarios"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "5. Brigada de Voluntarios"
+		location = 13935
+		division_template = "Voluntarios"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "6. Brigada de Voluntarios"
+		location = 10809
+		division_template = "Voluntarios"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "7. Brigada de Voluntarios"
+		location = 12850
+		division_template = "Voluntarios"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "8. Brigada de Voluntarios"
+		location = 13089
+		division_template = "Voluntarios"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "10. Brigada de infantería"
+		location = 10746
+		division_template = "Brigada de infantería"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "11. Brigada de infantería"
+		location = 2104
+		division_template = "Brigada de infantería"
+		start_experience_factor = 0.1
+	}
+}

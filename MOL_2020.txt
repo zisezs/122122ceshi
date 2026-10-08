@@ -1,0 +1,65 @@
+﻿division_template = {
+	name = "Brigada de Infanterie"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		artillery_brigade = { x = 0 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Brigada de Mecanizata"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		modern_sp_artillery_brigade = { x = 0 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Batalion de Forte Speciale"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+	}
+
+	priority = 2
+}
+
+units = {
+	division = {
+		name = "1a Brigada de Infanterie 'Moldova'"
+		location = 3707
+		division_template = "Brigada de Mecanizata"
+		start_experience_factor = 0.4
+	}
+
+	division = {
+		name = "2a Brigada de Infanterie 'Stefan Cel Mare'"
+		location = 6600
+		division_template = "Brigada de Mecanizata"
+		start_experience_factor = 0.4
+	}
+
+	division = {
+		name = "3a Brigada de Infanterie 'Dacia'"
+		location = 3724
+		division_template = "Brigada de Infanterie"
+		start_experience_factor = 0.4
+	}
+
+	division = {
+		name = "Batalion de Forte Speciale"
+		location = 11705
+		division_template = "Batalion de Forte Speciale"
+		start_experience_factor = 0.7
+	}
+}

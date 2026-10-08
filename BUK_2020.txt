@@ -1,0 +1,192 @@
+﻿division_template = {
+	name = "Fedayeen Saddam"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+	
+}
+
+division_template = {
+	name = "Reconstructed Republican Guard Brigade"
+	
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		modern_armor = { x = 1 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+		spaa_brigade = { x = 2 y = 1 }
+	}
+	
+	support = {
+		mot_recon = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 1 }
+	}
+	
+	priority = 3
+	
+}
+
+division_template = {
+	name = "Reconstructed Infantry Division" #Reconstructed/New Units
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		artillery_brigade = { x = 2 y = 0 }
+		recce = { x = 3 y = 0 }
+	}
+	priority = 1
+}
+
+units = {
+	
+	division = {
+		name = "1. Republican Guard Brigade"
+		location = 3795
+		division_template = "Reconstructed Republican Guard Brigade"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Republican Guard Brigade"
+		location = 14005
+		division_template = "Reconstructed Republican Guard Brigade"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1. Fedayeen Saddam"
+		location = 12372
+		division_template = "Fedayeen Saddam"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Fedayeen Saddam"
+		location = 14004
+		division_template = "Fedayeen Saddam"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3. Fedayeen Saddam"
+		location = 14004
+		division_template = "Fedayeen Saddam"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1. Liwa Jaysh"
+		location = 12372
+		division_template = "Reconstructed Infantry Division"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Liwa Jaysh"
+		location = 3795
+		division_template = "Reconstructed Infantry Division"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "2. Liwa Jaysh"
+		location = 3795
+		division_template = "Reconstructed Infantry Division"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1. Fedayeen Saddam"
+		location = 12372
+		division_template = "Fedayeen Saddam"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Fedayeen Saddam"
+		location = 14004
+		division_template = "Fedayeen Saddam"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3. Fedayeen Saddam"
+		location = 14004
+		division_template = "Fedayeen Saddam"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "1. Liwa Jaysh"
+		location = 12372
+		division_template = "Reconstructed Infantry Division"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Liwa Jaysh"
+		location = 3795
+		division_template = "Reconstructed Infantry Division"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "2. Liwa Jaysh"
+		location = 3795
+		division_template = "Reconstructed Infantry Division"
+		start_experience_factor = 0.1
+	}
+}
+
+    instant_effect = {
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_2
+			amount = 5000
+			producer = IRQ
+		}
+			add_equipment_to_stockpile = {
+			type = anti_tank_equipment_1
+			amount = 1000
+			producer = IRQ
+		}
+		add_equipment_to_stockpile = {
+			type = anti_air_equipment_1
+			amount = 1000
+			producer = IRQ
+		}
+		add_equipment_to_stockpile = {
+			type = artillery_equipment_1
+			amount = 500
+			producer = IRQ
+		}
+		add_equipment_to_stockpile = {
+			type = support_equipment_1
+			amount = 750
+			producer = IRQ
+		}
+		add_equipment_to_stockpile = {
+			type = mechanized_equipment_1
+			amount = 200
+			producer = IRQ
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 500
+			producer = IRQ
+		}
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 200
+			producer = IRQ
+		}
+    }

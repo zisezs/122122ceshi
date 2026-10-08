@@ -1,0 +1,119 @@
+﻿
+division_template = {
+	name = "Rifle Brigade"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		mechanized = { x = 0 y = 3 }
+		modern_sp_artillery_brigade = { x = 0 y = 4 }
+		spaa_brigade = { x = 1 y = 0 }
+	}
+	
+	support = {
+	}
+	
+}
+division_template = {
+	name = "Komandosi"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+	}
+	
+	support = {
+	}
+	
+	priority = 2
+}
+division_template = {
+	name = "Volunteer Brigade"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 0 y = 4 }
+	}
+	
+	support = {
+	}
+	
+}
+
+units = {
+	division = {
+		name = "11th Rifle Brigade"
+		location = 3544
+		division_template = "Rifle Brigade"
+		start_experience_factor = 0.75
+		
+	}
+	division = {
+		name = "17th Rifle Brigade"
+		location = 14263
+		division_template = "Rifle Brigade"
+		start_experience_factor = 0.75
+		
+	}
+
+	division = {
+		name = "2nd Territorial Defence Brigade"
+		location = 3455
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.75
+		
+	}
+	division = {
+		name = "7th Territorial Defence Brigade"
+		location = 6375
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.75
+		
+	}
+
+	division = {
+		name = "12th Territorial Defence Brigade"
+		location = 6512
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.75
+		
+	}
+	division = {
+		name = "1st Territorial Defence Brigade"
+		location = 14251
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.75
+		
+	}
+	division = {
+		name = "53rd Territorial Defence Brigade"
+		location = 3351
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.75
+		
+	}
+	division = {
+		name = "27th Territorial Defence Brigade"
+		location = 6375
+		division_template = "Volunteer Brigade"
+		start_experience_factor = 0.75
+		
+	}
+	division = {
+		name = "15th Komandosi"
+		location = 11467
+		division_template = "Komandosi"
+		start_experience_factor = 0.75
+		
+	}
+	division = {
+		name = "20th Komandosi"
+		location = 14263
+		division_template = "Komandosi"
+		start_experience_factor = 0.75
+		
+	}
+}

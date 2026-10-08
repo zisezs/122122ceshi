@@ -1,0 +1,272 @@
+﻿division_template = {
+	name = "Reconstructed Infantry Division" #Reconstructed/New Units
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		artillery_brigade = { x = 2 y = 0 }
+		recce = { x = 3 y = 0 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Armored Division"
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		light_mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 1 }
+		recce = { x = 2 y = 2 }
+	}
+	support = {
+	   spaa_company = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Infantry Division" #Std Iraqi Division
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		artillery_brigade = { x = 2 y = 0 }
+		mechanized = { x = 3 y = 0 }
+		recce = { x = 3 y = 1 }
+	}
+	support = {
+		spaa_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Special Forces"
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Popular Mobilization Unit"
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+		mot_militia = { x = 0 y = 1 }
+		mot_militia = { x = 0 y = 2 }
+		mot_militia = { x = 0 y = 3 }
+		recce = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+	}
+	support = {
+		apc_company = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Liwa Saraya al-Salam"
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+	}
+	support = {
+		mbt_company = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+	}
+	priority = 2
+}
+
+units = {
+	### PMU Sistani faction #WIP
+	division = {
+		name = "Saraya al-Ataba al-Abbasiya"
+		location = 1600
+		division_template = "Popular Mobilization Unit"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Saraya al-Ataba al-Hussainiya"
+		location = 7994
+		division_template = "Popular Mobilization Unit"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Saraya al-Ataba al-Alawiya"
+		location = 2004
+		division_template = "Popular Mobilization Unit"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Liwa ‘Ali al-Akbar"
+		location = 2004
+		division_template = "Popular Mobilization Unit"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Islamic Supreme Council of Iraq"
+		location = 10876
+		division_template = "Popular Mobilization Unit"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Saraya el-Jihad"
+		location = 7977
+		division_template = "Popular Mobilization Unit"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Saraya el-Aqida"
+		location = 8123
+		division_template = "Popular Mobilization Unit"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Saraya Ashura"
+		location = 12879
+		division_template = "Popular Mobilization Unit"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	### PMU Muqtada al-Sadr faction #WIP
+	division = {
+		name = "1. Liwa Saraya al-Salam"
+		location = 2097
+		division_template = "Liwa Saraya al-Salam"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2. Liwa Saraya al-Salam"
+		location = 2097
+		division_template = "Liwa Saraya al-Salam"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3. Liwa Saraya al-Salam"
+		location = 2097
+		division_template = "Liwa Saraya al-Salam"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "4. Liwa Saraya al-Salam"
+		location = 12879
+		division_template = "Liwa Saraya al-Salam"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	### Iraqi Army
+	division = {
+		name = "16th Infantry Division"
+		location = 10106
+		division_template = "Reconstructed Infantry Division"
+		start_experience_factor = 0.0
+		start_equipment_factor = 1
+	}
+	   division = {
+		name = "15th Infantry Division"
+		location = 12839
+		division_template = "Reconstructed Infantry Division"
+		start_experience_factor = 0.0
+		start_equipment_factor = 1
+	}
+	   division = {
+		name = "10th Infantry Division"
+		location = 1631
+		division_template = "Reconstructed Infantry Division"
+		start_experience_factor = 0.0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "14th Infantry Division"
+		location = 7994
+		division_template = "Reconstructed Infantry Division"
+		start_experience_factor = 0.0
+		start_equipment_factor = 1
+	}
+	   division = {
+		name = "1st Motorized Division"
+		location = 1600
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "5th Motorized Division"
+		location = 12372
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "6th Motorized Division"
+		location = 10106
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "7th Motorized Division"
+		location = 8123
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "8th Motorized Division"
+		location = 1631
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "17th Motorized Division"
+		location = 12372
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "9th Armored Division"
+		location = 2089
+		division_template = "Armored Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "1st Special Operations Brigade"
+		location = 1600
+		division_template = "Special Forces"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2nd Special Operations Brigade"
+		location = 10876
+		division_template = "Special Forces"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3rd Special Operations Brigade"
+		location = 2097
+		division_template = "Special Forces"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+}

@@ -1,0 +1,91 @@
+﻿division_template = {
+	name = "Battaillon Blinde"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+	}
+
+	support = {
+		light_tank_recon = { x = 0 y = 0 }
+		spa_company = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Bataillon d’Infanterie"
+
+	regiments = {
+	   infantry = { x = 0 y = 0 }
+	}
+
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Bataillon Mécanisée d’Infanterie"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+	}
+
+	support = {
+		armored_car_recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Bataillon des Commandos Parachutistes"
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+	}
+
+	priority = 2
+}
+
+units = {
+	division = {
+		name = "Battaillon Blinde"
+		location = 8122	#Yamoussoukro
+		division_template = "Battaillon Blinde"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "1er Bataillon d’Infanterie"
+		location = 10803	#Abidjan
+		division_template = "Bataillon d’Infanterie"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "2éme Bataillon d’Infanterie"
+		location = 8122	#Daloa
+		division_template = "Bataillon d’Infanterie"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "3éme Bataillon d’Infanterie"
+		location = 5070	#
+		division_template = "Bataillon d’Infanterie"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "4e Bataillon d’Infanterie"
+		location = 8065	#
+		division_template = "Bataillon Mécanisée d’Infanterie"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "1er Bataillon des Commandos Parachutistes"
+		location = 10803	#Akouedo
+		division_template = "Bataillon des Commandos Parachutistes"
+		start_experience_factor = 0.3
+	}
+}

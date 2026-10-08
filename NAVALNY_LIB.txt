@@ -1,0 +1,105 @@
+﻿division_template = {
+	name = "Motostrelkovaya Brigada"
+	division_names_group = SOV_INF_01
+	
+	regiments = {
+		light_mechanized = { x = 0 y = 0 } 
+		light_mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		modern_armor = { x = 1 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 1 }
+		modern_sp_artillery_brigade = { x = 2 y = 2 }
+		spaa_brigade = { x = 2 y = 3 }
+		light_armor = { x = 3 y = 0 }
+	}
+	
+	support = {
+	}
+		
+}
+
+division_template = {
+	name = "Tankovaya Brigada"
+	division_names_group = SOV_ARM_01
+	
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		light_mechanized = { x = 1 y = 0 }
+		modern_sp_artillery_brigade = { x = 1 y = 1 }
+		modern_sp_artillery_brigade = { x = 1 y = 2 }
+		spaa_brigade = { x = 1 y = 3 }
+		light_armor = { x = 1 y = 4 }
+	}
+	
+	support = {
+	}
+}
+
+units = {
+	division = {
+		name = "1-ya Motostrelkovaya Brigada Opolcheniya - 'Ekaterinburgskaya'"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		officer = {
+            name = "Yevgeny Roizman"
+            portraits = {
+                army = {
+                    large = GFX_SOV_Yevgeny_Roizman
+                    small = "gfx/interface/ideas/SOV/advisors/SOV_Royzman_Division_Commander.png"
+                }
+            }
+        }
+	}
+	division = {
+		name = "2-ya Motostrelkovaya Brigada Opolcheniya - 'Liberta'"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+		officer = {
+            name = "Mikhail Svetov"
+            portraits = {
+                army = {
+                    large = GFX_SOV_Mikhail_Svetov
+                    small = "gfx/interface/ideas/SOV/advisors/SOV_Svetov_Division_Commander.png"
+                }
+            }
+        }
+	}
+	division = {
+		name = "1-ya Tankovaya Brigada Opolcheniya - 'Gustopsovyie'"
+		location = 6380
+		division_template = "Tankovaya Brigada"
+		start_experience_factor = 0.1
+		officer = {
+            name = "Oleg Kashin"
+            portraits = {
+                army = {
+                    large = GFX_SOV_Oleg_Kashin
+                    small = "gfx/interface/ideas/SOV/advisors/SOV_Kashin_Division_Commander.png"
+                }
+            }
+        }
+	}
+	division = {
+		name = "2-ya Tankovaya Brigada Opolcheniya - 'Vol'nost''"
+		location = 6380
+		division_template = "Tankovaya Brigada"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "3-ya Motostrelkovaya Brigada Opolcheniya"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "4-ya Motostrelkovaya Brigada Opolcheniya"
+		location = 6380
+		division_template = "Motostrelkovaya Brigada"
+		start_experience_factor = 0.1
+	}
+}

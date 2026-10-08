@@ -1,0 +1,79 @@
+﻿division_template = {
+	name = "National Guard"
+	regiments = {
+		motorized = {
+			x = 0
+			y = 0
+		}
+		motorized = {
+			x = 0
+			y = 1
+		}
+		motorized = {
+			x = 0
+			y = 2
+		}
+		infantry = {
+			x = 1
+			y = 0
+		}
+		infantry = {
+			x = 1
+			y = 1
+		}
+		infantry = {
+			x = 1
+			y = 2
+		}
+		artillery_brigade = {
+			x = 2
+			y = 0
+		}
+		artillery_brigade = {
+			x = 2
+			y = 1
+		}
+	}
+	support = {
+		engineer = {
+			x = 0
+			y = 0
+		}
+		signal_company = {
+			x = 0
+			y = 1
+		}
+		logistics_company = {
+			x = 0
+			y = 2
+		}
+	}
+	priority = 2
+}
+
+units = {
+	division = {
+		name = "1st National Guard Battalion"
+		location = 715
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "2nd National Guard Battalion"
+		location = 715
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "3rd National Guard Battalion"
+		location = 715
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "4th National Guard Battalion"
+		location = 715
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+}

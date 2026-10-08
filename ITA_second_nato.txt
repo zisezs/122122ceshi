@@ -1,0 +1,295 @@
+﻿division_template = {
+	name = "Divisione CC.NN"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		artillery_brigade = { x = 0 y = 3 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		artillery_brigade = { x = 1 y = 3 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
+		artillery_brigade = { x = 2 y = 3 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Divisione Alpina"
+
+	regiments = {
+		recce = { x = 0 y = 0 }
+		recce = { x = 0 y = 1 }
+		recce = { x = 0 y = 2 }
+		recce = { x = 1 y = 0 }
+		recce = { x = 1 y = 1 }
+		recce = { x = 1 y = 2 }
+		recce = { x = 2 y = 0 }
+		recce = { x = 2 y = 1 }
+		recce = { x = 2 y = 2 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+		artillery_brigade = { x = 3 y = 2 }
+	}
+	
+	support = {
+		mot_recon = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+		anti_tank = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Divisione di Fanteria"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+		mechanized = { x = 2 y = 0 }
+		mechanized = { x = 2 y = 1 }
+		mechanized = { x = 2 y = 2 }
+		modern_sp_artillery_brigade = { x = 3 y = 0 }
+		modern_sp_artillery_brigade = { x = 3 y = 1 }
+		modern_sp_artillery_brigade = { x = 3 y = 2 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+		anti_tank = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Divisione d'Assalto Anfibio"
+
+	regiments = {
+		amphibious_mechanized = { x = 0 y = 0 }
+		amphibious_mechanized = { x = 0 y = 1 }
+		amphibious_mechanized = { x = 0 y = 2 }
+		amphibious_mechanized = { x = 1 y = 0 }
+		amphibious_mechanized = { x = 1 y = 1 }
+		amphibious_mechanized = { x = 1 y = 2 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 1 }
+		modern_sp_artillery_brigade = { x = 2 y = 2 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+		anti_tank = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Divisione Corazzata"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		spaa_brigade = { x = 1 y = 0 }
+		modern_sp_artillery_brigade = { x = 1 y = 1 }
+		mechanized = { x = 2 y = 0 }
+		mechanized = { x = 2 y = 1 }
+		mechanized = { x = 2 y = 2 }
+		mechanized = { x = 3 y = 0 }
+		mechanized = { x = 3 y = 1 }
+		mechanized = { x = 3 y = 2 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {			
+		name = "1st CC.NN. Division '23 Marzo'"
+		location = 11584
+		division_template = "Divisione CC.NN"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "2nd CC.NN. Division '28 Ottobre'"
+		location = 11833
+		division_template = "Divisione CC.NN"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "3rd CC.NN. Division '21 Aprile'"
+		location = 11833
+		division_template = "Divisione CC.NN"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "4th CC.NN. Division '3 Gennaio'"
+		location = 6780
+		division_template = "Divisione CC.NN"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "5th CC.NN. Division '1 Febbraio'" 
+		location = 6780
+		division_template = "Divisione CC.NN"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "6th CC.NN. Division 'Tevere'"
+		location = 6656
+		division_template = "Divisione CC.NN"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "7th CC.NN. Division 'Cirene'"
+		location = 6606
+		division_template = "Divisione CC.NN"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "131st Divisione Corazzata 'Centauro'"
+		location = 9772
+		division_template = "Divisione CC.NN"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "132nd Divisione Corazzata 'Ariete'"
+		location = 923
+		division_template = "Divisione Corazzata"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "133rd Divisione Corazzata 'Littorio'"
+		location = 819
+		division_template = "Divisione Corazzata"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "135th Divisione Cavalleria Corazzata 'Ariete'"
+		location = 9784
+		division_template = "Divisione Corazzata"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "136th Divisione Legionaria Corazzata 'Centauro'"
+		location = 9784
+		division_template = "Divisione Corazzata"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	
+	
+	division = {			
+		name = "1st Divisione Alpina 'Taurinense'"
+		location = 4159
+		division_template = "Divisione Alpina"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "2nd Divisione Alpina 'Tridentina'"
+		location = 4159
+		division_template = "Divisione Alpina"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "3rd Divisione Alpina 'Julia'"
+		location = 4159
+		division_template = "Divisione Alpina"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	
+	
+	division = {			
+		name = "5th Divisione di Fanteria"
+		location = 4159
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "6th Divisione di Fanteria"
+		location = 4159
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "17th Divisione di Fanteria"
+		location = 4159
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "18th Divisione di Fanteria"
+		location = 4159
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "19th Divisione di Fanteria"
+		location = 4159
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "20th Divisione di Fanteria"
+		location = 4159
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "21st Divisione di Fanteria"
+		location = 4159
+		division_template = "Divisione di Fanteria"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	
+	
+	division = {			
+		name = "221st Divisione d'Assalto Anfibio"
+		location = 4159
+		division_template = "Divisione d'Assalto Anfibio"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "100th Divisione d'Assalto Anfibio"
+		location = 4159
+		division_template = "Divisione d'Assalto Anfibio"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+}

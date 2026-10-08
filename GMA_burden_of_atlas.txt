@@ -1,0 +1,43 @@
+﻿division_template = {
+	name = "Infantry Brigade"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+		
+}
+
+units = {
+	division = {
+		name = "1st ''Time is Money'' Division"
+		location = 10481
+		division_template = "Infantry Brigade"
+		start_experience_factor = 1.0
+	}
+	
+	division = {
+		name = "2nd ''Saving Grace'' Division"
+		location = 13862
+		division_template = "Infantry Brigade"
+		start_experience_factor = 1.0
+	}
+	
+	division = {
+		name = "3rd ''American Pie'' Division"
+		location = 4445
+		division_template = "Infantry Brigade"
+		start_experience_factor = 1.0
+	}
+}

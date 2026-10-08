@@ -1,0 +1,198 @@
+﻿division_template = {
+	name = "Volunteer Infantry Brigade"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+	
+	support = {
+	}
+}
+
+units = {
+	division = {
+		name = "1st Volunteer Infantry Brigade"
+		location = 3687
+		division_template = "Volunteer Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "2nd Volunteer Infantry Brigade"
+		location = 9662
+		division_template = "Volunteer Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "3rd Volunteer Infantry Brigade"
+		location = 9662
+		division_template = "Volunteer Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "4th Volunteer Infantry Brigade"
+		location = 11648
+		division_template = "Volunteer Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "5th Volunteer Infantry Brigade"
+		location = 9836
+		division_template = "Volunteer Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "6th Volunteer Infantry Brigade"
+		location = 3697
+		division_template = "Volunteer Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "7th Volunteer Infantry Brigade"
+		location = 894
+		division_template = "Volunteer Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "8th Volunteer Infantry Brigade"
+		location = 3897
+		division_template = "Volunteer Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "9th Volunteer Infantry Brigade"
+		location = 891
+		division_template = "Volunteer Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "10th Volunteer Infantry Brigade"
+		location = 3693
+		division_template = "Volunteer Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "11th Volunteer Infantry Brigade"
+		location = 6882
+		division_template = "Volunteer Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "12th Volunteer Infantry Brigade"
+		location = 6882
+		division_template = "Volunteer Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "13th Volunteer Infantry Brigade"
+		location = 6882
+		division_template = "Volunteer Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "14th Volunteer Infantry Brigade"
+		location = 862
+		division_template = "Volunteer Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "15th Volunteer Infantry Brigade"
+		location = 702
+		division_template = "Volunteer Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "16th Volunteer Infantry Brigade"
+		location = 3687
+		division_template = "Volunteer Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "17th Volunteer Infantry Brigade"
+		location = 9662
+		division_template = "Volunteer Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "18th Volunteer Infantry Brigade"
+		location = 9662
+		division_template = "Volunteer Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "19th Volunteer Infantry Brigade"
+		location = 11648
+		division_template = "Volunteer Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "20th Volunteer Infantry Brigade"
+		location = 9836
+		division_template = "Volunteer Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "21st Volunteer Infantry Brigade"
+		location = 3697
+		division_template = "Volunteer Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "22nd Volunteer Infantry Brigade"
+		location = 894
+		division_template = "Volunteer Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "23rd Volunteer Infantry Brigade"
+		location = 3897
+		division_template = "Volunteer Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "24th Volunteer Infantry Brigade"
+		location = 891
+		division_template = "Volunteer Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "25th Volunteer Infantry Brigade"
+		location = 3693
+		division_template = "Volunteer Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "26th Volunteer Infantry Brigade"
+		location = 6882
+		division_template = "Volunteer Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "27th Volunteer Infantry Brigade"
+		location = 6882
+		division_template = "Volunteer Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "28th Volunteer Infantry Brigade"
+		location = 6882
+		division_template = "Volunteer Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "29th Volunteer Infantry Brigade"
+		location = 862
+		division_template = "Volunteer Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "30th Volunteer Infantry Brigade"
+		location = 702
+		division_template = "Volunteer Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+}

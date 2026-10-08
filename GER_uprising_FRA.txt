@@ -1,0 +1,344 @@
+division_template = {
+	name = "Unruly Masses"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 0 y = 4 }
+		
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 1 y = 3 }
+		militia = { x = 1 y = 4 }
+		
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
+		militia = { x = 2 y = 3 }
+		militia = { x = 2 y = 4 }
+		
+		militia = { x = 3 y = 0 }
+		militia = { x = 3 y = 1 }
+		militia = { x = 3 y = 2 }
+		militia = { x = 3 y = 3 }
+		militia = { x = 3 y = 4 }
+		
+		militia = { x = 4 y = 0 }
+		militia = { x = 4 y = 1 }
+		militia = { x = 4 y = 2 }
+		militia = { x = 4 y = 3 }
+		militia = { x = 4 y = 4 }
+	}
+	support = {
+	}
+}
+
+units = {
+	division = {
+		name = "Unruly Masses"
+		location = 9523
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 9523
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 9523
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 9523
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 9523
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 9523
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 9523
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 9523
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 9523
+		division_template = "Unruly Masses"
+	}
+	
+	division = {
+		name = "Unruly Masses"
+		location = 11465
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 11465
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 11465
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 11465
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 11465
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 11465
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 11465
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 11465
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 11465
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 11465
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 11465
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 11465
+		division_template = "Unruly Masses"
+	}
+	
+	division = {
+		name = "Unruly Masses"
+		location = 6613
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 6613
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 6613
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 6613
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 3589
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 3589
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 3589
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 958
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 958
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 958
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 958
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 3594
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 3594
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 3594
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 3594
+		division_template = "Unruly Masses"
+	}
+	
+	division = {
+		name = "Unruly Masses"
+		location = 575
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 575
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 575
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 575
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 3536
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 3536
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 3536
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 3536
+		division_template = "Unruly Masses"
+	}
+	
+	division = {
+		name = "Unruly Masses"
+		location = 512
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 512
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 512
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 512
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 512
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 512
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 512
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 512
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 512
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 512
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 512
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 512
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 512
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 512
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 512
+		division_template = "Unruly Masses"
+	}
+	division = {
+		name = "Unruly Masses"
+		location = 512
+		division_template = "Unruly Masses"
+	}
+}

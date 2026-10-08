@@ -1,0 +1,7 @@
+﻿units = {
+	division = {
+		name = "Mutatawieun Suriuwn"
+		location = 4088
+		division_template = "Liwa Milishia"
+	}
+}

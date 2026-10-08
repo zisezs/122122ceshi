@@ -1,0 +1,7 @@
+﻿units = {
+	division = {
+		name = "Alliwa Allubnaniu"
+		location = 1065
+		division_template = "Liwa Mushat"
+	}
+}

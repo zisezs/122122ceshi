@@ -1,0 +1,50 @@
+﻿division_template = {
+	name = "Liwa Mushat"
+	
+	regiments = { 
+		infantry = { x = 0 y = 0 } 
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+
+	}
+}
+
+units = {
+	division = {
+		name = "1. Liwa Mushat"
+		location = 4088
+		division_template = "Liwa Mushat"
+	}
+	division = {
+		name = "2. Liwa Mushat"
+		location = 4088
+		division_template = "Liwa Mushat"
+	}
+	division = {
+		name = "3. Liwa Mushat"
+		location = 4088
+		division_template = "Liwa Mushat"
+	}	
+	division = {
+		name = "4. Liwa Mushat"
+		location = 4088
+		division_template = "Liwa Mushat"
+	}
+	division = {
+		name = "5. Liwa Mushat"
+		location = 4088
+		division_template = "Liwa Almsha"
+	}
+	division = {
+		name = "6. Liwa Mushat"
+		location = 13247
+		division_template = "Liwa Mushat"
+	}
+	division = {
+		name = "7. Liwa Mushat"
+		location = 13250
+		division_template = "Liwa Mushat"
+	}
+}

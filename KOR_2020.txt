@@ -1,0 +1,691 @@
+﻿division_template = {
+	name = "步兵师团"
+is_locked = yes
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_sp_artillery_brigade = { x = 0 y = 1 }
+		modern_sp_artillery_brigade = { x = 0 y = 2 }
+                modern_sp_artillery_brigade = { x = 0 y = 3 }
+		light_mechanized  = { x = 1 y = 0 }
+		light_mechanized  = { x = 1 y = 1 }
+		light_mechanized  = { x = 1 y = 2 }
+	}
+	
+	support = {
+		spaa_company = { x = 0 y = 0 }
+		engineer  = { x = 0 y = 1 }
+		light_tank_recon = { x = 0 y = 2 }
+                signal_company = { x = 0 y = 3 }
+
+	}
+
+}
+
+division_template = {
+	name = "机动师团"
+is_locked = yes
+	regiments = {
+		modern_armor = { x = 0 y = 0   }
+		modern_armor = { x = 0 y = 1  }
+                mechanized  = { x = 0 y = 2    }
+		modern_sp_artillery_brigade = { x = 0 y = 3 }
+               
+
+		light_armor = { x = 1 y = 0 }
+               light_armor= { x = 1 y = 1 }
+		mechanized  = { x = 1 y = 2 }
+                mechanized  = { x = 1 y = 3 }
+		
+                modern_sp_artillery_brigade = { x = 2 y = 0 }
+                modern_sp_artillery_brigade = { x = 2 y = 1 }
+                modern_sp_artillery_brigade = { x = 2 y = 2 }
+                mechanized  = { x = 2 y = 3                   }
+	}
+	
+	support = {
+		spaa_company = { x = 0 y = 0 }
+		engineer  = { x = 0 y = 1 }
+		light_tank_recon = { x = 0 y = 2 }
+                signal_company = { x = 0 y = 3 }
+
+	}
+}
+
+
+division_template = {
+	name = "装甲旅团"
+is_locked = yes
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor= { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+                modern_sp_artillery_brigade = { x = 0 y = 3 }
+		modern_sp_artillery_brigade  = { x = 1 y = 0 }
+		mechanized  = { x = 1 y = 1 }
+		mechanized  = { x = 1 y = 2 }
+                mechanized  = { x = 1 y = 3 }
+
+	}
+	
+	support = {
+		spaa_company = { x = 0 y = 0 }
+		engineer  = { x = 0 y = 1 }
+		light_tank_recon = { x = 0 y = 2 }
+                signal_company = { x = 0 y = 3 }
+
+	}
+}
+
+division_template = {
+	name = "炮兵旅团"
+is_locked = yes
+	regiments = {
+		modern_sp_artillery_brigade = { x = 0 y = 0 }
+		modern_sp_artillery_brigade= { x = 0 y = 1 }
+		modern_sp_artillery_brigade= { x = 0 y = 2 }
+                modern_sp_artillery_brigade = { x = 0 y = 3 }
+		modern_sp_artillery_brigade  = { x = 0 y = 4 }
+		modern_sp_artillery_brigade   = { x = 1 y = 0 }
+		modern_sp_artillery_brigade   = { x = 1 y = 1 }
+                artillery_brigade  = { x = 1 y = 2 }
+artillery_brigade = { x = 1 y = 3 }
+artillery_brigade = { x = 1 y = 4 }
+infantry = { x = 2 y = 0 }
+infantry = { x = 2 y = 1 }
+motorized_rocket_brigade = { x = 2 y = 2 }
+motorized_rocket_brigade = { x = 2 y = 3 }
+
+	}
+	
+	support = {
+		spaa_company = { x = 0 y = 0 }
+		engineer  = { x = 0 y = 1 }
+		light_tank_recon = { x = 0 y = 2 }
+                signal_company = { x = 0 y = 3 }
+
+	}
+}
+
+division_template = {
+	name = "海军陆战队"
+is_locked = yes
+	regiments = {
+		amphibious_mechanized = { x = 0 y = 0 }
+		amphibious_mechanized = { x = 0 y = 1 }
+		amphibious_mechanized= { x = 0 y = 2 }
+		amphibious_armor = { x = 0 y = 3 }
+		 light_armor = { x = 1 y = 0 }
+		artillery_brigade = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
+
+
+	}
+	
+	support = {
+		spaa_company = { x = 0 y = 0 }
+		engineer  = { x = 0 y = 1 }
+		light_tank_recon = { x = 0 y = 2 }
+                signal_company = { x = 0 y = 3 }
+
+	}
+}
+
+
+division_template = {
+	name = "乡土师团"
+is_locked = yes
+	regiments = {
+		militia = {
+			x = 0
+			y = 0
+		}
+		militia = {
+			x = 0
+			y = 1
+		}
+		militia = {
+			x = 0
+			y = 2
+		}
+		militia = {
+			x = 0
+			y = 3
+		}
+
+
+
+militia = {
+			x = 1
+			y = 0
+		}
+		militia = {
+			x = 1
+			y = 1
+		}
+		militia = {
+			x = 1
+			y = 2
+		}
+		militia = {
+			x = 1
+			y = 3
+		}
+
+militia = {
+			x = 2
+			y = 0
+		}
+		militia = {
+			x = 2
+			y = 1
+		}
+		militia = {
+			x = 2
+			y = 2
+		}
+		militia = {
+			x = 2
+			y = 3
+		}
+
+militia = {
+			x = 3
+			y = 0
+		}
+		militia = {
+			x = 3
+			y = 1
+		}
+		militia = {
+			x = 3
+			y = 2
+		}
+		militia = {
+			x = 3
+			y = 3
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+			}
+	support = {
+		military_police = {
+			x = 0
+			y = 0
+		}
+	}
+
+}
+
+division_template = {
+	name = "空输旅团" 
+is_locked = yes
+	regiments = {
+paratrooper = { x = 0 y = 0 }
+paratrooper = { x = 0 y = 1 }
+paratrooper = { x = 0 y = 2 }
+paratrooper = { x = 0 y = 3 }
+paratrooper = { x = 0 y = 4 }
+paratrooper = { x = 1 y = 0 }
+paratrooper = { x = 1 y = 1 }
+paratrooper = { x = 1 y = 2 }
+paratrooper = { x = 0 y = 3 }
+paratrooper = { x = 0 y = 4 }
+
+	}
+	
+	support = {
+engineer = { x = 0 y = 0 }
+apc_company = { x = 0 y = 1 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "特殊作战部队"
+is_locked = yes
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+                special_forces = { x = 1 y = 0 }
+		special_forces = { x = 1 y = 1 }
+		special_forces = { x = 1 y = 2 }
+                special_forces = { x = 2 y = 0 }
+		special_forces = { x = 2 y = 1 }
+		special_forces = { x = 2 y = 2 }
+
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		apc_company = { x = 0 y = 1 }
+	}
+
+	priority = 2
+}
+
+division_template = {
+	name = "difficulty"
+	is_locked = yes
+	
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		modern_armor = { x = 0 y = 3 }
+		modern_armor = { x = 0 y = 4 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+		mechanized = { x = 1 y = 3 }
+		mechanized = { x = 1 y = 4 }
+		modern_sp_artillery_brigade = { x = 3 y = 0 }
+		modern_sp_artillery_brigade = { x = 3 y = 1 }
+		modern_sp_artillery_brigade = { x = 3 y = 2 }
+		modern_sp_artillery_brigade = { x = 3 y = 3 }
+		modern_sp_artillery_brigade = { x = 3 y = 4 }
+		spaa_brigade = { x = 2 y = 0 }
+		motorized_rocket_brigade = { x = 2 y = 1 }
+		modern_sp_artillery_brigade = { x = 3 y = 0 }
+		modern_sp_artillery_brigade = { x = 3 y = 3 }
+		modern_sp_artillery_brigade = { x = 3 y = 4 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+		spa_company = { x = 0 y = 1 }
+		light_tank_recon = { x = 0 y = 2 }
+		engineer = { x = 0 y = 3 }
+		logistics_company = { x = 1 y = 0 }
+		maintenance_company = { x = 1 y = 1 }
+		field_hospital = { x = 1 y = 2 }
+		signal_company = { x = 1 y = 3 }
+	}
+
+}
+
+units = {
+
+division = {	
+		name = "海军陆战队第二师团青龙部队"
+		location = 1148
+		division_template = "海军陆战队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+division = {	
+		name = "第二十二步兵师团粟谷部队"
+		location = 7125
+		division_template = "步兵师团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+division = {	
+		name = "首都机动师团猛虎部队"
+		location = 4004
+
+		division_template = "机动师团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+  division = {	
+		name = "第十一机动师团花郎部队"
+		location = 4004
+
+		division_template = "机动师团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}	
+division = {	
+		name = "第三十五步兵师团"
+		location = 4004
+		division_template = "乡土师团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+division = {	
+		name = "第五十步兵师团"
+		location = 4004
+		division_template = "乡土师团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+division = {	
+		name = "第三十九步兵师团"
+		location = 4004
+		division_template = "乡土师团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+division = {	
+		name = "第三十一步兵师团"
+		location = 4004
+		division_template = "乡土师团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+division = {
+		name = "第五十三步兵师团"
+		location =  4004
+		division_template = "乡土师团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+division = {	
+		name = "第三十七步兵师团"
+		location = 11977
+		division_template = "乡土师团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+division = {	
+		name = "第一步兵师团前锋部队"
+		location = 1148
+		division_template = "步兵师团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+division = {	
+		name = "第九步兵师团白马部队"
+		location = 11958
+		division_template = "步兵师团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+division = {	
+		name = "第二十五步兵师团飞龙部队"
+		location = 11958
+		division_template = "步兵师团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+division = {	
+		name = "第十七步兵师团闪电部队"
+		location = 11958
+		division_template = "步兵师团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+division = {	
+		name = "第五十二步兵师团箭头部队"
+		location = 4004
+		division_template = "步兵师团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+division = {	
+		name = "第五十七步兵师团北汉山部队"
+		location = 4004
+		division_template = "步兵师团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+division = {	
+		name = "第五十五步兵师团烽火部队"
+		location = 4004
+		division_template = "步兵师团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+division = {	
+		name = "第三步兵师团白骨师团"
+		location = 11958
+		division_template = "步兵师团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+division = {	
+		name = "第六步兵师团蓝星部队"
+		location = 12011
+		division_template = "步兵师团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+division = {	
+		name = "第二十装甲旅团秃鹫部队"
+		location = 10110
+		division_template = "装甲旅团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+division = {	
+		name = "第一〇二装甲旅团日出部队"
+		location = 11977
+		division_template = "装甲旅团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+division = {	
+		name = "第二装甲旅团忠诚部队"
+		location = 4126
+		division_template = "装甲旅团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+division = {	
+		name = "第三十装甲旅团胜利部队"
+		location = 4126
+		division_template = "装甲旅团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+division = {	
+		name = "第一装甲旅团闪击部队"
+		location = 12060
+		division_template = "装甲旅团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+division = {	
+		name = "第五装甲旅团铁风部队"
+		location = 4086
+		division_template = "装甲旅团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+division = {	
+		name = "第三装甲旅团闪电部队"
+		location = 4056
+		division_template = "装甲旅团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+division = {	
+		name = "第五炮兵旅团前进部队"
+		location = 10115
+		division_template = "炮兵旅团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+division = {	
+		name = "第二炮兵旅团双龙部队"
+		location = 7175
+		division_template = "炮兵旅团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+division = {	
+		name = "第三炮兵旅团山炮部队"
+		location = 10115
+		division_template = "炮兵旅团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+division = {	
+		name = "第七炮兵旅团忠浩部队"
+		location = 10115
+		division_template = "炮兵旅团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+division = {	
+		name = "第一炮兵旅团飞虎部队"
+		location = 7175
+		division_template = "炮兵旅团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+division = {	
+		name = "首都炮兵旅团忠义部队"
+		location = 10115
+		division_template = "炮兵旅团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+division = {	
+		name = "第五步兵师团钥匙部队"
+		location = 4004
+		division_template = "步兵师团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+division = {	
+		name = "第七步兵师团七星师"
+		location = 4056
+		division_template = "步兵师团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	
+division = {	
+		name = "第十五步兵师团胜利部队"
+		location = 7125
+		division_template = "步兵师团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "第二十一步兵师团白头山部队"
+		location = 7221
+		division_template = "步兵师团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "第十二步兵师团乙支部队"
+		location = 7125
+		division_template = "步兵师团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	
+division = {	
+		name = "第十三空输特战旅团"
+		location = 4126
+		division_template = "空输旅团"
+		start_experience_factor = 0.25
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "第七空输特战旅团"
+		location = 4126
+		division_template = "空输旅团"
+		start_experience_factor = 0.25
+		start_equipment_factor = 1
+	}
+       division = {	
+		name = "第三空输特战旅团"
+		location = 4126
+		division_template = "空输旅团"
+		start_experience_factor = 0.25
+		start_equipment_factor = 1
+	}
+
+	division = {	
+		name = "第十一空输特战旅团"
+		location = 4126
+		division_template = "空输旅团"
+		start_experience_factor = 0.25
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "第一空输特战旅团老鹰部队"
+		location = 4126
+		division_template = "空输旅团"
+		start_experience_factor = 0.25
+		start_equipment_factor = 1
+	}
+       division = {	
+		name = "第九空输特战旅团鬼星部队"
+		location = 4126
+		division_template = "空输旅团"
+		start_experience_factor = 0.25
+		start_equipment_factor = 1
+	}
+       division = {	
+		name = "第二快反师团怒涛部队"
+		location = 4126
+		division_template = "特殊作战部队"
+		start_experience_factor = 0.25
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "第一山地旅"
+		location = 4126
+		division_template = "特殊作战部队"
+		start_experience_factor = 0.25
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "第七〇七特殊部队白虎部队"
+		location = 4126
+		division_template = "特殊作战部队"
+		start_experience_factor = 0.25
+		start_equipment_factor = 1
+	} 
+	
+       division = {	
+		name = "第三十二步兵师团"
+		location = 4056
+		division_template = "乡土师团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+       division = {	
+		name = "第二十六步兵师团"
+		location = 7125
+		division_template = "步兵师团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+division = {	
+		name = "第五十一步兵师团"
+		location = 4004
+
+		division_template = "步兵师团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+division = {	
+		name = "第七十步兵师团"
+		location = 4004
+		division_template = "步兵师团"
+		start_experience_factor = 0.25
+		start_equipment_factor = 1
+	}
+
+division = {	
+		name = "第三十六步兵师团"
+		location = 7125
+		division_template = "步兵师团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	}

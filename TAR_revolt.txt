@@ -1,0 +1,136 @@
+division_template = {
+	name = "Jixiehua Bubing Shi"
+	
+	regiments = {
+		light_mechanized = { x = 0 y = 0 }
+		light_mechanized = { x = 0 y = 1 }
+		light_mechanized = { x = 0 y = 2 }
+		light_mechanized = { x = 0 y = 3 }
+		light_mechanized = { x = 1 y = 0 }
+		light_mechanized = { x = 1 y = 1 }
+		light_mechanized = { x = 1 y = 2 }
+		light_mechanized = { x = 1 y = 3 }
+		modern_armor = { x = 2 y = 0 }
+		modern_armor = { x = 2 y = 1 }
+		modern_armor = { x = 2 y = 2 }
+		motorized = { x = 2 y = 3 }
+		modern_sp_artillery_brigade = { x = 3 y = 0 }
+		modern_sp_artillery_brigade = { x = 3 y = 1 }
+		modern_sp_artillery_brigade = { x = 3 y = 2 }
+		modern_sp_artillery_brigade = { x = 3 y = 3 }
+		spaa_brigade = { x = 4 y = 0 }
+		spaa_brigade = { x = 4 y = 1 }
+	}
+	
+	support = {
+	}
+		
+}
+
+division_template = {
+	name = "Tèzhǒng Zuòzhàn Bùduì"
+	
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		apc_company = { x = 0 y = 1 }
+	}
+	
+}
+
+division_template = {
+		name = "Renming Buduei"
+		
+		regiments = {
+			infantry = { x = 0 y = 0 }
+			infantry = { x = 0 y = 1 }
+			infantry = { x = 0 y = 2 }
+			infantry = { x = 1 y = 0 }
+			infantry = { x = 1 y = 1 }
+			infantry = { x = 1 y = 2 }
+		}
+		
+		support = {
+			engineer = { x = 0 y = 0 }
+			signal_company = { x = 0 y = 1 }
+			logistics_company = { x = 0 y = 2 }
+		}
+	}
+
+units = {
+	division = {			
+		name = "1st Special Forces Division"
+		location = 8059
+		division_template = "Tèzhǒng Zuòzhàn Bùduì"
+		start_experience_factor = 0.65
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "1st Volunteer Militia"
+		location = 10741
+		division_template = "Renming Buduei"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "2nd Volunteer Militia"
+		location = 2014
+		division_template = "Renming Buduei"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "3rd Volunteer Militia"
+		location = 2014
+		division_template = "Renming Buduei"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "4th Volunteer Militia"
+		location = 2014
+		division_template = "Renming Buduei"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "5th Volunteer Militia"
+		location = 2093
+		division_template = "Renming Buduei"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "6th Volunteer Militia"
+		location = 12784
+		division_template = "Renming Buduei"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "7th Volunteer Militia"
+		location = 12784
+		division_template = "Renming Buduei"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "1st Tibetan Garrison"
+		location = 2098
+		division_template = "Jixiehua Bubing Shi"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "2nd Tibetan Garrison"
+		location = 4994
+		division_template = "Jixiehua Bubing Shi"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+}

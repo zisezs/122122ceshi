@@ -1,0 +1,34 @@
+﻿division_template = {
+	name = "Legionsbrigade"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		mechanized = { x = 0 y = 3 }
+		modern_sp_artillery_brigade = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+	
+}
+
+units = {
+	division = {
+		name = "15th Brygada Zmechanizowana"
+		location = 6521
+		division_template = "Legionsbrigade"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "20th Brygada Zmechanizowana"
+		location = 6521
+		division_template = "Legionsbrigade"
+		start_experience_factor = 0.75
+		start_equipment_factor = 0.5
+	}
+}

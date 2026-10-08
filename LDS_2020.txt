@@ -1,0 +1,165 @@
+﻿	division_template = {
+		name = "Volunteer Brigade"
+		
+		regiments = {
+			militia = { x = 0 y = 0 }
+			militia = { x = 0 y = 1 }
+			militia = { x = 0 y = 2 }
+			militia = { x = 1 y = 0 }
+			militia = { x = 1 y = 1 }
+			militia = { x = 1 y = 2 }
+		}
+		
+		support = {
+		}
+			
+	}
+
+	division_template = {
+		name = "Infantry Brigade"
+		division_names_group = NSM_INF_01 
+		
+		regiments = {
+			infantry = { x = 0 y = 0 }
+			infantry = { x = 0 y = 1 }
+			infantry = { x = 0 y = 2 }
+			infantry = { x = 1 y = 0 }
+			infantry = { x = 1 y = 1 }
+			infantry = { x = 1 y = 2 }
+		}
+		
+		support = {
+			engineer = { x = 0 y = 0 }
+			logistics_company = { x = 0 y = 1 }
+		}
+			
+	}
+
+	units = {
+
+		division = {
+			name = "1. Volunteer Militia"
+			location = 10582
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		
+		division = {
+			name = "2. Volunteer Militia"
+			location = 10582
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		
+		division = {
+			name = "3. Volunteer Militia"
+			location = 10582
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		
+		division = {
+			name = "4. Volunteer Militia"
+			location = 10582
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		
+		division = {
+			name = "5. Volunteer Militia"
+			location = 10582
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		
+		division = {
+			name = "6. Volunteer Militia"
+			location = 10582
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		
+		division = {
+			name = "7. Volunteer Militia"
+			location = 10582
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		
+		division = {
+			name = "8. Volunteer Militia"
+			location = 10582
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		
+		division = {
+			name = "9. Volunteer Militia"
+			location = 10582
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		
+		division = {
+			name = "10. Volunteer Militia"
+			location = 10582
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		
+		division = {
+			name = "11. Volunteer Militia"
+			location = 10582
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		
+		division = {
+			name = "12. Volunteer Militia"
+			location = 10582
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+
+		division = {
+			name = "13. Volunteer Militia"
+			location = 10582
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+
+		division = {
+			name = "14. Volunteer Militia"
+			location = 10582
+			division_template = "Volunteer Brigade"
+			start_experience_factor = 0.1
+		}
+		
+		division = {
+			name = "1. Infantry Brigade"
+			location = 10582
+			division_template = "Infantry Brigade"
+			start_experience_factor = 0.1
+		}
+		
+		division = {
+			name = "2. Infantry Brigade"
+			location = 10582
+			division_template = "Infantry Brigade"
+			start_experience_factor = 0.1
+		}
+	
+		division = {
+			name = "3. Infantry Brigade"
+			location = 10582
+			division_template = "Infantry Brigade"
+			start_experience_factor = 0.1
+		}
+
+		division = {
+			name = "4. Infantry Brigade"
+			location = 10582
+			division_template = "Infantry Brigade"
+			start_experience_factor = 0.1
+		}
+	}

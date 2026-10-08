@@ -1,0 +1,23 @@
+﻿division_template = {
+	name = "Armored Battalion"
+	
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 2 y = 0 }
+	}
+	
+	support = {
+		signal_company = { x = 0 y = 0 }
+	}
+	
+}
+
+units = {
+	division = {
+		name = "1st Armored ''Hatred and Heritage'' Battalion"
+		location = 13337
+		division_template = "Armored Battalion"
+		start_experience_factor = 0.2
+	}
+}

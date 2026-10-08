@@ -1,0 +1,29 @@
+﻿division_template = {
+	name = "Dobrovol'cheskaya Brigada Kokusa"
+	override_model = SOV_t72_ossetia_entity
+	
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		mot_militia = { x = 1 y = 0 }
+		mot_militia = { x = 1 y = 1 }
+		mechanized = { x = 2 y = 0 }
+		
+	}
+	
+	support = {
+		mot_recon = { x = 0 y = 0 }
+		spaa_company = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division = {			
+		name = "1y Yugo-Osetinskaya Brigada"
+		location = 1530
+		division_template = "Dobrovol'cheskaya Brigada Kokusa"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+		force_equipment_variants = { infantry_equipment_1 = { owner = "YAM" } }
+		force_equipment_variants = { modern_tank_equipment_1 = { owner = "SV1" } }
+	}
+}

@@ -1,0 +1,31 @@
+### Air OOB ###
+
+air_wings = {
+	315 = {
+		#MiG-29
+		fighter_airframe_1 = {
+			owner = "CUB" 
+			amount = 3
+			version_name = "MiG-29"
+		}
+
+	}
+	315 = {
+		#MiG-23
+		uav_airframe_0 = {
+			owner = "CUB" 
+			amount = 24
+			version_name = "MiG-23"
+		}
+
+	}
+	315 = {
+		#MiG-21
+		uav_airframe_0 = {
+			owner = "CUB" 
+			amount = 12
+			version_name = "MiG-21"
+		}
+
+	}
+}

@@ -1,0 +1,40 @@
+﻿division_template = {
+	name = "Earth Liberation Front Volunteers"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+		
+}
+
+units = {
+	division = {
+		name = "'Earth' Special Infantry Division"
+		location = 10481
+		division_template = "Earth Liberation Front Volunteers"
+		start_experience_factor = 1.0
+	}
+	
+	division = {
+		name = "'Wind' Special Infantry Division"
+		location = 13862
+		division_template = "Earth Liberation Front Volunteers"
+		start_experience_factor = 1.0
+	}
+	
+	division = {
+		name = "'Fire' Special Infantry Division"
+		location = 4445
+		division_template = "Earth Liberation Front Volunteers"
+		start_experience_factor = 1.0
+	}
+}

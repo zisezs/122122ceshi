@@ -1,0 +1,33 @@
+﻿	division_template = {
+		name = "Shocktroopers"
+		is_locked = yes
+		regiments = {
+			special_forces = { x = 0 y = 0 }
+			special_forces = { x = 0 y = 1 }
+			special_forces = { x = 0 y = 2 }
+			special_forces = { x = 1 y = 0 }
+			special_forces = { x = 1 y = 1 }
+			special_forces = { x = 1 y = 2 }
+		}
+	
+		support = {
+			engineer = { x = 0 y = 0 }
+			apc_company = { x = 0 y = 1 }
+		}
+		
+	}
+
+	units = {
+		division = {
+			name = "'Thomas Jefferson' Shocktrooper Division"
+			location = 9850
+			division_template = "Shocktroopers"
+			start_experience_factor = 0.3
+		}
+		division = {
+			name = "'Alexander Hamilton' Shocktrooper Division"
+			location = 9850
+			division_template = "Shocktroopers"
+			start_experience_factor = 0.3
+		}
+	}

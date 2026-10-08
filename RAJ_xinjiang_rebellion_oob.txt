@@ -1,0 +1,111 @@
+division_template = {
+	name = "Independence Militia"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Indian Commando Unit"
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+		recce = { x = 1 y = 0 }
+	}
+
+	support = {
+		engineer = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+	}
+	priority = 2
+}
+
+units = {
+	division = {			
+		name = "1. Independence Militia"
+		location = 4973
+		division_template = "Independence Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "2. Independence Militia"
+		location = 4973
+		division_template = "Independence Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "3. Independence Militia"
+		location = 4973
+		division_template = "Independence Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "4. Independence Militia"
+		location = 4973
+		division_template = "Independence Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "5. Independence Militia"
+		location = 2015
+		division_template = "Independence Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "6. Independence Militia"
+		location = 2015
+		division_template = "Independence Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "7. Independence Militia"
+		location = 2015
+		division_template = "Independence Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "8. Independence Militia"
+		location = 2015
+		division_template = "Independence Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "9. Independence Militia"
+		location = 2015
+		division_template = "Independence Militia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "1. Indian Commando Unit"
+		location = 4973
+		division_template = "Indian Commando Unit"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "2. Indian Commando Unit"
+		location = 2015
+		division_template = "Indian Commando Unit"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+}

@@ -1,0 +1,54 @@
+﻿division_template = {
+	name = "Oklopni Bataljon"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+	}
+	
+	support = {
+		mbt_company = { x = 0 y = 0 }	
+	}
+	
+}
+
+units = {
+	division = {	
+		name = "1. Oklopni Bataljon"
+		location = 11574
+		division_template = "Oklopni Bataljon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+}
+instant_effect = {
+
+	add_equipment_to_stockpile = {
+		type = modern_tank_equipment_1
+		amount = 80
+		producer = SOV
+	}
+
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 300
+		producer = GER
+	}
+
+	add_equipment_to_stockpile = {
+		type = anti_tank_equipment
+		amount = 100
+		producer = SV1
+	}
+	
+	add_equipment_to_stockpile = {
+		type = support_equipment
+		amount = 90
+		producer = BOS
+	}
+	
+	add_equipment_to_stockpile = {
+		type = motorized_equipment
+		amount = 300
+		producer = BOS
+	}
+}

@@ -1,0 +1,536 @@
+﻿#literally one of the worst organized militaries in the world
+division_template = {
+	name = "Armored Division" 
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		modern_armor = { x = 0 y = 3 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		light_mechanized = { x = 2 y = 0 }
+		light_mechanized = { x = 2 y = 1 }
+		light_armor = { x = 2 y = 2 }
+		modern_sp_artillery_brigade = { x = 3 y = 0 }
+		modern_sp_artillery_brigade = { x = 3 y = 1 }
+		spaa_brigade = { x = 3 y = 2 }
+	}
+}
+
+division_template = {
+	name = "RAPID Division" 
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		light_mechanized = { x = 1 y = 0 }
+		light_mechanized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		light_armor = { x = 2 y = 0 }
+		light_armor = { x = 2 y = 1 }
+		modern_sp_artillery_brigade = { x = 3 y = 0 }
+		modern_sp_artillery_brigade = { x = 3 y = 1 }
+		spaa_brigade = { x = 3 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Infantry Division" 
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		artillery_brigade = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
+		artillery_brigade = { x = 2 y = 2 }
+		light_armor = { x = 3 y = 0 }
+		light_armor = { x = 3 y = 1 }
+		spaa_brigade = { x = 3 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Air Assault Brigade"
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		paratrooper = { x = 0 y = 3 }
+		paratrooper = { x = 0 y = 4 }
+	}
+}
+
+division_template = {
+	name = "Amphibious Infantry Brigade"
+	regiments = {
+		amphibious_mechanized = { x = 0 y = 0 }
+		amphibious_mechanized = { x = 0 y = 1 }
+		amphibious_mechanized = { x = 0 y = 2 }
+		artillery_brigade = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+	}
+	support = {
+		spaa_company = { x = 0 y = 0 }
+		mbt_company = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Marine Brigade"
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 0 y = 3 }
+	}
+	support = {
+		signal_company = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+		anti_air = { x = 0 y = 3 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Parachute Brigade"
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		paratrooper = { x = 0 y = 3 }
+		artillery_brigade = { x = 1 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Mountain Division" 
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+		artillery_brigade = { x = 1 y = 0 }
+		artillery_brigade = { x = 1 y = 1 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Para Commando Unit"
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+		special_forces = { x = 0 y = 3 }
+		special_forces = { x = 0 y = 4 }
+		recce = { x = 1 y = 0 }
+	}
+	priority = 2
+}
+
+#individually organized via battalions IRL, combined into divisions because that would bloat the oob by adding 46 1x1 shitty recce divisions
+division_template = {
+	name = "Assam Rifles"
+	regiments = {
+		recce = { x = 0 y = 0 }
+		recce = { x = 0 y = 1 }
+		recce = { x = 1 y = 0 }
+		recce = { x = 1 y = 1 }
+		recce = { x = 2 y = 0 }
+		recce = { x = 2 y = 1 }
+	}
+	
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Rashtriya Rifles"
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 1 y = 0 }
+		special_forces = { x = 1 y = 1 }
+		special_forces = { x = 2 y = 0 }
+		special_forces = { x = 2 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "2nd Infantry Division"
+		location = 12035
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "56th Mountain Division"
+		location = 12322
+		division_template = "Mountain Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "57th Mountain Division"
+		location = 1553
+		division_template = "Mountain Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "21st Mountain Division"
+		location = 10866
+		division_template = "Mountain Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "71st Mountain Division"
+		location = 7455
+		division_template = "Mountain Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "17th Mountain Division"
+		location = 4435
+		division_template = "Mountain Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "20th Mountain Division"
+		location = 10389
+		division_template = "Mountain Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "27th Mountain Division"
+		location = 12338
+		division_template = "Mountain Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "59th Infantry Division"
+		location = 4245
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3rd Infantry Division"
+		location = 7273
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "8th Mountain Division"
+		location = 10905
+		division_template = "Mountain Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "19th Infantry Division"
+		location = 10905
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "28th Mountain Division"
+		location = 12876
+		division_template = "Mountain Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "10th Infantry Division"
+		location = 12754
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "25th Infantry Division"
+		location = 12754
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "39th Infantry Division"
+		location = 7106 
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "11th Infantry Division"
+		location = 9975
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "12th RAPID Division"
+		location = 4984
+		division_template = "RAPID Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "4th Armored Brigade"
+		location = 4984
+		division_template = "Armored Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "340th Mechanized Brigade"
+		location = 4984
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "31st Armored Division"
+		location = 2036
+		division_template = "Armored Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "36th RAPID Division"
+		location = 11995
+		division_template = "RAPID Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "47th Air Assault Brigade"
+		location = 8087
+		division_template = "Air Assault Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "91st Amph. Infantry Brigade"
+		location = 12037
+		division_template = "Amphibious Infantry Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "4th Infantry Division"
+		location = 5055
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "6th Mountain Division"
+		location = 8114
+		division_template = "Mountain Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "33th Armored Division"
+		location = 4245
+		division_template = "Armored Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "16th Infantry Division"
+		location = 12041
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "18th RAPID Division"
+		location = 4984
+		division_template = "RAPID Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "24th RAPID Division"
+		location = 4984
+		division_template = "RAPID Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "6th Armored Brigade"
+		location = 2002
+		division_template = "Armored Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "66th Armored Brigade"
+		location = 7428 
+		division_template = "Armored Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "1st Armored Division"
+		location = 10729
+		division_template = "Armored Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "14th RAPID Division"
+		location = 5157
+		division_template = "RAPID Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "26th Infantry Division"
+		location = 12754
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "29th Infantry Division"
+		location = 2076
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "7th Infantry Division"
+		location = 7428
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "9th Infantry Division"
+		location = 11955
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "15th Infantry Division"
+		location = 2076
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "50th Parachute Brigade"
+		location = 4915
+		division_template = "Parachute Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "1st Rashtriya Rifles"
+		location = 10905
+		division_template = "Rashtriya Rifles"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2nd Rashtriya Rifles"
+		location = 8005
+		division_template = "Rashtriya Rifles"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3rd Rashtriya Rifles"
+		location = 7106
+		division_template = "Rashtriya Rifles"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "4th Rashtriya Rifles"
+		location = 2076
+		division_template = "Rashtriya Rifles"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "5th Rashtriya Rifles"
+		location = 12708
+		division_template = "Rashtriya Rifles"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "1st Assam Rifles"
+		location = 12366
+		division_template = "Assam Rifles"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2nd Assam Rifles"
+		location = 12322
+		division_template = "Assam Rifles"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3rd Assam Rifles"
+		location = 1581
+		division_template = "Assam Rifles"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "4th Assam Rifles"
+		location = 997
+		division_template = "Assam Rifles"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "1st Amphibious Brigade"
+		location = 12251
+		division_template = "Marine Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Para Commando Unit"
+		location = 2086
+		division_template = "Para Commando Unit"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Special Ranger Corps"
+		location = 10401
+		division_template = "Para Commando Unit"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+}

@@ -1,0 +1,265 @@
+﻿
+division_template = {
+	name = "陸軍司令部"
+	is_locked = yes 
+	regiments = {
+		bus = { x = 0 y = 0 }
+	}
+
+	support = {
+		
+	}
+}
+
+division_template = {
+	name = "difficulty"
+	is_locked = yes
+	
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		modern_armor = { x = 0 y = 3 }
+		modern_armor = { x = 0 y = 4 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+		mechanized = { x = 1 y = 3 }
+		mechanized = { x = 1 y = 4 }
+		modern_sp_artillery_brigade = { x = 3 y = 0 }
+		modern_sp_artillery_brigade = { x = 3 y = 1 }
+		modern_sp_artillery_brigade = { x = 3 y = 2 }
+		modern_sp_artillery_brigade = { x = 3 y = 3 }
+		modern_sp_artillery_brigade = { x = 3 y = 4 }
+		spaa_brigade = { x = 2 y = 0 }
+		motorized_rocket_brigade = { x = 2 y = 1 }
+		modern_sp_artillery_brigade = { x = 3 y = 0 }
+		modern_sp_artillery_brigade = { x = 3 y = 3 }
+		modern_sp_artillery_brigade = { x = 3 y = 4 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+		spa_company = { x = 0 y = 1 }
+		light_tank_recon = { x = 0 y = 2 }
+		engineer = { x = 0 y = 3 }
+		logistics_company = { x = 1 y = 0 }
+		maintenance_company = { x = 1 y = 1 }
+		field_hospital = { x = 1 y = 2 }
+		signal_company = { x = 1 y = 3 }
+	}
+
+}
+
+division_template = {
+	name = "機械化大隊A"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		spaa_brigade = { x = 0 y = 2 }
+		light_mechanized = { x = 1 y = 0 }
+		light_mechanized = { x = 1 y = 1 }
+		modern_sp_artillery_brigade = { x = 1 y = 2 }
+	}
+
+	support = {
+		light_tank_recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "機械化大隊B"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		spaa_brigade = { x = 0 y = 2 }
+		light_mechanized = { x = 1 y = 0 }
+		light_mechanized = { x = 1 y = 1 }
+		modern_sp_artillery_brigade = { x = 1 y = 2 }
+	}
+
+	support = {
+		light_tank_recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "機械化大隊C"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		modern_armor = { x = 1 y = 0 }
+		modern_sp_artillery_brigade = { x = 1 y = 1 }
+	}
+
+	support = {
+		light_tank_recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "裝甲旅A"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		mechanized = { x = 1 y = 0 }
+		modern_sp_artillery_brigade = { x = 1 y = 1 }
+	}
+
+	support = {
+		light_tank_recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "裝甲旅B"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		mechanized = { x = 1 y = 0 }
+		modern_sp_artillery_brigade = { x = 1 y = 1 }
+
+	}
+
+	support = {
+		light_tank_recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "步兵旅A"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		artillery_brigade = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "步兵旅B"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		artillery_brigade = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "航空特戰旅"
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		paratrooper = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "特種作戰大隊"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+		special_forces = { x = 0 y = 3 }
+		special_forces = { x = 0 y = 4 }
+	}
+
+	priority = 2
+}
+
+units = {
+	
+	division = {
+		name = "航空第601旅“龍城部隊"
+		location = 7214
+		division_template = "航空特戰旅"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "特種作戰指揮部”天龍部隊"
+		location = 7186
+		division_template = "特種作戰大隊"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "機械化步兵第269旅“雄獅部隊"
+		location = 11959
+		division_template = "機械化大隊C"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "裝甲第542旅”迅雷部隊"
+		location = 7214
+		division_template = "裝甲旅A"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "裝甲第584旅“登步部隊"
+		location = 7186
+		division_template = "裝甲旅B"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "步兵第153旅”翔龍部隊"
+		location = 9955
+		division_template = "步兵旅A"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "機械化步兵第333旅“浦光部隊"
+		location = 11914
+		division_template = "機械化大隊C"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "裝甲第564旅”少康部隊"
+		location = 12068
+		division_template = "裝甲旅B"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "步兵第203旅“實踐部隊"
+		location = 1175
+		division_template = "步兵旅B"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "機械化步兵第234旅”長城部隊"
+		location = 11959
+		division_template = "機械化大隊C"
+		start_experience_factor = 0.1
+	}
+
+}

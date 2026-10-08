@@ -1,0 +1,67 @@
+﻿### Air OOB ###
+air_wings = {
+	787 = {
+		#J-10
+		fighter_airframe_1 =  {
+			owner = "PAK" 
+			amount = 20
+			version_name = "Shenyang J-10"
+		}
+	}
+	442 = {
+		#JF-17
+		fighter_airframe_1 =  {
+			owner = "PAK" 
+			amount = 40
+			version_name = "Shenyang JF-17"
+		}
+	}
+	440 = {
+		#JF-17
+		fighter_airframe_1 =  {
+			owner = "PAK" 
+			amount = 100
+			version_name = "Shenyang JF-17"
+		}
+	}
+	444 = {
+		#F-16
+		fighter_airframe_1 =  {
+			owner = "PAK" 
+			amount = 45
+			version_name = "F-16"
+		}
+	}
+	440 = {
+		#F-16
+		fighter_airframe_1 =  {
+			owner = "PAK" 
+			amount = 30
+			version_name = "F-16"
+		}
+	}
+	440 = {
+		#Mirage III
+		uav_airframe_1 =  {
+			owner = "PAK" 
+			amount = 87
+			version_name = "Mirage III"
+		}
+	}
+	444 = {
+		#Mirage 2000-5
+		fighter_airframe_1 =  {
+			owner = "PAK" 
+			amount = 60
+			version_name = "Mirage 2000-5"
+		}
+	}
+	787 = {
+		#J-7
+		fighter_airframe_0 =  {
+			owner = "PAK" 
+			amount = 40
+			version_name = "Shenyang J-7"
+		}
+	}
+}

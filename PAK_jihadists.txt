@@ -1,0 +1,79 @@
+﻿division_template = {
+	name = "Mushat Alshrye"
+	override_model = SHB_infantry_2_entity
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 1 y = 3 }
+	}
+	
+	support = {
+	}
+	
+	template_counter = 14
+}
+
+units = {
+	
+	division = {
+		name = "Army of Islam in India"
+		location = 7150
+		division_template = "Mushat Alshrye"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "Black Banner"
+		location = 11952
+		division_template = "Mushat Alshrye"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "Army of Conquest"
+		location = 7150
+		division_template = "Mushat Alshrye"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "Islamic Resistance Battalion"
+		location = 11952
+		division_template = "Mushat Alshrye"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "Islamic Resistance Battalion"
+		location = 11952
+		division_template = "Mushat Alshrye"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "Islamic Resistance Battalion"
+		location = 11952
+		division_template = "Mushat Alshrye"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "Islamic Resistance Battalion"
+		location = 11952
+		division_template = "Mushat Alshrye"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "Islamic Resistance Battalion"
+		location = 11952
+		division_template = "Mushat Alshrye"
+		start_experience_factor = 0.1
+	}
+}

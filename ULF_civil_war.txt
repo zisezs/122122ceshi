@@ -1,0 +1,68 @@
+﻿division_template = {
+	name = "Militia Brigade"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+		
+}
+
+
+units = {
+	division = {	
+		name = "1st Militia Brigade"
+		location = 1525
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.2
+	}
+
+	division = {	
+		name = "2nd Militia Brigade"
+		location = 12322
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.2
+	}
+
+	division = {	
+		name = "3rd Militia Brigade"
+		location = 10090
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.2
+	}
+	division = {	
+		name = "4th Militia Brigade"
+		location = 1581
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.2
+	}
+	division = {	
+		name = "5th Militia Brigade"
+		location = 7179
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.2
+	}
+	division = {	
+		name = "6th Militia Brigade"
+		location = 7455
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.2
+	}
+	division = {	
+		name = "7th Militia Brigade"
+		location = 7455
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.2
+	}
+	division = {	
+		name = "8th Militia Brigade"
+		location = 10349
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.2
+	}
+	
+}

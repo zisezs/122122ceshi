@@ -1,0 +1,95 @@
+﻿division_template = {
+	name = "Dobrovol'cheskaya Brigada"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+	}
+	
+	support = {
+	}
+
+}
+
+division_template = {
+	name = "Motorizovannyye Dobrovol'tsy"
+	
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+		mot_militia = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+	
+	priority = 1
+
+}
+
+units = {
+	
+	division = {
+		name = "1ya Dobrovol'cheskaya Brigada"
+		location = 11476
+		division_template = "Dobrovol'cheskaya Brigada"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2ya Dobrovol'cheskaya Brigada"
+		location = 11476
+		division_template = "Dobrovol'cheskaya Brigada"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3ya Dobrovol'cheskaya Brigada"
+		location = 11476
+		division_template = "Dobrovol'cheskaya Brigada"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "4ya Dobrovol'cheskaya Brigada"
+		location = 11476
+		division_template = "Dobrovol'cheskaya Brigada"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "5ya Dobrovol'cheskaya Brigada"
+		location = 11476
+		division_template = "Dobrovol'cheskaya Brigada"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "6ya Dobrovol'cheskaya Brigada"
+		location = 11476
+		division_template = "Dobrovol'cheskaya Brigada"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "1ya Shajid Mubayl"
+		location = 11476
+		division_template = "Motorizovannyye Dobrovol'tsy"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2ya Shajid Mubayl"
+		location = 11476
+		division_template = "Motorizovannyye Dobrovol'tsy"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3ya Shajid Mubayl"
+		location = 11476
+		division_template = "Motorizovannyye Dobrovol'tsy"
+		start_experience_factor = 0.1
+	}
+}

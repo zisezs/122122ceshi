@@ -1,0 +1,27 @@
+﻿division_template = {
+	name = "Marine Brigade"
+	
+	regiments = { 
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		special_forces = { x = 0 y = 3 }
+	}
+	
+	support = {
+		signal_company = { x = 0 y = 0 }
+		logistics_company = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+	}
+	
+	priority = 2
+}
+
+units = {
+	division = {	
+		name = "Dobrovol'cheskaya Brigada Morskoy Pekhoty"
+		location = 1467	
+		division_template = "Marine Brigade"
+		start_experience_factor = 0.5
+	}
+}

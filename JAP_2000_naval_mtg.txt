@@ -1,0 +1,286 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {
+		name = "Escort Squadron 1" #Yokosuka
+		naval_base = 1182
+		task_force = {
+			name = "Escort Squadron 1" #Yokosuka
+			location = 1182
+			ship = { name = "JDS 摩耶 (DDG-179)" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "爱宕/摩耶级导弹驱逐舰" } } }
+			ship = { name = "JDS 旗风 (DDG-171)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "旗风级导弹驱逐舰" } } }
+			ship = { name = "JDS 海雾 (DD-158)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "初雪/朝雾级导弹驱逐舰" } } }
+			ship = { name = "JDS 夕立 (DD-103)" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "高波/村雨级驱逐舰" } } }
+			ship = { name = "JDS出云 (DDH-183)" pride_of_the_fleet = yes definition = carrier equipment = { ship_hull_carrier_conversion_ca = { amount = 1 owner = JAP version_name = "出云级直升机驱逐舰" } } }
+		}
+	}
+	fleet = {
+		name = "Escort Squadron 5" #Yokosuka
+		naval_base = 1182
+		task_force = {
+			name = "Escort Squadron 5" #Yokosuka
+			location = 1182
+			ship = { name = "JDS 足柄(DDG-178)" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "爱宕/摩耶级导弹驱逐舰" } } }
+			ship = { name = "JDS 雷 (DD-107)" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "高波/村雨级驱逐舰" } } }
+			ship = { name = "JDS 五月雨 (DD-106)" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "高波/村雨级驱逐舰" } } }
+			ship = { name = "JDS 羽黑 (DDG-180)" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "爱宕/摩耶级导弹驱逐舰" } } }
+			ship = { name = "JDS 加贺 (DDH-184)" definition = carrier equipment = { ship_hull_carrier_conversion_ca = { amount = 1 owner = JAP version_name = "出云级直升机驱逐舰" } } }
+		}
+	}
+	fleet = {
+		name = "Yokosuka District Force"
+		naval_base = 1182
+		task_force = {
+			name = "Yokosuka District Force"
+			location = 1182
+			ship = { name = "JDS 朝雾 (DD-151)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "初雪/朝雾级导弹驱逐舰" } } }
+			ship = { name = "JDS 曙 (DD-108)" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "高波/村雨级驱逐舰" } } }
+			ship = { name = "JDS 有明 (DD-109)" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "高波/村雨级驱逐舰" } } }
+			ship = { name = "JDS 大淀 (DE-231)" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "阿武隈级护卫舰" } } }
+			ship = { name = "JDS 濑户雾 (DD-156)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "初雪/朝雾级导弹驱逐舰" } } }
+		}
+	}
+	fleet = {
+		name = "Escort Squadron 2" #Sasebo
+		naval_base = 9950
+		task_force = {
+			name = "Escort Squadron 2" #Sasebo
+			location = 9950
+			ship = { name = "JDS 岛风 (DDG-172)" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "旗风级导弹驱逐舰" } } }
+			ship = { name = "JDS 爱宕 (DDG-178)" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "爱宕/摩耶级导弹驱逐舰" } } }
+			ship = { name = "JDS 日向 (DDH-181)" definition = carrier equipment = { ship_hull_carrier_conversion_ca = { amount = 1 owner = JAP version_name = "日向级直升机驱逐舰" } } }
+		}
+	}
+	fleet = {
+		name = "Escort Squadron 6" #Sasebo
+		naval_base = 9950
+		task_force = {
+			name = "Escort Squadron 6" #Sasebo
+			location = 9950
+			ship = { name = "JDS 秋月 (DD-115)" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "朝日/秋月级导弹驱逐舰" } } }
+			ship = { name = "JDS 不知火 (DD-120)" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "朝日/秋月级导弹驱逐舰" } } }
+			ship = { name = "JDS 初雪 (DD-122)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "初雪/朝雾级导弹驱逐舰" } } }
+			ship = { name = "JDS 白雪 (DD-123)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "初雪/朝雾级导弹驱逐舰" } } }
+		}
+	}
+	fleet = {
+		name = "Sasebo District Force"
+		naval_base = 9950
+		task_force = {
+			name = "Sasebo District Force"
+			location = 9950
+			ship = { name = "JDS 山雾 (DD-152)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "初雪/朝雾级导弹驱逐舰" } } }
+			ship = { name = "JDS 照月 (DD-116)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "朝日/秋月级导弹驱逐舰" } } } 
+			ship = { name = "JDS 凉波 (DDG-114)" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "高波/村雨级驱逐舰" } } }
+			ship = { name = "JDS 川内 (DE-232)" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "阿武隈级护卫舰" } } }
+			ship = { name = "JDS 泽雾 (DD-157)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "初雪/朝雾级导弹驱逐舰" } } }
+		}
+	}
+	fleet = {
+		name = "Escort Squadron 3" #Maizuru
+		naval_base = 1136
+		task_force = {
+			name = "Escort Squadron 3" #Maizuru
+			location = 1136
+			ship = { name = "JDS 朝日 (DD-119)" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "朝日/秋月级导弹驱逐舰" } } }
+			ship = { name = "JDS 冬月 (DD-118)" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "朝日/秋月级导弹驱逐舰" } } }
+			ship = { name = "JDS 峰云(DD-124)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "初雪/朝雾级导弹驱逐舰" } } }
+			ship = { name = "JDS 泽雪 (DD-125)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "初雪/朝雾级导弹驱逐舰" } } }
+			ship = { name = "JDS 伊势 (DDH-182)" definition = carrier equipment = { ship_hull_carrier_conversion_ca = { amount = 1 owner = JAP version_name = "日向级直升机驱逐舰" } } }
+		}
+	}
+	fleet = {
+		name = "Escort Squadron 7" #Maizuru
+		naval_base = 1136
+		task_force = {
+			name = "Escort Squadron 7" #Maizuru
+			location = 1136
+			ship = { name = "JDS 金刚 (DDG-173)" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "金刚级导弹驱逐舰" } } }
+			ship = { name = "JDS 滨雪 (DD-126)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "初雪/朝雾级导弹驱逐舰" } } }
+			ship = { name = "JDS 矶雪(DD-127)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "初雪/朝雾级导弹驱逐舰" } } }
+			ship = { name = "JDS 春雪 (DD-128)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "初雪/朝雾级导弹驱逐舰" } } }
+		}
+	}
+	fleet = {
+		name = "Maizuru District Force"
+		naval_base = 1136
+		task_force = {
+			name = "Maizuru District Force"
+			location = 1136
+			ship = { name = "JDS 夕雾 (DD-153)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "初雪/朝雾级导弹驱逐舰" } } }
+			ship = { name = "JDS 涟波 (DDG-113)"definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "高波/村雨级驱逐舰" } } }
+			ship = { name = "JDS 卷波 (DDG-112)"definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "高波/村雨级驱逐舰" } } }
+			ship = { name = "JDS 筑摩 (DE-233)" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "阿武隈级护卫舰" } } }
+			ship = { name = "JDS 凉月 (DD-117)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "朝日/秋月级导弹驱逐舰" } } }  
+		}
+	}
+	fleet = {
+		name = "Escort Squadron 4" #Kure
+		naval_base = 1092
+		task_force = {
+			name = "Escort Squadron 4" #Kure
+			location = 1092
+			ship = { name = "JDS 雾岛 (DDG-174)" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "金刚级导弹驱逐舰" } } }
+			ship = { name = "JDS 妙高 (DDG-175)" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "金刚级导弹驱逐舰" } } }
+			ship = { name = "JDS 山雪 (DD-129)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "初雪/朝雾级导弹驱逐舰" } } }
+			ship = { name = "JDS 松雪 (DD-130)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "初雪/朝雾级导弹驱逐舰" } } }
+		}
+	}
+	fleet = {
+		name = "Escort Squadron 8" #Kure
+		naval_base = 1092
+		task_force = {
+			name = "Escort Squadron 8" #Kure
+			location = 1092
+			ship = { name = "JDS 鸟海 (DDG-176)" definition = heavy_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "金刚级导弹驱逐舰" } } }
+			ship = { name = "JDS 濑户雪 (DD-131)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "初雪/朝雾级导弹驱逐舰" } } }
+			ship = { name = "JDS 朝雪 (DD-132)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "初雪/朝雾级导弹驱逐舰" } } }
+			ship = { name = "JDS 岛雪 (DD-133)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "初雪/朝雾级导弹驱逐舰" } } }
+			ship = { name = "JDS 春雨 (DD-102)" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "高波/村雨级驱逐舰" } } }
+			ship = { name = "JDS 电 (DD-105)" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "高波/村雨级驱逐舰" } } }
+		}
+	}
+	fleet = {
+		name = "Kure District Force"
+		naval_base = 1092
+		task_force = {
+			name = "Kure District Force"
+			location = 1092
+			ship = { name = "JDS 天雾 (DD-154)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "初雪/朝雾级导弹驱逐舰" } } }
+			ship = { name = "JDS 高波 (DDG-110) "definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "高波/村雨级驱逐舰" } } }
+			ship = { name = "JDS 大波 (DDG-111)"definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "高波/村雨级驱逐舰" } } }
+			ship = { name = "JDS 利根 (DE-234)" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "阿武隈级护卫舰" } } }
+		}
+	}
+	fleet = {
+		name = "Ominato District Force"
+		naval_base = 9859
+		task_force = {
+			name = "Ominato District Force"
+			location = 9859
+			ship = { name = "JDS 滨雾 (DD-155)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = JAP version_name = "初雪/朝雾级导弹驱逐舰" } } }
+			ship = { name = "JDS 阿武隈 (DE-229)" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "阿武隈级护卫舰" } } }
+			ship = { name = "JDS 神通 (DE-230)" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = JAP version_name = "阿武隈级护卫舰" } } }
+			ship = { name = "JDS 雾雨 (DD-104)" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "高波/村雨级驱逐舰" } } }
+			ship = { name = "JDS 村雨 (DD-101)" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JAP version_name = "高波/村雨级驱逐舰" } } }
+		}
+	}
+	fleet = {
+		name = "Submarine Squadron 1"
+		naval_base = 1092
+		task_force = {
+			name = "Submarine Squadron 1"
+			location = 1092
+			ship = { name = "JDS 苍龙号 (SS-501)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = JAP version_name = "苍龙级潜艇" } } }
+			ship = { name = "JDS 云龙号 (SS-502)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = JAP version_name = "苍龙级潜艇" } } }
+			ship = { name = "JDS 白龙号 (SS-503)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = JAP version_name = "苍龙级潜艇" } } }
+		}
+	}
+	fleet = {
+		name = "Submarine Squadron 3"
+		naval_base = 1092
+		task_force = {
+			name = "Submarine Squadron 3"
+			location = 1092
+			ship = { name = "JDS 剑龙号 (SS-504)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = JAP version_name = "苍龙级潜艇" } } }
+			ship = { name = "JDS 瑞龙号 (SS-505)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = JAP version_name = "苍龙级潜艇" } } }
+			ship = { name = "JDS 黑龙号 (SS-506)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = JAP version_name = "苍龙级潜艇" } } }
+		}
+	}
+	fleet = {
+		name = "Submarine Squadron 5"
+		naval_base = 1092
+		task_force = {
+			name = "Submarine Squadron 5"
+			location = 1092
+			ship = { name = "JDS 仁龙号 (SS-507)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = JAP version_name = "苍龙级潜艇" } } }
+			ship = { name = "JDS 赤龙号 (SS-508)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = JAP version_name = "苍龙级潜艇" } } }
+			ship = { name = "JDS 青龙号 (SS-509)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = JAP version_name = "苍龙级潜艇" } } }
+		}
+	}
+	fleet = {
+		name = "Submarine Squadron 2"
+		naval_base = 1182
+		task_force = {
+			name = "Submarine Squadron 2"
+			location = 1182
+			ship = { name = "JDS 翔龙号 (SS-510)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = JAP version_name = "苍龙级潜艇" } } }
+			ship = { name = "JDS 凰龙号 (SS-511)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = JAP version_name = "苍龙级潜艇" } } }
+			ship = { name = "JDS 高潮号 (SS-597)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = JAP version_name = "亲潮级潜艇" } } }
+			ship = { name = "JDS 鸣潮号 (SS-595)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = JAP version_name = "亲潮级潜艇" } } }
+			ship = { name = "JDS 黑潮号 (SS-596)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = JAP version_name = "亲潮级潜艇" } } }
+			ship = { name = "JDS 矶潮号 (SS-594)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = JAP version_name = "亲潮级潜艇" } } }
+		}
+	}
+	fleet = {
+		name = "Submarine Squadron 4"
+		naval_base = 1182
+		task_force = {
+			name = "Submarine Squadron 4"
+			location = 1182
+			ship = { name = "JDS 八重潮 (SS-598)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = JAP version_name = "亲潮级潜艇" } } }
+			ship = { name = "JDS 瀬戸潮 (SS-599)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = JAP version_name = "亲潮级潜艇" } } }
+			ship = { name = "JDS 持潮号 (SS-600)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = JAP version_name = "亲潮级潜艇" } } }
+		}
+	}
+}
+	
+	instant_effect = {
+		
+		add_equipment_production = {				
+			equipment = { 
+     version_name = "苍龙级潜艇"
+				type = ship_hull_submarine_2 
+				creator = "JAP" 
+			}
+                        name = "JDS 斗龙号 (SS-512)"
+			requested_factories = 5
+			progress = 0.7
+			amount = 1
+		}
+		
+		add_equipment_production = {				
+			equipment = {
+				type = ship_hull_cruiser_3
+				creator = "JAP" 
+			version_name = "最上级护卫舰"
+			}
+                        name = "JDS 最上号 (FFM-1)"
+			requested_factories = 5
+			progress = 0.5
+			amount = 1
+		}
+		add_equipment_production = {				
+			equipment = {
+				type = ship_hull_cruiser_3
+				creator = "JAP" 
+			version_name = "最上级护卫舰"
+			}
+                        name = "JDS 三隈号 (FFM-4)"
+			requested_factories = 5
+			progress = 0.3
+			amount = 1
+		}
+		add_equipment_production = {				
+			equipment = {
+				type = ship_hull_cruiser_3
+				creator = "JAP" 
+			version_name = "最上级护卫舰"
+			}
+                        name = "JDS 能代号 (FFM-3)"
+			requested_factories = 5
+			progress = 0.3
+			amount = 1
+		}
+		add_equipment_production = {				
+			equipment = {
+				type = ship_hull_cruiser_3
+				creator = "JAP" 
+			version_name = "最上级护卫舰"
+			}
+                        name = "JDS 熊野号 (FFM-2)"
+			requested_factories = 5
+			progress = 0.4
+			amount = 1
+		}
+	}

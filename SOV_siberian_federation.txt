@@ -1,0 +1,182 @@
+﻿division_template = {
+	name = "Sibirskaya Brigada"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		mechanized = { x = 1 y = 0 }
+		artillery_brigade = { x = 2 y = 0 }
+		
+	}
+	
+	support = {
+		
+	}
+	
+}
+
+division_template = {
+	name = "Tankovaya Brigada"
+
+	regiments = {						
+		modern_armor = { x = 0 y = 0 } 
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 1 }
+	}
+	
+	support = {
+		spaa_company = { x = 0 y = 0 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Dobrovolcheskiye Brigady"
+	
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+		mot_militia = { x = 1 y = 0 }
+		mot_militia = { x = 1 y = 1 }
+		mechanized = { x = 2 y = 0 }
+		
+	}
+	
+	support = {
+		mot_recon = { x = 0 y = 0 }
+		spaa_company = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	division = {			
+		name = "Zaschitniki Uchreditelnogo Sobraniya"
+		location = 1821
+		division_template = "Sibirskaya Brigada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}	
+	division = {			
+		name = "1ya Sibirskaya Motostrelkovaya Brigada"
+		location = 1821
+		division_template = "Sibirskaya Brigada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "2ya Sibirskaya Motostrelkovaya Brigada"
+		location = 1292
+		division_template = "Sibirskaya Brigada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "3ya Sibirskaya Motostrelkovaya Brigada"
+		location = 1292
+		division_template = "Sibirskaya Brigada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "4ya Sibirskaya Motostrelkovaya Brigada"
+		location = 1292
+		division_template = "Sibirskaya Brigada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "5ya Sibirskaya Motostrelkovaya Brigada"
+		location = 1292
+		division_template = "Sibirskaya Brigada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "Zaschitniki Edinstva Sibiri"
+		location = 9292
+		division_template = "Sibirskaya Brigada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "Opolchenie 'Sibiryaki'"
+		location = 1694
+		division_template = "Sibirskaya Brigada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "1ya Tankovaya Sibirskaya Brigada"
+		location = 9553
+		division_template = "Tankovaya Brigada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "1ya Dobrovolcheskaya Brigada Chelyabinska"
+		location = 9292
+		division_template = "Dobrovolcheskiye Brigady"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "2ya Dobrovolcheskaya Brigada"
+		location = 9553
+		division_template = "Dobrovolcheskiye Brigady"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "3ya Dobrovolcheskaya Brigada"
+		location = 9553
+		division_template = "Dobrovolcheskiye Brigady"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "4ya Dobrovolcheskaya Brigada"
+		location = 7228
+		division_template = "Dobrovolcheskiye Brigady"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "5ya Dobrovolcheskaya Brigada"
+		location = 7228
+		division_template = "Dobrovolcheskiye Brigady"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "6ya Dobrovolcheskaya Brigada"
+		location = 1750
+		division_template = "Dobrovolcheskiye Brigady"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "7ya Dobrovolcheskaya Brigada"
+		location = 1750
+		division_template = "Dobrovolcheskiye Brigady"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "8ya Dobrovolcheskaya Brigada"
+		location = 14307
+		division_template = "Dobrovolcheskiye Brigady"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "8ya Dobrovolcheskaya Brigada"
+		location = 1327
+		division_template = "Dobrovolcheskiye Brigady"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+}

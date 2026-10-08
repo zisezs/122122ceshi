@@ -1,0 +1,37 @@
+### Air OOB ###
+air_wings = {
+	206 = {
+		#MiG-29BM
+		fighter_airframe_1 = {
+			owner = "BLR" 
+			amount = 17
+			version_name = "Mig-29BM"
+		}
+
+	}
+	95 = {
+		#MiG-29BM
+		fighter_airframe_1 = {
+			owner = "BLR" 
+			amount = 20
+			version_name = "Mig-29BM"
+		}
+
+	}
+	206 = {
+		#Su-25
+		uav_airframe_1 = {
+			owner = "BLR" 
+			amount = 34
+			version_name = "Su-25"
+		}
+	}
+	94 = {
+		#Su-25
+		uav_airframe_1 = {
+			owner = "BLR" 
+			amount = 34
+			version_name = "Su-25"
+		}
+	}
+}

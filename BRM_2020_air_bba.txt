@@ -1,0 +1,29 @@
+### Air OOB ###
+
+air_wings = {
+	288 = {
+		#F-7M
+		fighter_airframe_1 = {
+			owner = "BRM" 
+			amount = 30
+			version_name = "F-7M"
+		}
+	}
+	288 = {
+		#A-5M
+		uav_airframe_1 = {
+			owner = "BRM" 
+			amount = 24
+			version_name = "A-5M"
+		}
+	}
+	288 = {
+		#F-27M
+		cv_airframe_1 = {
+			owner = "BRM" 
+			amount = 3
+			version_name = "F-27M"
+		}
+	}
+
+}

@@ -1,0 +1,19 @@
+﻿division_template = {
+	name = "Liwa Aldhiyb"
+	
+	regiments = { 
+		special_forces = { x = 0 y = 0 } 
+	}
+	support = {
+
+	}
+	priority = 2
+}
+
+units = {
+	division = {
+		name = "Liwa Aldhiyb"
+		location = 4088
+		division_template = "Liwa Aldhiyb"
+	}
+}

@@ -1,0 +1,52 @@
+﻿division_template = {
+	name = "Motostrelkovaya Brigada Natsional'noy Gvardii"
+	override_model = SOV_akhmat_motorized_entity
+
+	regiments = {						
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		mechanized = { x = 0 y = 4 }
+	}
+	support = {
+		spa_company = { x = 0 y = 0 }
+		spaa_company = { x = 0 y = 1 }
+		mbt_company = { x = 0 y = 2 }
+		mot_recon = { x = 0 y = 3 }
+		signal_company = { x = 0 y = 4 }
+	}
+	priority = 2
+	
+	template_counter = 17
+}
+
+units = {
+	division = {			
+		name = "181ya Kadyrovtsy Brigada"
+		location = 3672
+		division_template = "Motostrelkovaya Brigada Natsional'noy Gvardii"
+		start_experience_factor = 0.3
+	}
+	
+	division = {			
+		name = "140ya Kadyrovtsy Brigada"
+		location = 3672
+		division_template = "Motostrelkovaya Brigada Natsional'noy Gvardii"
+		start_experience_factor = 0.3
+	}
+	
+	division = {			
+		name = "142ya Kadyrovtsy Brigada"
+		location = 3672
+		division_template = "Motostrelkovaya Brigada Natsional'noy Gvardii"
+		start_experience_factor = 0.3
+	}
+	
+	division = {			
+		name = "150ya Kadyrovtsy Brigada"
+		location = 3672
+		division_template = "Motostrelkovaya Brigada Natsional'noy Gvardii"
+		start_experience_factor = 0.3
+	}
+}

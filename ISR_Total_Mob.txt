@@ -1,0 +1,200 @@
+﻿division_template = {
+	name = "Mobilized Armor Brigade"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		modern_sp_artillery_brigade = { x = 0 y = 3 }
+	}
+	
+	support = {
+		apc_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Mobilized Infantry Brigade"
+
+	regiments = {
+		light_mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		modern_sp_artillery_brigade = { x = 0 y = 3 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {	
+		name = "21st 'Aleph' Brigade"
+		location = 13907
+		division_template = "Mobilized Armor Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.5
+	}
+	division = {	
+		name = "22nd 'Waw' Brigade"
+		location = 13907
+		division_template = "Mobilized Armor Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.5
+	}
+	division = {	
+		name = "44th 'Malkuth' Brigade"
+		location = 13907
+		division_template = "Mobilized Infantry Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.5
+	}
+	division = {	
+		name = "45th 'Yesod' Brigade"
+		location = 13907
+		division_template = "Mobilized Infantry Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.5
+	}
+	division = {	
+		name = "23rd 'He' Brigade"
+		location = 13907
+		division_template = "Mobilized Armor Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.9
+	}
+	division = {	
+		name = "46th 'Hod' Brigade"
+		location = 7176
+		division_template = "Mobilized Infantry Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.5
+	}
+	division = {	
+		name = "24th 'Teth' Brigade"
+		location = 7176
+		division_template = "Mobilized Armor Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.5
+	}
+	division = {	
+		name = "47th 'Netzach' Brigade"
+		location = 13907
+		division_template = "Mobilized Infantry Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.5
+	}
+	division = {	
+		name = "25th 'Zayin' Brigade"
+		location = 13907
+		division_template = "Mobilized Armor Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.9
+	}
+	division = {	
+		name = "48th 'Tiphereth' Brigade"
+		location = 7176
+		division_template = "Mobilized Armor Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.5
+	}
+	division = {	
+		name = "49th 'Chesed' Brigade"
+		location = 7176
+		division_template = "Mobilized Infantry Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.5
+	}
+	division = {	
+		name = "111th (Reserve) Ayin Brigade"
+		location = 11970
+		division_template = "Mobilized Infantry Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.8
+	}
+	division = {	
+		name = "50th 'Gebura' Brigade"
+		location = 11970
+		division_template = "Mobilized Armor Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.5
+	}
+	division = {	
+		name = "51st 'Hokma' Brigade"
+		location = 1086	
+		division_template = "Mobilized Armor Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.8
+	}
+	division = {	
+		name = "52nd (Reserve) 'Binah' Brigade"
+		location = 1086
+		division_template = "Mobilized Infantry Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.5
+	}
+	division = {	
+		name = "67th (Reserve) 'Qliphoth' Brigade"
+		location = 1086
+		division_template = "Mobilized Infantry Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.8
+	}
+	division = {	
+		name = "77th (Reserve) Infantry Brigade 'Carmen'"
+		location = 1086
+		division_template = "Mobilized Infantry Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.5
+	}
+	division = {	
+		name = "53rd (Reserve) 'Keter' Brigade"
+		location = 1015
+		division_template = "Mobilized Armor Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.7
+	}
+	division = {	
+		name = "61st 'Bibi' Brigade"
+		location = 1015
+		division_template = "Mobilized Armor Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.5
+	}
+	division = {	
+ 		name = "62nd 'Sinai' Brigade"
+		location = 1015
+		division_template = "Mobilized Infantry Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.5
+	}
+	division = {	
+		name = "63rd 'Beirut' Brigade"
+		location = 1015
+		division_template = "Mobilized Infantry Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.5
+	}
+	division = {	
+		name = "64th 'Damascus' Brigade"
+		location = 11970
+		division_template = "Mobilized Armor Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.7
+	}
+	division = {	
+		name = "65th 'Amman' Brigade"
+		location = 11970
+		division_template = "Mobilized Armor Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.5
+	}
+	division = {	
+		name = "66th 'Hassatan May Bukhe' Brigade"
+		location = 11970
+		division_template = "Mobilized Infantry Brigade"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.7
+	}
+}

@@ -1,0 +1,28 @@
+﻿division_template = {
+	name = "Eurokorps"
+	override_model = GER_south_american_legion_mechanized_entity
+	
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		mechanized = { x = 0 y = 3 }
+		modern_sp_artillery_brigade = { x = 1 y = 0 }
+		modern_sp_artillery_brigade = { x = 1 y = 1 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+	}
+	template_counter = 25
+}
+
+units = {
+	division = {
+		name = "Eurokorps England"
+		location = 6384
+		division_template = "Eurokorps"
+		start_experience_factor = 0.5
+	}
+}

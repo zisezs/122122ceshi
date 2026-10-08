@@ -1,0 +1,47 @@
+﻿division_template = {
+	name = "AWB Militia"
+		
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+	}
+}
+
+units = {
+#KYS Cobble Stupid KKKraKKKER NIGG-#
+
+	division = {
+		name = "1st Milita"
+		location = 14463
+		division_template = "AWB Militia"
+		start_experience_factor = 0.1
+		
+	}
+
+	division = {
+		name = "2nd Milita"
+		location = 14463
+		division_template = "AWB Militia"
+		start_experience_factor = 0.1
+		
+	}
+
+	division = {
+		name = "3rd Milita"
+		location = 2213
+		division_template = "AWB Militia"
+		start_experience_factor = 0.1
+		
+	}
+
+	division = {
+		name = "4th Milita"
+		location = 2213
+		division_template = "AWB Militia"
+		start_experience_factor = 0.1
+		
+	}
+}
+

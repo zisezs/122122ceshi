@@ -1,0 +1,69 @@
+﻿division_template = {
+	name = "Liwa' Milishia"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 0 y = 4 }
+	}
+}
+
+units = {
+	division = {	
+		name = "1. Liwa' Milishia"
+		location = 7925
+		division_template = "Liwa' Milishia"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {	
+		name = "2. Liwa' Milishia"
+		location = 7925
+		division_template = "Liwa' Milishia"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {	
+		name = "3. Liwa' Milishia"
+		location = 2016
+		division_template = "Liwa' Milishia"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {	
+		name = "4. Liwa' Milishia"
+		location = 14495
+		division_template = "Liwa' Milishia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	
+	division = {	
+		name = "5. Liwa' Milishia"
+		location = 14495
+		division_template = "Liwa' Milishia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	
+	division = {	
+		name = "6. Liwa' Milishia"
+		location = 14495
+		division_template = "Liwa' Milishia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	
+	division = {	
+		name = "7. Liwa' Milishia"
+		location = 10795
+		division_template = "Liwa' Milishia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+}

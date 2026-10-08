@@ -1,0 +1,228 @@
+﻿division_template = {
+	name = "Reconstructed Infantry Division" #Reconstructed/New Units
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		artillery_brigade = { x = 2 y = 0 }
+		recce = { x = 3 y = 0 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Armored Division"
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		light_mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 1 }
+		recce = { x = 2 y = 2 }
+	}
+	support = {
+	   spaa_company = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Infantry Division" #Std Iraqi Division
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		artillery_brigade = { x = 2 y = 0 }
+		mechanized = { x = 3 y = 0 }
+		recce = { x = 3 y = 1 }
+	}
+	support = {
+		spaa_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Special Forces"
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Popular Mobilization Unit"
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+		mot_militia = { x = 0 y = 1 }
+		mot_militia = { x = 0 y = 2 }
+		mot_militia = { x = 0 y = 3 }
+		recce = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+	}
+	support = {
+		apc_company = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Liwa Saraya al-Salam"
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+	}
+	support = {
+		mbt_company = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+	}
+	priority = 2
+}
+
+units = {
+	division = {
+		name = "12th Brigade"
+		location = 8123
+		division_template = "Reconstructed Infantry Division"
+		start_experience_factor = 0.0
+		start_equipment_factor = 1
+	}
+	 division = {
+		name = "1st Kata'ib Hezbollah"
+		location = 8123
+		division_template = "Reconstructed Infantry Division"
+		start_experience_factor = 0.0
+		start_equipment_factor = 1
+	}
+	 division = {
+		name = "2nd Kata'ib Hezbollah"
+		location = 12855
+		division_template = "Reconstructed Infantry Division"
+		start_experience_factor = 0.0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3rd Kata'ib Hezbollah"
+		location = 10793
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "14th Brigade"
+		location = 7994
+		division_template = "Armored Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "1st Khazali Network Brigade"
+		location = 2004
+		division_template = "Special Forces"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2nd Khazali Network Brigade"
+		location = 12726
+		division_template = "Special Forces"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "1st Ansar Allah al-Awfiya Brigade"
+		location = 8123
+		division_template = "Reconstructed Infantry Division"
+		start_experience_factor = 0.0
+		start_equipment_factor = 1
+	}
+	 division = {
+		name = "2nd Ansar Allah al-Awfiya Brigade"
+		location = 8123
+		division_template = "Reconstructed Infantry Division"
+		start_experience_factor = 0.0
+		start_equipment_factor = 1
+	}
+	 division = {
+		name = "1st PMF Defectors Brigade"
+		location = 12855
+		division_template = "Reconstructed Infantry Division"
+		start_experience_factor = 0.0
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2nd PMF Defectors Brigade"
+		location = 10793
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3rd Kata'ib Hezbollah"
+		location = 7994
+		division_template = "Armored Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "1st IRGC Volunteers"
+		location = 2004
+		division_template = "Special Forces"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2nd IRGC Volunteers"
+		location = 12726
+		division_template = "Special Forces"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+}
+
+    instant_effect = {
+		add_equipment_to_stockpile = {
+			type = infantry_equipment_2
+			amount = 5000
+			producer = PER
+		}
+			add_equipment_to_stockpile = {
+			type = anti_tank_equipment_1
+			amount = 1000
+			producer = PER
+		}
+		add_equipment_to_stockpile = {
+			type = anti_air_equipment_1
+			amount = 1000
+			producer = PER
+		}
+		add_equipment_to_stockpile = {
+			type = artillery_equipment_1
+			amount = 500
+			producer = PER
+		}
+		add_equipment_to_stockpile = {
+			type = support_equipment_1
+			amount = 750
+			producer = PER
+		}
+		add_equipment_to_stockpile = {
+			type = mechanized_equipment_1
+			amount = 200
+			producer = PER
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment_1
+			amount = 500
+			producer = PER
+		}
+		add_equipment_to_stockpile = {
+			type = train_equipment_1
+			amount = 200
+			producer = PER
+		}
+    }

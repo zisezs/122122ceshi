@@ -1,0 +1,124 @@
+﻿division_template = {
+	name = "Infantry Brigade"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+		
+}
+
+division_template = {
+	name = "Police Force"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "National Guard"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		artillery_brigade = { x = 1 y = 0 }
+		infantry = { x = 2 y = 0 }
+	}
+	
+	support = {
+	}
+	
+	priority = 2
+}
+
+units = {
+	division = {
+		name = "1st National Guard"
+		location = 7747
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2nd National Guard"
+		location = 7747
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3rd National Guard"
+		location = 7747
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "4th National Guard"
+		location = 7747
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "5th National Guard"
+		location = 7747
+		division_template = "National Guard"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "1st APD Battalion"
+		location = 14025
+		division_template = "Police Force"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2nd APD Battalion"
+		location = 14025
+		division_template = "Police Force"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3rd APD Battalion"
+		location = 14025
+		division_template = "Police Force"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "1st PPD Battalion"
+		location = 13536
+		division_template = "Police Force"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "2nd PPD Battalion"
+		location = 13536
+		division_template = "Police Force"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "1st Arizonia Border Recon Militia"
+		location = 13527
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "2nd Arizonia Border Recon Militia"
+		location = 13527
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+
+}

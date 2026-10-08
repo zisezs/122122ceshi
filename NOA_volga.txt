@@ -1,0 +1,136 @@
+﻿division_template = {
+	name = "Panzer-Brigade"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		light_mechanized = { x = 0 y = 2 }
+		light_mechanized = { x = 0 y = 3 }
+		motorized = { x = 0 y = 4 }
+		modern_armor = { x = 1 y = 0 }
+	}
+	
+	support = {
+		spa_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Panzergrenadier-Brigade"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		light_mechanized = { x = 0 y = 3 }
+		motorized = { x = 0 y = 4 }
+
+	}
+	support = {
+		spa_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Kommandobataillon"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+	}
+	support = {
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Dobrovolʹcheskaya Brigada"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+	}
+	support = {
+	}
+}
+
+units = {
+	
+	division = {
+		name = "9th Panzergrenadier-Brigade"
+		location = 3529
+		division_template = "Panzergrenadier-Brigade"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "11th Panzergrenadier-Brigade"
+		location = 6575
+		division_template = "Panzergrenadier-Brigade"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "21st Panzer Brigade"
+		location = 3529
+		division_template = "Panzer-Brigade"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "22nd Kommandobataillon"
+		location = 3529
+		division_template = "Kommandobataillon"
+		start_experience_factor = 0.4
+	}
+	
+	division = {
+		name = "1ya Dobrovolʹcheskaya Brigada"
+		location = 9474
+		division_template = "Dobrovolʹcheskaya Brigada"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "2ya Dobrovolʹcheskaya Brigada"
+		location = 11724
+		division_template = "Dobrovolʹcheskaya Brigada"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "3ya Dobrovolʹcheskaya Brigada"
+		location = 11484
+		division_template = "Dobrovolʹcheskaya Brigada"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "4ya Dobrovolʹcheskaya Brigada"
+		location = 9753
+		division_template = "Dobrovolʹcheskaya Brigada"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "5ya Dobrovolʹcheskaya Brigada"
+		location = 3439
+		division_template = "Dobrovolʹcheskaya Brigada"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "6ya Dobrovolʹcheskaya Brigada"
+		location = 3555
+		division_template = "Dobrovolʹcheskaya Brigada"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "7ya Dobrovolʹcheskaya Brigada"
+		location = 9474
+		division_template = "Dobrovolʹcheskaya Brigada"
+		start_experience_factor = 0.1
+	}
+}

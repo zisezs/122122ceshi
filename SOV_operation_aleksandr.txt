@@ -1,0 +1,87 @@
+﻿division_template = {
+	name = "Spetsnaz Brigada"
+	division_names_group = SOV_SOF_01
+	
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+		special_forces = { x = 0 y = 3 }
+	}
+	
+	support = {
+	}
+	
+	priority = 2
+}
+
+division_template = {
+	name = "Aeromobil'nyy Brigada"
+	division_names_group = SOV_PAR_01
+	
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+	}
+	
+	support = {
+		spaa_company = { x = 0 y = 0 }
+		air_mechanized = { x = 0 y = 1 }
+	}
+	
+	priority = 1
+}
+
+units = {
+	division = {			
+		name = "18y Spetsnaz Brigada"
+		location = 6576
+		division_template = "Spetsnaz Brigada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "150y Spetsnaz Brigada"
+		location = 3414
+		division_template = "Spetsnaz Brigada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "2y Spetsnaz Brigada"
+		location = 9546
+		division_template = "Spetsnaz Brigada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	 division = {			
+		name = "70y Spetsnaz Brigada"
+		location = 11260
+		division_template = "Spetsnaz Brigada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}	
+	division = {			
+		name = "60y Aeromobil'nyy Brigada"
+		location = 3434
+		division_template = "Aeromobil'nyy Brigada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "14y Aeromobil'nyy Brigada"
+		location = 3381
+		division_template = "Aeromobil'nyy Brigada"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+	
+	division = {			
+		name = "57y Aeromobil'nyy Brigada"
+		location = 6595
+		division_template = "Aeromobil'nyy Brigada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+}

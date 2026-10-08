@@ -1,0 +1,72 @@
+﻿division_template = {
+	name = "Defence Unit"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+	
+	support = {
+
+	}
+}
+
+units = {
+
+	division = {
+		name = "1st Volunteer Brigade"
+		location = 13937
+		division_template = "Defence Unit"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "2nd Volunteer Brigade"
+		location = 13936
+		division_template = "Defence Unit"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "3rd Volunteer Brigade"
+		location = 13937
+		division_template = "Defence Unit"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "4th Volunteer Brigade"
+		location = 12827
+		division_template = "Defence Unit"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "5th Volunteer Brigade"
+		location = 13937
+		division_template = "Defence Unit"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "6th Volunteer Brigade"
+		location = 13936
+		division_template = "Defence Unit"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "7th Volunteer Brigade"
+		location = 13937
+		division_template = "Defence Unit"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "8th Volunteer Brigade"
+		location = 12827
+		division_template = "Defence Unit"
+		start_experience_factor = 0.3
+	}
+}

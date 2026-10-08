@@ -1,0 +1,213 @@
+﻿#Template
+division_template = {
+	name = "Infantry Division"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		artillery_brigade = {	x = 2 y = 0 }
+	}
+	
+	support = {
+	
+	}
+}
+
+division_template = {
+	name = "Infantry Brigade"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Mechanized Brigade"
+	
+	regiments = {
+		light_mechanized = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+	}
+	
+	support = {
+		spaa_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Commando Brigade"
+	
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+	}
+	
+	priority = 2
+}
+
+units = {
+	division = {	
+		name = "111th Division"
+		location = 10737
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		
+	}
+
+	division = {	
+		name = "1st Infantry Brigade"
+		location = 10737
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+		
+	}
+	division = {	
+		name = "2nd Infantry Brigade"
+		location = 10737
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+		
+	}
+	division = {	
+		name = "3rd Mechanized Brigade"
+		location = 12877	
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.1
+		
+	}
+	division = {	
+		name = "4th Infantry Brigade"
+		location = 10826
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+		
+	}
+
+	division = {	
+		name = "5th Infantry Brigade"
+		location = 12831
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+		
+	}
+	division = {	
+		name = "6th Infantry Brigade"
+		location = 13748	#Should be 6114 Sharana
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+		
+	}
+	division = {	
+		name = "7th Infantry Brigade"
+		location = 12769	#Should be 5082 Ghazni
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+		
+	}
+	division = {	
+		name = "8th Infantry Brigade"
+		location = 13762
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+		
+	}
+
+	division = {	
+		name = "9th Infantry Brigade"
+		location = 2078
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+		
+	}
+	division = {	
+		name = "10th Infantry Brigade"
+		location = 13743
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+		
+	}
+	division = {	
+		name = "11th Infantry Brigade"
+		location = 10896
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+		
+	}
+	division = {	
+		name = "12th Infantry Brigade"
+		location = 13742
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+
+	}
+	division = {	
+		name = "13th Infantry Brigade"
+		location = 13742
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {	
+		name = "14th Infantry Brigade"
+		location = 13748
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {	
+		name = "15th Infantry Brigade"
+		location = 13753
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+
+	division = {	
+		name = "16th Infantry Brigade"
+		location = 12248
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {	
+		name = "17th Infantry Brigade"
+		location = 12248
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {	
+		name = "18th Infantry Brigade"
+		location = 12653
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+
+	division = {	
+		name = "19th Infantry Brigade"
+		location = 13756
+		division_template = "Infantry Brigade"
+	}
+	division = {	
+		name = "20th Infantry Brigade"
+		location = 13757
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {	
+		name = "21st Infantry Brigade"
+		location = 13738
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "1st Commando Brigade"
+		location = 7916
+		division_template = "Commando Brigade"
+		start_experience_factor = 0.3
+	}
+}

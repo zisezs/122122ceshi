@@ -1,0 +1,57 @@
+﻿division_template = {
+	name = "Foot Militia"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+		
+}
+
+division_template = {
+	name = "Motorized Infantry Brigade"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+	
+}
+
+units = {
+	
+	division = {
+		name = "1st Milicia del Pueblo Libre de Galicia"
+		location = 9686
+		division_template = "Foot Militia"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "2nd Milicia del Pueblo Libre de Galicia"
+		location = 9686
+		division_template = "Foot Militia"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "3rd Milicia del Pueblo Libre de Galicia"
+		location = 9686
+		division_template = "Foot Militia"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "4th Milicia del Pueblo Libre de Galicia"
+		location = 9686
+		division_template = "Foot Militia"
+		start_experience_factor = 0.01
+	}
+	
+}

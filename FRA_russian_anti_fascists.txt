@@ -1,0 +1,34 @@
+﻿division_template = {
+	name = "L'Interbrigade Russe"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+	}
+	is_locked = yes
+	template_counter = 25
+	support = {
+
+	}
+}
+
+units = {
+	division = {	
+		name = "1ya Anti-Fashistskaya Brigada imeni Vladimira Lenina"
+		location = 9523
+		division_template = "L'Interbrigade Russe"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+		officer = {
+			name = "Sergei Udaltsov"
+			portraits = {
+				army = {
+					large = GFX_FRA_Sergei_Udaltsov
+					small = "gfx/interface/ideas/FRA/advisors/FRA_Sergey_Udaltsov.png"
+				}
+			}
+		}
+	}
+}

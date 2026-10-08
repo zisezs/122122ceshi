@@ -1,0 +1,337 @@
+﻿division_template = {
+	name = "Mekanize Tugay"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		modern_sp_artillery_brigade = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+	}
+	
+	support = {
+	}
+}
+
+division_template = {
+	name = "Zırhlı Tugay"
+
+	regiments = {
+		light_mechanized = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		light_mechanized = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+		modern_sp_artillery_brigade = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+	}
+	
+	support = {
+	}
+}
+
+division_template = {
+	name = "Motorlu Tugay"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		modern_sp_artillery_brigade = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+	}
+	
+	support = {
+	}
+}
+
+division_template = {
+	name = "Motorlu Piyade Tümeni"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		modern_sp_artillery_brigade = { x = 3 y = 0 }
+		modern_sp_artillery_brigade = { x = 3 y = 1 }
+	}
+	
+	support = {
+	}
+}
+
+division_template = {
+	name = "Komando Tugayı"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 1 y = 0 }
+		special_forces = { x = 1 y = 1 }
+		artillery_brigade = { x = 1 y = 2 }
+		recce = { x = 2 y = 0 }
+	}
+	
+	support = {
+	}
+	
+	priority = 2
+}
+
+division_template = {
+	name = "Deniz Tugayı"
+
+	regiments = {
+		amphibious_mechanized = { x = 0 y = 0 }
+		amphibious_mechanized = { x = 0 y = 1 }
+		amphibious_mechanized = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 0 }
+		artillery_brigade = { x = 2 y = 0 }
+	}
+	
+	support = {
+	}
+	
+}
+
+division_template = {
+	name = "Piyade Tugayı"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		artillery_brigade = { x = 1 y = 2 }
+	}
+	
+	support = {
+	}
+	
+}
+
+division_template = {
+	name = "Piyade Bölümü"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		artillery_brigade = { x = 0 y = 4 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 01 y = 3 }
+		artillery_brigade = { x = 1 y = 4 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 2 y = 3 }
+		artillery_brigade = { x = 2 y = 4 }
+	}
+	
+	support = {
+	}
+	
+}
+
+units = {
+
+	division = {
+		name = "4. Mekanize Piyade Tugayı"
+		location = 849
+		division_template = "Mekanize Tugay"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "8. Mekanize Piyade Tugayıe"
+		location = 6895
+		division_template = "Mekanize Tugay"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "18. Mekanize Piyade Tugayı"
+		location = 6864
+		division_template = "Mekanize Tugay"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "95. Zırhlı tugay"
+		location = 3893
+		division_template = "Zırhlı Tugay"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "23. Taktik Motorize Piyade Tümeni"
+		location = 9833
+		division_template = "Motorlu Piyade Tümeni"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "1. Zırhlı Tugay"
+		location = 3893
+		division_template = "Zırhlı Tugay"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "54. Mekanize Piyade Tugayı"
+		location = 11842
+		division_template = "Mekanize Tugay"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "55. Mekanize Piyade Tugayı"
+		location = 11842
+		division_template = "Mekanize Tugay"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "65. Mekanize Piyade Tugayı"
+		location = 3893
+		division_template = "Mekanize Tugay"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "28. Mekanize Piyade Tugayı"
+		location = 804
+		division_template = "Mekanize Tugay"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Kayseri Dağ Komando Tugayı"
+		location = 6977
+		division_template = "Komando Tugayı"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "2. Komando Tugayı"
+		location = 3905
+		division_template = "Komando Tugayı"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "5. Zırhlı Tugay"
+		location = 9893
+		division_template = "Zırhlı Tugay"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "39. Mekanize Piyade Tugayı"
+		location = 12029
+		division_template = "Mekanize Tugay"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "3. Taktik Piyade Tümeni"
+		location = 864
+		division_template = "Piyade Bölümü"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "34. Sınır Muhafız Tugayı"
+		location = 1463
+		division_template = "Piyade Tugayı"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "16. Mekanize Tugay"
+		location = 4512
+		division_template = "Mekanize Tugay"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "20. Mekanize Tugay"
+		location = 9823
+		division_template = "Mekanize Tugay"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "70. Mekanize Piyade Tugayı"
+		location = 12416
+		division_template = "Mekanize Tugay"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "172. Zırhlı Tugay"
+		location = 7530
+		division_template = "Zırhlı Tugay"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "2. Motorize Piyade Tugayı"
+		location = 11739
+		division_template = "Motorlu Tugay"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "6. Motorize Piyade Tugayı"
+		location = 9799
+		division_template = "Motorlu Tugay"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "3. Komando Tugayı"
+		location = 940
+		division_template = "Komando Tugayı"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "1. Mekanize Piyade Tugayı"
+		location = 4583
+		division_template = "Mekanize Tugay"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}

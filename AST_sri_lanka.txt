@@ -1,0 +1,50 @@
+﻿division_template = {
+	name = "Sri Lanka Invasion Brigade"
+	
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+		marine = { x = 1 y = 0 }
+		marine = { x = 1 y = 1 }
+		marine = { x = 1 y = 2 }
+	}
+	
+	support = {
+		signal_company = { x = 0 y = 0 }		
+	}
+		
+}
+
+
+
+units = {
+	division = {			
+		name = "1. Sri Lanka Invasion Brigade"
+		location = 7260
+		division_template = "Sri Lanka Invasion Brigade"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "2. Sri Lanka Invasion Brigade"
+		location = 7260
+		division_template = "Sri Lanka Invasion Brigade"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "3. Sri Lanka Invasion Brigade"
+		location = 7344
+		division_template = "Sri Lanka Invasion Brigade"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "4. Sri Lanka Invasion Brigade"
+		location = 7344
+		division_template = "Sri Lanka Invasion Brigade"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+}

@@ -1,0 +1,36 @@
+﻿division_template = {
+	name = "Donbasskya Brigada"
+	
+	regiments = {
+		light_mechanized = { x = 0 y = 0 } 
+		light_mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		modern_armor = { x = 1 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 1 }
+		spaa_brigade = { x = 2 y = 2 }
+		light_armor = { x = 3 y = 0 }
+	}
+	
+	support = {
+		spaa_company = { x = 0 y = 0 }
+	}
+	is_locked = yes
+}
+
+units = {
+	division = {			
+		name = "Luganskya Brigada"
+		location = 6380
+		division_template = "Donbasskya Brigada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "Donetskya Brigada"
+		location = 6380
+		division_template = "Donbasskya Brigada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+}

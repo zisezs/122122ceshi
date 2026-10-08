@@ -1,0 +1,21 @@
+﻿division_template = {
+	name = "Armored Militia"
+	
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+	}
+	
+	support = {
+		mbt_company = { x = 0 y = 0 }
+	}
+		
+}
+
+units = {
+	division = {
+		name = "1st Armored Militia"
+		location = 13294
+		division_template = "Armored Militia"
+		start_experience_factor = 0.2
+	}
+}

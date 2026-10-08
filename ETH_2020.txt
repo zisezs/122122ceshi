@@ -1,0 +1,224 @@
+﻿division_template = {
+	name = "Commando Brigade"
+
+	regiments = { 
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+	}
+
+	support = {
+	}
+	
+	priority = 2
+}
+
+division_template = {
+	name = "Mechanized Division"
+
+	regiments = { 
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		light_mechanized = { x = 0 y = 2 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		modern_sp_artillery_brigade = { x = 1 y = 2 }
+		mechanized = { x = 2 y = 0 }
+		mechanized = { x = 2 y = 1 }
+		modern_sp_artillery_brigade = { x = 2 y = 2 }
+	}
+
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		spaa_company = { x = 0 y = 2 }
+	}
+	
+}
+
+division_template = {
+	name = "Infantry Division"
+
+	regiments = { 
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		artillery_brigade = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		artillery_brigade = { x = 2 y = 2 }
+	}
+
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }		
+		spaa_company = { x = 0 y = 2 }	
+	}
+	
+}
+
+units = {
+	division = {	
+		name = "Azazi Commando Brigade"
+		location = 5010
+		division_template = "Commando Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}  
+	division = {	
+		name = "8th Mechanized Division"
+		location = 5010
+		division_template = "Mechanized Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}  
+	division = {	
+		name = "31st Army Division"
+		location = 5097
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}   
+	division = {	
+		name = "35th Army Division"
+		location = 5010
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}  
+	division = {	
+		name = "24th Army Division"
+		location = 10734
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}  
+	division = {	
+		name = "22nd Army Division"
+		location = 12856
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}  
+	division = {	
+		name = "33rd Army Division"
+		location = 8019
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}  
+	division = {	
+		name = "4th Mechanized Division"
+		location = 7980
+		division_template = "Mechanized Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}  
+	division = {	
+		name = "14th Army Division"
+		location = 10775
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}   
+	division = {	
+		name = "21st Army Division"
+		location = 4954
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}  
+	division = {	
+		name = "11th Army Division"
+		location = 12812
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}  
+	division = {	
+		name = "25th Army Division"
+		location = 12714
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}  
+	division = {	
+		name = "22nd Army Division"
+		location = 4995
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}  
+	division = {	
+		name = "6th Mechanized Division"
+		location = 4954
+		division_template = "Mechanized Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}  
+	division = {	
+		name = "19th Army Division"
+		location = 10775
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}   
+	division = {	
+		name = "44th Army Division"
+		location = 8019	
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}  
+	division = {	
+		name = "13th Army Division"
+		location = 8062
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}  
+	division = {	
+		name = "12th Army Division"
+		location = 12757
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}  
+	division = {	
+		name = "32nd Army Division"
+		location = 4995
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	} 
+	division = {	
+		name = "7th Mechanized Division"
+		location = 5010
+		division_template = "Mechanized Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}  
+	division = {	
+		name = "23rd Army Division"
+		location = 2040
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}   
+	division = {	
+		name = "43rd Army Division"
+		location = 5010
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}  
+	division = {	
+		name = "26th Army Division"
+		location = 12757
+		division_template = "Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}  
+}

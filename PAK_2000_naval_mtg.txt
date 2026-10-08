@@ -1,0 +1,38 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {
+		name = "submarine Squadron"
+		naval_base = 3456
+		task_force = {
+			name = "submarine Squadron"
+			location = 3456
+			ship = { name = "PNS Hangor (S-131)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PAK version_name = "Daphné-class" } } }
+			ship = { name = "PNS Shushuk (S-132)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PAK version_name = "Daphné-class" } } }
+			ship = { name = "PNS Mangro (S-133)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PAK version_name = "Daphné-class" } } }
+			ship = { name = "PNS Ghazi (S-134)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PAK version_name = "Daphné-class" } } }
+			ship = { name = "PNS Hashmat (S-135)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PAK version_name = "Daphné-class" } } }
+			ship = { name = "PNS Hurmat (S-136)" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PAK version_name = "Daphné-class" } } }
+			ship = { name = "PNS Khalid (S-137)" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = PAK version_name = "Agosta-class" } } }
+			
+			ship = { name = "PNS 阿斯雷特号(D-254)" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = PAK version_name = "佐勒菲卡尔级护卫舰" } } }
+		}
+	}
+	fleet = {
+		name = "Surface Squadrons" #"destroyers" are actually frigates
+		naval_base = 3456
+		task_force = {
+			name = "Surface Squadrons" #"destroyers" are actually frigates
+			location = 3456
+			ship = { name = "PNS 佐勒菲卡尔号 (D-251)" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = PAK version_name = "佐勒菲卡尔级护卫舰" } } }
+			ship = { name = "PNS 沙姆谢尔号 (D-252)" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = PAK version_name = "佐勒菲卡尔级护卫舰" } } }
+			ship = { name = "PNS 赛伊夫号 (D-253)" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = PAK version_name = "佐勒菲卡尔级护卫舰" } } }
+			ship = { name = "PNS 沙贾汗号 (D-264)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = PAK version_name = "054AP型护卫舰" } } }
+			ship = { name = "PNS 蒂普苏丹号 (D-263)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = PAK version_name = "054AP型护卫舰" } } }
+			ship = { name = "PNS 帖木儿号(D-262)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = PAK version_name = "054AP型护卫舰" } } }
+			ship = { name = "PNS 图赫里勒号 (D-261)" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = PAK version_name = "054AP型护卫舰" } } }
+			ship = { name = "PNS 雅穆克号 (F-271)" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = PAK version_name = "雅穆克级护卫舰" } } }
+			ship = { name = "PNS 塔布克号 (F-272)" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = PAK version_name = "雅穆克级护卫舰" } } }
+		}
+	}
+}

@@ -1,0 +1,13 @@
+﻿### Air OOB ###
+
+air_wings = {
+	1343 = {
+		#JAS 39C/D Gripen
+		fighter_airframe_1 = {
+			owner = "SAF" 
+			amount = 26
+			version_name = "JAS 39C/D Gripen"
+		}
+
+	}
+}

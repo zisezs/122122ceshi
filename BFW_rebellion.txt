@@ -1,0 +1,68 @@
+﻿division_template = {
+	name = "Jalaväebrigaad"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 1 y = 3 }
+	}
+	support = {
+		
+	}
+}
+
+units = {
+	division = {
+		name = "1. Jalaväebrigaad"
+		location = 3174
+		division_template = "Jalaväebrigaad"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "2. Jalaväebrigaad"
+		location = 6381
+		division_template = "Jalaväebrigaad"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "3. Jalaväebrigaad"
+		location = 6178
+		division_template = "Jalaväebrigaad"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "4. Jalaväebrigaad"
+		location = 6408
+		division_template = "Jalaväebrigaad"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "5. Jalaväebrigaad"
+		location = 3388
+		division_template = "Jalaväebrigaad"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "6. Jalaväebrigaad"
+		location = 11302
+		division_template = "Jalaväebrigaad"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "7. Jalaväebrigaad"
+		location = 11222
+		division_template = "Jalaväebrigaad"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "8. Jalaväebrigaad"
+		location = 14277
+		division_template = "Jalaväebrigaad"
+		start_experience_factor = 0.3
+	}
+}

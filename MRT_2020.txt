@@ -1,0 +1,129 @@
+﻿division_template = {
+	name = "Katiba Aljamal"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+	}
+	support = {
+		light_tank_recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Katiba Moudar'a"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+	}
+	support = {
+		light_tank_recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Katiba Harmia"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Katiba Mushat"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Katiba Midali"
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Katiba Haris"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+
+	priority = 2
+}
+
+units = {
+
+	division = {
+		name = "1. Katiba Aljamal"
+		location = 10779
+		division_template = "Katiba Aljamal"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Katiba Moudar'a"
+		location = 5077
+		division_template = "Katiba Moudar'a"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "1. Katiba Harmia"
+		location = 10771
+		division_template = "Katiba Harmia"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "2. Katiba Harmia"
+		location = 5034
+		division_template = "Katiba Harmia"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "1. Katiba Mushat"
+		location = 5034
+		division_template = "Katiba Mushat"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "2. Katiba Mushat"
+		location = 8058
+		division_template = "Katiba Mushat"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Katiba Midali"
+		location = 5034
+		division_template = "Katiba Midali"
+		start_experience_factor = 0.2
+	}
+
+	division = {
+		name = "Katiba Haris"
+		location = 10771
+		division_template = "Katiba Haris"
+		start_experience_factor = 0.2
+	}
+
+}

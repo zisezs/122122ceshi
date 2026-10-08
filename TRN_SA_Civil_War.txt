@@ -1,0 +1,197 @@
+division_template = {
+	name = "Light Tank Division"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_mechanized = { x = 0 y = 2 }
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		light_mechanized = { x = 1 y = 2 }
+	}
+	
+	support = {
+		spa_company = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Tank Regiment"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		light_mechanized = { x = 0 y = 1 }
+		modern_armor = { x = 1 y = 0 }
+		light_mechanized = { x = 1 y = 1 }
+	}
+	
+	support = {
+		light_tank_recon = { x = 0 y = 0 }
+		spa_company = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Mechanized Division"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+	}
+	
+	support = {
+		light_tank_recon = { x = 0 y = 0 }
+		spa_company = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Motorized Battalion"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+	}
+	
+	support = {
+		light_tank_recon = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Light Infantry Battalion"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	
+	support = {
+		recon = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Parachute Battalion"
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+	}
+	
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Marine Battalion"
+
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+	}
+	
+	support = {
+		recon = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Special Forces Battalion"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Militia"
+		
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+	}
+}
+
+units = {
+
+	division = {
+		name = "1st Special Service Battalion"
+		location = 12648
+		division_template = "Special Forces Battalion"
+		start_experience_factor = 0.3
+		
+	}
+
+	division = {
+		name = "1st Infantry Battalion"
+		location = 10400
+		division_template = "Light Infantry Battalion"
+		start_experience_factor = 0.3
+		
+	}
+
+	division = {
+		name = "1st Militia"
+		location = 10400
+		division_template = "Militia"
+		start_experience_factor = 0.3
+		
+	}
+
+	division = {
+		name = "2nd Militia"
+		location = 10400
+		division_template = "Militia"
+		start_experience_factor = 0.4
+		
+	}
+
+	division = {
+		name = "3rd Militia"
+		location = 10400
+		division_template = "Militia"
+		start_experience_factor = 0.3
+		
+	}
+
+	division = {
+		name = "4th Militia"
+		location = 10400
+		division_template = "Militia"
+		start_experience_factor = 0.4
+		
+	}
+
+	division = {
+		name = "5th Militia"
+		location = 10400
+		division_template = "Militia"
+		start_experience_factor = 0.3
+		
+	}
+
+}

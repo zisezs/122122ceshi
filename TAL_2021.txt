@@ -1,0 +1,98 @@
+﻿division_template = {
+	name = "Mechanized Brigade"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		mechanized = { x = 0 y = 3 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		apc_company = { x = 0 y = 1 }
+		mot_recon = { x = 0 y = 2 }
+	}
+		
+}
+
+units = {
+	division = {	
+		name = "1st Mechanized Brigade"
+		location = 5064
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.3
+		
+	}
+	division = {	
+		name = "2nd Mechanized Brigade"
+		location = 5064
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.3
+		
+	}
+	division = {	
+		name = "3rd Mechanized Brigade"
+		location = 5064
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.3
+		
+	}
+	division = {	
+		name = "4th Mechanized Brigade"
+		location = 5064
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.3
+		
+	}
+	division = {	
+		name = "5th Mechanized Brigade"
+		location = 5064
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.3
+		
+	}
+}
+
+instant_effect = {
+	add_equipment_to_stockpile = {
+		type = modern_tank_equipment_1
+		amount = 450
+		producer = SOV
+	}
+	add_equipment_to_stockpile = {
+		type = modern_tank_destroyer_equipment_1
+		amount = 450
+		producer = SOV
+	}
+	add_equipment_to_stockpile = {
+		type = light_mechanized_equipment
+		amount = 500
+		producer = SOV
+	}
+	add_equipment_to_stockpile = {
+		type = motorized_equipment
+		amount = 1500
+		producer = SOV
+	}
+	add_equipment_to_stockpile = {
+		type = support_equipment
+		amount = 1500
+		producer = SOV
+	}
+	add_equipment_to_stockpile = {
+		type = infantry_equipment
+		amount = 5000
+		producer = SOV
+	}
+	add_equipment_to_stockpile = {
+		type = anti_tank_equipment
+		amount = 1500
+		producer = SOV
+	}
+	add_equipment_to_stockpile = {
+		type = anti_air_equipment
+		amount = 1500
+		producer = SOV
+	}
+}

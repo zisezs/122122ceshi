@@ -1,0 +1,46 @@
+﻿
+units = {
+	
+	division = {
+		name = "Mushat Alshrye"
+		location = 1891
+		division_template = "Mushat Alshrye"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "Mushat Alshrye"
+		location = 1891
+		division_template = "Mushat Alshrye"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "Mushat Alshrye"
+		location = 1891
+		division_template = "Mushat Alshrye"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "Mushat Alshrye"
+		location = 1969
+		division_template = "Mushat Alshrye"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "Mushat Alshrye"
+		location = 1969
+		division_template = "Mushat Alshrye"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "Mushat Alshrye"
+		location = 1969
+		division_template = "Mushat Alshrye"
+		start_experience_factor = 0.1
+	}
+
+}

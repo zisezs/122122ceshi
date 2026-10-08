@@ -1,0 +1,220 @@
+﻿division_template = {
+	name = "Mekaniserad Bataljon"
+
+	regiments = {
+		light_mechanized = { x = 0 y = 0 }
+	}
+	support = {
+		mbt_company = { x = 0 y = 0 }
+		mot_recon = { x = 0 y = 1 }
+		spa_company = { x = 0 y = 2 }
+		spaa_company = { x = 0 y = 3 }
+		engineer = { x = 0 y = 4 }
+	}
+}
+
+division_template = {
+	name = "Mekaniserad Stridsgrupp"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+	}
+	support = {
+		mbt_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Lätt Mekaniserad Bataljon"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+	}
+	support = {
+		mbt_company = { x = 0 y = 0 }
+		mot_recon = { x = 0 y = 1 }
+		spa_company = { x = 0 y = 2 }
+		spaa_company = { x = 0 y = 3 }
+		engineer = { x = 0 y = 4 }
+	}
+}
+
+division_template = {
+	name = "Pansarregement"
+
+	regiments = {
+		light_mechanized = { x = 0 y = 0 }
+		modern_sp_artillery_brigade = { x = 0 y = 1 }
+		modern_armor = { x = 1 y = 0 }
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }
+		spaa_company = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Luftburna Husarregement"
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Motoriserad Bataljon"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Lätt Skyttebataljon"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Jägarbataljon"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Amfibebataljon"
+
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 0 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Lätt Mekaniserad Brigad"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		light_mechanized = { x = 1 y = 0 }
+		light_mechanized = { x = 1 y = 1 }
+		modern_sp_artillery_brigade = { x = 1 y = 2 }
+	}
+}
+
+units = {
+
+	division = {
+		name = "10:e Livbataljonen"
+		location = 6050
+		division_template = "Lätt Skyttebataljon"
+		start_experience_factor = 0.5
+		
+	}
+	division = {
+		name = "12:e Motoriserade Bataljonen"
+		location = 6050
+		division_template = "Motoriserad Bataljon"
+		start_experience_factor = 0.5
+		
+	}
+
+	division = {
+		name = "Norrbottens Pansarbataljon"
+		location = 6165
+		division_template = "Pansarregement"
+		start_experience_factor = 0.6
+		
+	}
+
+	division = {
+		name = "71:a Lätta Mekaniserade Bataljonen"
+		location = 9300
+		division_template = "Lätt Mekaniserad Bataljon"
+		start_experience_factor = 0.6
+		
+	}
+	division = {
+		name = "72:a Mekaniserade Bataljonen"
+		location = 9300
+		division_template = "Mekaniserad Bataljon"
+		start_experience_factor = 0.6
+		
+	}
+
+	division = {
+		name = "41:a Mekaniserade Bataljonen"
+		location = 3375
+		division_template = "Mekaniserad Bataljon"
+		start_experience_factor = 0.5
+		
+	}
+	division = {
+		name = "42:a Mekaniserade Bataljonen"
+		location = 3375
+		division_template = "Mekaniserad Bataljon"
+		start_experience_factor = 0.5
+		
+	}
+
+	division = {
+		name = "Stridsgrupp Gotland"
+		location = 6258
+		division_template = "Mekaniserad Stridsgrupp"
+		start_experience_factor = 0.3
+		
+	}
+
+	division = {
+		name = "Livregementets Husarer"
+		location = 3063
+		division_template = "Luftburna Husarregement"
+		start_experience_factor = 0.7
+		
+	}
+
+	division = {
+		name = "193:a Jägarbataljon"
+		location = 6165
+		division_template = "Jägarbataljon"
+		start_experience_factor = 0.8
+		
+	}
+
+	division = {
+		name = "2:a Amfibebataljonen"
+		location = 6050
+		division_template = "Amfibebataljon"
+		start_experience_factor = 0.7
+		
+	}
+	
+	division = {
+		name = "2:a Lätt Mekaniserad Brigad"
+		location = 6050
+		division_template = "Lätt Mekaniserad Brigad"
+		start_experience_factor = 0.7
+		
+	}
+}

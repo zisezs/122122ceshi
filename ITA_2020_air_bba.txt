@@ -1,0 +1,66 @@
+﻿### Air OOB ###
+air_wings = {
+	162 = {
+		#Eurofighter Typhoon
+		fighter_airframe_1 =  {
+			owner = "ITA" 
+			amount = 36
+			version_name = "Eurofighter Typhoon"
+		}
+	}
+	156 = {
+		#Eurofighter Typhoon
+		fighter_airframe_1 =  {
+			owner = "ITA" 
+			amount = 36
+			version_name = "Eurofighter Typhoon"
+		}
+	}
+	115 = {
+		#Eurofighter Typhoon
+		fighter_airframe_1 =  {
+			owner = "ITA" 
+			amount = 18
+			version_name = "Eurofighter Typhoon"
+		}
+	}
+	159 = {
+		#Tornado IDS
+		uav_airframe_1 =  {
+			owner = "ITA" 
+			amount = 36
+			version_name = "Tornado IDS"
+		}
+	}
+	160 = {
+		#AMX
+		fighter_airframe_0 =  {
+			owner = "ITA" 
+			amount = 40
+			version_name = "AMX International"
+		}
+		#F-35
+		fighter_airframe_2 =  {
+			owner = "ITA" 
+			amount = 10
+			version_name = "F-35 Lightning II"
+		}
+	}
+
+	117 = {
+		#F-35
+		fighter_airframe_2 =  {
+			owner = "ITA" 
+			amount = 40
+			version_name = "F-35 Lightning II"
+		}
+		#MQ-9 Reaper
+		uav_airframe_1 =  {
+			owner = "ITA" 
+			amount = 5
+			version_name = "MQ-9 Reaper"
+		}
+		
+	}
+
+}

@@ -1,0 +1,180 @@
+	division_template = {
+		name = "Volunteer Militia"
+		
+		regiments = {
+			militia = { x = 0 y = 0 }
+			militia = { x = 0 y = 1 }
+			militia = { x = 0 y = 2 }
+			militia = { x = 1 y = 0 }
+			militia = { x = 1 y = 1 }
+			militia = { x = 1 y = 2 }
+		}
+		
+		support = {
+		}
+	}
+
+division_template = {
+	name = "Jixiehua Bubing Shi"
+	
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_sp_artillery_brigade = { x = 0 y = 2 }
+		modern_armor = { x = 1 y = 0 }
+		modern_armor = { x = 1 y = 1 }
+		modern_sp_artillery_brigade = { x = 1 y = 2 }
+		mechanized = { x = 2 y = 0 }
+		mechanized = { x = 2 y = 1 }
+		mechanized = { x = 2 y = 2 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+		spaa_company = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }		
+	}
+		
+}
+units = {
+	division = {			
+		name = "1st PLA Volunteer Brigade"
+		location = 7737
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "2nd PLA Volunteer Brigade"
+		location = 7737
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "3rd PLA Volunteer Brigade"
+		location = 12656
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "4th PLA Volunteer Brigade"
+		location = 10614
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "5th PLA Volunteer Brigade"
+		location = 12524
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "6th PLA Volunteer Brigade"
+		location = 1838
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "7th PLA Volunteer Brigade"
+		location = 4828
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "8th PLA Volunteer Brigade"
+		location = 1703
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "9th PLA Volunteer Brigade"
+		location = 7702
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "10th PLA Volunteer Brigade"
+		location = 8086
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "11th PLA Volunteer Brigade"
+		location = 5016
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "12th PLA Volunteer Brigade"
+		location = 8112
+		division_template = "Volunteer Militia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "4th Infantry Division"
+		location = 4709
+		division_template = "Jixiehua Bubing Shi"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "Xinjiang 1st Reserve Infantry Division"
+		location = 4973
+		division_template = "Jixiehua Bubing Shi"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "Xinjiang 2nd Reserve Infantry Division"
+		location = 4973
+		division_template = "Jixiehua Bubing Shi"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "Xinjiang 3rd Reserve Infantry Division"
+		location = 4973
+		division_template = "Jixiehua Bubing Shi"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "Xinjiang 4rd Reserve Infantry Division"
+		location = 4709
+		division_template = "Jixiehua Bubing Shi"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "Xinjiang 5rd Reserve Infantry Division"
+		location = 4709
+		division_template = "Jixiehua Bubing Shi"
+		start_experience_factor =1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "Xinjiang 6rd Reserve Infantry Division"
+		location = 4709
+		division_template = "Jixiehua Bubing Shi"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+	division = {			
+		name = "Xinjiang 7rd Reserve Infantry Division"
+		location = 4709
+		division_template = "Jixiehua Bubing Shi"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+	}
+}

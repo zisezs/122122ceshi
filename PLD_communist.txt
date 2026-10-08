@@ -1,0 +1,165 @@
+﻿division_template = {
+	name = "Dywizja Piechoty"			
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		artillery_brigade = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		artillery_brigade = { x = 1 y = 3 }
+	}
+	support = {
+		recon = { x = 0 y = 0 } 		
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Dywizja Zmotoryzowana"			
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 1 }
+		modern_sp_artillery_brigade = { x = 2 y = 2 }
+
+	}
+	support = {
+		recon = { x = 0 y = 0 } 		
+		engineer = { x = 0 y = 1 } 		
+		logistics_company = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+		signal_company = { x = 0 y = 4 }
+	}
+}
+division_template = {
+	name = "Brygada Czolgow Ciezkich"			
+
+	regiments = {
+		light_mechanized = { x = 0 y = 0 }
+		light_mechanized = { x = 0 y = 1 }
+		light_mechanized = { x = 0 y = 2 }
+		light_mechanized = { x = 1 y = 0 }
+		light_mechanized = { x = 1 y = 1 }
+		light_mechanized = { x = 1 y = 2 }
+		modern_sp_artillery_brigade = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 2 y = 1 }
+		modern_sp_artillery_brigade = { x = 2 y = 2 }
+
+	}
+	support = {
+		recon = { x = 0 y = 0 } 		
+		engineer = { x = 0 y = 1 } 		
+		logistics_company = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+		signal_company = { x = 0 y = 4 }
+	}
+}
+
+division_template = {
+	name = "Ochotnicza Rezerwa Milicji Obywatelskiej"			
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 1 y = 3 }
+	}
+	support = {
+		recon = { x = 0 y = 0 } 		
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+##### OOB #####
+units = {
+	division = {
+		name = "1 'Tadeusza Kosciuszki' Dywizja Piechoty"
+		location = 6658
+ 		division_template = "Dywizja Piechoty"
+ 		start_experience_factor = 0.6
+		start_equipment_factor = 0.8
+	}
+	division = {	
+		name = "16 'Kaszubi' Dywizja Zmotoryzowana"					
+		location = 6658
+ 		division_template = "Dywizja Zmotoryzowana"
+ 		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "11 'Drezno' Dywizja Zmechanizowana"					
+		location = 6658
+ 		division_template = "Dywizja Zmotoryzowana"
+ 		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+ 	division = {	
+		name = "12 'Szczecin' Dywizja Zmechanizowana"					
+ 		location = 6658
+		division_template = "Dywizja Zmotoryzowana"
+		start_equipment_factor = 0.3
+		start_equipment_factor = 1
+	}
+ 	division = {
+		name = "2 Dywizja Piechoty"
+		location = 6658
+		division_template = "Dywizja Piechoty"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+ 	division = {
+		name = "4 Brygada Czolgow Ciezkich"
+		location = 6658
+		division_template = "Brygada Czolgow Ciezkich"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "42 Dywizja ORMO"					
+		location = 6658
+ 		division_template = "Ochotnicza Rezerwa Milicji Obywatelskiej"
+ 		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "28 Dywizja ORMO"					
+		location = 6658
+ 		division_template = "Ochotnicza Rezerwa Milicji Obywatelskiej"
+ 		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+ 	division = {	
+		name = "12 Dywizja ORMO"					
+ 		location = 6658
+		division_template = "Ochotnicza Rezerwa Milicji Obywatelskiej"
+		start_equipment_factor = 0.3
+		start_equipment_factor = 1
+	}
+ 	division = {
+		name = "2 Dywizja ORMO"
+		location = 6658
+		division_template = "Ochotnicza Rezerwa Milicji Obywatelskiej"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+ 	division = {
+		name = "4 Dywizja ORMO"
+		location = 6658
+		division_template = "Ochotnicza Rezerwa Milicji Obywatelskiej"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+}

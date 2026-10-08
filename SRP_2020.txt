@@ -1,0 +1,76 @@
+﻿division_template = {
+	name = "Pešadijska Brigada"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }	
+	}
+	
+}
+
+division_template = {
+	name = "Dobrovoljačka Brigada"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+}
+
+division_template = {
+	name = "Motorizovana Pešadijska Brigada"
+	
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+		mot_militia = { x = 0 y = 1 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {	
+		name = "1. Pešadijska Brigada"
+		location = 11574
+		division_template = "Pešadijska Brigada"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "1. Dobrovoljačka Brigada"
+		location = 9591
+		division_template = "Dobrovoljačka Brigada"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "2. Dobrovoljačka Brigada"
+		location = 606
+		division_template = "Dobrovoljačka Brigada"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "3. Dobrovoljačka Brigada"
+		location = 11574
+		division_template = "Motorizovana Pešadijska Brigada"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "4. Dobrovoljačka Brigada"
+		location = 11574
+		division_template = "Dobrovoljačka Brigada"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+}

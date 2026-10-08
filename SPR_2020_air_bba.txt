@@ -1,0 +1,43 @@
+﻿### Air OOB ###
+air_wings = {
+	168 = {
+		#Typhoon
+		fighter_airframe_1 =  {
+			owner = "SPR" 
+			amount = 36
+			version_name = "Eurofighter Typhoon"
+		}
+	}
+	169 = {
+		#Typhoon
+		fighter_airframe_1 =  {
+			owner = "SPR" 
+			amount = 36
+			version_name = "Eurofighter Typhoon"
+		}
+	}
+	166 = {
+		#F/A-18A+
+		fighter_airframe_1 =  {
+			owner = "SPR" 
+			amount = 42
+			version_name = "F-18"
+		}
+	}
+	41 = {
+		#F/A-18A+
+		fighter_airframe_1 =  {
+			owner = "SPR" 
+			amount = 28
+			version_name = "F-18"
+		}
+	}
+	177 = {
+		#F/A-18A+
+		fighter_airframe_1 =  {
+			owner = "SPR" 
+			amount = 14
+			version_name = "F-18"
+		}
+	}
+}

@@ -1,0 +1,32 @@
+units = {
+
+	### Naval OOB ###
+	fleet = {
+		name = "South China Excursion Fleet" #Darwin
+		naval_base = 7669
+		task_force = {
+			name = "South China Excursion Squadron 1" #Darwin
+			location = 7669
+			ship = { name = "HMAS Tweed Heads" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+            ship = { name = "HMAS Maitland" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+            ship = { name = "HMAS Queanbeyan" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+            ship = { name = "HMAS Wollongong" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+            ship = { name = "HMAS Geelong" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "HMAS Melbourne" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AST } } }
+			ship = { name = "HMAS Sydney" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AST } } }
+            ship = { name = "HMAS Brisbane" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AST } } }
+            ship = { name = "HMAS Perth" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AST } } }
+            ship = { name = "HMAS Adelaide" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AST } } }
+			ship = { name = "HMAS Hobart" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AST } } }
+            ship = { name = "HMAS Townsville" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AST } } }
+            ship = { name = "HMAS Cairns" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AST } } }
+            ship = { name = "HMAS Toowoomba" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AST } } }
+            ship = { name = "HMAS Darwin" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AST } } }
+            ship = { name = "HMAS Ballarat" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AST } } }
+            ship = { name = "HMAS Bendigo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AST } } }
+            ship = { name = "HMAS Launceston" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AST } } }
+            ship = { name = "HMAS Mackay" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AST } } }
+            ship = { name = "HMAS Rockhampton" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AST } } }
+		}
+	}
+}

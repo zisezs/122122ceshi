@@ -1,0 +1,281 @@
+﻿division_template = {
+	name = "Katiba Moudar'a"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+	}
+	support = {
+		mbt_company = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Katiba Mushat"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		motorized = { x = 0 y = 4 }
+		artillery_brigade = { x = 1 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Katiba Mechaniqui"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		artillery_brigade = { x = 1 y = 0 }
+	}
+
+}
+
+division_template = {
+	name = "Katiba Mehari"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Liwa Mushat Mechaniqui"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		modern_sp_artillery_brigade = { x = 1 y = 0 }
+		spaa_brigade = { x = 1 y = 1 }
+	}
+	support = {
+		apc_company = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Liwa Daw Al'Amn"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+
+	priority = 2
+}
+
+division_template = {
+	name = "Katiba Commando"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+	}
+
+	priority = 2
+}
+
+division_template = {
+	name = "Liwa Midali"
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+	}
+
+}
+
+division_template = {
+	name = "Liwa Alhawa Almahmul"
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+	}
+
+}
+
+units = {
+
+	division = {
+		name = "8. Katiba Mustaqilun Moudar'a"
+		location = 1989
+		division_template = "Katiba Moudar'a"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "9. Katiba Mustaqilun Moudar'a"
+		location = 4022
+		division_template = "Katiba Moudar'a"
+		start_experience_factor = 0.2
+		
+	}
+
+	division = {
+		name = "2. Liwa Mechaniqui"
+		location = 4933
+		division_template = "Liwa Mushat Mechaniqui"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "3. Liwa Mechaniqui"
+		location = 1989
+		division_template = "Liwa Mushat Mechaniqui"
+		start_experience_factor = 0.2
+		
+	}
+
+	division = {
+		name = "11. Katiba Mustaqilun Mechaniqui"
+		location = 10023
+		division_template = "Katiba Mechaniqui"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "12. Katiba Mustaqilun Mechaniqui"
+		location = 7069
+		division_template = "Katiba Mechaniqui"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "13. Katiba Mustaqilun Mechaniqui"
+		location = 10070
+		division_template = "Katiba Mechaniqui"
+		start_experience_factor = 0.2
+		
+	}
+
+	division = {
+		name = "31. Katiba Mustaqilun Mechaniqui"
+		location = 8038
+		division_template = "Katiba Mushat"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "32. Katiba Mustaqilun Mechaniqui"
+		location = 5012
+		division_template = "Katiba Mushat"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "33. Katiba Mustaqilun Mechaniqui"
+		location = 10875
+		division_template = "Katiba Mushat"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "34. Katiba Mustaqilun Mechaniqui"
+		location = 989
+		division_template = "Katiba Mushat"
+		start_experience_factor = 0.2
+		
+	}
+	division = {
+		name = "35. Katiba Mustaqilun Mechaniqui"
+		location = 8038 
+		division_template = "Katiba Mushat"
+		start_experience_factor = 0.2
+		
+	}
+
+	division = {
+		name = "1. Liwa Daw Al'Amn"
+		location = 10070
+		division_template = "Liwa Daw Al'Amn"
+		start_experience_factor = 0.4
+		
+	}
+	division = {
+		name = "2. Liwa Daw Al'Amn"
+		location = 7069
+		division_template = "Liwa Daw Al'Amn"
+		start_experience_factor = 0.4
+		
+	}
+
+	division = {
+		name = "4. Katiba Mehari"
+		location = 10875
+		division_template = "Katiba Mehari"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "1. Liwa Midali"
+		location = 10107
+		division_template = "Liwa Midali"
+		start_experience_factor = 0.4
+		
+	}
+
+	division = {
+		name = "1. Liwa Alhawa Almahmul"
+		location = 10107
+		division_template = "Liwa Alhawa Almahmul"
+		start_experience_factor = 0.2
+		
+	}
+
+	
+	division = {
+		name = "4. Katiba Commando"
+		location = 9945
+		division_template = "Katiba Commando"
+		start_experience_factor = 0.5
+		
+	}
+
+	division = {
+		name = "4. Katiba Mehari"
+		location = 10875
+		division_template = "Katiba Mehari"
+		start_experience_factor = 0.3
+		
+	}
+	division = {
+		name = "1. Liwa Midali"
+		location = 10107
+		division_template = "Liwa Midali"
+		start_experience_factor = 0.4
+		
+	}
+
+	division = {
+		name = "1. Liwa Alhawa Almahmul"
+		location = 10107
+		division_template = "Liwa Alhawa Almahmul"
+		start_experience_factor = 0.2
+		
+	}
+
+	
+	division = {
+		name = "4. Katiba Commando"
+		location = 9945
+		division_template = "Katiba Commando"
+		start_experience_factor = 0.5
+		
+	}
+}

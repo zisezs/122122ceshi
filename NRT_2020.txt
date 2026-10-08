@@ -1,0 +1,78 @@
+﻿division_template = {
+	name = "Soldados"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+	}
+	support = {
+	}
+		
+}
+
+division_template = {
+	name = "Ejército del Norte"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		mot_militia = { x = 0 y = 1 }
+	}
+	support = {
+	}
+		
+}
+
+division_template = {
+	name = "Unidad de Reconocimiento"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+	}
+	support = {
+	}
+		
+}
+
+units = {
+	
+	division = {
+		name = "Primer Grupo"
+		location = 13359 
+		division_template = "Soldados"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "Segundo Grupo"
+		location = 13667
+		division_template = "Soldados"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "Primer Grupo de Reconocimiento"
+		location = 13359
+		division_template = "Unidad de Reconocimiento"
+		start_experience_factor = 0.01
+	}
+
+	division = {
+		name = "Segundo Grupo de Reconocimiento"
+		location = 13667
+		division_template = "Unidad de Reconocimiento"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "Segundo Grupo de Reconocimiento"
+		location = 13359
+		division_template = "Unidad de Reconocimiento"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "Tercero Grupo de Reconocimiento"
+		location = 13667
+		division_template = "Soldados"
+		start_experience_factor = 0.01
+	}
+}

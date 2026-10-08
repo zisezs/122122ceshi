@@ -1,0 +1,70 @@
+﻿division_template = {
+	name = "Marines"
+	
+	regiments = {
+		exoskeleton_unit = { x = 0 y = 0 }
+		exoskeleton_unit = { x = 0 y = 1 }
+		exoskeleton_unit = { x = 0 y = 2 }
+		exoskeleton_unit = { x = 0 y = 3 }
+		
+		exoskeleton_unit = { x = 1 y = 0 }
+		exoskeleton_unit = { x = 1 y = 1 }
+		exoskeleton_unit = { x = 1 y = 2 }
+		exoskeleton_unit = { x = 1 y = 3 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+		spa_company = { x = 0 y = 3 }
+		spaa_company = { x = 0 y = 4 }
+	}
+	
+}
+
+
+units = {
+
+	division = {
+		name = "1. Marines"
+		location = 3823
+		division_template = "Marines"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Marines"
+		location = 3823
+		division_template = "Marines"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3. Marines"
+		location = 3823
+		division_template = "Marines"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "4. Marines"
+		location = 9923
+		division_template = "Marines"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "5. Marines"
+		location = 9923
+		division_template = "Marines"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "6. Marines"
+		location = 9923
+		division_template = "Marines"
+		start_experience_factor = 0.1
+	}
+}

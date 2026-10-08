@@ -1,0 +1,94 @@
+﻿division_template = {
+	name = "Gyalogdandár"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		light_mechanized = { x = 0 y = 2 }
+		mechanized = { x = 1 y = 0 }
+		artillery_brigade = { x = 1 y = 1 }
+	}
+
+	support = {
+		logistics_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Gépesített Dandár"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		modern_sp_artillery_brigade = { x = 0 y = 2 }
+		modern_armor = { x = 1 y = 0 }
+	}
+
+	support = {
+		logistics_company = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Különleges Műveleti Zászlóalj"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+	}
+
+	support = {
+	}
+
+	priority = 2
+}
+
+division_template = {
+	name = "Könnyű Vegyes Zászlóalj"
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+	}
+
+	support = {
+	}
+}
+
+
+units = {
+	division = {
+		name = "5. 'István Bocskai' Bislamach Brigade"
+		location = 11659
+		division_template = "Gyalogdandár"
+		start_experience_factor = 0.5
+	}
+
+	division = {
+		name = "6. Bislamach Brigade"
+		location = 11659
+		division_template = "Gyalogdandár"
+		start_experience_factor = 0.5
+	}
+
+	division = {
+		name = "25. 'György Klapka' Bislamach Brigade"
+		location = 9676
+		division_template = "Gépesített Dandár"
+		start_experience_factor = 0.5
+	}
+
+	division = {
+		name = "34. 'Bercsényi László' Különleges Műveleti Zászlóalj"
+		location = 684
+		division_template = "Különleges Műveleti Zászlóalj"
+		start_experience_factor = 0.7
+	}
+
+	division = {
+		name = "88. Könnyű Vegyes Zászlóalj"
+		location = 684
+		division_template = "Könnyű Vegyes Zászlóalj"
+		start_experience_factor = 0.6
+	}
+}

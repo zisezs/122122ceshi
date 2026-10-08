@@ -1,0 +1,39 @@
+﻿units = {
+	### Naval OOB ###
+	fleet = {
+		name = "Rannikkolaivasto"
+		
+		naval_base = 3083
+		
+		task_force = {
+			name = "6. Pintatorjuntalaivue"
+			location = 3083
+			ship = { name = "PGG Rauma" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FIN version_name = "Rauma-class Missile Boat" } } }
+			ship = { name = "PGG Raahe" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FIN version_name = "Rauma-class Missile Boat" } } }
+			ship = { name = "PGG Porvoo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FIN version_name = "Rauma-class Missile Boat" } } }
+			ship = { name = "PGG Naantali" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FIN version_name = "Rauma-class Missile Boat" } } }
+			ship = { name = "MLC Uusimaa" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FIN version_name = "Hämeenmaa-class Minelayer" } } }
+			ship = { name = "MLI Pansio" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FIN version_name = "Pansio-class Minelayer" } } }
+		}
+		
+		task_force = {
+			name = "7. Pintatorjuntalaivue"
+			location = 11105
+			ship = { name = "PGG Hamina" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FIN version_name = "Hamina-class Missile Boat" } } }
+			ship = { name = "PGG Tornio" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FIN version_name = "Hamina-class Missile Boat" } } }
+			ship = { name = "PGG Hanko" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FIN version_name = "Hamina-class Missile Boat" } } }
+			ship = { name = "PGG Pori" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FIN version_name = "Hamina-class Missile Boat" } } }
+			ship = { name = "MLC Hämeenmaa" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FIN version_name = "Hämeenmaa-class Minelayer" } } }
+			ship = { name = "MLI Porkkala" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FIN version_name = "Pansio-class Minelayer" } } }
+			ship = { name = "MLI Pyhäranta" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FIN version_name = "Pansio-class Minelayer" } } }
+		}
+		
+		task_force = {
+			name = "4. Miinantorjuntalaivue"
+			location = 3083
+			ship = { name = "MHC Katanpää" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FIN version_name = "Katanpää-class Mine Countermeasure Vessel" } } }
+			ship = { name = "MHC Purunpää" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FIN version_name = "Katanpää-class Mine Countermeasure Vessel" } } }
+			ship = { name = "MHC Vahterpää" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FIN version_name = "Katanpää-class Mine Countermeasure Vessel" } } }
+		}
+	}
+}

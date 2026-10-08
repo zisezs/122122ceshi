@@ -1,0 +1,141 @@
+﻿division_template = {
+	name = "Motastralkovaya Brigada"
+	
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		modern_armor = { x = 1 y = 0 }
+		modern_sp_artillery_brigade = { x = 1 y = 1 }
+	}
+	
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		spa_company = { x = 0 y = 2 }
+	}
+	
+}
+
+division_template = {
+	name = "Asobny Mekhanizavany Batalyon"
+	
+	regiments = {
+		light_mechanized = { x = 0 y = 0 }
+		light_mechanized = { x = 0 y = 1 }
+		light_mechanized = { x = 0 y = 2 }
+	}
+	
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+	}
+	
+}
+
+division_template = {
+	name = "Mabilnaya Brigada"
+	
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+	
+}
+
+division_template = {
+	name = "Brigada Spetsnaz"
+	
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+		special_forces = { x = 0 y = 1 }
+		special_forces = { x = 0 y = 2 }
+	}
+	
+	support = {
+	}
+	
+	priority = 2
+	
+}
+
+units = {
+	division = {	
+		name = "120ya Ragachouskaya Asobnaya Mekhanizavanaya Brigada"
+		location = 11370
+		division_template = "Motastralkovaya Brigada"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	
+	division = {	
+		name = "6ya Kiyeuska-Berlinskaya Acobnaya Mekhanizavanaya Brigada"	
+		location = 3393
+		division_template = "Motastralkovaya Brigada"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	
+	division = {	
+		name = "11ya Acobnaya Mekhanizavanaya Brigada"	
+		location = 6359
+		division_template = "Motastralkovaya Brigada"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	
+	division = {	
+		name = "38ya Acobnaya Mabilnaya Brigada"	
+		location = 3392
+		division_template = "Mabilnaya Brigada"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	
+	division = {	
+		name = "103ya Acobnaya Mabilnaya Brigada"	
+		location = 6371
+		division_template = "Mabilnaya Brigada"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	
+	division = {	
+		name = "5ya Brigada Spetsnaz"	
+		location = 11370
+		division_template = "Brigada Spetsnaz"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1
+	}
+	
+	division = {	
+		name = "19ya Asobny Mekhanizavany Batalyon"	
+		location = 3331
+		division_template = "Asobny Mekhanizavany Batalyon"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	
+	division = {	
+		name = "37ya Asobny Mekhanizavany Batalyon"	
+		location = 3293
+		division_template = "Asobny Mekhanizavany Batalyon"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	
+	division = {	
+		name = "50ya Asobny Mekhanizavany Batalyon"	
+		location = 9304
+		division_template = "Asobny Mekhanizavany Batalyon"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+}

@@ -1,0 +1,50 @@
+﻿division_template = {
+	name = "Foot Militia"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+		
+}
+
+division_template = {
+	name = "Motorized Infantry Brigade"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+	}
+	
+	support = {
+	}
+	
+}
+
+units = {
+	
+	division = {
+		name = "1st Brigada de Protecció Ciutadana"
+		location = 9764
+		division_template = "Foot Militia"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "2nd Brigada de Protecció Ciutadana"
+		location = 9764
+		division_template = "Foot Militia"
+		start_experience_factor = 0.01
+	}
+	
+	division = {
+		name = "3rd Brigada de Protecció Ciutadana"
+		location = 9764
+		division_template = "Foot Militia"
+		start_experience_factor = 0.01
+	}
+	
+}

@@ -1,0 +1,13 @@
+﻿
+units = {
+	division = {
+		name = "1. Liwa Aldifat Algharbia"
+		location = 13247
+		division_template = "Liwa Milishia"
+	}
+	division = {
+		name = "2. Liwa Aldifat Algharbia"
+		location = 13250
+		division_template = "Liwa Milishia"
+	}
+}

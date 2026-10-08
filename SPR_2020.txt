@@ -1,0 +1,202 @@
+﻿division_template = {
+	name = "Mechanized Brigade"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		light_mechanized = { x = 0 y = 1 }
+		modern_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		mechanized = { x = 2 y = 0 }
+		modern_sp_artillery_brigade = { x = 3 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Recon Brigade"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+		artillery_brigade = { x = 3 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Parachute Brigade"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		special_forces = { x = 1 y = 0 }
+		mechanized = { x = 2 y = 0 }
+		mechanized = { x = 3 y = 0 }
+		artillery_brigade = { x = 4 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Mechanized Brigade 2"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_mechanized = { x = 1 y = 0 }
+		mechanized = { x = 2 y = 0 }
+		mechanized = { x = 3 y = 0 }
+		artillery_brigade = { x = 4 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Cavalry Regiment"
+
+	regiments = {
+		light_mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+	}
+	support = {
+		mbt_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Cavalry Regiment 2"
+
+	regiments = {
+		light_mechanized = { x = 0 y = 0 }
+		light_mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+
+	}
+	support = {
+		mbt_company = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Special Operations Group"
+
+	regiments = {
+		special_forces = { x = 0 y = 0 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Marine Infantry Brigade"
+
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		amphibious_mechanized = { x = 1 y = 0 }
+		recce = { x = 2 y = 0 }
+
+	}
+	support = {
+		mot_recon = { x = 0 y = 0 }
+		mbt_company = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		spa_company = { x = 0 y = 3 }
+		spaa_company = { x = 0 y = 4 }
+	}
+}
+
+units = {
+	division = {
+		name = "I Brigade Aragón"
+		location = 3816
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.75
+	}
+	division = {
+		name = "X Brigade Guzmán el Bueno"
+		location = 875
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.75
+	}
+	division = {
+		name = "XI Brigade Extremadura"
+		location = 6902
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.75
+	}
+	division = {
+		name = "XII Brigade Guadarrama"
+		location = 9767
+		division_template = "Mechanized Brigade"
+		start_experience_factor = 0.75
+	}
+	division = {
+		name = "Spanish Legion Brigade Rey Alfonso XIII"
+		location = 12038
+		division_template = "Recon Brigade"
+		start_experience_factor = 0.75
+	}
+	division = {
+		name = "VI Parachute Brigade Almogávares"
+		location = 3938
+		division_template = "Parachute Brigade"
+		start_experience_factor = 0.75
+	}
+	division = {
+		name = "VII Brigade Galicia"
+		location = 6734
+		division_template = "Mechanized Brigade 2"
+		start_experience_factor = 0.75
+	}
+	division = {
+		name = "3rd Cavalry Regiment Montesa"
+		location = 3799
+		division_template = "Cavalry Regiment"
+		start_experience_factor = 0.75
+	}
+	division = {
+		name = "10th Cavalry Regiment Alcántara"
+		location = 9877
+		division_template = "Cavalry Regiment"
+		start_experience_factor = 0.75
+	}
+	division = {
+		name = "2nd Special Operations Group Granada"
+		location = 1176
+		division_template = "Special Operations Group"
+		start_experience_factor = 0.9
+	}
+	division = {
+		name = "3rd Special Operations Group Valencia"
+		location = 6906
+		division_template = "Special Operations Group"
+		start_experience_factor = 0.9
+	}
+	division = {
+		name = "4th Special Operations Group Tercio del Ampurdán"
+		location = 3938
+		division_template = "Special Operations Group"
+		start_experience_factor = 0.9
+	}
+	division = {
+		name = "19th Special Operations Group Caballero Legionario Maderal Oleaga"
+		location = 3938
+		division_template = "Special Operations Group"
+		start_experience_factor = 0.9
+	}
+	division = {
+		name = "11th Cavalry Regiment España"
+		location = 3816
+		division_template = "Cavalry Regiment 2"
+		start_experience_factor = 0.75
+	}
+	division = {
+		name = "XVI Brigade Canarias"
+		location = 13071
+		division_template = "Recon Brigade"
+		start_experience_factor = 0.75
+	}
+	division = {
+		name = "XVI Brigade Canarias"
+		location = 962
+		division_template = "Marine Infantry Brigade"
+		start_experience_factor = 0.75
+	}
+}

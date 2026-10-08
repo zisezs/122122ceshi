@@ -1,0 +1,102 @@
+﻿division_template = {
+	name = "Storm Brigade"
+	regiments = {
+		militia = {
+			x = 0
+			y = 0
+		}
+		militia = {
+			x = 1
+			y = 0
+		}
+	}
+}
+
+division_template = {
+	name = "Special Security Division"
+	override_model = ATW_mason_entity
+	is_locked = yes
+	regiments = {
+		motorized = {
+			x = 0
+			y = 0
+		}
+		motorized = {
+			x = 0
+			y = 1
+		}
+		light_mechanized = {
+			x = 0
+			y = 2
+		}
+	}
+	support = {
+		signal_company = {
+			x = 0
+			y = 0
+		}
+	}
+}
+
+units = {
+	division = {
+		name = "1st Storm Battalion"
+		location = 13330
+		division_template = "Storm Brigade"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "2nd Storm Battalion"
+		location = 13331
+		division_template = "Storm Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "3rd Storm Battalion"
+		location = 13336
+		division_template = "Storm Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "4th Storm Battalion"
+		location = 9834
+		division_template = "Storm Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "5th Storm Battalion"
+		location = 13903
+		division_template = "Storm Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "6th Storm Battalion"
+		location = 1843
+		division_template = "Storm Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "7th Storm Battalion"
+		location = 13337
+		division_template = "Storm Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "8th Storm Battalion"
+		location = 13337
+		division_template = "Storm Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "9th Storm Battalion"
+		location = 13337
+		division_template = "Storm Brigade"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "10th Storm Battalion"
+		location = 13337
+		division_template = "Storm Brigade"
+		start_experience_factor = 0.1
+	}
+}

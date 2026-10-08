@@ -1,0 +1,75 @@
+﻿division_template = {
+	name = "Coastal Defense Brigade"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 0 y = 4 }
+	}
+	
+	support = {
+		spa_company = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	
+	division = {
+		name = "1. Coastal Defense Brigade"
+		location = 7669
+		division_template = "Coastal Defense Brigade"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "2. Coastal Defense Brigade"
+		location = 7669
+		division_template = "Coastal Defense Brigade"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "3. Coastal Defense Brigade"
+		location = 7566
+		division_template = "Coastal Defense Brigade"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "4. Coastal Defense Brigade"
+		location = 7564
+		division_template = "Coastal Defense Brigade"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "5. Coastal Defense Brigade"
+		location = 12406
+		division_template = "Coastal Defense Brigade"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "6. Coastal Defense Brigade"
+		location = 12406
+		division_template = "Coastal Defense Brigade"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "7. Coastal Defense Brigade"
+		location = 7520
+		division_template = "Coastal Defense Brigade"
+		start_experience_factor = 0.1
+	}
+
+	division = {
+		name = "8. Coastal Defense Brigade"
+		location = 7520
+		division_template = "Coastal Defense Brigade"
+		start_experience_factor = 0.1
+	}
+}

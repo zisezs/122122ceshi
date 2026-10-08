@@ -1,0 +1,39 @@
+﻿### Air OOB ###
+air_wings = {
+	#Su-30MKI
+	1379 = {
+		fighter_airframe_1 =  {
+			owner = "RAJ" 
+			amount = 260
+			version_name = "Su-30MKI"
+		}
+		fighter_airframe_0 =  {
+			owner = "RAJ" 
+			amount = 90
+			version_name = "F-11 fighter"
+		}
+	}
+	429 = {
+		fighter_airframe_1 =  {
+			owner = "RAJ" 
+			amount = 76
+			version_name = "Su-30MKI"
+		}
+	}
+	439 = {
+		fighter_airframe_0 =  {
+			owner = "RAJ" 
+			amount = 50
+			version_name = "F-11 fighter"
+		}
+	}
+	#MIG-21
+	437 = {
+		uav_airframe_0 =  {
+			owner = "RAJ" 
+			amount = 50
+			version_name = "MiG-21"
+		}
+	}
+	
+}

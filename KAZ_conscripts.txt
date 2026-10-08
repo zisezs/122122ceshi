@@ -1,0 +1,51 @@
+﻿division_template = {
+	name = "Askerge Saqirilatin Brigada"
+	
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+		mot_militia = { x = 0 y = 1 }
+		mot_militia = { x = 0 y = 2 }
+	}
+	support = {
+		field_hospital = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "1. Askerge Saqirilatin Brigada"
+		location = 4333
+		division_template = "Askerge Saqirilatin Brigada"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "2. Askerge Saqirilatin Brigada"
+		location = 4333
+		division_template = "Askerge Saqirilatin Brigada"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "3. Askerge Saqirilatin Brigada"
+		location = 4333
+		division_template = "Askerge Saqirilatin Brigada"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "4. Askerge Saqirilatin Brigada"
+		location = 4333
+		division_template = "Askerge Saqirilatin Brigada"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "5. Askerge Saqirilatin Brigada"
+		location = 4333
+		division_template = "Askerge Saqirilatin Brigada"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "6. Askerge Saqirilatin Brigada"
+		location = 4333
+		division_template = "Askerge Saqirilatin Brigada"
+		start_experience_factor = 0.3
+	}
+}

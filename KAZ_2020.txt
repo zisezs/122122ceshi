@@ -1,0 +1,200 @@
+﻿division_template = {
+	name = "Respublikaliq Ulani"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		artillery_brigade = { x = 0 y = 0 }
+		artillery_brigade = { x = 0 y = 1 }
+	}
+	support = {
+	}
+	
+	priority = 2
+}
+
+division_template = {
+	name = "Motoatqishtar Brïgada"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		light_mechanized = { x = 0 y = 3 }
+		modern_sp_artillery_brigade = { x = 1 y = 0 }
+		modern_sp_artillery_brigade = { x = 1 y = 1 }
+	}
+	support = {
+		spaa_company = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+	}
+	
+}
+
+division_template = {
+	name = "Tank Brïgada"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		modern_armor = { x = 0 y = 2 }
+		light_mechanized = { x = 0 y = 3 }
+		modern_sp_artillery_brigade = { x = 1 y = 0 }
+		modern_sp_artillery_brigade = { x = 1 y = 1 }
+	}
+	support = {
+		spaa_company = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+	}
+	
+}
+
+division_template = {
+	name = "Taw Bataloni"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+	support = {
+	}
+	
+}
+
+division_template = {
+	name = "Äwe Shabwildawshi Brïgada"
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		artillery_brigade = { x = 0 y = 3 }
+	}
+	support = {
+	}
+	
+}
+
+division_template = {
+	name = "Tawlı Djeger Brïgada"
+	
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+	}
+	
+	support = {
+	}
+		
+}
+
+units = {
+	division = {	
+		name = "Tawlı Djeger Brïgada"
+		location = 10308 
+		division_template = "Tawlı Djeger Brïgada"
+		start_experience_factor = 0.96
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "1-shi Respublikaliq Ulani Brigada"
+		location = 10308 
+		division_template = "Respublikaliq Ulani"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "2-shi Respublikaliq Ulani Brigada"
+		location = 10308
+		division_template = "Respublikaliq Ulani"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "7-shi Jeke Motoatqishtar Brïgadasi"
+		location = 4333
+		division_template = "Motoatqishtar Brïgada"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "3-shi Jeke Motoatqishtar Brïgadasi"
+		location = 1864
+		division_template = "Motoatqishtar Brïgada"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "4-shi Jeke Motoatqishtar Brïgadasi"
+		location = 1864
+		division_template = "Motoatqishtar Brïgada"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "11-shi Kabanbai Batyr Tank Brïgada"
+		location = 7784
+		division_template = "Tank Brïgada"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "8-shi Jeke Motoatqishtar Brïgadasi"
+		location = 11537
+		division_template = "Motoatqishtar Brïgada"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "5-shi Jeke Motoatqishtar Brïgadasi"
+		location = 10603
+		division_template = "Motoatqishtar Brïgada"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "6-shi Jeke Motoatqishtar Brïgadasi"
+		location = 12340
+		division_template = "Motoatqishtar Brïgada"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "Taw Bataloni"
+		location = 12340
+		division_template = "Taw Bataloni"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "35-shi Äwe Shabwildawshi Brïgada"
+		location = 10547
+		division_template = "Äwe Shabwildawshi Brïgada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "36-shi Äwe Shabwildawshi Brïgada"
+		location = 10308
+		division_template = "Äwe Shabwildawshi Brïgada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "37-shi Äwe Shabwildawshi Brïgada"
+		location = 10619
+		division_template = "Äwe Shabwildawshi Brïgada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "38-shi Äwe Shabwildawshi Brïgada"
+		location = 10164
+		division_template = "Äwe Shabwildawshi Brïgada"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+}

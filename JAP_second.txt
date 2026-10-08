@@ -1,0 +1,68 @@
+﻿units = {
+	division = {
+		name = "Jinmin Minpei"
+		location = 12493
+		division_template = "Jinmin Minpei"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Jinmin Minpei"
+		location = 12493
+		division_template = "Jinmin Minpei"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Jinmin Minpei"
+		location = 3962
+		division_template = "Jinmin Minpei"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Jinmin Minpei"
+		location = 6994
+		division_template = "Jinmin Minpei"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Jinmin Minpei"
+		location = 6994
+		division_template = "Jinmin Minpei"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Jinmin Minpei"
+		location = 6994
+		division_template = "Jinmin Minpei"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Jinmin Minpei"
+		location = 1165
+		division_template = "Jinmin Minpei"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Jinmin Minpei"
+		location = 3848
+		division_template = "Jinmin Minpei"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Jinmin Minpei"
+		location = 14714
+		division_template = "Jinmin Minpei"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Jinmin Minpei"
+		location = 14714
+		division_template = "Jinmin Minpei"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "Jinmin Minpei"
+		location = 4067
+		division_template = "Jinmin Minpei"
+		start_experience_factor = 0.1
+	}
+}

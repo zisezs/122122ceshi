@@ -1,0 +1,98 @@
+﻿division_template = {
+	name = "後備旅"
+	is_locked = no
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+	
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }	
+	}	
+}
+
+units = {
+	division = {
+		name = "基隆市後備旅"
+		location = 7186
+		division_template = "後備旅"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "台北市後備旅"
+		location = 7186
+		division_template = "後備旅"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "新北市後備旅"
+		location = 7186
+		division_template = "後備旅"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "桃園市後備旅"
+		location = 13961
+		division_template = "後備旅"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "新竹後備旅"
+		location = 13961
+		division_template = "後備旅"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "宜蘭縣後備旅"
+		location = 13968
+		division_template = "後備旅"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "花蓮縣後備旅"
+		location = 13968
+		division_template = "後備旅"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "苗栗縣後備旅"
+		location = 13968
+		division_template = "後備旅"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "台中市後備旅"
+		location = 13968
+		division_template = "後備旅"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "彰化縣後備旅"
+		location = 13968
+		division_template = "後備旅"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "台南市後備旅"
+		location = 13965
+		division_template = "後備旅"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "南投縣後備旅"
+		location = 13965
+		division_template = "後備旅"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "高雄市後備旅"
+		location = 13965
+		division_template = "後備旅"
+		start_experience_factor = 0.1
+	}
+}

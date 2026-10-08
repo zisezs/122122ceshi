@@ -1,0 +1,68 @@
+﻿division_template = {
+	name = "Motorizirana Brigada"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+		artillery_brigade = { x = 0 y = 4 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+	}
+}
+
+
+units = {
+
+	division = {
+		name = "1. Motorizirana Brigada"
+		location = 11581
+		division_template = "Motorizirana Brigada"
+		start_experience_factor = 0.5
+	}
+
+	division = {
+		name = "2. Motorizirana Brigada"
+		location = 3924
+		division_template = "Motorizirana Brigada"
+		start_experience_factor = 0.5
+	}
+
+	division = {
+		name = "3. Motorizirana Brigada"
+		location = 3924
+		division_template = "Motorizirana Brigada"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "4. Motorizirana Brigada"
+		location = 3924
+		division_template = "Motorizirana Brigada"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "5. Motorizirana Brigada"
+		location = 3924
+		division_template = "Motorizirana Brigada"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "6. Motorizirana Brigada"
+		location = 3924
+		division_template = "Motorizirana Brigada"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "7. Motorizirana Brigada"
+		location = 3924
+		division_template = "Motorizirana Brigada"
+		start_experience_factor = 0.5
+	}
+}

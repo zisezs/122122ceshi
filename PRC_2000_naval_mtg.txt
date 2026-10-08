@@ -1,0 +1,1777 @@
+﻿units = {
+
+	### Naval OOB ###
+	fleet = {
+		name = "北海舰队"
+		naval_base = 10000
+		task_force = {
+			name = "北海舰队"
+			location = 10000 #Yulin
+			# 潜艇
+			ship = { ordered_name = 58 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "035型常规动力潜艇"} } } #Chang-Cheng 358是他妈什么鬼东西
+			ship = { ordered_name = 59 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "035型常规动力潜艇" } } }
+			ship = { ordered_name = 60 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "035型常规动力潜艇" } } }
+			ship = { ordered_name = 61 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "035型常规动力潜艇" } } }
+			ship = { ordered_name = 62 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "035型常规动力潜艇" } } }
+			ship = { ordered_name = 63 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "035型常规动力潜艇" } } }
+			ship = { ordered_name = 16 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "039型常规动力潜艇" } } }
+			ship = { ordered_name = 3 definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = PRC version_name = "091型核动力潜艇" } } }
+			ship = { ordered_name = 4 definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = PRC version_name = "091型核动力潜艇" } } }
+			ship = { ordered_name = 5 definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = PRC version_name = "091型核动力潜艇" } } }
+			
+			# 航母
+			ship = {
+				ordered_name = 16
+				definition = carrier   
+				equipment = { 
+					ship_hull_carrier_conversion_bb = {
+						amount = 1
+						owner = PRC 
+						version_name = "001型航空母舰" 
+					} 
+				}
+			}
+			# 055
+			ship = {
+				ordered_name = 101
+				definition = battleship
+				equipment = {
+					ship_hull_heavy_2 = {
+						amount = 1 
+						owner = PRC 
+						version_name = "055型导弹驱逐舰" 
+					}
+				}
+			}
+			# 052D
+			ship = {
+				ordered_name = 117
+				definition = heavy_cruiser
+				equipment = {
+					ship_hull_cruiser_2 = {
+						amount = 1 
+						owner = PRC 
+						version_name = "052D型导弹驱逐舰" 
+					}
+				}
+			}
+			ship = {
+				ordered_name = 118
+				definition = heavy_cruiser
+				equipment = {
+					ship_hull_cruiser_2 = {
+						amount = 1 
+						owner = PRC 
+						version_name = "052D型导弹驱逐舰" 
+					}
+				}
+			}
+			ship = { 
+				ordered_name = 119
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "052D型导弹驱逐舰" 
+						} 
+					} 
+				}
+			ship = { 
+				ordered_name = 120
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "052D型导弹驱逐舰" 
+					} 
+				} 
+			}
+			ship = { 
+				ordered_name = 121
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "052D型导弹驱逐舰" 
+					} 
+				} 
+			}
+			ship = { 
+				ordered_name = 122
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "052D型导弹驱逐舰" 
+					} 
+				} 
+			}
+			
+			# 052
+			ship = {
+				ordered_name = 112
+				definition = heavy_cruiser
+				equipment = {
+					ship_hull_cruiser_1 = {
+						amount = 1 
+						owner = PRC 
+						version_name = "052型导弹驱逐舰" 
+					}
+				}
+			}
+			ship = {
+				ordered_name = 113
+				definition = heavy_cruiser
+				equipment = {
+					ship_hull_cruiser_1 = {
+						amount = 1 
+						owner = PRC 
+						version_name = "052型导弹驱逐舰" 
+					}
+				}
+			}
+			# 051C
+			ship = {
+				ordered_name = 115
+				definition = heavy_cruiser
+				equipment = {
+					ship_hull_cruiser_1 = {
+						amount = 1 
+						owner = PRC 
+						version_name = "051C型导弹驱逐舰" 
+					}
+				}
+			}
+			ship = {
+				ordered_name = 116
+				definition = heavy_cruiser
+				equipment = {
+					ship_hull_cruiser_1 = {
+						amount = 1 
+						owner = PRC 
+						version_name = "051C型导弹驱逐舰" 
+					}
+				}
+			}
+
+			# 054A
+			ship = { 
+				ordered_name = 538
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "054A型导弹护卫舰" 
+						} 
+					} 
+			}
+			ship = { 
+				ordered_name = 539
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "054A型导弹护卫舰" 
+						} 
+					} 
+			}
+			ship = { 
+				ordered_name = 542
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "054A型导弹护卫舰" 
+					} 
+				} 
+			}
+			ship = { 
+				ordered_name = 546
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "054A型导弹护卫舰" 
+					} 
+				} 
+			}
+			ship = { 
+				ordered_name = 547
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "054A型导弹护卫舰" 
+					} 
+				} 
+			}
+			ship = { 
+				ordered_name = 550
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "054A型导弹护卫舰" 
+					} 
+				} 
+			}
+				ship = { 
+					ordered_name = 576
+					definition = light_cruiser 
+					equipment = { 
+						ship_hull_cruiser_2 = { 
+							amount = 1 
+							owner = PRC 
+							version_name = "054A型导弹护卫舰" 
+						} 
+					} 
+				}
+			ship = {
+				ordered_name = 579
+				definition = light_cruiser
+				equipment = {
+					ship_hull_cruiser_2 = {
+						amount = 1
+						owner = PRC 
+						version_name = "054A型导弹护卫舰" 
+					}
+				}
+			}
+			ship = {
+				ordered_name = 598
+				definition = light_cruiser
+				equipment = {
+					ship_hull_cruiser_2 = {
+						amount = 1
+						owner = PRC 
+						version_name = "054A型导弹护卫舰" 
+					}
+				}
+			}
+			ship = {
+				ordered_name = 564
+				definition = light_cruiser
+				equipment = {
+					ship_hull_cruiser_1 = {
+						amount = 1
+						owner = PRC 
+						version_name = "053H3型导弹护卫舰" 
+					}
+				}
+			}
+			# 056A
+			ship = {
+				ordered_name = 565
+				definition = light_cruiser
+				equipment = {
+					ship_hull_cruiser_1 = {
+						amount = 1
+						owner = PRC 
+						version_name = "053H3型导弹护卫舰" 
+					}
+				}
+			}
+			ship = {
+				ordered_name = 655
+				definition = destroyer
+				equipment = {
+					ship_hull_light_2 = {
+						amount = 1
+						owner = PRC 
+						version_name = "056A型导弹护卫舰" 
+					}
+				}
+			}
+			ship = {
+				ordered_name = 656
+				definition = destroyer
+				equipment = {
+					ship_hull_light_2 = {
+						amount = 1
+						owner = PRC 
+						version_name = "056A型导弹护卫舰" 
+					}
+				}
+			}
+			ship = {
+				ordered_name = 650
+				definition = destroyer
+				equipment = {
+					ship_hull_light_2 = {
+						amount = 1
+						owner = PRC 
+						version_name = "056A型导弹护卫舰" 
+					}
+				}
+			}
+			ship = {
+				ordered_name = 654
+				definition = destroyer
+				equipment = {
+					ship_hull_light_2 = {
+						amount = 1
+						owner = PRC 
+						version_name = "056A型导弹护卫舰" 
+					}
+				}
+			}
+			ship = {
+				ordered_name = 600
+				definition = destroyer
+				equipment = {
+					ship_hull_light_2 = {
+						amount = 1
+						owner = PRC 
+						version_name = "056A型导弹护卫舰" 
+					}
+				}
+			}
+				ship = { 
+				ordered_name = 602
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "056A型导弹护卫舰" 
+						} 
+					} 
+				}
+			ship = { 
+				ordered_name = 603
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "056A型导弹护卫舰" 
+					} 
+				} 
+			}
+			ship = { 
+				ordered_name = 604
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "056A型导弹护卫舰" 
+					} 
+				} 
+			}
+			ship = { 
+				ordered_name = 605
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "056A型导弹护卫舰" 
+					} 
+				} 
+			}
+			ship = { 
+				ordered_name = 606
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "056A型导弹护卫舰" 
+					} 
+				} 
+			}
+
+				# 056
+				ship = { 
+				ordered_name = 501
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "056型导弹护卫舰" 
+						} 
+					} 
+				}
+			ship = { 
+				ordered_name = 580
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "056型导弹护卫舰" 
+						} 
+					} 
+				}
+			ship = { 
+				ordered_name = 581
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "056型导弹护卫舰" 
+					} 
+				} 
+			}
+			ship = { 
+				ordered_name = 590
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "056型导弹护卫舰" 
+					} 
+				} 
+			}
+			ship = { 
+				ordered_name = 591
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "056型导弹护卫舰" 
+					} 
+				} 
+			}
+		}
+	}
+	fleet = {
+		name = "东海舰队"
+		naval_base = 14980 #Shanghai
+		task_force = {
+			name = "东海舰队"
+			location = 14980 #Shanghai
+			# 052D
+			ship = { 
+				ordered_name = 154
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "052D型导弹驱逐舰" 
+					} 
+				} 
+			}
+			ship = { 
+				ordered_name = 155
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "052D型导弹驱逐舰" 
+					} 
+				} 
+			}
+			ship = { 
+			ordered_name = 131
+			definition = heavy_cruiser 
+			equipment = { 
+				ship_hull_cruiser_2 = { 
+					amount = 1 
+					owner = PRC 
+					version_name = "052D型导弹驱逐舰" 
+					} 
+				} 
+			}
+			ship = { 
+				ordered_name = 156
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "052D型导弹驱逐舰" 
+					} 
+				} 
+			}
+			# 052C
+			ship = { 
+				ordered_name = 150
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "052C型导弹驱逐舰" 
+					} 
+				} 
+			}
+			ship = { 
+				ordered_name = 151
+				definition = heavy_cruiser 
+					equipment = { 
+						ship_hull_cruiser_2 = { 
+							amount = 1 
+							owner = PRC 
+							version_name = "052C型导弹驱逐舰" 
+					} 
+				} 
+			}
+				ship = { 
+					ordered_name = 152
+					definition = heavy_cruiser 
+					equipment = { 
+						ship_hull_cruiser_1 = { 
+							amount = 1 
+							owner = PRC 
+							version_name = "052C型导弹驱逐舰" 
+						} 
+					} 
+				}
+				ship = { 
+				ordered_name = 153
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_1 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "052C型导弹驱逐舰" 
+						} 
+					} 
+				}
+				# 956
+				ship = { 
+				ordered_name = 136
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_1 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "956E型导弹驱逐舰" 
+						} 
+					} 
+				}
+				ship = { 
+				ordered_name = 137
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_1 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "956E型导弹驱逐舰" 
+						} 
+					} 
+				}
+				ship = { 
+				ordered_name = 138
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_1 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "956E型导弹驱逐舰" 
+						} 
+					} 
+				}
+				ship = { 
+				ordered_name = 139
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_1 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "956E型导弹驱逐舰" 
+						} 
+					} 
+				}
+				# 054A
+				ship = { 
+				ordered_name = 515
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "054A型导弹护卫舰" 
+						} 
+					} 
+				}
+				ship = { 
+				ordered_name = 529
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "054A型导弹护卫舰" 
+						} 
+					} 
+				}
+				ship = { 
+				ordered_name = 530
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "054A型导弹护卫舰" 
+						} 
+					} 
+				}
+				ship = { 
+					name = "湘潭舰"
+					definition = light_cruiser 
+					equipment = { 
+						ship_hull_cruiser_2 = { 
+							amount = 1 
+							owner = PRC 
+							version_name = "054A型导弹护卫舰" 
+						} 
+					} 
+				}
+				ship = { 
+					ordered_name = 532
+					definition = light_cruiser 
+					equipment = { 
+						ship_hull_cruiser_2 = { 
+							amount = 1 
+							owner = PRC 
+							version_name = "054A型导弹护卫舰" 
+						} 
+					} 
+				}
+				ship = { 
+				ordered_name = 548
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "054A型导弹护卫舰" 
+						} 
+					} 
+				}
+				ship = { 
+				ordered_name = 549
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "054A型导弹护卫舰" 
+						} 
+					} 
+				}
+				ship = { 
+				ordered_name = 577
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "054A型导弹护卫舰" 
+						} 
+					} 
+				}
+				ship = { 
+				ordered_name = 578
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "054A型导弹护卫舰" 
+						} 
+					} 
+				}
+				ship = { 
+				ordered_name = 599
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "054A型导弹护卫舰" 
+						} 
+					} 
+				}
+				ship = { 
+				ordered_name = 533
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "054A型导弹护卫舰" 
+						} 
+					} 
+				}
+				ship = { 
+				ordered_name = 525
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "054A型导弹护卫舰"
+						} 
+					} 
+				}
+				ship = { 
+				ordered_name = 526
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "054A型导弹护卫舰"
+						} 
+					} 
+				}
+				# 053H3
+				ship = { 
+				name = "嘉兴舰"
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_1 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "053H3型导弹护卫舰" 
+						} 
+					} 
+				}
+			ship = {
+				ordered_name = 524
+				definition = light_cruiser 
+				equipment = {
+					ship_hull_cruiser_1 = {
+						amount = 1
+						owner = PRC 
+						version_name = "053H3型导弹护卫舰" 
+					}
+				}
+			}
+			ship = {
+				ordered_name = 566
+				definition = light_cruiser 
+				equipment = {
+					ship_hull_cruiser_1 = {
+						amount = 1
+						owner = PRC 
+						version_name = "053H3型导弹护卫舰" 
+					}
+				}
+			}
+			ship = {
+				ordered_name = 567
+				definition = light_cruiser 
+				equipment = {
+					ship_hull_cruiser_1 = {
+						amount = 1
+						owner = PRC 
+						version_name = "053H3型导弹护卫舰" 
+					}
+				}
+			}
+			# 056A
+			ship = {
+				ordered_name = 644
+				definition = destroyer 
+				equipment = {
+					ship_hull_light_2 = {
+						amount = 1
+						owner = PRC 
+						version_name = "056A型导弹护卫舰" 
+					}
+				}
+			}
+			ship = {
+				ordered_name = 640
+				definition = destroyer 
+				equipment = {
+					ship_hull_light_2 = {
+						amount = 1
+						owner = PRC 
+						version_name = "056A型导弹护卫舰" 
+					}
+				}
+			}
+			ship = {
+				ordered_name = 641
+				definition = destroyer 
+				equipment = {
+					ship_hull_light_2 = {
+						amount = 1
+						owner = PRC 
+						version_name = "056A型导弹护卫舰" 
+					}
+				}
+			}
+			ship = {
+				ordered_name = 645
+				definition = destroyer 
+				equipment = {
+					ship_hull_light_2 = {
+						amount = 1
+						owner = PRC 
+						version_name = "056A型导弹护卫舰" 
+					}
+				}
+			}
+			ship = {
+				ordered_name = 642
+				definition = destroyer 
+				equipment = {
+					ship_hull_light_2 = {
+						amount = 1
+						owner = PRC 
+						version_name = "056A型导弹护卫舰" 
+					}
+				}
+			}
+			ship = {
+				ordered_name = 643
+				definition = destroyer 
+				equipment = {
+					ship_hull_light_2 = {
+						amount = 1
+						owner = PRC 
+						version_name = "056A型导弹护卫舰" 
+					}
+				}
+			}
+			ship = {
+				ordered_name = 638
+				definition = destroyer 
+				equipment = {
+					ship_hull_light_2 = {
+						amount = 1
+						owner = PRC 
+						version_name = "056A型导弹护卫舰" 
+					}
+				}
+			}
+				ship = { 
+					ordered_name = 639
+					definition = destroyer 
+					equipment = { 
+						ship_hull_light_2 = { 
+							amount = 1 
+							owner = PRC 
+							version_name = "056A型导弹护卫舰" 
+						} 
+					} 
+				}
+				ship = { 
+					ordered_name = 608
+					definition = destroyer 
+					equipment = { 
+						ship_hull_light_2 = { 
+							amount = 1 
+							owner = PRC 
+							version_name = "056A型导弹护卫舰" 
+						} 
+					} 
+				}
+				ship = { 
+					ordered_name = 610
+					definition = destroyer 
+					equipment = { 
+						ship_hull_light_2 = { 
+							amount = 1 
+							owner = PRC 
+							version_name = "056A型导弹护卫舰" 
+						} 
+					} 
+				}
+					ship = { 
+						ordered_name = 611
+						definition = destroyer 
+						equipment = { 
+							ship_hull_light_2 = { 
+								amount = 1 
+								owner = PRC 
+								version_name = "056A型导弹护卫舰" 
+						} 
+					} 
+				}
+				ship = { 
+					ordered_name = 615
+					definition = destroyer 
+					equipment = { 
+						ship_hull_light_2 = { 
+							amount = 1 
+							owner = PRC 
+							version_name = "056A型导弹护卫舰" 
+						} 
+					} 
+				}
+				ship = { 
+					ordered_name = 616
+					definition = destroyer 
+					equipment = { 
+						ship_hull_light_2 = { 
+							amount = 1 
+							owner = PRC 
+							version_name = "056A型导弹护卫舰" 
+						} 
+					} 
+				}
+				ship = { 
+					ordered_name = 617
+					definition = destroyer 
+					equipment = { 
+						ship_hull_light_2 = { 
+							amount = 1 
+							owner = PRC 
+							version_name = "056A型导弹护卫舰" 
+						} 
+					} 
+				}
+				# 056
+				ship = { 
+					name = "宿州舰"
+					definition = destroyer 
+					equipment = { 
+						ship_hull_light_2 = { 
+							amount = 1 
+							owner = PRC 
+							version_name = "056型导弹护卫舰" 
+						} 
+					} 
+				}
+				ship = { 
+					ordered_name = 509
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "056型导弹护卫舰" 
+						} 
+					} 
+				}
+				ship = { 
+					ordered_name = 510
+					definition = destroyer 
+					equipment = { 
+						ship_hull_light_2 = { 
+							amount = 1 
+							owner = PRC 
+							version_name = "056型导弹护卫舰" 
+						} 
+					} 
+				}
+				ship = { 
+					ordered_name = 511
+					definition = destroyer 
+					equipment = { 
+						ship_hull_light_2 = { 
+							amount = 1 
+							owner = PRC 
+							version_name = "056型导弹护卫舰" 
+						} 
+					} 
+				}
+				ship = { 
+					ordered_name = 512
+					definition = destroyer 
+					equipment = { 
+						ship_hull_light_2 = { 
+							amount = 1 
+							owner = PRC 
+							version_name = "056型导弹护卫舰" 
+						} 
+					} 
+				}
+				ship = { 
+					ordered_name = 582
+					definition = destroyer 
+					equipment = { 
+						ship_hull_light_2 = { 
+							amount = 1 
+							owner = PRC 
+							version_name = "056型导弹护卫舰" 
+						} 
+					} 
+				}
+				ship = { 
+					ordered_name = 586
+					definition = destroyer 
+					equipment = { 
+						ship_hull_light_2 = { 
+							amount = 1 
+							owner = PRC 
+							version_name = "056型导弹护卫舰" 
+						} 
+					} 
+				}
+				ship = { 
+					ordered_name = 583
+					definition = destroyer 
+					equipment = { 
+						ship_hull_light_2 = { 
+							amount = 1 
+							owner = PRC 
+							version_name = "056型导弹护卫舰" 
+						} 
+					} 
+				}
+				ship = { 
+					ordered_name = 588
+					definition = destroyer 
+					equipment = { 
+						ship_hull_light_2 = { 
+							amount = 1 
+							owner = PRC 
+							version_name = "056型导弹护卫舰" 
+						} 
+					} 
+				}
+
+				ship = { ordered_name = 68 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "636M型常规动力潜艇" } } }
+				ship = { ordered_name = 69 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "636M型常规动力潜艇" } } }
+				ship = { ordered_name = 66 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "636M型常规动力潜艇" } } }
+				ship = { ordered_name = 67 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "636M型常规动力潜艇" } } }
+				ship = { ordered_name = 24 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "039型常规动力潜艇" } } }
+				ship = { ordered_name = 25 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "039型常规动力潜艇" } } }
+				ship = { ordered_name = 14 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "039型常规动力潜艇" } } }
+			}
+		}
+	fleet = {
+		name = "南海舰队"
+		naval_base = 11981 #Zhanjiang
+		task_force = {
+			name = "南海舰队" #South Sea Surface Fleet又是个啥
+			location = 11981 #Zhanjiang
+			ship = { ordered_name = 5 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "035型常规动力潜艇" } } }
+			ship = { ordered_name = 6 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "035型常规动力潜艇" } } }
+			ship = { ordered_name = 7 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "035型常规动力潜艇" } } }
+			ship = { ordered_name = 8 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "035型常规动力潜艇" } } }
+			ship = { ordered_name = 9 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "035型常规动力潜艇" } } }
+			ship = { ordered_name = 10 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "035型常规动力潜艇" } } }
+			ship = { ordered_name = 11 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "035型常规动力潜艇" } } }
+			ship = { ordered_name = 12 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "035型常规动力潜艇" } } }
+			ship = { ordered_name = 13 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "035型常规动力潜艇" } } }
+			ship = { ordered_name = 26 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRC version_name = "039型常规动力潜艇" } } }
+			# 航母
+			ship = { 
+				ordered_name = 17 
+				definition = carrier 
+				equipment = { 
+					ship_hull_carrier_conversion_bb = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "002型航空母舰" 
+					} 
+				} 
+			}
+			# 052D
+			ship = { 
+				ordered_name = 172
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "052D型导弹驱逐舰" 
+						} 
+					} 
+				}
+			ship = { 
+				ordered_name = 173
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "052D型导弹驱逐舰" 
+						} 
+					} 
+				}
+			ship = { 
+				ordered_name = 174
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "052D型导弹驱逐舰" 
+						} 
+					} 
+				}
+			ship = { 
+				ordered_name = 175
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "052D型导弹驱逐舰" 
+						} 
+					} 
+				}
+			ship = { 
+				ordered_name = 161
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "052D型导弹驱逐舰" 
+						} 
+					} 
+				}
+			# 052C
+			ship = { 
+				ordered_name = 170
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "052C型导弹驱逐舰" 
+						} 
+					} 
+				}
+			ship = { 
+				ordered_name = 171
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "052C型导弹驱逐舰" 
+						} 
+					} 
+				}
+			# 052B
+			ship = { 
+				ordered_name = 168
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_1 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "052B型导弹驱逐舰" 
+					} 
+				} 
+			}
+			ship = { 
+				ordered_name = 169
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_1 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "052B型导弹驱逐舰" 
+					} 
+				} 
+			}
+			# 051B
+			ship = { 
+				ordered_name = 165
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_1 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "051B型导弹驱逐舰" 
+					} 
+				} 
+			}
+			ship = { 
+				ordered_name = 166
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "052D型导弹驱逐舰" 
+						} 
+					} 
+				}
+			ship = { 
+				ordered_name = 167
+				definition = heavy_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "052D型导弹驱逐舰" 
+						} 
+					} 
+				}
+			# 054A
+			ship = { 
+				ordered_name = 500
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "054A型导弹护卫舰" 
+						} 
+					} 
+				}
+			ship = { 
+				ordered_name = 536
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "054A型导弹护卫舰" 
+						} 
+					} 
+				}
+			ship = { 
+				ordered_name = 568
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "054A型导弹护卫舰" 
+						} 
+					} 
+				}
+			ship = { 
+				ordered_name = 569
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "054A型导弹护卫舰" 
+						} 
+					} 
+				}
+			ship = { 
+				ordered_name = 570
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "054A型导弹护卫舰" 
+						} 
+					} 
+				}
+			ship = { 
+				ordered_name = 571
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "054A型导弹护卫舰" 
+						} 
+					} 
+				}
+			ship = { 
+				ordered_name = 572
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "054A型导弹护卫舰" 
+						} 
+					} 
+				}
+			ship = { 
+				ordered_name = 573
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "054A型导弹护卫舰" 
+						} 
+					} 
+				}
+			ship = { 
+				ordered_name = 574
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "054A型导弹护卫舰" 
+						} 
+					} 
+				}
+			ship = { 
+				ordered_name = 575
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "054A型导弹护卫舰" 
+					} 
+				} 
+			}
+			# 053H3
+			ship = {
+				ordered_name = 527
+				definition = light_cruiser 
+				equipment = {
+					ship_hull_cruiser_1 = {
+						amount = 1 
+						owner = PRC
+						version_name = "053H3型导弹护卫舰" 
+					}
+				}
+			}
+			ship = {
+				ordered_name = 528
+				definition = light_cruiser 
+				equipment = {
+					ship_hull_cruiser_1 = {
+						amount = 1 
+						owner = PRC
+						version_name = "053H3型导弹护卫舰" 
+					}
+				}
+			}
+			# 053H1G
+			ship = { 
+				ordered_name = 562
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_1 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "053H1G型导弹护卫舰" 
+						} 
+					} 
+				}
+			ship = { 
+				ordered_name = 563
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_1 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "053H1G型导弹护卫舰" 
+						} 
+					} 
+				}
+			ship = { 
+				ordered_name = 553
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_1 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "053H1G型导弹护卫舰" 
+						} 
+					} 
+				}
+			ship = { 
+				ordered_name = 555
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_1 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "053H1G型导弹护卫舰" 
+						} 
+					} 
+				}
+			ship = { 
+				ordered_name = 558
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_1 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "053H1G型导弹护卫舰" 
+						} 
+					} 
+				}
+			ship = { 
+				ordered_name = 559
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_1 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "053H1G型导弹护卫舰" 
+						} 
+					} 
+				}
+			ship = { 
+				ordered_name = 543
+				definition = light_cruiser 
+				equipment = { 
+					ship_hull_cruiser_1 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "053H1G型导弹护卫舰" 
+						} 
+					} 
+				}
+			# 056A
+			ship = {
+				ordered_name = 666
+				definition = destroyer 
+				equipment = {
+					ship_hull_light_2 ={
+						amount = 1
+						owner = PRC 
+						version_name = "056A型导弹护卫舰"
+					}
+				}
+			}
+			ship = {
+				ordered_name = 667
+				definition = destroyer 
+				equipment = {
+					ship_hull_light_2 ={
+						amount = 1
+						owner = PRC 
+						version_name = "056A型导弹护卫舰"
+					}
+				}
+			}
+			ship = {
+				ordered_name = 668
+				definition = destroyer 
+				equipment = {
+					ship_hull_light_2 ={
+						amount = 1
+						owner = PRC 
+						version_name = "056A型导弹护卫舰"
+					}
+				}
+			}
+			ship = {
+				ordered_name = 669
+				definition = destroyer 
+				equipment = {
+					ship_hull_light_2 ={
+						amount = 1
+						owner = PRC 
+						version_name = "056A型导弹护卫舰"
+					}
+				}
+			}
+			ship = {
+				ordered_name = 648
+				definition = destroyer 
+				equipment = {
+					ship_hull_light_2 ={
+						amount = 1
+						owner = PRC 
+						version_name = "056A型导弹护卫舰"
+					}
+				}
+			}
+			ship = {
+				ordered_name = 646
+				definition = destroyer 
+				equipment = {
+					ship_hull_light_2 ={
+						amount = 1
+						owner = PRC 
+						version_name = "056A型导弹护卫舰"
+					}
+				}
+			}
+			ship = {
+				ordered_name = 649
+				definition = destroyer 
+				equipment = {
+					ship_hull_light_2 ={
+						amount = 1
+						owner = PRC 
+						version_name = "056A型导弹护卫舰"
+					}
+				}
+			}
+			ship = {
+				ordered_name = 647
+				definition = destroyer 
+				equipment = {
+					ship_hull_light_2 ={
+						amount = 1
+						owner = PRC 
+						version_name = "056A型导弹护卫舰"
+					}
+				}
+			}
+			ship = {
+				ordered_name = 620
+				definition = destroyer 
+				equipment = {
+					ship_hull_light_2 ={
+						amount = 1
+						owner = PRC 
+						version_name = "056A型导弹护卫舰"
+					}
+				}
+			}
+			ship = {
+				ordered_name = 621
+				definition = destroyer 
+				equipment = {
+					ship_hull_light_2 ={
+						amount = 1
+						owner = PRC 
+						version_name = "056A型导弹护卫舰"
+					}
+				}
+			}
+			ship = {
+				ordered_name = 622
+				definition = destroyer 
+				equipment = {
+					ship_hull_light_2 ={
+						amount = 1
+						owner = PRC 
+						version_name = "056A型导弹护卫舰"
+					}
+				}
+			}
+			ship = {
+				ordered_name = 623
+				definition = destroyer 
+				equipment = {
+					ship_hull_light_2 ={
+						amount = 1
+						owner = PRC 
+						version_name = "056A型导弹护卫舰"
+					}
+				}
+			}
+			ship = {
+				ordered_name = 624
+				definition = destroyer 
+				equipment = {
+					ship_hull_light_2 ={
+						amount = 1
+						owner = PRC 
+						version_name = "056A型导弹护卫舰"
+					}
+				}
+			}
+			ship = {
+				ordered_name = 625
+				definition = destroyer 
+				equipment = {
+					ship_hull_light_2 ={
+						amount = 1
+						owner = PRC 
+						version_name = "056A型导弹护卫舰"
+					}
+				}
+			}
+			ship = {
+				ordered_name = 626
+				definition = destroyer 
+				equipment = {
+					ship_hull_light_2 ={
+						amount = 1
+						owner = PRC 
+						version_name = "056A型导弹护卫舰"
+					}
+				}
+			}
+			ship = {
+				ordered_name = 627
+				definition = destroyer 
+				equipment = {
+					ship_hull_light_2 ={
+						amount = 1
+						owner = PRC 
+						version_name = "056A型导弹护卫舰"
+					}
+				}
+			}
+			ship = {
+				ordered_name = 628
+				definition = destroyer 
+				equipment = {
+					ship_hull_light_2 ={
+						amount = 1
+						owner = PRC 
+						version_name = "056A型导弹护卫舰"
+					}
+				}
+			}
+			# 056
+			ship = { 
+				ordered_name = 584
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "056型导弹护卫舰" 
+						} 
+					} 
+				}
+			ship = { 
+				ordered_name = 585
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "056型导弹护卫舰" 
+						} 
+					} 
+				}
+			ship = { 
+				ordered_name = 587
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "056型导弹护卫舰" 
+						} 
+					} 
+				}
+			ship = { 
+				ordered_name = 589
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "056型导弹护卫舰" 
+						} 
+					} 
+				}
+			ship = { 
+				ordered_name = 592
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "056型导弹护卫舰" 
+						} 
+					} 
+				}
+			ship = { 
+				ordered_name = 595
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "056型导弹护卫舰" 
+						} 
+					} 
+				}
+			ship = { 
+				ordered_name = 596
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "056型导弹护卫舰" 
+						} 
+					} 
+				}
+			ship = { 
+				ordered_name = 597
+				definition = destroyer 
+				equipment = { 
+					ship_hull_light_2 = { 
+						amount = 1 
+						owner = PRC 
+						version_name = "056型导弹护卫舰" 
+						} 
+					} 
+				}
+			
+		}
+	}
+}
+
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_carrier_1
+			creator = "PRC"
+			version_name = "003型航空母舰"
+		}
+		industrial_manufacturer =  mio:MIO_PRC_DSIC
+		requested_factories = 5
+		progress = 0.6
+		amount = 0
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_carrier_1
+			creator = "PRC"
+			version_name = "003型航空母舰"
+		}
+		industrial_manufacturer =  mio:MIO_PRC_DSIC
+		requested_factories = 5
+		progress = 0.6
+		amount = 0
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "PRC"
+			version_name = "055型导弹驱逐舰"
+		}
+		industrial_manufacturer =  mio:MIO_PRC_CSSC
+		requested_factories = 10
+		progress = 0.9
+		amount = 0
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_2
+			creator = "PRC"
+			version_name = "052D型导弹驱逐舰"
+		}
+		industrial_manufacturer = mio:MIO_PRC_CSSC
+		requested_factories = 10
+		progress = 0.8
+		amount = 0
+
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_2
+			creator = "PRC"
+			version_name = "052D型导弹驱逐舰"
+		}
+		industrial_manufacturer = mio:MIO_PRC_CSSC
+		requested_factories = 10
+		progress = 0.8
+		amount = 0
+
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "PRC"
+			version_name = "056A型导弹护卫舰"
+		}
+		industrial_manufacturer = mio:MIO_PRC_CSSC
+		requested_factories = 10
+		progress = 0.6
+		amount = 0
+
+	}
+}

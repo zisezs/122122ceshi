@@ -1,0 +1,74 @@
+﻿division_template = {
+	name = "Pješadijska Divizija (A)"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		artillery_brigade = { x = 0 y = 1 }
+		light_mechanized = { x = 1 y = 0 }
+		mechanized = { x = 2 y = 0 }
+	}
+
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+
+}
+
+division_template = {
+	name = "Pješadijska Divizija (SPA)"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		modern_sp_artillery_brigade = { x = 0 y = 1 }
+		light_mechanized = { x = 1 y = 0 }
+		mechanized = { x = 2 y = 0 }
+	}
+
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+
+}
+
+division_template = {
+	name = "Oklopni Bataljon"
+
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+	}
+
+	support = {
+	}
+}
+
+units = {
+	division = {
+		name = "1st Pješadijska Divizija"
+		location = 6983
+		division_template = "Pješadijska Divizija (A)"
+		start_experience_factor = 0.5
+	}
+	
+	division = {
+		name = "4th Pješadijska Divizija"
+		location = 11899
+		division_template = "Pješadijska Divizija (A)"
+		start_experience_factor = 0.5
+	}
+
+	division = {
+		name = "6th Pješadijska Divizija"
+		location = 9586
+		division_template = "Pješadijska Divizija (SPA)"
+		start_experience_factor = 0.5
+	}
+
+	division = {
+		name = "Oklopni Bataljon"
+		location = 6983
+		division_template = "Oklopni Bataljon"
+		start_experience_factor = 0.5
+	}
+}

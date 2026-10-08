@@ -1,0 +1,200 @@
+﻿division_template = {
+	name = "Alliwa Almikanikiu"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		light_mechanized = { x = 0 y = 3 }
+		modern_armor = { x = 1 y = 0 }
+		spaa_brigade = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		artillery_brigade = { x = 3 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+		
+	}
+	support = { 
+	
+	}
+}
+
+division_template = {
+	name = "Liwa Alhujum Aljawiyi"
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		special_forces = { x = 1 y = 0 }
+		
+	}
+	support = {
+		
+	}
+}
+
+division_template = {
+	name = "Liwa Almsha"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		light_mechanized = { x = 1 y = 0 }
+		artillery_brigade = { x = 2 y = 0 }
+		
+	}
+	support = {
+		
+	}
+}
+
+division_template = {
+	name = "Liwa' Milishia"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Liwa' Milishia Ali"
+
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+		mot_militia = { x = 0 y = 1 }
+		mot_militia = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {	
+		name = "1. Alliwa Almikanikiu"
+		location = 1923
+		division_template = "Alliwa Almikanikiu"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "2. Alliwa Almikanikiu"
+		location = 14141
+		division_template = "Alliwa Almikanikiu"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "1. Liwa Almsha"
+		location = 14140
+		division_template = "Liwa Almsha"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "2. Liwa Almsha"
+		location = 13942
+		division_template = "Liwa Almsha"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "3. Liwa Almsha"
+		location = 8073
+		division_template = "Liwa Almsha"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "4. Liwa Almsha"
+		location = 13990
+		division_template = "Liwa Almsha"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "5. Liwa Almsha"
+		location = 13992
+		division_template = "Liwa Almsha"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "1. Liwa Alhujum Aljawiyi"
+		location = 12768
+		division_template = "Liwa Alhujum Aljawiyi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "2. Liwa Alhujum Aljawiyi"
+		location = 5081
+		division_template = "Liwa Alhujum Aljawiyi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "3. Liwa Alhujum Aljawiyi"
+		location = 4932
+		division_template = "Liwa Alhujum Aljawiyi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "4. Liwa Alhujum Aljawiyi"
+		location = 5024
+		division_template = "Liwa Alhujum Aljawiyi"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "1. Liwa' Milishia"
+		location = 12702
+		division_template = "Liwa' Milishia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "2. Liwa' Milishia"
+		location = 10791
+		division_template = "Liwa' Milishia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "3. Liwa' Milishia"
+		location = 10786
+		division_template = "Liwa' Milishia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "4. Liwa' Milishia"
+		location = 13945
+		division_template = "Liwa' Milishia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "5. Liwa' Milishia"
+		location = 8030
+		division_template = "Liwa' Milishia Ali"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "6. Liwa' Milishia"
+		location = 12768
+		division_template = "Liwa' Milishia Ali"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {	
+		name = "7. Liwa' Milishia"
+		location = 8118
+		division_template = "Liwa' Milishia Ali"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+}

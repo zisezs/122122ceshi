@@ -1,0 +1,36 @@
+### Air OOB ###
+
+air_wings = {
+	461 = {
+		#F-5E
+		fighter_airframe_1 = {
+			owner = "MOR" 
+			amount = 23
+			version_name = "F-5E"
+		}
+	}
+	461 = {
+		#MF2000
+		uav_airframe_0 = {
+			owner = "MOR" 
+			amount = 22
+			version_name = "MF2000"
+		}
+	}
+	461 = {
+		#F-16C/D
+		fighter_airframe_1 = {
+			owner = "MOR" 
+			amount = 15
+			version_name = "F-16C/D"
+		}
+	}
+	290 = {
+		#ATL2
+		cv_airframe_1 = {
+			owner = "MOR" 
+			amount = 10
+			version_name = "ATL2"
+		}
+	}
+}

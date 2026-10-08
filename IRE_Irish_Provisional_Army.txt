@@ -1,0 +1,65 @@
+﻿division_template = {
+	name = "Mílíste an Phobail"
+	
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+	
+	support = {
+	}
+		
+}
+
+units = {
+	division = {
+		name = "1st ''Gaelic Storm'' Provisional Brigade"
+		location = 13736
+		division_template = "Mílíste an Phobail"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "2nd Provisional Brigade"
+		location = 13727
+		division_template = "Mílíste an Phobail"
+		start_experience_factor = 0.2
+	}
+	
+	division = {
+		name = "3rd Provisional Brigade"
+		location = 13729
+		division_template = "Mílíste an Phobail"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "4th Provisional Brigade"
+		location = 13700
+		division_template = "Mílíste an Phobail"
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "5th Provisional Brigade"
+		location = 13726
+		division_template = "Mílíste an Phobail"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "6th Provisional Brigade"
+		location = 11257
+		division_template = "Mílíste an Phobail"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "7th Provisional Brigade"
+		location = 13736
+		division_template = "Mílíste an Phobail"
+		start_experience_factor = 0.1
+	}
+}
